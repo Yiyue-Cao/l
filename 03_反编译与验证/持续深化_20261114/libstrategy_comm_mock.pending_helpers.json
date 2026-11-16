@@ -1,0 +1,1205 @@
+[
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "98.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "98.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "98.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "99.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "99.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "99.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "100.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "100.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "100.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "101.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "101.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "101.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "102.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL",
+      "TEST"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL",
+      "TEST"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "102.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "102.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "nan",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "nan",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 0,
+    "price": "nan",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "98.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL",
+      "TEST"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL",
+      "TEST"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "98.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "98.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "99.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "99.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "99.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "100.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "100.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "100.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "101.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "101.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "101.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "102.0",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "102.0",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "102.0",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "nan",
+    "fail_at": -1,
+    "error": false,
+    "ids_after": [
+      "EX",
+      "OPP",
+      "TAIL"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "nan",
+    "fail_at": 0,
+    "error": true,
+    "ids_after": [
+      "EX"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP"
+    ]
+  },
+  {
+    "kind": "range",
+    "side": 1,
+    "price": "nan",
+    "fail_at": 1,
+    "error": true,
+    "ids_after": [
+      "EX",
+      "OPP"
+    ],
+    "requests": [],
+    "cancel_attempts": [
+      "OPP",
+      "TAIL"
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [],
+    "excluded": [],
+    "count": [
+      1,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 0.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [],
+    "excluded": [],
+    "count": [
+      1,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 1.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [],
+    "excluded": [],
+    "count": [
+      1,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 2.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [],
+    "excluded": [],
+    "count": [
+      1,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      1
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "B"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "S"
+    ],
+    "count": [
+      1,
+      0
+    ]
+  },
+  {
+    "kind": "live_count",
+    "filled": 3.0,
+    "cancelled": [
+      "S"
+    ],
+    "excluded": [
+      "B",
+      "S"
+    ],
+    "count": [
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "duplicate_live_count",
+    "count": [
+      2,
+      0
+    ]
+  }
+]

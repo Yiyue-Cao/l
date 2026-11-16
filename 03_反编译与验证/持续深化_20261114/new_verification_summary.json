@@ -1,0 +1,3230 @@
+{
+  "checks": [
+    {
+      "case": "libstrategy_comm2.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm2.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_lf4.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm2.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm5.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos5.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/18",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/19",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/20",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/21",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/22",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/23",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/24",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/25",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/26",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/27",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/28",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/29",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/30",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/31",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/32",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/33",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/34",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sos6.pending_events/35",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/0",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/1",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/2",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/3",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/4",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/5",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/6",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/7",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/8",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/9",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/10",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/11",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/12",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/13",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/14",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/15",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/16",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.low_pending/17",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.tree_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.tree_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.depth_range_validation",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.pending_helpers",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock/partial_fill",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'AA', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'AA', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'AA', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'AA', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'EE', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'EE', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'EE', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'EE', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'HH', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'HH', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'HH', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'HH', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'JJ', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'JJ', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'JJ', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(10100.0, 'JJ', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'AA', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'AA', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'AA', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'AA', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'EE', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'EE', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'EE', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'EE', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'HH', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'HH', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'HH', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'HH', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'JJ', 0.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'JJ', 0.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'JJ', -5.0, 'open')",
+      "passed": true
+    },
+    {
+      "case": "xs_orders/(-1.0, 'JJ', -5.0, 'close')",
+      "passed": true
+    },
+    {
+      "case": "xs/random_cases",
+      "passed": true
+    },
+    {
+      "case": "xs/ties",
+      "passed": true
+    },
+    {
+      "case": "xs/last_duplicate",
+      "passed": true
+    },
+    {
+      "case": "xs/invalid_rows",
+      "passed": true
+    },
+    {
+      "case": "xs/empty",
+      "passed": true
+    },
+    {
+      "case": "xs/missing",
+      "passed": true
+    },
+    {
+      "case": "xs/no_path",
+      "passed": true
+    },
+    {
+      "case": "xs/same_day",
+      "passed": true
+    },
+    {
+      "case": "xs/raw_code_key",
+      "passed": true
+    },
+    {
+      "case": "xs/bad_lags",
+      "passed": true
+    },
+    {
+      "case": "xs/fraction_lags",
+      "passed": true
+    },
+    {
+      "case": "xs/bad_half_life",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_1/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm3_2/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm4_1/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm5/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_maker1/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_comm_mock/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm1/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm3_1/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4/negative_pending",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_sm4.tree_callbacks",
+      "passed": true
+    },
+    {
+      "case": "libstrategy_tm6.tree_callbacks",
+      "passed": true
+    }
+  ],
+  "passed": 806,
+  "total": 806
+}

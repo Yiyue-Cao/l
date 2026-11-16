@@ -1,0 +1,6 @@
+{
+  "cases": 2400,
+  "passed": 2400,
+  "failures": [],
+  "scope": "all 4 actions, B=-1/0/1, finite random values; original ELF vs full piecewise model"
+}

@@ -1,0 +1,36 @@
+0000000000045650	strategy_sm2::default_pv1
+0000000000055220	strategy_sm2::__fb_plugin_impl::destroy
+0000000000054ad0	strategy_sm2::__fb_plugin_impl::on_begin
+0000000000054d60	strategy_sm2::__fb_plugin_impl::on_depth
+0000000000054ee0	strategy_sm2::__fb_plugin_impl::on_order
+0000000000054ea0	strategy_sm2::__fb_plugin_impl::on_finish
+0000000000054bc0	strategy_sm2::__fb_plugin_impl::on_signal
+0000000000048f50	strategy_sm2::format_utility_tag
+00000000000456b0	strategy_sm2::apply_book_vol_cap_sm2
+0000000000043070	<strategy_sm2::_::<impl serde_core::de::Deserialize for strategy_sm2::SM2Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000049150	<strategy_sm2::_::<impl serde_core::de::Deserialize for strategy_sm2::SM2Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+00000000000844f0	strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score
+0000000000084740	strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_utility
+0000000000084420	strategy_signal_maker_common::signal_trigger::SignalTrigger::new
+00000000000847f0	strategy_signal_maker_common::signal_trigger::dynamic_threshold
+00000000000841c0	strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update
+0000000000084890	strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms
+00000000000828c0	strategy_signal_maker_common::get_quote_price::UtilityRange::get_utility
+00000000000870b0	strategy_signal_maker_common::hit_probability::HitProbability::hit_probability
+0000000000082dc0	strategy_signal_maker_common::brentq_option_price::QuotePriceOptimizer::optimal_quote_buy
+0000000000083350	strategy_signal_maker_common::brentq_option_price::QuotePriceOptimizer::optimal_quote_sell
+00000000000357e0	core::ptr::drop_in_place<(alloc::string::String,strategy_signal_maker_common::signal_trigger::SignalTrigger)>
+0000000000035810	core::ptr::drop_in_place<(alloc::string::String,alloc::collections::btree::map::BTreeMap<alloc::string::String,strategy_signal_maker_common::signal_trigger::SignalTrigger>)>
+0000000000051560	_ZN4core3ptr250drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$alloc..string..String$C$strategy_signal_maker_common..signal_trigger..SignalTrigger$C$alloc..alloc..Global$GT$$GT$17h2ef191c46154501dE.llvm.10603826245145390818
+0000000000051620	_ZN4core3ptr322drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$alloc..string..String$C$alloc..collections..btree..map..BTreeMap$LT$alloc..string..String$C$strategy_signal_maker_common..signal_trigger..SignalTrigger$GT$$C$alloc..alloc..Global$GT$$GT$17h60c74b4d909796a2E.llvm.10603826245145390818
+0000000000053f70	core::ptr::drop_in_place<hashbrown::scopeguard::ScopeGuard<(usize,&mut hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>),hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>::clone_from_impl::{{closure}}>>
+0000000000045480	core::ptr::drop_in_place<strategy_sm2::SM2Params>
+00000000000545a0	core::ptr::drop_in_place<strategy_sm2::StrategySM2>
+0000000000054880	core::ptr::drop_in_place<core::option::Option<strategy_sm2::SM2Params>>
+0000000000082b90	core::ptr::drop_in_place<strategy_signal_maker_common::signal_trigger::TsQuantileCalculator>
+0000000000045990	<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000048df0	<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+0000000000045cf0	<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000055370	create_strategy
+0000000000054a70	fb_strategy_sdk_abi_version
+0000000000054a80	fb_strategy_sdk_version_str

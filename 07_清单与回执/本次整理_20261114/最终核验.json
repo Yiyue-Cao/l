@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "original_files": 4252,
+  "original_files_missing": 0,
+  "non_markdown_content_changes": 0,
+  "permission_changes": [],
+  "strategy_so_md_pairs": 19,
+  "markdown_links_checked": 1409,
+  "missing_links": [],
+  "full_original_layout_export_test": {
+    "files_verified": 4252,
+    "original_bytes": 580421460,
+    "exported_to": "临时核验目录（核验后已自动清理）",
+    "status": "passed"
+  },
+  "added_files_before_this_receipt": [
+    {
+      "path": "02_综合说明/README.md",
+      "sha256": "e7891e8595c77de07586ac974bbddceeabe146259b985ddc2b59588cd7328ac9"
+    },
+    {
+      "path": "03_反编译与验证/README.md",
+      "sha256": "943ed3ee39abb466a49cf05afd4e6566e8a04d45a1af5d65dd99aca5637ac156"
+    },
+    {
+      "path": "04_通用程序/README.md",
+      "sha256": "74304c6d0080e18ba0259c4fe1a5639aebb5716e4cac94c2d6438ddda7356046"
+    },
+    {
+      "path": "05_工具脚本/README.md",
+      "sha256": "866ccf384435d16579e09dc9aebf2df5e5340222f4779fb26c34acb6d1ee4712"
+    },
+    {
+      "path": "05_工具脚本/恢复整理前副本.py",
+      "sha256": "0d4881b7f8faadee1be35e8398ff251cf9640cf79c646fe65a0f591b9a0ce76e"
+    },
+    {
+      "path": "06_来源档案/README.md",
+      "sha256": "78b9ea8259d95d8e5d8d1584667be6099faf768d77d4016babc6224f7529d700"
+    },
+    {
+      "path": "07_清单与回执/README.md",
+      "sha256": "1cdf405921298f0589ac3eef22db09990d682a6bdf6c44513daa78c4477bcd1e"
+    },
+    {
+      "path": "07_清单与回执/本次整理_20261114/整理前Markdown.zip",
+      "sha256": "79c3dd8ec295baeb5e8ef9887289e3482f75361cca36407b71a178353e313cfa"
+    },
+    {
+      "path": "07_清单与回执/本次整理_20261114/整理前清单.json",
+      "sha256": "6152883d09eb9c3c407347b0998287d938f66033cd7aac156a9869c2aa663dba"
+    },
+    {
+      "path": "07_清单与回执/本次整理_20261114/整理说明.md",
+      "sha256": "e572fcceda1878d861baa2551904c1bffb9461ae9153cef82c0ba9b9c9344b55"
+    },
+    {
+      "path": "07_清单与回执/本次整理_20261114/路径映射与核验.json",
+      "sha256": "1b42773f820a3cc31a0f8bf3fc1fd934d32d587f439c94db998951710afb9254"
+    },
+    {
+      "path": "README.md",
+      "sha256": "39997c93ec34165511d28e07d4f684a45ecfe79fbb96760ac4b99eb74d8362f6"
+    }
+  ]
+}

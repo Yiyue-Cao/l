@@ -1,0 +1,29 @@
+000000000004bc30	OK	strategy_tm5::signal_trigger::SignalTrigger::update_score
+000000000004cf30	OK	strategy_tm5::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000004c510	OK	strategy_tm5::signal_trigger::SignalTrigger::windows_std_trigger
+000000000004c400	OK	strategy_tm5::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000004cce0	OK	strategy_tm5::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000004c620	OK	strategy_tm5::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000004c370	OK	strategy_tm5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000004bb00	OK	strategy_tm5::signal_trigger::SignalTrigger::new
+000000000004d160	OK	_ZN12strategy_tm514signal_trigger17enum_rate_counter17h181739a09271ffbbE.llvm.14383927985676670398
+00000000000548d0	OK	strategy_tm5::__fb_plugin_impl::destroy
+0000000000053e80	OK	strategy_tm5::__fb_plugin_impl::on_begin
+0000000000054110	OK	strategy_tm5::__fb_plugin_impl::on_depth
+0000000000054340	OK	strategy_tm5::__fb_plugin_impl::on_order
+0000000000054250	OK	strategy_tm5::__fb_plugin_impl::on_finish
+0000000000053f70	OK	strategy_tm5::__fb_plugin_impl::on_signal
+000000000003d6c0	OK	<strategy_tm5::_::<impl serde_core::de::Deserialize for strategy_tm5::TM5Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+00000000000441e0	OK	<strategy_tm5::_::<impl serde_core::de::Deserialize for strategy_tm5::TM5Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000041380	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_tm5::signal_trigger::SignalTrigger>>
+0000000000053390	OK	core::ptr::drop_in_place<strategy_tm5::StrategyTM5>
+000000000004ec20	OK	core::ptr::drop_in_place<strategy_tm5::signal_trigger::TsQuantileCalculator>
+0000000000053660	OK	core::ptr::drop_in_place<core::option::Option<strategy_tm5::TM5Params>>
+00000000000415c0	OK	<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000043d80	OK	<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+00000000000439e0	OK	<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_order
+00000000000440c0	OK	<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000041960	OK	<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000054910	OK	create_strategy
+0000000000053e20	OK	fb_strategy_sdk_abi_version
+0000000000053e30	OK	fb_strategy_sdk_version_str

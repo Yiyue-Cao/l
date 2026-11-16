@@ -1,0 +1,36 @@
+000000000004c0d0	strategy_sos6::StrategySoS6::apply_threshold_delta
+000000000005e2c0	strategy_sos6::signal_trigger::SignalTrigger::update_score
+000000000005f5c0	strategy_sos6::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000005eba0	strategy_sos6::signal_trigger::SignalTrigger::windows_std_trigger
+000000000005ea90	strategy_sos6::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000005f370	strategy_sos6::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000005ecb0	strategy_sos6::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000005ea00	strategy_sos6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000005f7f0	_ZN13strategy_sos614signal_trigger17enum_rate_counter17hd3ab24ddaa71514fE.llvm.5674171606368244516
+00000000000477d0	strategy_sos6::default_pnl_key
+0000000000066530	strategy_sos6::__fb_plugin_impl::destroy
+0000000000065e00	strategy_sos6::__fb_plugin_impl::on_begin
+0000000000066090	strategy_sos6::__fb_plugin_impl::on_depth
+00000000000661f0	strategy_sos6::__fb_plugin_impl::on_order
+0000000000066100	strategy_sos6::__fb_plugin_impl::on_finish
+0000000000065ef0	strategy_sos6::__fb_plugin_impl::on_signal
+000000000004c180	strategy_sos6::place_order_by_mode
+0000000000041e00	<strategy_sos6::_::<impl serde_core::de::Deserialize for strategy_sos6::SoS6Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000004c580	<strategy_sos6::_::<impl serde_core::de::Deserialize for strategy_sos6::SoS6Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000004c2e0	<strategy_sos6::_::<impl serde_core::de::Deserialize for strategy_sos6::SectionParams>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000047370	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_sos6::signal_trigger::SignalTrigger>>
+0000000000050250	core::ptr::drop_in_place<strategy_sos6::TradeCode>
+0000000000065300	core::ptr::drop_in_place<strategy_sos6::StrategySoS6>
+0000000000035c90	core::ptr::drop_in_place<strategy_sos6::SectionParams>
+0000000000047470	core::ptr::drop_in_place<strategy_sos6::SectionParams>
+00000000000502f0	core::ptr::drop_in_place<strategy_sos6::SectionParams>
+0000000000059060	core::ptr::drop_in_place<strategy_sos6::SectionParams>
+0000000000065350	core::ptr::drop_in_place<strategy_sos6::SectionParams>
+00000000000623e0	core::ptr::drop_in_place<strategy_sos6::signal_trigger::TsQuantileCalculator>
+00000000000655e0	core::ptr::drop_in_place<core::option::Option<strategy_sos6::SoS6Params>>
+0000000000047840	<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000004bfb0	<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000048070	<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+00000000000665a0	create_strategy
+0000000000065da0	fb_strategy_sdk_abi_version
+0000000000065db0	fb_strategy_sdk_version_str

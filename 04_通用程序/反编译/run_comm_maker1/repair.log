@@ -1,0 +1,46 @@
+openjdk version "21.0.2" 2024-01-16
+OpenJDK Runtime Environment (build 21.0.2+13-58)
+OpenJDK 64-Bit Server VM (build 21.0.2+13-58, mixed mode)
+INFO  Using log config file: jar:REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1100 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (2313 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    REMOTE_WORKSPACE/tmp/1008/l
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: REMOTE_WORKSPACE/tmp/1008/l/通用程序_stockidx_20261114/analysis/run_comm_maker1/project/generic (HeadlessAnalyzer)  
+INFO  Opening project: REMOTE_WORKSPACE/tmp/1008/l/通用程序_stockidx_20261114/analysis/run_comm_maker1/project/generic (HeadlessProject)  
+INFO  REPORT: Processing project file: /run_comm_maker1 (HeadlessAnalyzer)  
+INFO  SCRIPT: REMOTE_WORKSPACE/tmp/1008/l/ExportRepaired.java (HeadlessAnalyzer)  
+INFO  ExportRepaired.java> Repaired 92270	156e	925a9	1c208	7 (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /run_comm_maker1 (HeadlessAnalyzer)  

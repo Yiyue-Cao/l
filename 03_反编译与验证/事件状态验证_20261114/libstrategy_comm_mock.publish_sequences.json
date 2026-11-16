@@ -1,0 +1,117 @@
+[
+  {
+    "kind": "D",
+    "t": 1000,
+    "volume": 0,
+    "price": 0,
+    "pnl": 0,
+    "ret": 0,
+    "trace": [
+      "time_sec",
+      "position",
+      "contract_mult",
+      "mid_price",
+      "publish:pnl_rel::IF=0",
+      "publish:pnl_unrel::IF=40",
+      "publish:pnl::IF=40",
+      "publish:amt::IF=2000",
+      "publish:ntrade::IF=0",
+      "publish:pos::IF=2",
+      "publish:price::IF=98"
+    ]
+  },
+  {
+    "kind": "O",
+    "t": 1001,
+    "volume": 2,
+    "price": 101,
+    "pnl": 7,
+    "ret": 0,
+    "trace": [
+      "contract_mult"
+    ]
+  },
+  {
+    "kind": "D",
+    "t": 1002,
+    "volume": 0,
+    "price": 0,
+    "pnl": 0,
+    "ret": 0,
+    "trace": [
+      "time_sec",
+      "position",
+      "contract_mult",
+      "mid_price",
+      "publish:pnl_rel::IF=7",
+      "publish:pnl_unrel::IF=40",
+      "publish:pnl::IF=47",
+      "publish:amt::IF=4020",
+      "publish:ntrade::IF=1",
+      "publish:pos::IF=2",
+      "publish:price::IF=98"
+    ]
+  },
+  {
+    "kind": "O",
+    "t": 1003,
+    "volume": 0,
+    "price": 999,
+    "pnl": 999,
+    "ret": 0,
+    "trace": []
+  },
+  {
+    "kind": "D",
+    "t": 1004,
+    "volume": 0,
+    "price": 0,
+    "pnl": 0,
+    "ret": 0,
+    "trace": [
+      "time_sec",
+      "position",
+      "contract_mult",
+      "mid_price",
+      "publish:pnl_rel::IF=7",
+      "publish:pnl_unrel::IF=40",
+      "publish:pnl::IF=47",
+      "publish:amt::IF=4020",
+      "publish:ntrade::IF=1",
+      "publish:pos::IF=2",
+      "publish:price::IF=98"
+    ]
+  },
+  {
+    "kind": "O",
+    "t": 1005,
+    "volume": -1,
+    "price": 99,
+    "pnl": -2,
+    "ret": 0,
+    "trace": [
+      "contract_mult"
+    ]
+  },
+  {
+    "kind": "D",
+    "t": 1006,
+    "volume": 0,
+    "price": 0,
+    "pnl": 0,
+    "ret": 0,
+    "trace": [
+      "time_sec",
+      "position",
+      "contract_mult",
+      "mid_price",
+      "publish:pnl_rel::IF=5",
+      "publish:pnl_unrel::IF=40",
+      "publish:pnl::IF=45",
+      "publish:amt::IF=5010",
+      "publish:ntrade::IF=2",
+      "publish:pos::IF=2",
+      "publish:price::IF=98"
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+// ELF address 0x0000000000099a70; <core::result::Result<T,E> as fb_sweeps::WithLabel<T>>::with_context_label::{{closure}}
+
+/* _<core::result::Result<T,E> as fb_sweeps::WithLabel<T>>::with_context_label::_{{closure}} */
+
+undefined8 __rustcall
+_<core::result::Result<T,E>as_fb_sweeps::WithLabel<T>>::with_context_label::___closure__
+          (undefined8 param_1,undefined8 param_2,long param_3)
+
+{
+  long lVar1;
+  undefined8 uVar2;
+  undefined8 *puVar3;
+  undefined8 uVar4;
+  long local_a0;
+  undefined8 local_98;
+  code *local_90;
+  undefined8 local_88;
+  code *local_80;
+  long *local_78;
+  undefined *local_70;
+  undefined *local_68;
+  undefined8 local_60;
+  undefined8 *local_58;
+  undefined8 local_50;
+  undefined8 local_48;
+  undefined1 local_38 [24];
+  
+  local_90 = _<&T_as_core::fmt::Display>::fmt;
+  local_80 = _<&T_as_core::fmt::Display>::fmt;
+  local_78 = &local_a0;
+  local_70 = PTR_fmt_002a1b88;
+  local_68 = &DAT_002971e0;
+  local_60 = 3;
+  local_48 = 0;
+  local_58 = &local_98;
+  local_50 = 3;
+                    /* try { // try from 00199ae5 to 00199afe has its CatchHandler @ 00199b9e */
+  local_a0 = param_3;
+  local_98 = param_1;
+  local_88 = param_2;
+  (*(code *)PTR_format_inner_002a17f8)(local_38,&local_68);
+  uVar4 = anyhow::error::_<impl_anyhow::Error>::msg(local_38);
+  if (((uint)local_a0 & 3) == 1) {
+    lVar1 = local_a0 + -1;
+    uVar2 = *(undefined8 *)(local_a0 + -1);
+    puVar3 = *(undefined8 **)(local_a0 + 7);
+    if ((code *)*puVar3 != (code *)0x0) {
+                    /* try { // try from 00199b26 to 00199b2a has its CatchHandler @ 00199b68 */
+      (*(code *)*puVar3)(uVar2);
+    }
+    if (puVar3[1] != 0) {
+      (*(code *)PTR___rust_dealloc_002a1778)(uVar2,puVar3[1],puVar3[2]);
+    }
+    (*(code *)PTR___rust_dealloc_002a1778)(lVar1,0x18,8);
+  }
+  return uVar4;
+}
+
+

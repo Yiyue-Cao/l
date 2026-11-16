@@ -1,0 +1,6691 @@
+{
+  "generic_cases": 342,
+  "generic_normal_returns": 341,
+  "observed_fatal_cases": [
+    {
+      "library": "libstrategy_sm2",
+      "case": "active_sell",
+      "exit": 134,
+      "error": "\nthread '<unnamed>' panicked at strategies/index_strategy/strategy_sm2/src/lib.rs:412:44:\nutility op without price\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\nfatal runtime error: failed to initiate panic, error 5, aborting\ninst_start_time_sec\nis_trade_start\nis_trade_end\ntime_sec\ndepth\nspread_bp\nprice_step\nvol_step\ncontract_mult\nposition\nposition_holding_secs\nis_should_lock\nmargin_filter\ncancel_by_pending_ts\nimpact_block_check\ncancel_all\nREMOTE_WORKSPACE/tmp/1008/l/事件状态验证_20261114/sdk_event_stubs.so(+0x22d4)[0x7f19b66352d4]\n/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f19b75f1520]\n/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f19b76459fc]\n/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f19b75f1476]\n/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f"
+    }
+  ],
+  "touch_callback_events": 540,
+  "sm31_sequence_events": 17,
+  "sm31_failure_events": 6,
+  "lf4_sequence_events": 24,
+  "tm_queue_events": 18,
+  "sos_phase_events": 216,
+  "sos_threshold_presence_events": 16,
+  "mock_publish_events": 7,
+  "assertions": 1111,
+  "passed": 1111,
+  "checks": [
+    {
+      "library": "libstrategy_comm2",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_maker1",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_ioc",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "bad_ask",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "bad_bid",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "stale_depth",
+      "rule": "Comm rejected before position read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "age_exact_one",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "future_depth",
+      "rule": "one-sided age test allows equality and future depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_ioc",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_iap_with_target",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm4",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> place_order_iap",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> place_order_iap",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_ioc",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "other_signal",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "before_start",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "missing_depth",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "margin_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "impact_block",
+      "rule": "successful early exit / no order request",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "active_buy",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "cancel_positive",
+      "rule": "nonnegative SDK result accepted and order path reached",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "order_rejected",
+      "rule": "negative order result becomes error; last_error read",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "cancel_rejected",
+      "rule": "cancel error stops before impact and order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "active_buy",
+      "rule": "margin_filter -> cancel_by_pending_ts -> impact_block_check -> place_order_ioc",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "active_buy",
+      "rule": "state was written before callback ended",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "other_signal",
+      "rule": "unsubscribed signal calls no SDK",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm2",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_1",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm3_2",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm4_1",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm5",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm1",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm2",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/0/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/1/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/2/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/3/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/4/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/0",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/1",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/2",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/3",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/4",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/5",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/6",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/7",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3",
+      "case": "touch/5/8",
+      "rule": "gate state, request count, and error model",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "timeout0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "timeout1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "timeout2",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "timeout3",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "supersede0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "supersede1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "supersede2",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "supersede3",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "release0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "release1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "release2",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "precache0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "precache1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "oldcache0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "oldcache1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "futurecache0",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "futurecache1",
+      "rule": "parked A count",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "release_failure/B",
+      "rule": "pending removed before decide error and not retried by next depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sm3_1",
+      "case": "release_failure/D",
+      "rule": "pending removed before decide error and not retried by next depth",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/0",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/1",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/2",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/3",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/4",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/5",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/6",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/7",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/8",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/9",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/10",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "False/11",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/0",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/1",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/2",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/3",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/4",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/5",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/6",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/7",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/8",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/9",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/10",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_lf4",
+      "case": "True/11",
+      "rule": "task retained, tries unchanged, depth progress and gate, request/error order",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "0",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "1",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "2",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "3",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "4",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "5",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "6",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "7",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm5",
+      "case": "8",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "0",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "1",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "2",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "3",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "4",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "5",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "6",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "7",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_tm6",
+      "case": "8",
+      "rule": "order/depth queue and published sum",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "0",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "1",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "2",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "3",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "4",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "5",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "6",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "7",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "8",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "9",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "10",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "11",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "12",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "13",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "14",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "15",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "16",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "17",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "18",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "19",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "20",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "21",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "22",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "23",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "24",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "25",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "26",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "27",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "28",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "29",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "30",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "31",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "32",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "33",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "34",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "35",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "36",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "37",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "38",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "39",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "40",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "41",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "42",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "43",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "44",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "45",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "46",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "47",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "48",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "49",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "50",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "51",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "52",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "53",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "54",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "55",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "56",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "57",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "58",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "59",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "60",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "61",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "62",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "63",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "64",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "65",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "66",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "67",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "68",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "69",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "70",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "71",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "72",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "73",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "74",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "75",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "76",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "77",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "78",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "79",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "80",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "81",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "82",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "83",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "84",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "85",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "86",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "87",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "88",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "89",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "90",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "91",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "92",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "93",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "94",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "95",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "96",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "97",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "98",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "99",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "100",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "101",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "102",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "103",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "104",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "105",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "106",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos5",
+      "case": "107",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "0",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "1",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "2",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "3",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "4",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "5",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "6",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "7",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "8",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "9",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "10",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "11",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "12",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "13",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "14",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "15",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "16",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "17",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "18",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "19",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "20",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "21",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "22",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "23",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "24",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "25",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "26",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "27",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "28",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "29",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "30",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "31",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "32",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "33",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "34",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "35",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "36",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "37",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "38",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "39",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "40",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "41",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "42",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "43",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "44",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "45",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "46",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "47",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "48",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "49",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "50",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "51",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "52",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "53",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "54",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "55",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "56",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "57",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "58",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "59",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "60",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "61",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "62",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "63",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "64",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "65",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "66",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "67",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "68",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "69",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "70",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "71",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "72",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "73",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "74",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "75",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "76",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "77",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "78",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "79",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "80",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "81",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "82",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "83",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "84",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "85",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "86",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "87",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "88",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "89",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "90",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "91",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "92",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "93",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "94",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "95",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "96",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "97",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "98",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "99",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "100",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "101",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "102",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "103",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "104",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "105",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "106",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "107",
+      "rule": "phase comparison boundaries and account override",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/0",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/1",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/2",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/3",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/4",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/5",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/6",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/7",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/8",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/9",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/10",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/11",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/12",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/13",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/14",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_sos6",
+      "case": "presence/15",
+      "rule": "all four keys required",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "0",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "1",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "2",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "3",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "4",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "5",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    },
+    {
+      "library": "libstrategy_comm_mock",
+      "case": "6",
+      "rule": "order callbacks accumulate; depth publishes seven expected values",
+      "passed": true
+    }
+  ],
+  "callback_cases_total": 1186
+}

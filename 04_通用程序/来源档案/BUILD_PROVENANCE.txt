@@ -1,0 +1,10 @@
+built_at=2026-09-14T18:36:03+0800
+source_repo=/data1/lyt_d/FutureCommodity/MultiStrategySDK
+source_branch=meta_total_control
+source_commit=97505c23b15cf5d15de0a9000b33985e13bc237b
+source_dirty=false
+source_diff_sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+framework_build=cargo build --release --features hdfs,sdk-runner -p future_backtest
+sweep_build=cargo build -p fb_sweeps --features hdfs --release
+dylib_packages=fill_prob_probe strategy_comm2 strategy_comm3 strategy_comm3_1 strategy_comm3_2 strategy_comm4 strategy_comm4_1 strategy_comm5 strategy_comm_maker1 strategy_comm_mock strategy_lf4 strategy_sm1 strategy_sm2 strategy_sm3 strategy_sm3_1 strategy_sm4 strategy_sos5 strategy_sos6 strategy_tm5 strategy_tm6
+deployed_files=future_backtest_runner future_backtest_meta_runner future_backtest libfuture_backtest.so libfill_prob_probe.so libstrategy_comm2.so libstrategy_comm3.so libstrategy_comm3_1.so libstrategy_comm3_2.so libstrategy_comm4.so libstrategy_comm4_1.so libstrategy_comm5.so libstrategy_comm_maker1.so libstrategy_comm_mock.so libstrategy_lf4.so libstrategy_sm1.so libstrategy_sm2.so libstrategy_sm3.so libstrategy_sm3_1.so libstrategy_sm4.so libstrategy_sos5.so libstrategy_sos6.so libstrategy_tm5.so libstrategy_tm6.so run_comm run_comm3 run_comm4 run_comm5 run_comm_maker1 run_comm_mock run_config_matrix run_fillprob run_lowfrequency run_meta_portfolio_matrix run_multistrategy run_signalmaker run_sm3_1 run_sos run_sos5_phase run_takermaker

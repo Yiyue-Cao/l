@@ -1,0 +1,25 @@
+{
+  "library": "libstrategy_sm3",
+  "sha256": "fae00455457a8cbf18a8d048211a5a7192c1554fcb1c94d43754dabebc527cc5",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread",
+      "elf": "0000000000087ff0",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=True; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_signal_maker_common::signal_trigger::dynamic_threshold",
+      "elf": "00000000000880b0",
+      "cases": 288,
+      "passed": 288,
+      "failures": [],
+      "model": "time-based symmetric threshold narrowing"
+    }
+  ],
+  "total": 1488,
+  "passed": 1488
+}

@@ -1,0 +1,2089 @@
+[
+  {
+    "pattern": "empty",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "empty",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "empty",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "empty",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "empty",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "empty",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "buy",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "sell",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "both",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "out_of_range",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1000.0,
+    "fail_at": -1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1000.0,
+    "fail_at": 0,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "pattern": "two_reverse",
+    "s": 1000.0,
+    "fail_at": 1,
+    "result": {
+      "input": {
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "contract_mult",
+        "price_step",
+        "vol_step",
+        "position",
+        "first_open_time_sec",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "cancel_all",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap"
+      ],
+      "changed_offsets": [
+        "0x380",
+        "0x381",
+        "0x382",
+        "0x383",
+        "0x384",
+        "0x385",
+        "0x388",
+        "0x390",
+        "0x398",
+        "0x419"
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 0,
+        "price": 101.0,
+        "vol": 1.779894192932986e+305,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 0.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  }
+]

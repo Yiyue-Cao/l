@@ -1,0 +1,41 @@
+{
+  "library": "libstrategy_comm3_2",
+  "sha256": "f9bc9b095a9c37be884662abab55be5098ef6298ae69e3ff8cfa0222d6bab8c9",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv4",
+      "elf": "0000000000063050",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=True; band=False; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "0000000000062fc0",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_comm3_2::signal_trigger::dynamic_threshold",
+      "elf": "00000000000642f0",
+      "cases": 288,
+      "passed": 288,
+      "failures": [],
+      "model": "time-based symmetric threshold narrowing"
+    },
+    {
+      "function": "strategy_comm3_2::high_taker_rate",
+      "elf": "0000000000039cd0",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "imbalance times capped tanh/coverage multiplier"
+    }
+  ],
+  "total": 3888,
+  "passed": 3888
+}

@@ -1,0 +1,1098 @@
+[
+  {
+    "mask": 0,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 1,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 2,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 3,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 4,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 5,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 6,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 7,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 8,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 9,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 10,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 11,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 12,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 13,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 14,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x400"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "mask": 15,
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0
+    ],
+    "expected": [
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0
+    ],
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:threshold_long_open",
+        "get_published:threshold_long_close",
+        "get_published:threshold_short_open",
+        "get_published:threshold_short_close",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3a6",
+        "0x3a7",
+        "0x3ae",
+        "0x3af",
+        "0x3b6",
+        "0x3b7",
+        "0x3be",
+        "0x3bf",
+        "0x3c6",
+        "0x3c7",
+        "0x3ce",
+        "0x3cf",
+        "0x3d6",
+        "0x3d7",
+        "0x3de",
+        "0x3df",
+        "0x3e6",
+        "0x3e7",
+        "0x3ee",
+        "0x3ef",
+        "0x3f6",
+        "0x3f7",
+        "0x3fe",
+        "0x3ff",
+        "0x400"
+      ]
+    },
+    "passed": true
+  }
+]

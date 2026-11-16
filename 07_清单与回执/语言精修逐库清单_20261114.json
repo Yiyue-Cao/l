@@ -1,0 +1,116 @@
+[
+  {
+    "path": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+    "before_chars": 21206,
+    "after_chars": 20249,
+    "sha256": "a396a73e0736e411923fef0ef622a5b1d135f577fedf4c6d84d33cd9e93c0c6c"
+  },
+  {
+    "path": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+    "before_chars": 23244,
+    "after_chars": 21851,
+    "sha256": "ab9b3ec72559445bd772c7bdade1f7f76f417cd61103009636ec2dfe680a384c"
+  },
+  {
+    "path": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+    "before_chars": 24169,
+    "after_chars": 22699,
+    "sha256": "cb3d1cef79d792823b7b0fb5f066dcadc3a249eae5c4cfc75dd8e56697cbc53c"
+  },
+  {
+    "path": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+    "before_chars": 24235,
+    "after_chars": 22760,
+    "sha256": "0bbf8e8d151eb0af8ae666efa25eee2928424fe33f3fea7cedced2a726948ff0"
+  },
+  {
+    "path": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+    "before_chars": 27841,
+    "after_chars": 26360,
+    "sha256": "a3503ad563d2c17cf099010d59510084de5d48d0c5ab6bee05bae93b5cbc5b46"
+  },
+  {
+    "path": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+    "before_chars": 28448,
+    "after_chars": 26916,
+    "sha256": "7b49e3d8175d8c6388c975714ceea49d9ef5edc852723165a05e267d5110144c"
+  },
+  {
+    "path": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+    "before_chars": 32319,
+    "after_chars": 30248,
+    "sha256": "2817b4d8a77ff61ff5eb1eccd7afa474d6aaa03dfd7086f6769731ddee4bf527"
+  },
+  {
+    "path": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+    "before_chars": 23960,
+    "after_chars": 22462,
+    "sha256": "d17ac06981cf11d638f9466b4bdb0d26e9839bde5ff90b14e62fa0aefb01fe20"
+  },
+  {
+    "path": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+    "before_chars": 24743,
+    "after_chars": 23375,
+    "sha256": "bd09981cb0799afc26487e39c5c753a23b4131395122c223115af31157accf3c"
+  },
+  {
+    "path": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+    "before_chars": 13451,
+    "after_chars": 13016,
+    "sha256": "59785cff45543d488274e0cc7a929b0deb0bcfac29ae4299fda93367e4b81b64"
+  },
+  {
+    "path": "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+    "before_chars": 17738,
+    "after_chars": 16623,
+    "sha256": "d0547493d0216ad84afa017c3b66c22687dd544972ca72f6284fc5aec7a9be75"
+  },
+  {
+    "path": "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+    "before_chars": 13499,
+    "after_chars": 13108,
+    "sha256": "f0102a96c5ac7200622871b369de9b61bb16ae8494d4144aee6f6b36e69b72dc"
+  },
+  {
+    "path": "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+    "before_chars": 15605,
+    "after_chars": 14701,
+    "sha256": "43082857962dc1a64171c2dd5a60fe8fd18fe24f7781f3ec0e83d43bafd9bf77"
+  },
+  {
+    "path": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+    "before_chars": 19116,
+    "after_chars": 18127,
+    "sha256": "327e09b9c48671858b8d258b82b1c3753b9b250fa413f757d9fffe332d5e829f"
+  },
+  {
+    "path": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+    "before_chars": 20438,
+    "after_chars": 18923,
+    "sha256": "81dade5e5d5dc1c415bd1bea0450f9f9157730a1cadd45116a666d733bd3e8ea"
+  },
+  {
+    "path": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+    "before_chars": 17430,
+    "after_chars": 16782,
+    "sha256": "664fea21b20f77733504a7be34810af50c05bad2bbeb5238384cee98fdfe3baf"
+  },
+  {
+    "path": "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+    "before_chars": 16621,
+    "after_chars": 16080,
+    "sha256": "ede0da3ea592dc556fd590c28423b57d5a495df8dd6ae47dd7882dee7ad9fc4d"
+  },
+  {
+    "path": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+    "before_chars": 13158,
+    "after_chars": 12578,
+    "sha256": "4ee17495b3f0696115edfc99dc82c761576dd871c0caee0b1e3b6318260cf331"
+  },
+  {
+    "path": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+    "before_chars": 16548,
+    "after_chars": 15569,
+    "sha256": "c32787d9d486a45410aa67ee521a0b78a7e90b4027fa216eaa5cf01177458ab3"
+  }
+]

@@ -1,0 +1,1673 @@
+[
+  {
+    "failure": false,
+    "timeout": 10.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1b0",
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8",
+            "0x1e0",
+            "0x1e1",
+            "0x1e2",
+            "0x1e3",
+            "0x1e4",
+            "0x1e5",
+            "0x1e8",
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  },
+  {
+    "failure": false,
+    "timeout": 0.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1b0",
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8",
+            "0x1e0",
+            "0x1e1",
+            "0x1e2",
+            "0x1e3",
+            "0x1e4",
+            "0x1e5",
+            "0x1e8",
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  },
+  {
+    "failure": false,
+    "timeout": -1.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1b0",
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8",
+            "0x1e0",
+            "0x1e1",
+            "0x1e2",
+            "0x1e3",
+            "0x1e4",
+            "0x1e5",
+            "0x1e8",
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 1,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 1,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 0,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target"
+          ],
+          "changed_offsets": [
+            "0x1f0",
+            "0x1f8"
+          ]
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 1,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  },
+  {
+    "failure": true,
+    "timeout": 10.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 94248530061760,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": [
+            "0x1b0",
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 94248529835344,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 94248530449680,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 94248530453760,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 94248530453856,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 94248530453952,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  },
+  {
+    "failure": true,
+    "timeout": 0.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 94248530095744,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": [
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 94248530453488,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 94248530453664,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 94248530455088,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 94248530455264,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 94248530455440,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  },
+  {
+    "failure": true,
+    "timeout": -1.0,
+    "steps": [
+      {
+        "event": "A",
+        "t": 1000,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000,
+            "s": 1000
+          },
+          "ret": 94248530461040,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": [
+            "0x1b0",
+            "0x1b1",
+            "0x1b2",
+            "0x1b3",
+            "0x1b4",
+            "0x1b5",
+            "0x1b8",
+            "0x1c0",
+            "0x1c8"
+          ]
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.001,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.001,
+            "s": 1000
+          },
+          "ret": 94248530461936,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.002,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.009,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.009,
+            "s": 1000
+          },
+          "ret": 94248530457344,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.01,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.01,
+            "s": 1000
+          },
+          "ret": 94248530457520,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.011,
+        "ask": "101",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.011,
+            "s": 1000
+          },
+          "ret": 94248530457696,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.012,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      },
+      {
+        "event": "A",
+        "t": 1000.013,
+        "ask": "101.2",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "input": {
+            "t": 1000.013,
+            "s": 1000
+          },
+          "ret": 94248530457872,
+          "trace": [
+            "inst_start_time_sec",
+            "is_trade_start",
+            "is_trade_end",
+            "depth",
+            "time_sec",
+            "time_sec",
+            "spread_bp",
+            "fee_bp",
+            "contract_mult",
+            "price_step",
+            "vol_step",
+            "position",
+            "position_holding_secs",
+            "is_should_lock",
+            "margin_filter",
+            "cancel_by_pending_ts",
+            "impact_block_check",
+            "cancel_all",
+            "liquidity_consumption",
+            "is_night",
+            "place_order_iap_with_target",
+            "last_error"
+          ],
+          "changed_offsets": []
+        }
+      },
+      {
+        "event": "D",
+        "t": 1000.014,
+        "ask": "nan",
+        "before": 0,
+        "after": 0,
+        "result": {
+          "ret": 0,
+          "trace": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "scope": "original SignalTrigger constructor/update and five rolling trigger modes vs Python, single window; external trading SDK APIs abort; no market/account replay",
+  "modes": {
+    "mean": {
+      "cases": 500,
+      "passed": 500,
+      "statistics_fields_per_case": 6
+    },
+    "std": {
+      "cases": 500,
+      "passed": 500,
+      "statistics_fields_per_case": 6
+    },
+    "sharpe": {
+      "cases": 500,
+      "passed": 500,
+      "statistics_fields_per_case": 6
+    },
+    "rsi": {
+      "cases": 500,
+      "passed": 500,
+      "statistics_fields_per_case": 6
+    },
+    "quantile": {
+      "cases": 500,
+      "passed": 500,
+      "statistics_fields_per_case": 6
+    }
+  },
+  "total_cases": 2500,
+  "observations": {
+    "mean": {
+      "final_cached_std": 0.0
+    },
+    "std": {
+      "final_cached_std": 0.0
+    },
+    "sharpe": {
+      "final_cached_std": 2.5
+    },
+    "rsi": {
+      "final_cached_std": 0.0
+    },
+    "quantile": {
+      "final_cached_std": 0.0
+    }
+  }
+}

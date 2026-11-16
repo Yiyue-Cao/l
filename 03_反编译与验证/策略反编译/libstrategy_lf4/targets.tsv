@@ -1,0 +1,31 @@
+000000000004b690	strategy_lf4::signal_trigger::SignalTrigger::update_score
+000000000004c990	strategy_lf4::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000004bf70	strategy_lf4::signal_trigger::SignalTrigger::windows_std_trigger
+000000000004be60	strategy_lf4::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000004c740	strategy_lf4::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000004c080	strategy_lf4::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000004bdd0	strategy_lf4::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000004b560	strategy_lf4::signal_trigger::SignalTrigger::new
+000000000004cbc0	_ZN12strategy_lf414signal_trigger17enum_rate_counter17hae8899c0d26c9baeE.llvm.754907104417532979
+000000000004f830	strategy_lf4::__fb_plugin_impl::destroy
+000000000004f030	strategy_lf4::__fb_plugin_impl::on_begin
+000000000004f2c0	strategy_lf4::__fb_plugin_impl::on_depth
+000000000004f4f0	strategy_lf4::__fb_plugin_impl::on_order
+000000000004f400	strategy_lf4::__fb_plugin_impl::on_finish
+000000000004f120	strategy_lf4::__fb_plugin_impl::on_signal
+000000000003f8b0	<strategy_lf4::_::<impl serde_core::de::Deserialize for strategy_lf4::LF4Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000044d60	<strategy_lf4::_::<impl serde_core::de::Deserialize for strategy_lf4::LF4Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000004df90	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_lf4::signal_trigger::SignalTrigger>>
+0000000000041890	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_lf4::signal_trigger::SignalTrigger>>
+0000000000041990	core::ptr::drop_in_place<strategy_lf4::LF4Params>
+000000000004e080	core::ptr::drop_in_place<strategy_lf4::StrategyLF4>
+0000000000054160	core::ptr::drop_in_place<strategy_lf4::signal_trigger::TsQuantileCalculator>
+000000000004e3e0	core::ptr::drop_in_place<core::option::Option<strategy_lf4::LF4Params>>
+0000000000044c20	<strategy_lf4::TargetTaskStatus as core::fmt::Debug>::fmt
+0000000000041c80	<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+00000000000421e0	<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+0000000000044b00	<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+00000000000423a0	<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000004f9e0	create_strategy
+000000000004efd0	fb_strategy_sdk_abi_version
+000000000004efe0	fb_strategy_sdk_version_str

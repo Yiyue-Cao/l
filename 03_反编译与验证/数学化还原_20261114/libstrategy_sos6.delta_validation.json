@@ -1,0 +1,6 @@
+{
+  "cases": 1000,
+  "passed": 1000,
+  "failures": [],
+  "scope": "bit/exact equality using original subtract-then-add order"
+}

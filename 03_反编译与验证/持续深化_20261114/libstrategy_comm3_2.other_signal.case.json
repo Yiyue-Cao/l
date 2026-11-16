@@ -1,0 +1,10 @@
+{
+  "input": {
+    "name": "OTHER"
+  },
+  "ret": 0,
+  "trace": [],
+  "changed_offsets": [],
+  "case": "other_signal",
+  "no_order_request": true
+}

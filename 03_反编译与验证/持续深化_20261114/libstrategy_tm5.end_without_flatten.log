@@ -1,0 +1,2 @@
+CASE end_without_flatten
+{'input': {}, 'ret': 0, 'trace': ['inst_start_time_sec', 'is_trade_start', 'is_trade_end', 'time_sec', 'depth', 'spread_bp', 'contract_mult', 'price_step', 'vol_step', 'position', 'position_holding_secs', 'is_should_lock', 'margin_filter', 'cancel_by_pending_ts', 'impact_block_check'], 'changed_offsets': ['0x148', '0x149', '0x14a', '0x14b', '0x14c', '0x14d', '0x150', '0x158', '0x160'], 'case': 'end_without_flatten', 'no_order_request': True}

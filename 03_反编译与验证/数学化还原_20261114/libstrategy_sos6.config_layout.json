@@ -1,0 +1,494 @@
+{
+  "library": "libstrategy_sos6",
+  "state_bytes": 1032,
+  "begin_elf": "0x47840",
+  "scope": "actual TOML parsing; f64 verified with two distinct markers; Option None payload excluded; non-log SDK calls abort",
+  "baseline_toml": "watcher_strategy_name=\"probe\"\nwatcher_account_name=\"probe\"\nsection1 = {insts=[\"IF\"],ranks=[1],signal_all=\"0\",trade_mode=\"IAP\"}\nsection2 = {insts=[\"IF\"],ranks=[1],signal_all=\"0\",trade_mode=\"IAP\"}\nsection3 = {insts=[\"IF\"],ranks=[1],signal_all=\"0\",trade_mode=\"IAP\"}\n",
+  "fields": [
+    {
+      "field": "watcher_strategy_name",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x0"
+      ],
+      "defaults": [
+        {
+          "value": "probe",
+          "raw_hex": "050000000000000030679515195600000500000000000000"
+        }
+      ]
+    },
+    {
+      "field": "watcher_account_name",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x18"
+      ],
+      "defaults": [
+        {
+          "value": "probe",
+          "raw_hex": "050000000000000030689515195600000500000000000000"
+        }
+      ]
+    },
+    {
+      "field": "watcher_pnl_key",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x30"
+      ],
+      "defaults": [
+        {
+          "value": "rolling_pnl",
+          "raw_hex": "0b0000000000000010929515195600000b00000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section1_to_2_pnl",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x270"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section1_to_3_pnl",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x278"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section2_to_1_pnl",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x280"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section2_to_3_pnl",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x288"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section3_to_1_pnl",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x290"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "order_book_1_2_gap",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x298"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "sos_taker_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2a0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "sos_add_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2a8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "section1",
+      "status": "nested_not_probed"
+    },
+    {
+      "field": "section2",
+      "status": "nested_not_probed"
+    },
+    {
+      "field": "section3",
+      "status": "nested_not_probed"
+    },
+    {
+      "field": "signal_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x228"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "pv1_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2b0"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "cost_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2b8"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "signal_trigger_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x240"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "vote_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2c0"
+      ],
+      "defaults": [
+        {
+          "value": 0.1,
+          "raw_hex": "9a9999999999b93f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "quantile",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2c8"
+      ],
+      "defaults": [
+        {
+          "value": 0.9,
+          "raw_hex": "cdccccccccccec3f",
+          "preceding_word": "9a9999999999b93f"
+        }
+      ]
+    },
+    {
+      "field": "signal_windows_s",
+      "status": "mapped",
+      "kind": "vec_f64",
+      "state_offsets": [
+        "0x258"
+      ],
+      "defaults": [
+        {
+          "value": []
+        }
+      ]
+    },
+    {
+      "field": "score_taker_rate_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2d0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "cdccccccccccec3f"
+        }
+      ]
+    },
+    {
+      "field": "taker_rate_baseline",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2d8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_taker_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2e0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "trade_slippery",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2e8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "close_position_block_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2f0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x2f8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x300"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x308"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x310"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_delta_score",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x318"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x320"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x328"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_order_max_pending_time_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x330"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_delta_max_pending_ts_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x338"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    }
+  ]
+}

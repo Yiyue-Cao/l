@@ -1,0 +1,29 @@
+0000000000073e50	OK	run_sos5_phase::PhaseRecipe::tag
+0000000000078230	OK	run_sos5_phase::config_number
+00000000000778d0	OK	run_sos5_phase::load_signal_configs
+00000000000783d0	OK	run_sos5_phase::configure_common_day
+0000000000074000	OK	run_sos5_phase::main
+0000000000085290	OK	run_sos5_phase::main::{{closure}}
+0000000000077fe0	OK	run_sos5_phase::load_toml
+000000000007ae30	OK	_ZN67_$LT$run_sos5_phase..Args$u20$as$u20$clap_builder..derive..Args$GT$12augment_args17he39ef99b87898ee9E.llvm.17039629003591575051
+0000000000078940	OK	<run_sos5_phase::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut
+00000000000ad580	OK	<core::result::Result<T,E> as fb_sweeps::WithLabel<T>>::with_context_label::{{closure}}
+00000000000ac030	OK	fb_sweeps::run_one_combo
+00000000000ad330	OK	fb_sweeps::run_one_combo::{{closure}}
+00000000000a8f00	OK	fb_sweeps::set_str_array
+00000000000ab730	OK	fb_sweeps::parse_day_range
+00000000000abe40	OK	fb_sweeps::parse_day_range::{{closure}}
+00000000000abed0	OK	fb_sweeps::parse_day_range::{{closure}}
+00000000000abdb0	OK	fb_sweeps::parse_day_range::{{closure}}
+00000000000ab270	OK	fb_sweeps::hdfs_path_exists
+00000000000aa7b0	OK	fb_sweeps::apply_hdfs_override
+00000000000aab90	OK	fb_sweeps::report_missing_data
+00000000000aa910	OK	fb_sweeps::strip_trailing_date
+00000000000ab140	OK	fb_sweeps::signal_data_exists_on_hdfs
+00000000000aa6a0	OK	fb_sweeps::get
+00000000000a90c0	OK	fb_sweeps::set
+00000000000aa630	OK	fb_sweeps::set::{{closure}}
+00000000000abf60	OK	fb_sweeps::fmt_num
+00000000000a8e60	OK	fb_sweeps::set_f64
+00000000000a8eb0	OK	fb_sweeps::set_str
+000000000006fad0	OK	core::ops::function::impls::<impl core::ops::function::FnMut<A> for &F>::call_mut

@@ -1,0 +1,218 @@
+[
+  {
+    "field": "section1.long_open_threshold",
+    "state_offsets": [
+      "0xc0"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.long_close_threshold",
+    "state_offsets": [
+      "0xc8"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.short_open_threshold",
+    "state_offsets": [
+      "0xd0"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.short_close_threshold",
+    "state_offsets": [
+      "0xd8"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.max_single_add_vol",
+    "state_offsets": [
+      "0xe0"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.max_single_net_vol",
+    "state_offsets": [
+      "0xe8"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.max_single_add_amt",
+    "state_offsets": [
+      "0xf0"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section1.max_single_net_amt",
+    "state_offsets": [
+      "0xf8"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.long_open_threshold",
+    "state_offsets": [
+      "0x160"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.long_close_threshold",
+    "state_offsets": [
+      "0x168"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.short_open_threshold",
+    "state_offsets": [
+      "0x170"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.short_close_threshold",
+    "state_offsets": [
+      "0x178"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.max_single_add_vol",
+    "state_offsets": [
+      "0x180"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.max_single_net_vol",
+    "state_offsets": [
+      "0x188"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.max_single_add_amt",
+    "state_offsets": [
+      "0x190"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section2.max_single_net_amt",
+    "state_offsets": [
+      "0x198"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.long_open_threshold",
+    "state_offsets": [
+      "0x200"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.long_close_threshold",
+    "state_offsets": [
+      "0x208"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.short_open_threshold",
+    "state_offsets": [
+      "0x210"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.short_close_threshold",
+    "state_offsets": [
+      "0x218"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.max_single_add_vol",
+    "state_offsets": [
+      "0x220"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.max_single_net_vol",
+    "state_offsets": [
+      "0x228"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.max_single_add_amt",
+    "state_offsets": [
+      "0x230"
+    ],
+    "default": [
+      0.0
+    ]
+  },
+  {
+    "field": "section3.max_single_net_amt",
+    "state_offsets": [
+      "0x238"
+    ],
+    "default": [
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+CALL pending_orders with C return=-1
+
+thread '<unnamed>' panicked at /home/lyt/.rustup/toolchains/nightly-2025-07-30-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs:2027:9:
+capacity overflow
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+pending_orders
+REMOTE_WORKSPACE/tmp/1008/l/持续深化_20261114/sdk_event_stubs.so(+0x2354)[0x7f1c5e7e9354]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f1c5f7ab520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f1c5f7ff9fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f1c5f7ab476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f1c5f7917f3]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc8c7a)[0x7f1c5e7bac7a]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc5f79)[0x7f1c5e7b7f79]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc811f)[0x7f1c5e7ba11f]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc7fcd)[0x7f1c5e7b9fcd]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc7d36)[0x7f1c5e7b9d36]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc6ce9)[0x7f1c5e7b8ce9]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xc79fd)[0x7f1c5e7b99fd]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xe3f10)[0x7f1c5e7d5f10]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xdf237)[0x7f1c5e7d1237]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xdf373)[0x7f1c5e7d1373]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xa4e1d)[0x7f1c5e796e1d]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm4_1.so(+0xa2bb0)[0x7f1c5e794bb0]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x7e2e)[0x7f1c5f06de2e]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x4493)[0x7f1c5f06a493]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0xa5d7)[0x7f1c5f0895d7]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0x132e2)[0x7f1c5f0922e2]
+/usr/bin/python3(_PyObject_MakeTpCall+0x25b)[0x5647bbf7e89b]
+/usr/bin/python3(_PyEval_EvalFrameDefault+0x5a87)[0x5647bbf77f97]
+/usr/bin/python3(_PyFunction_Vectorcall+0x7c)[0x5647bbf8868c]

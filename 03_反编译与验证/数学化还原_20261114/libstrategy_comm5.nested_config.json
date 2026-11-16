@@ -1,0 +1,353 @@
+[
+  {
+    "field": "phase1.long_open_threshold",
+    "state_offsets": [
+      "0x48"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.long_close_threshold",
+    "state_offsets": [
+      "0x58"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.short_open_threshold",
+    "state_offsets": [
+      "0x68"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.short_close_threshold",
+    "state_offsets": [
+      "0x78"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.max_single_net_vol",
+    "state_offsets": [
+      "0x88"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.max_single_net_amt",
+    "state_offsets": [
+      "0x98"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.max_single_add_vol",
+    "state_offsets": [
+      "0xa8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.max_single_add_amt",
+    "state_offsets": [
+      "0xb8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.taker_mult_max",
+    "state_offsets": [
+      "0xc8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.taker_cover_k",
+    "state_offsets": [
+      "0xd8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.taker_skip_half_spread_bp",
+    "state_offsets": [
+      "0xe8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.taker_rate_baseline",
+    "state_offsets": [
+      "0xf8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase1.max_taker_rate",
+    "state_offsets": [
+      "0x108"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.long_open_threshold",
+    "state_offsets": [
+      "0x138"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.long_close_threshold",
+    "state_offsets": [
+      "0x148"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.short_open_threshold",
+    "state_offsets": [
+      "0x158"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.short_close_threshold",
+    "state_offsets": [
+      "0x168"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.max_single_net_vol",
+    "state_offsets": [
+      "0x178"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.max_single_net_amt",
+    "state_offsets": [
+      "0x188"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.max_single_add_vol",
+    "state_offsets": [
+      "0x198"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.max_single_add_amt",
+    "state_offsets": [
+      "0x1a8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.taker_mult_max",
+    "state_offsets": [
+      "0x1b8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.taker_cover_k",
+    "state_offsets": [
+      "0x1c8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.taker_skip_half_spread_bp",
+    "state_offsets": [
+      "0x1d8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.taker_rate_baseline",
+    "state_offsets": [
+      "0x1e8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase2.max_taker_rate",
+    "state_offsets": [
+      "0x1f8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.long_open_threshold",
+    "state_offsets": [
+      "0x228"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.long_close_threshold",
+    "state_offsets": [
+      "0x238"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.short_open_threshold",
+    "state_offsets": [
+      "0x248"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.short_close_threshold",
+    "state_offsets": [
+      "0x258"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.max_single_net_vol",
+    "state_offsets": [
+      "0x268"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.max_single_net_amt",
+    "state_offsets": [
+      "0x278"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.max_single_add_vol",
+    "state_offsets": [
+      "0x288"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.max_single_add_amt",
+    "state_offsets": [
+      "0x298"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.taker_mult_max",
+    "state_offsets": [
+      "0x2a8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.taker_cover_k",
+    "state_offsets": [
+      "0x2b8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.taker_skip_half_spread_bp",
+    "state_offsets": [
+      "0x2c8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.taker_rate_baseline",
+    "state_offsets": [
+      "0x2d8"
+    ],
+    "default": [
+      null
+    ]
+  },
+  {
+    "field": "phase3.max_taker_rate",
+    "state_offsets": [
+      "0x2e8"
+    ],
+    "default": [
+      null
+    ]
+  }
+]

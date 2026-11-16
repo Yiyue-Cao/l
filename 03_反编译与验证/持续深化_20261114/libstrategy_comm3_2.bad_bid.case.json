@@ -1,0 +1,13 @@
+{
+  "input": {},
+  "ret": 0,
+  "trace": [
+    "inst_start_time_sec",
+    "is_trade_start",
+    "is_trade_end",
+    "depth"
+  ],
+  "changed_offsets": [],
+  "case": "bad_bid",
+  "no_order_request": true
+}

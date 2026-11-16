@@ -1,0 +1,834 @@
+[
+  {
+    "code": "IF",
+    "t": 0,
+    "s": 2,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      }
+    ]
+  },
+  {
+    "code": "IH",
+    "t": 10,
+    "s": 2,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 100,
+    "s": 2,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 1000,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 2000,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IH",
+    "t": 3000,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 4000,
+    "s": -2,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 5000,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 20000,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 20001,
+    "s": 2,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 1000.0,
+            "open_t": 0.0,
+            "close_t": 1000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 3000.0,
+            "open_t": 10.0,
+            "close_t": 3000.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          },
+          {
+            "stamp": 5000.0,
+            "open_t": 4000.0,
+            "close_t": 5000.0,
+            "open_s": -2.0,
+            "close_s": 0.0,
+            "side": 1,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IF",
+    "t": 20002,
+    "s": 0,
+    "selected": [
+      0,
+      1,
+      2.0,
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "stats": [
+      {
+        "key": 0,
+        "thresholds": [
+          2.0,
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 20002.0,
+            "open_t": 20001.0,
+            "close_t": 20002.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "thresholds": [
+          3.0,
+          -1.0,
+          -3.0,
+          1.0
+        ],
+        "window": 10000.0,
+        "pairs": []
+      },
+      {
+        "key": 2,
+        "thresholds": [
+          1.0,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "window": 10000.0,
+        "pairs": [
+          {
+            "stamp": 20002.0,
+            "open_t": 20001.0,
+            "close_t": 20002.0,
+            "open_s": 2.0,
+            "close_s": 0.0,
+            "side": 0,
+            "closed": 1
+          }
+        ]
+      }
+    ]
+  }
+]

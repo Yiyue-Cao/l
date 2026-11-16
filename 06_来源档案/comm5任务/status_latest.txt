@@ -1,0 +1,117 @@
+查询 sacct: job 25869147 ...
+sacct: 10 个子任务
+构建 HDFS 日志映射（使用 sacct JobIDRaw）...
+  Fallback 半径扫描 ±500，补充 0 个
+HDFS 映射: 9/10 个子任务找到日志
+并发读取 HDFS 日志 (10 线程)...
+  #  1: NO_LOG     HDFS✗
+  #  9: NO_LOG     HDFS✗
+  #  5: NO_LOG     HDFS✗
+  #  4: NO_LOG     HDFS✗
+  #  2: NO_LOG     HDFS✗
+  #  8: NO_LOG     HDFS✗
+  #  3: NO_LOG     HDFS✗
+  #  6: NO_LOG     HDFS✗
+  #  7: NO_LOG     HDFS✗
+  #  0: NO_LOG     HDFS✗
+
+══════════════════════════════════════════════════════════════════════
+Job 25869147  任务: future_backtest_sweep  子任务总数: 10
+══════════════════════════════════════════════════════════════════════
+  Slurm:    COMPLETED: 0   FAILED: 4   OTHER: 6
+  HDFS日志: 0 有  10 缺失
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #0  FAILED     exit=1  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz318  |  完成: 2026-08-19T23:03:20
+    ✗ 任务被 SLURM 强制终止（FAILED），on_exit 未运行，日志未上传
+    → 输出数据可能不完整，建议重跑此子任务
+    Slurm 状态: FAILED     exit_code=1
+    → 重跑命令:
+      python run_one_task.py -t future_backtest_sweep -f --encrypt-config --array "0"
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #1  FAILED     exit=1  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz317  |  完成: 2026-08-19T23:03:18
+    ✗ 任务被 SLURM 强制终止（FAILED），on_exit 未运行，日志未上传
+    → 输出数据可能不完整，建议重跑此子任务
+    Slurm 状态: FAILED     exit_code=1
+    → 重跑命令:
+      python run_one_task.py -t future_backtest_sweep -f --encrypt-config --array "1"
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #2  FAILED     exit=1  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz306  |  完成: 2026-08-19T23:03:21
+    ✗ 任务被 SLURM 强制终止（FAILED），on_exit 未运行，日志未上传
+    → 输出数据可能不完整，建议重跑此子任务
+    Slurm 状态: FAILED     exit_code=1
+    → 重跑命令:
+      python run_one_task.py -t future_backtest_sweep -f --encrypt-config --array "2"
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #3  RUNNING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz286  |  完成: -
+    ⏳ 任务仍在 RUNNING，日志尚未上传
+    Slurm 状态: RUNNING    exit_code=0
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #4  FAILED     exit=1  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz287  |  完成: 2026-08-19T23:03:14
+    ✗ 任务被 SLURM 强制终止（FAILED），on_exit 未运行，日志未上传
+    → 输出数据可能不完整，建议重跑此子任务
+    Slurm 状态: FAILED     exit_code=1
+    → 重跑命令:
+      python run_one_task.py -t future_backtest_sweep -f --encrypt-config --array "4"
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #5  RUNNING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz287  |  完成: -
+    ⏳ 任务仍在 RUNNING，日志尚未上传
+    Slurm 状态: RUNNING    exit_code=0
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #6  RUNNING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz317  |  完成: -
+    ⏳ 任务仍在 RUNNING，日志尚未上传
+    Slurm 状态: RUNNING    exit_code=0
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #7  RUNNING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz318  |  完成: -
+    ⏳ 任务仍在 RUNNING，日志尚未上传
+    Slurm 状态: RUNNING    exit_code=0
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #8  RUNNING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    xz306  |  完成: -
+    ⏳ 任务仍在 RUNNING，日志尚未上传
+    Slurm 状态: RUNNING    exit_code=0
+
+  ──────────────────────────────────────────────────────────────────
+  SubTask #9  PENDING    exit=0  ✗report
+    Date:    (未知，无 HDFS 日志且 config 已更新)
+    ABType:  (未知)
+    节点:    -  |  完成: -
+    ⏳ 任务仍在 PENDING，日志尚未上传
+    Slurm 状态: PENDING    exit_code=0
+
+  ✓ 所有子任务同步率 ≥ 95%，截面数据质量良好。
+

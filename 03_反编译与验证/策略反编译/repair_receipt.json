@@ -1,0 +1,78 @@
+[
+  {
+    "file": "libstrategy_comm2.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm3.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm3_1.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm3_2.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm4.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm4_1.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm5.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm_maker1.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_comm_mock.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_lf4.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sm1.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sm2.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sm3.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sm3_1.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sm4.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sos5.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_sos6.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_tm5.so",
+    "exit_code": 0
+  },
+  {
+    "file": "libstrategy_tm6.so",
+    "exit_code": 0
+  }
+]

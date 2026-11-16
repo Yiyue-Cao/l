@@ -1,0 +1,134 @@
+openjdk version "21.0.2" 2024-01-16
+OpenJDK Runtime Environment (build 21.0.2+13-58)
+OpenJDK 64-Bit Server VM (build 21.0.2+13-58, mixed mode)
+INFO  Using log config file: jar:REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1131 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (2292 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    REMOTE_WORKSPACE/tmp/1008/l
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: REMOTE_WORKSPACE/tmp/1008/l/analysis/libstrategy_comm_maker1/project/strategy (HeadlessAnalyzer)  
+INFO  Creating project: REMOTE_WORKSPACE/tmp/1008/l/analysis/libstrategy_comm_maker1/project/strategy (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: REMOTE_WORKSPACE/tmp/1008/l/analysis/libstrategy_comm_maker1/project/strategy (HeadlessAnalyzer)  
+INFO  IMPORTING: REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (AutoImporter)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (AutoImporter)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (AutoImporter)  
+INFO  Additional info:
+Loading REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so?MD5=8b0adda017555a3262325e21702dd2a1...
+Skipping section [.tm_clone_table] with invalid size 0x0
+Unsupported Thread-Local Symbol not loaded: _ZN3std9panicking11panic_count17LOCAL_PANIC_COUNT29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17h1c2854fe96ace521E
+Unsupported Thread-Local Symbol not loaded: _ZN3std2io5stdio14OUTPUT_CAPTURE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17hae3c4815d7389fe0E
+Unsupported Thread-Local Symbol not loaded: _ZN3std3sys12thread_local11destructors4list5DTORS17h883539349262e418E
+Unsupported Thread-Local Symbol not loaded: _ZN3std4hash6random11RandomState3new4KEYS29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17hdc43900478f1264bE
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current2id2ID17h0b5601915de1353eE
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current7CURRENT17he792ea6fe59fe742E
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001dd350 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001dd698 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001ddcf0 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001ddd10 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+Setting block .tdata to read-only
+Setting block .fini_array to read-only
+Setting block .init_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+Failed to markup ELF Note at 001002a8: data conflict
+Installed 3 Rust cspec extensions
+------------------------------------------------
+
+Linking the External Programs of 'libstrategy_comm_maker1.so' to imported libraries...
+  [libfuture_backtest.so] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libm.so.6] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux-x86-64.so.2] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libstrategy_comm_maker1.so] - 81 unresolved symbols, no external libraries configured - skipping
+ (AutoImporter)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=679d7975fcb249a6a28b7e3fa7eb6197ecef67d1] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 0015e990: Unable to read bytes at ram:6187fcf1 (DecompileCallback)  
+INFO  Packed database cache: REMOTE_TOOL_CACHE/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: rust-common (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: rust-common (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.364 secs
+    Apply Data Archives                        0.216 secs
+    Call Convention ID                         0.485 secs
+    Call-Fixup Installer                       0.024 secs
+    Create Address Tables                      0.176 secs
+    Create Address Tables - One Time           0.048 secs
+    Create Function                            0.004 secs
+    DWARF                                      0.007 secs
+    Data Reference                             0.274 secs
+    Decompiler Switch Analysis                 0.997 secs
+    Decompiler Switch Analysis - One Time     35.353 secs
+    Demangler GNU                              0.067 secs
+    Demangler Rust                             0.469 secs
+    Disassemble Entry Points                   1.403 secs
+    ELF Scalar Operand References              1.229 secs
+    Embedded Media                             0.038 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.852 secs
+    Function Start Search                      0.080 secs
+    Function Start Search After Code           0.038 secs
+    Function Start Search After Data           0.031 secs
+    GCC Exception Handlers                     4.433 secs
+    Non-Returning Functions - Discovered       0.395 secs
+    Non-Returning Functions - Known            0.015 secs
+    Reference                                  0.493 secs
+    Rust String Analyzer                       0.123 secs
+    Shared Return Calls                        0.254 secs
+    Stack                                      6.112 secs
+    Subroutine References                      0.110 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer            6.511 secs
+-----------------------------------------------------
+     Total Time   60 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so (HeadlessAnalyzer)  
+INFO  SCRIPT: REMOTE_WORKSPACE/tmp/1008/l/ExportStrategies.java (HeadlessAnalyzer)  
+WARN  Decompiling 0015e990: Unable to read bytes at ram:6187fcf1 (DecompileCallback)  
+INFO  ANALYZING changes made by post scripts: REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_maker1.so (HeadlessAnalyzer)  
+INFO  REPORT: Save succeeded for: /libstrategy_comm_maker1.so (strategy:/libstrategy_comm_maker1.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

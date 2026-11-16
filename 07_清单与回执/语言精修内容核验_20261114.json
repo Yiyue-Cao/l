@@ -1,0 +1,243 @@
+{
+  "preserved_tables": [
+    {
+      "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 37
+    },
+    {
+      "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 6
+    },
+    {
+      "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 42
+    },
+    {
+      "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 6
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 45
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 7
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 46
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 7
+    },
+    {
+      "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 98
+    },
+    {
+      "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 8
+    },
+    {
+      "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 99
+    },
+    {
+      "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 9
+    },
+    {
+      "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 114
+    },
+    {
+      "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 9
+    },
+    {
+      "file": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 42
+    },
+    {
+      "file": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 6
+    },
+    {
+      "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 46
+    },
+    {
+      "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "preserved_table": "本库内嵌 K1 全表",
+      "rows": 190
+    },
+    {
+      "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 7
+    },
+    {
+      "file": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 30
+    },
+    {
+      "file": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 3
+    },
+    {
+      "file": "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 37
+    },
+    {
+      "file": "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 5
+    },
+    {
+      "file": "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 32
+    },
+    {
+      "file": "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 3
+    },
+    {
+      "file": "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 35
+    },
+    {
+      "file": "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 5
+    },
+    {
+      "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 50
+    },
+    {
+      "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 5
+    },
+    {
+      "file": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 41
+    },
+    {
+      "file": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 5
+    },
+    {
+      "file": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 69
+    },
+    {
+      "file": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 4
+    },
+    {
+      "file": "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 63
+    },
+    {
+      "file": "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 4
+    },
+    {
+      "file": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 32
+    },
+    {
+      "file": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 3
+    },
+    {
+      "file": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+      "preserved_table": "本库全部配置字段：真实解析默认值与状态偏移",
+      "rows": 36
+    },
+    {
+      "file": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+      "preserved_table": "本轮机器码核验及其覆盖范围",
+      "rows": 3
+    }
+  ],
+  "strategy_hashes_verified": 19,
+  "all_original_strategy_link_targets_retained": true,
+  "local_and_package_links": 1924,
+  "link_errors": []
+}

@@ -1,0 +1,6 @@
+{
+  "cases": 1000,
+  "passed": 1000,
+  "comparison": "exact Option tag and bit-equal floating ratio",
+  "scope": "synthetic quotes and time-window boundaries; original VolSpreadRatio::update vs Python"
+}

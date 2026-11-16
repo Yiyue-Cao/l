@@ -1,0 +1,44 @@
+{
+  "binary_sha256": "a778c872369f31f436a1ba7b4c996934492b45bc6f2faa8860de6f42455accdb",
+  "scope": "isolated original machine-code kernels vs readable Python; no engine, plugin callbacks, market data or account replay",
+  "comparison": "IEEE-754 bit equality for floating outputs; exact enum equality",
+  "kernels": {
+    "signal_mode": {
+      "cases": 7,
+      "passed": 7
+    },
+    "trigger_mode": {
+      "cases": 9,
+      "passed": 9
+    },
+    "dynamic_threshold": {
+      "cases": 324,
+      "passed": 324
+    },
+    "next_phase": {
+      "cases": 360,
+      "passed": 360
+    },
+    "point_pv1": {
+      "cases": 2400,
+      "passed": 2400
+    },
+    "point_pv4": {
+      "cases": 2400,
+      "passed": 2400
+    },
+    "effective_amounts": {
+      "cases": 972,
+      "passed": 972
+    },
+    "high_taker_rate": {
+      "cases": 3000,
+      "passed": 3000
+    },
+    "taker_fillable_cum": {
+      "cases": 2000,
+      "passed": 2000
+    }
+  },
+  "total": 11472
+}

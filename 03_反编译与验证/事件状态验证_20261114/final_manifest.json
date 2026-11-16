@@ -1,0 +1,360 @@
+{
+  "scope": "final local research scripts and original-binary synthetic evidence",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4408,
+      "sha256": "3c199abf935aaec3fd143dc35b3b0824ea2e9047efa2b75876845ab0fab2b96f"
+    },
+    {
+      "path": "binary_identity_receipt.json",
+      "bytes": 3631,
+      "sha256": "720425f26acfdc107807b91d977c7812d218eb735d15f774053d0d5908cab14d"
+    },
+    {
+      "path": "event_probe.py",
+      "bytes": 3392,
+      "sha256": "514f25394ebe156ff4926dc46c1c1fe6a810dc00b4f727b383c0f870c54ca0d3"
+    },
+    {
+      "path": "event_process_receipt.json",
+      "bytes": 1218,
+      "sha256": "11f974a9a56cc09ed01695f40d0f1cb8f0d969c80774367f964a6e51ab0ec6d7"
+    },
+    {
+      "path": "inspect_depth_abi.py",
+      "bytes": 769,
+      "sha256": "d72af245b6ae45d52ed92758c02d691c034eeb0c67ee8521f5ab87d1dc33679e"
+    },
+    {
+      "path": "libstrategy_comm2.events.json",
+      "bytes": 11004,
+      "sha256": "9b0a995d84cc76a9eb46cea1012fcb4e4b14f13bebbd61c5b6e8e9cb64e228ec"
+    },
+    {
+      "path": "libstrategy_comm2.on_depth.asm",
+      "bytes": 8076,
+      "sha256": "a911d2e5ea34b82617294115fb10dfce2d2000c8b4b951e5b852b6a58d98edec"
+    },
+    {
+      "path": "libstrategy_comm2.touch_sequences.json",
+      "bytes": 38344,
+      "sha256": "a9a8743ce9717a5d18ad29cea35ccfc460bcc008c25426b1649001e722f60aa0"
+    },
+    {
+      "path": "libstrategy_comm3.events.json",
+      "bytes": 11035,
+      "sha256": "6f54d612dbd4d0d68b04d93d318db28518418199145014dca26e58223e0e45f8"
+    },
+    {
+      "path": "libstrategy_comm3.on_depth.asm",
+      "bytes": 8076,
+      "sha256": "5f656434c73436c95a21bf9ed01f8a78ac54ee8f4cc2be2d7dc447cc5035028b"
+    },
+    {
+      "path": "libstrategy_comm3.touch_sequences.json",
+      "bytes": 38623,
+      "sha256": "56573a78936c3ede7d5e1ea7f95c8b897f6b44b8908da8a6dc883d783d9d145a"
+    },
+    {
+      "path": "libstrategy_comm3_1.events.json",
+      "bytes": 10935,
+      "sha256": "279340522e14ea605026b06f6513620c479962ca3520c6ed155826673bd0c7bd"
+    },
+    {
+      "path": "libstrategy_comm3_1.on_depth.asm",
+      "bytes": 8104,
+      "sha256": "a5cc31aba146df5d206233f8fca9b38c1117a8fe40e4415633c4db59f5381788"
+    },
+    {
+      "path": "libstrategy_comm3_1.touch_sequences.json",
+      "bytes": 38623,
+      "sha256": "1d7c366238071388ab225c4a00bf7042fa7d1b8e07113b1fc195684e68144827"
+    },
+    {
+      "path": "libstrategy_comm3_2.events.json",
+      "bytes": 11003,
+      "sha256": "f4480e3d367374507937310bf91ccd9b3c327c6fe30c95bc2bfcc290436bf197"
+    },
+    {
+      "path": "libstrategy_comm3_2.on_depth.asm",
+      "bytes": 8104,
+      "sha256": "128a0f36ea2555c0ba79bfa265190f839f2b74048a795eada2222ad8b4aa54e4"
+    },
+    {
+      "path": "libstrategy_comm3_2.touch_sequences.json",
+      "bytes": 38623,
+      "sha256": "18f45c83c6f2043ed193fe9458c4d57b8d86e976fc7bad3b5aba5d614f76b729"
+    },
+    {
+      "path": "libstrategy_comm4.events.json",
+      "bytes": 11052,
+      "sha256": "dd78db773ea3646747daa8bcb4a4f2b1d3c08e7789f752a40530bca4a4cb4be5"
+    },
+    {
+      "path": "libstrategy_comm4.on_depth.asm",
+      "bytes": 8076,
+      "sha256": "b67392cacc5138be04e42004a467b905b814ef43fa7d0185ee7e1aa48f34916a"
+    },
+    {
+      "path": "libstrategy_comm4.touch_sequences.json",
+      "bytes": 38644,
+      "sha256": "cf5555733a9abe489b6bd5b9b2a84efc8e77bc68356d0b15bb01be2a264a9fb5"
+    },
+    {
+      "path": "libstrategy_comm4_1.events.json",
+      "bytes": 11054,
+      "sha256": "c5f2cef54e4a3d95c241c241caed3c7ae720a6480d3181e42cf77cfc8d702910"
+    },
+    {
+      "path": "libstrategy_comm4_1.on_depth.asm",
+      "bytes": 8118,
+      "sha256": "0cddc2978c946255c3c14cc4ee1e482b5c353e0b1e81d8ed395eef21b2d7c8dc"
+    },
+    {
+      "path": "libstrategy_comm4_1.touch_sequences.json",
+      "bytes": 38623,
+      "sha256": "d09f564b13ff20f3e4753eb396d8facea6776f98bb8f9cedb657f9844bfd9da1"
+    },
+    {
+      "path": "libstrategy_comm5.events.json",
+      "bytes": 11052,
+      "sha256": "01f6f75c33ed801e380c4854fd265b731b25da57e14693496d98785875d88496"
+    },
+    {
+      "path": "libstrategy_comm5.on_depth.asm",
+      "bytes": 8078,
+      "sha256": "3665771ba32dff9c6abf3fa4b321ee3563017296dc9247ee18914a1c650113b9"
+    },
+    {
+      "path": "libstrategy_comm5.touch_sequences.json",
+      "bytes": 38623,
+      "sha256": "8dcb4eb3838f3e19788a03fbc90bc8254927826bd515021df120c29b3caba86b"
+    },
+    {
+      "path": "libstrategy_comm_maker1.events.json",
+      "bytes": 11047,
+      "sha256": "5c055e56bc3067adf5ff601c0c6b142544d1616427512824112aec4d2b38eba9"
+    },
+    {
+      "path": "libstrategy_comm_maker1.on_depth.asm",
+      "bytes": 9965,
+      "sha256": "ab4a21293389ca0a27634da52cce6a86b97aa43a3dacb92a73e127d494883705"
+    },
+    {
+      "path": "libstrategy_comm_mock.events.json",
+      "bytes": 10532,
+      "sha256": "5ca27f47db47eeb44648d9bfab666d64258c996e8bf750bbfae541149d5c95c9"
+    },
+    {
+      "path": "libstrategy_comm_mock.publish_sequences.json",
+      "bytes": 2059,
+      "sha256": "7b32ae4ad03095534438f3c93550dad0dfce981bf4188eaac4243b0eee7074b7"
+    },
+    {
+      "path": "libstrategy_lf4.events.json",
+      "bytes": 11970,
+      "sha256": "13ed3066461352660b3f43d6564a39337312db17e08d8d13b6b16fd890740683"
+    },
+    {
+      "path": "libstrategy_lf4.sdk_abi.txt",
+      "bytes": 21641,
+      "sha256": "0d84d569aaf930a8178c073080cc5fcc32d30a675c198ba38cb9b984c3f9b7e8"
+    },
+    {
+      "path": "libstrategy_lf4.state_sequences.json",
+      "bytes": 32603,
+      "sha256": "051b009491a5fb2840c514411f8e4d91db07bed847c574ce0fa77fa97165e7fd"
+    },
+    {
+      "path": "libstrategy_sm1.events.json",
+      "bytes": 13314,
+      "sha256": "bbcc94e5f793b3bb8903d297f5c3da8767ae365764b1d978c65d673d3cb5438d"
+    },
+    {
+      "path": "libstrategy_sm1.on_depth.asm",
+      "bytes": 6085,
+      "sha256": "8b959f72d226ac00779b3ab2d25974986800b7f16b74ab7f92f2e06427b9c47f"
+    },
+    {
+      "path": "libstrategy_sm1.touch_sequences.json",
+      "bytes": 40587,
+      "sha256": "a94369c50dae3e9b69c7abe2a0efedfed3240cb89242189bd60ca0e59e48db75"
+    },
+    {
+      "path": "libstrategy_sm2.active_sell.log",
+      "bytes": 2213,
+      "sha256": "21bb4050b6d318cdcd49ab5c8d0f2894e1ceb58e19fcfc937ff91d0e0558cf3c"
+    },
+    {
+      "path": "libstrategy_sm2.events.json",
+      "bytes": 11797,
+      "sha256": "7795087096502bf0a6abb84a930424a8c059378616e7f0d5098bf0535c17df73"
+    },
+    {
+      "path": "libstrategy_sm2.on_depth.asm",
+      "bytes": 6085,
+      "sha256": "0fd0167018ef50e7a742124121e79b9e8f600e8658f1d4ca4f2cb0cefc8f4dff"
+    },
+    {
+      "path": "libstrategy_sm2.touch_sequences.json",
+      "bytes": 36583,
+      "sha256": "702abbb20273bb94c27697054a44937560c00384e8c647e8aff4b6aca8496f4e"
+    },
+    {
+      "path": "libstrategy_sm3.events.json",
+      "bytes": 13263,
+      "sha256": "0595ba68d2d2760ab2c441c0cb2d46bde2e3368574a40b38eaff3806b52e704d"
+    },
+    {
+      "path": "libstrategy_sm3.on_depth.asm",
+      "bytes": 6085,
+      "sha256": "bb4327ec9ff1da4aa5e3e6cb412fc2d923e9dd4faf5bd072067c9f0146d2bdf6"
+    },
+    {
+      "path": "libstrategy_sm3.touch_sequences.json",
+      "bytes": 40587,
+      "sha256": "f0bca0133c91f9a80a8fb0439188bf033a455b6b0019b50ceb036bcd13cf08d4"
+    },
+    {
+      "path": "libstrategy_sm3_1.events.json",
+      "bytes": 21091,
+      "sha256": "7b381a47ff96aae659dbf7bf1cefb8fc495d6dae232fb5305fa7cd31afd154e4"
+    },
+    {
+      "path": "libstrategy_sm3_1.failure_sequences.json",
+      "bytes": 3536,
+      "sha256": "8dc1fda1eb26b09c32b257c6d00664a0f6ea27362dd549e4cf9bc24128b33270"
+    },
+    {
+      "path": "libstrategy_sm3_1.sdk_abi.txt",
+      "bytes": 7955,
+      "sha256": "c6d6474009a39ddd4b17069436c2c05a5f8c6e9c7482fcdcd2df4af53023b7ec"
+    },
+    {
+      "path": "libstrategy_sm3_1.sequence_probe.json",
+      "bytes": 18132,
+      "sha256": "e9e928579c21c35ca35c79ebbacb2dc3f2901411393f4082285600a01b6ea938"
+    },
+    {
+      "path": "libstrategy_sm4.events.json",
+      "bytes": 12583,
+      "sha256": "43966cf6f484069c34f415514f63c59fb0163bb1537f610ad7db101abcb8808f"
+    },
+    {
+      "path": "libstrategy_sos5.events.json",
+      "bytes": 13639,
+      "sha256": "fb92c967eeb58cf96cc6c4dc34e64c3f7be8d995b60736b63239cc38c5dd5ff7"
+    },
+    {
+      "path": "libstrategy_sos5.phase_sequences.json",
+      "bytes": 50168,
+      "sha256": "5e8caf05c535e115e253d209141430a57ff164d92a2be0746b03ef6431a3f2ef"
+    },
+    {
+      "path": "libstrategy_sos5.sdk_abi.txt",
+      "bytes": 33362,
+      "sha256": "3102d31a322669cf07e7d4a089800ab7eeb832f9a0302fcebde89a654b2e45ab"
+    },
+    {
+      "path": "libstrategy_sos6.events.json",
+      "bytes": 16566,
+      "sha256": "bfe71589ce182d7c0d385ea90190add24fb5e66c37480bf8d44111db3998823a"
+    },
+    {
+      "path": "libstrategy_sos6.phase_sequences.json",
+      "bytes": 114637,
+      "sha256": "ca6134fab8948b3f99810a10571d26f448b2869d573acf68304679d734761360"
+    },
+    {
+      "path": "libstrategy_sos6.threshold_presence.json",
+      "bytes": 16824,
+      "sha256": "3653e16ccbf97d29176fbb320a5dd29072b0b030bbcb15c95ebb486f0da596cf"
+    },
+    {
+      "path": "libstrategy_tm5.events.json",
+      "bytes": 11424,
+      "sha256": "98e8ed3e36aeea08d3c123f58357d600c364efe815b8080a839ad2f96b74eaa8"
+    },
+    {
+      "path": "libstrategy_tm5.sdk_abi.txt",
+      "bytes": 21314,
+      "sha256": "727d0b476b1e6c536918c6a1a68d9fa05b494aa68cb3566dd3a0925005288f64"
+    },
+    {
+      "path": "libstrategy_tm5.state_sequences.json",
+      "bytes": 3206,
+      "sha256": "a721c6769520b616fe52f103f82c39f03da53cdb66d6454198d837ec2b066aef"
+    },
+    {
+      "path": "libstrategy_tm6.events.json",
+      "bytes": 20681,
+      "sha256": "b5330d2f85e16cba1f828681ffc76087c0eb9e58adb8501eef5313a28bb0090e"
+    },
+    {
+      "path": "libstrategy_tm6.state_sequences.json",
+      "bytes": 3206,
+      "sha256": "a721c6769520b616fe52f103f82c39f03da53cdb66d6454198d837ec2b066aef"
+    },
+    {
+      "path": "meta.json",
+      "bytes": 3898203,
+      "sha256": "be924f03f4088094ba51e97bc895adafefa866e9beca5fff4d0eccaba380b665"
+    },
+    {
+      "path": "package_docs.py",
+      "bytes": 8072,
+      "sha256": "9c270b0b11529d54f632c1f6172edef51c4299c84d7af2286c5730c82f10e6ba"
+    },
+    {
+      "path": "probe_all_events.py",
+      "bytes": 3520,
+      "sha256": "fa91550ac0429187154057a30fd85692ae159bf0ff8a1c970688439eb23892a6"
+    },
+    {
+      "path": "probe_mock.py",
+      "bytes": 921,
+      "sha256": "b956bee2f2fbacfc77a903a4c6c6642dcf7fcfa6ed9da26ad11b149f0e646da0"
+    },
+    {
+      "path": "probe_sm31_sequence.py",
+      "bytes": 1792,
+      "sha256": "25bdccee02c7d6f070b139e566d49bbffdf737a41d40e6114ba571a05df8876a"
+    },
+    {
+      "path": "probe_sos_sequences.py",
+      "bytes": 2027,
+      "sha256": "7f3b97412577e064555db3ef28a493aaf4840bf1bbe53f7727cb35eb30e0f0c2"
+    },
+    {
+      "path": "probe_state_sequences.py",
+      "bytes": 3195,
+      "sha256": "25d2df0824910973f7cde83c76fcf8b3b85df309c84aa6f45ec49abc6f85b5f4"
+    },
+    {
+      "path": "probe_touch_sequences.py",
+      "bytes": 1481,
+      "sha256": "1ac87882f4b5748c2812533b2851ae2bed1abbf1d62458e49bc3dac6f86bc182"
+    },
+    {
+      "path": "sdk_event_stubs.c",
+      "bytes": 4988,
+      "sha256": "dff1ed6d785752dd17b817631620a91736e2faf9b33eb27831d27fe84c1eaed8"
+    },
+    {
+      "path": "update_docs.py",
+      "bytes": 24557,
+      "sha256": "b52d348fcb19df676f21be69aebabc218f44ecd0ffed1980ad86e7cf43616c96"
+    },
+    {
+      "path": "verification_summary.json",
+      "bytes": 179191,
+      "sha256": "9b63c0d3e78403233cd2e03fe4d395481897824358cf1aa6df86858de0dbc3ae"
+    },
+    {
+      "path": "verify_receipts.py",
+      "bytes": 6436,
+      "sha256": "961c131145a14525148abbf258622d9b150b22995c80090c6ac81b3efd336878"
+    }
+  ]
+}

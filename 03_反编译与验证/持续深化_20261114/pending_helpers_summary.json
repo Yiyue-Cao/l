@@ -1,0 +1,50 @@
+[
+  {
+    "k": "libstrategy_comm3",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm3_1",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm3_2",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm4",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm4_1",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm5",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm_maker1",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_comm_mock",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_sm1",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_sm3",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_sm3_1",
+    "returncode": 0
+  },
+  {
+    "k": "libstrategy_sm4",
+    "returncode": 0
+  }
+]

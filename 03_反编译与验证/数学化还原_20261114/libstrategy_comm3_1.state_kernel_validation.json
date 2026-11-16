@@ -1,0 +1,9 @@
+[
+  {
+    "function": "strategy_comm3_1::vol_spread_ratio::VolSpreadRatio::update",
+    "elf": "000000000005ec30",
+    "cases": 500,
+    "passed": 500,
+    "failures": []
+  }
+]

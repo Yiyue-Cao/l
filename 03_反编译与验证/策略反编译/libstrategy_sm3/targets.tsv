@@ -1,0 +1,36 @@
+000000000003ba30	strategy_sm3::cancel_side
+000000000003b9d0	strategy_sm3::default_pv1
+0000000000058250	strategy_sm3::__fb_plugin_impl::destroy
+0000000000057af0	strategy_sm3::__fb_plugin_impl::on_begin
+0000000000057d80	strategy_sm3::__fb_plugin_impl::on_depth
+0000000000057f00	strategy_sm3::__fb_plugin_impl::on_order
+0000000000057ec0	strategy_sm3::__fb_plugin_impl::on_finish
+0000000000057be0	strategy_sm3::__fb_plugin_impl::on_signal
+000000000003c7b0	strategy_sm3::apply_book_vol_cap
+000000000003c240	strategy_sm3::live_pending_counts
+000000000003bdd0	strategy_sm3::cancel_order_use_range
+0000000000049240	<strategy_sm3::_::<impl serde_core::de::Deserialize for strategy_sm3::SM3Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+00000000000403c0	<strategy_sm3::_::<impl serde_core::de::Deserialize for strategy_sm3::SM3Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000087da0	strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score
+0000000000087ff0	strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread
+0000000000087cd0	strategy_signal_maker_common::signal_trigger::SignalTrigger::new
+00000000000880b0	strategy_signal_maker_common::signal_trigger::dynamic_threshold
+0000000000087a70	strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update
+0000000000088150	strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms
+0000000000084d30	strategy_signal_maker_common::get_quote_price::get_quote_vol
+0000000000084dc0	strategy_signal_maker_common::get_quote_price::get_quote_price_one_shot
+0000000000036560	core::ptr::drop_in_place<(alloc::string::String,strategy_signal_maker_common::signal_trigger::SignalTrigger)>
+0000000000036590	core::ptr::drop_in_place<(alloc::string::String,alloc::collections::btree::map::BTreeMap<alloc::string::String,strategy_signal_maker_common::signal_trigger::SignalTrigger>)>
+0000000000052da0	_ZN4core3ptr250drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$alloc..string..String$C$strategy_signal_maker_common..signal_trigger..SignalTrigger$C$alloc..alloc..Global$GT$$GT$17h2c8c51212e4de9c1E.llvm.11367730666980898386
+0000000000052e60	_ZN4core3ptr322drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$alloc..string..String$C$alloc..collections..btree..map..BTreeMap$LT$alloc..string..String$C$strategy_signal_maker_common..signal_trigger..SignalTrigger$GT$$C$alloc..alloc..Global$GT$$GT$17hadf5a473a84a5481E.llvm.11367730666980898386
+00000000000546d0	core::ptr::drop_in_place<hashbrown::scopeguard::ScopeGuard<(usize,&mut hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>),hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>::clone_from_impl::{{closure}}>>
+000000000003b790	core::ptr::drop_in_place<strategy_sm3::SM3Params>
+0000000000056db0	core::ptr::drop_in_place<strategy_sm3::StrategySM3>
+0000000000057150	core::ptr::drop_in_place<core::option::Option<strategy_sm3::SM3Params>>
+0000000000086f80	core::ptr::drop_in_place<strategy_signal_maker_common::signal_trigger::TsQuantileCalculator>
+000000000003ca80	<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000040260	<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000003cdc0	<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+00000000000583f0	create_strategy
+0000000000057a90	fb_strategy_sdk_abi_version
+0000000000057aa0	fb_strategy_sdk_version_str

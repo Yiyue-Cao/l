@@ -1,0 +1,78 @@
+[
+  {
+    "library": "libstrategy_comm2",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm3",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm3_1",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm3_2",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm4",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm4_1",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm5",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm_maker1",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_comm_mock",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_lf4",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sm1",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sm2",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sm3",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sm3_1",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sm4",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sos5",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_sos6",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_tm5",
+    "exit_code": 0
+  },
+  {
+    "library": "libstrategy_tm6",
+    "exit_code": 0
+  }
+]

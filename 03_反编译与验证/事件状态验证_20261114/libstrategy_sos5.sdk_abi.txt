@@ -1,0 +1,563 @@
+0000000000094a10 <future_backtest_sdk::context::StrategyContext::cancel_all>:
+   94a10:	48 83 ec 38          	sub    rsp,0x38
+   94a14:	48 8b 7f 30          	mov    rdi,QWORD PTR [rdi+0x30]
+   94a18:	ff 15 8a fa 04 00    	call   QWORD PTR [rip+0x4fa8a]        # e44a8 <fb_ctx_cancel_all@Base>
+   94a1e:	85 c0                	test   eax,eax
+   94a20:	78 07                	js     94a29 <future_backtest_sdk::context::StrategyContext::cancel_all+0x19>
+   94a22:	31 c0                	xor    eax,eax
+   94a24:	48 83 c4 38          	add    rsp,0x38
+   94a28:	c3                   	ret    
+   94a29:	48 8d 05 80 be 04 00 	lea    rax,[rip+0x4be80]        # e08b0 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x468>
+   94a30:	48 89 44 24 08       	mov    QWORD PTR [rsp+0x8],rax
+   94a35:	48 c7 44 24 10 01 00 	mov    QWORD PTR [rsp+0x10],0x1
+   94a3c:	00 00 
+   94a3e:	48 c7 44 24 18 08 00 	mov    QWORD PTR [rsp+0x18],0x8
+   94a45:	00 00 
+   94a47:	0f 57 c0             	xorps  xmm0,xmm0
+   94a4a:	0f 11 44 24 20       	movups XMMWORD PTR [rsp+0x20],xmm0
+   94a4f:	48 8d 7c 24 08       	lea    rdi,[rsp+0x8]
+   94a54:	e8 57 ec ff ff       	call   936b0 <anyhow::__private::format_err>
+   94a59:	48 83 c4 38          	add    rsp,0x38
+   94a5d:	c3                   	ret    
+   94a5e:	cc                   	int3   
+   94a5f:	cc                   	int3   
+
+0000000000095650 <future_backtest_sdk::context::StrategyContext::last_error>:
+   95650:	55                   	push   rbp
+   95651:	41 57                	push   r15
+   95653:	41 56                	push   r14
+   95655:	41 55                	push   r13
+   95657:	41 54                	push   r12
+   95659:	53                   	push   rbx
+   9565a:	48 83 ec 18          	sub    rsp,0x18
+   9565e:	49 89 f7             	mov    r15,rsi
+   95661:	49 89 fe             	mov    r14,rdi
+   95664:	ff 15 7e e7 04 00    	call   QWORD PTR [rip+0x4e77e]        # e3de8 <_DYNAMIC+0x228>
+   9566a:	bf 00 02 00 00       	mov    edi,0x200
+   9566f:	be 01 00 00 00       	mov    esi,0x1
+   95674:	ff 15 5e e7 04 00    	call   QWORD PTR [rip+0x4e75e]        # e3dd8 <_DYNAMIC+0x218>
+   9567a:	48 85 c0             	test   rax,rax
+   9567d:	0f 84 f0 00 00 00    	je     95773 <future_backtest_sdk::context::StrategyContext::last_error+0x123>
+   95683:	48 89 c3             	mov    rbx,rax
+   95686:	ba 00 02 00 00       	mov    edx,0x200
+   9568b:	4c 89 ff             	mov    rdi,r15
+   9568e:	48 89 c6             	mov    rsi,rax
+   95691:	ff 15 51 ee 04 00    	call   QWORD PTR [rip+0x4ee51]        # e44e8 <fb_ctx_last_error@Base>
+   95697:	48 3d 01 02 00 00    	cmp    rax,0x201
+   9569d:	0f 83 b9 00 00 00    	jae    9575c <future_backtest_sdk::context::StrategyContext::last_error+0x10c>
+   956a3:	48 89 e7             	mov    rdi,rsp
+   956a6:	48 89 de             	mov    rsi,rbx
+   956a9:	48 89 c2             	mov    rdx,rax
+   956ac:	ff 15 1e ed 04 00    	call   QWORD PTR [rip+0x4ed1e]        # e43d0 <_DYNAMIC+0x810>
+   956b2:	31 c0                	xor    eax,eax
+   956b4:	48 3b 04 24          	cmp    rax,QWORD PTR [rsp]
+   956b8:	71 24                	jno    956de <future_backtest_sdk::context::StrategyContext::last_error+0x8e>
+   956ba:	4c 8b 7c 24 10       	mov    r15,QWORD PTR [rsp+0x10]
+   956bf:	4d 85 ff             	test   r15,r15
+   956c2:	79 2d                	jns    956f1 <future_backtest_sdk::context::StrategyContext::last_error+0xa1>
+   956c4:	31 ed                	xor    ebp,ebp
+   956c6:	48 8d 15 f3 b0 04 00 	lea    rdx,[rip+0x4b0f3]        # e07c0 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x378>
+   956cd:	48 89 ef             	mov    rdi,rbp
+   956d0:	4c 89 fe             	mov    rsi,r15
+   956d3:	ff 15 a7 e7 04 00    	call   QWORD PTR [rip+0x4e7a7]        # e3e80 <_DYNAMIC+0x2c0>
+   956d9:	e9 93 00 00 00       	jmp    95771 <future_backtest_sdk::context::StrategyContext::last_error+0x121>
+   956de:	48 8b 44 24 10       	mov    rax,QWORD PTR [rsp+0x10]
+   956e3:	49 89 46 10          	mov    QWORD PTR [r14+0x10],rax
+   956e7:	0f 10 04 24          	movups xmm0,XMMWORD PTR [rsp]
+   956eb:	41 0f 11 06          	movups XMMWORD PTR [r14],xmm0
+   956ef:	eb 4a                	jmp    9573b <future_backtest_sdk::context::StrategyContext::last_error+0xeb>
+   956f1:	4c 8b 64 24 08       	mov    r12,QWORD PTR [rsp+0x8]
+   956f6:	74 23                	je     9571b <future_backtest_sdk::context::StrategyContext::last_error+0xcb>
+   956f8:	ff 15 ea e6 04 00    	call   QWORD PTR [rip+0x4e6ea]        # e3de8 <_DYNAMIC+0x228>
+   956fe:	bd 01 00 00 00       	mov    ebp,0x1
+   95703:	be 01 00 00 00       	mov    esi,0x1
+   95708:	4c 89 ff             	mov    rdi,r15
+   9570b:	ff 15 af e6 04 00    	call   QWORD PTR [rip+0x4e6af]        # e3dc0 <_DYNAMIC+0x200>
+   95711:	48 85 c0             	test   rax,rax
+   95714:	74 b0                	je     956c6 <future_backtest_sdk::context::StrategyContext::last_error+0x76>
+   95716:	49 89 c5             	mov    r13,rax
+   95719:	eb 06                	jmp    95721 <future_backtest_sdk::context::StrategyContext::last_error+0xd1>
+   9571b:	41 bd 01 00 00 00    	mov    r13d,0x1
+   95721:	4c 89 ef             	mov    rdi,r13
+   95724:	4c 89 e6             	mov    rsi,r12
+   95727:	4c 89 fa             	mov    rdx,r15
+   9572a:	ff 15 f8 e6 04 00    	call   QWORD PTR [rip+0x4e6f8]        # e3e28 <memcpy@GLIBC_2.14>
+   95730:	4d 89 3e             	mov    QWORD PTR [r14],r15
+   95733:	4d 89 6e 08          	mov    QWORD PTR [r14+0x8],r13
+   95737:	4d 89 7e 10          	mov    QWORD PTR [r14+0x10],r15
+   9573b:	be 00 02 00 00       	mov    esi,0x200
+   95740:	ba 01 00 00 00       	mov    edx,0x1
+   95745:	48 89 df             	mov    rdi,rbx
+   95748:	48 83 c4 18          	add    rsp,0x18
+   9574c:	5b                   	pop    rbx
+   9574d:	41 5c                	pop    r12
+   9574f:	41 5d                	pop    r13
+   95751:	41 5e                	pop    r14
+   95753:	41 5f                	pop    r15
+   95755:	5d                   	pop    rbp
+   95756:	ff 25 6c e6 04 00    	jmp    QWORD PTR [rip+0x4e66c]        # e3dc8 <_DYNAMIC+0x208>
+   9575c:	48 8d 15 15 b2 04 00 	lea    rdx,[rip+0x4b215]        # e0978 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x530>
+   95763:	be 00 02 00 00       	mov    esi,0x200
+   95768:	48 89 c7             	mov    rdi,rax
+   9576b:	ff 15 b7 e8 04 00    	call   QWORD PTR [rip+0x4e8b7]        # e4028 <_DYNAMIC+0x468>
+   95771:	0f 0b                	ud2    
+   95773:	48 8d 15 e6 b1 04 00 	lea    rdx,[rip+0x4b1e6]        # e0960 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x518>
+   9577a:	bf 01 00 00 00       	mov    edi,0x1
+   9577f:	be 00 02 00 00       	mov    esi,0x200
+   95784:	ff 15 f6 e6 04 00    	call   QWORD PTR [rip+0x4e6f6]        # e3e80 <_DYNAMIC+0x2c0>
+   9578a:	49 89 c6             	mov    r14,rax
+   9578d:	be 00 02 00 00       	mov    esi,0x200
+   95792:	ba 01 00 00 00       	mov    edx,0x1
+   95797:	48 89 df             	mov    rdi,rbx
+   9579a:	ff 15 28 e6 04 00    	call   QWORD PTR [rip+0x4e628]        # e3dc8 <_DYNAMIC+0x208>
+   957a0:	4c 89 f7             	mov    rdi,r14
+   957a3:	e8 e8 71 04 00       	call   dc990 <_Unwind_Resume@plt>
+   957a8:	cc                   	int3   
+   957a9:	cc                   	int3   
+   957aa:	cc                   	int3   
+   957ab:	cc                   	int3   
+   957ac:	cc                   	int3   
+   957ad:	cc                   	int3   
+   957ae:	cc                   	int3   
+   957af:	cc                   	int3   
+
+0000000000093910 <future_backtest_sdk::context::StrategyContext::current_inst>:
+   93910:	55                   	push   rbp
+   93911:	41 57                	push   r15
+   93913:	41 56                	push   r14
+   93915:	41 55                	push   r13
+   93917:	41 54                	push   r12
+   93919:	53                   	push   rbx
+   9391a:	48 83 ec 18          	sub    rsp,0x18
+   9391e:	49 89 f7             	mov    r15,rsi
+   93921:	49 89 fe             	mov    r14,rdi
+   93924:	ff 15 be 04 05 00    	call   QWORD PTR [rip+0x504be]        # e3de8 <_DYNAMIC+0x228>
+   9392a:	bf 80 00 00 00       	mov    edi,0x80
+   9392f:	be 01 00 00 00       	mov    esi,0x1
+   93934:	ff 15 9e 04 05 00    	call   QWORD PTR [rip+0x5049e]        # e3dd8 <_DYNAMIC+0x218>
+   9393a:	48 85 c0             	test   rax,rax
+   9393d:	0f 84 f5 00 00 00    	je     93a38 <future_backtest_sdk::context::StrategyContext::current_inst+0x128>
+   93943:	48 89 c3             	mov    rbx,rax
+   93946:	49 8b 7f 30          	mov    rdi,QWORD PTR [r15+0x30]
+   9394a:	ba 80 00 00 00       	mov    edx,0x80
+   9394f:	48 89 c6             	mov    rsi,rax
+   93952:	ff 15 98 0a 05 00    	call   QWORD PTR [rip+0x50a98]        # e43f0 <fb_ctx_current_inst@Base>
+   93958:	48 3d 81 00 00 00    	cmp    rax,0x81
+   9395e:	0f 83 bd 00 00 00    	jae    93a21 <future_backtest_sdk::context::StrategyContext::current_inst+0x111>
+   93964:	48 89 e7             	mov    rdi,rsp
+   93967:	48 89 de             	mov    rsi,rbx
+   9396a:	48 89 c2             	mov    rdx,rax
+   9396d:	ff 15 5d 0a 05 00    	call   QWORD PTR [rip+0x50a5d]        # e43d0 <_DYNAMIC+0x810>
+   93973:	31 c0                	xor    eax,eax
+   93975:	48 3b 04 24          	cmp    rax,QWORD PTR [rsp]
+   93979:	71 24                	jno    9399f <future_backtest_sdk::context::StrategyContext::current_inst+0x8f>
+   9397b:	4c 8b 7c 24 10       	mov    r15,QWORD PTR [rsp+0x10]
+   93980:	4d 85 ff             	test   r15,r15
+   93983:	79 2d                	jns    939b2 <future_backtest_sdk::context::StrategyContext::current_inst+0xa2>
+   93985:	31 ed                	xor    ebp,ebp
+   93987:	48 8d 15 32 ce 04 00 	lea    rdx,[rip+0x4ce32]        # e07c0 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x378>
+   9398e:	48 89 ef             	mov    rdi,rbp
+   93991:	4c 89 fe             	mov    rsi,r15
+   93994:	ff 15 e6 04 05 00    	call   QWORD PTR [rip+0x504e6]        # e3e80 <_DYNAMIC+0x2c0>
+   9399a:	e9 97 00 00 00       	jmp    93a36 <future_backtest_sdk::context::StrategyContext::current_inst+0x126>
+   9399f:	48 8b 44 24 10       	mov    rax,QWORD PTR [rsp+0x10]
+   939a4:	49 89 46 10          	mov    QWORD PTR [r14+0x10],rax
+   939a8:	0f 10 04 24          	movups xmm0,XMMWORD PTR [rsp]
+   939ac:	41 0f 11 06          	movups XMMWORD PTR [r14],xmm0
+   939b0:	eb 4a                	jmp    939fc <future_backtest_sdk::context::StrategyContext::current_inst+0xec>
+   939b2:	4c 8b 64 24 08       	mov    r12,QWORD PTR [rsp+0x8]
+   939b7:	74 23                	je     939dc <future_backtest_sdk::context::StrategyContext::current_inst+0xcc>
+   939b9:	ff 15 29 04 05 00    	call   QWORD PTR [rip+0x50429]        # e3de8 <_DYNAMIC+0x228>
+   939bf:	bd 01 00 00 00       	mov    ebp,0x1
+   939c4:	be 01 00 00 00       	mov    esi,0x1
+   939c9:	4c 89 ff             	mov    rdi,r15
+   939cc:	ff 15 ee 03 05 00    	call   QWORD PTR [rip+0x503ee]        # e3dc0 <_DYNAMIC+0x200>
+   939d2:	48 85 c0             	test   rax,rax
+   939d5:	74 b0                	je     93987 <future_backtest_sdk::context::StrategyContext::current_inst+0x77>
+   939d7:	49 89 c5             	mov    r13,rax
+   939da:	eb 06                	jmp    939e2 <future_backtest_sdk::context::StrategyContext::current_inst+0xd2>
+   939dc:	41 bd 01 00 00 00    	mov    r13d,0x1
+   939e2:	4c 89 ef             	mov    rdi,r13
+   939e5:	4c 89 e6             	mov    rsi,r12
+   939e8:	4c 89 fa             	mov    rdx,r15
+   939eb:	ff 15 37 04 05 00    	call   QWORD PTR [rip+0x50437]        # e3e28 <memcpy@GLIBC_2.14>
+   939f1:	4d 89 3e             	mov    QWORD PTR [r14],r15
+   939f4:	4d 89 6e 08          	mov    QWORD PTR [r14+0x8],r13
+   939f8:	4d 89 7e 10          	mov    QWORD PTR [r14+0x10],r15
+   939fc:	be 80 00 00 00       	mov    esi,0x80
+   93a01:	ba 01 00 00 00       	mov    edx,0x1
+   93a06:	48 89 df             	mov    rdi,rbx
+   93a09:	ff 15 b9 03 05 00    	call   QWORD PTR [rip+0x503b9]        # e3dc8 <_DYNAMIC+0x208>
+   93a0f:	4c 89 f0             	mov    rax,r14
+   93a12:	48 83 c4 18          	add    rsp,0x18
+   93a16:	5b                   	pop    rbx
+   93a17:	41 5c                	pop    r12
+   93a19:	41 5d                	pop    r13
+   93a1b:	41 5e                	pop    r14
+   93a1d:	41 5f                	pop    r15
+   93a1f:	5d                   	pop    rbp
+   93a20:	c3                   	ret    
+   93a21:	48 8d 15 80 cf 04 00 	lea    rdx,[rip+0x4cf80]        # e09a8 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x560>
+   93a28:	be 80 00 00 00       	mov    esi,0x80
+   93a2d:	48 89 c7             	mov    rdi,rax
+   93a30:	ff 15 f2 05 05 00    	call   QWORD PTR [rip+0x505f2]        # e4028 <_DYNAMIC+0x468>
+   93a36:	0f 0b                	ud2    
+   93a38:	48 8d 15 51 cf 04 00 	lea    rdx,[rip+0x4cf51]        # e0990 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x548>
+   93a3f:	bf 01 00 00 00       	mov    edi,0x1
+   93a44:	be 80 00 00 00       	mov    esi,0x80
+   93a49:	ff 15 31 04 05 00    	call   QWORD PTR [rip+0x50431]        # e3e80 <_DYNAMIC+0x2c0>
+   93a4f:	49 89 c6             	mov    r14,rax
+   93a52:	be 80 00 00 00       	mov    esi,0x80
+   93a57:	ba 01 00 00 00       	mov    edx,0x1
+   93a5c:	48 89 df             	mov    rdi,rbx
+   93a5f:	ff 15 63 03 05 00    	call   QWORD PTR [rip+0x50363]        # e3dc8 <_DYNAMIC+0x208>
+   93a65:	4c 89 f7             	mov    rdi,r14
+   93a68:	e8 23 8f 04 00       	call   dc990 <_Unwind_Resume@plt>
+   93a6d:	cc                   	int3   
+   93a6e:	cc                   	int3   
+   93a6f:	cc                   	int3   
+
+0000000000093a90 <future_backtest_sdk::context::StrategyContext::meta_account>:
+   93a90:	53                   	push   rbx
+   93a91:	48 83 ec 70          	sub    rsp,0x70
+   93a95:	48 89 fb             	mov    rbx,rdi
+   93a98:	c6 44 24 08 00       	mov    BYTE PTR [rsp+0x8],0x0
+   93a9d:	0f 57 c0             	xorps  xmm0,xmm0
+   93aa0:	0f 11 44 24 10       	movups XMMWORD PTR [rsp+0x10],xmm0
+   93aa5:	0f 11 44 24 20       	movups XMMWORD PTR [rsp+0x20],xmm0
+   93aaa:	0f 11 44 24 29       	movups XMMWORD PTR [rsp+0x29],xmm0
+   93aaf:	0f 11 44 24 40       	movups XMMWORD PTR [rsp+0x40],xmm0
+   93ab4:	0f 11 44 24 50       	movups XMMWORD PTR [rsp+0x50],xmm0
+   93ab9:	0f 11 44 24 60       	movups XMMWORD PTR [rsp+0x60],xmm0
+   93abe:	48 8b 7e 30          	mov    rdi,QWORD PTR [rsi+0x30]
+   93ac2:	48 8d 74 24 08       	lea    rsi,[rsp+0x8]
+   93ac7:	ff 15 3b 09 05 00    	call   QWORD PTR [rip+0x5093b]        # e4408 <fb_ctx_meta_account@Base>
+   93acd:	b9 02 00 00 00       	mov    ecx,0x2
+   93ad2:	83 f8 01             	cmp    eax,0x1
+   93ad5:	75 52                	jne    93b29 <future_backtest_sdk::context::StrategyContext::meta_account+0x99>
+   93ad7:	0f b6 44 24 08       	movzx  eax,BYTE PTR [rsp+0x8]
+   93adc:	f2 0f 10 44 24 30    	movsd  xmm0,QWORD PTR [rsp+0x30]
+   93ae2:	0f b6 4c 24 38       	movzx  ecx,BYTE PTR [rsp+0x38]
+   93ae7:	f2 0f 10 4c 24 60    	movsd  xmm1,QWORD PTR [rsp+0x60]
+   93aed:	f2 0f 10 54 24 68    	movsd  xmm2,QWORD PTR [rsp+0x68]
+   93af3:	0f 10 5c 24 40       	movups xmm3,XMMWORD PTR [rsp+0x40]
+   93af8:	0f 11 5b 08          	movups XMMWORD PTR [rbx+0x8],xmm3
+   93afc:	0f 10 5c 24 50       	movups xmm3,XMMWORD PTR [rsp+0x50]
+   93b01:	0f 11 5b 18          	movups XMMWORD PTR [rbx+0x18],xmm3
+   93b05:	f2 0f 11 4b 28       	movsd  QWORD PTR [rbx+0x28],xmm1
+   93b0a:	0f 10 4c 24 10       	movups xmm1,XMMWORD PTR [rsp+0x10]
+   93b0f:	0f 11 4b 30          	movups XMMWORD PTR [rbx+0x30],xmm1
+   93b13:	0f 10 4c 24 20       	movups xmm1,XMMWORD PTR [rsp+0x20]
+   93b18:	0f 11 4b 40          	movups XMMWORD PTR [rbx+0x40],xmm1
+   93b1c:	f2 0f 11 43 50       	movsd  QWORD PTR [rbx+0x50],xmm0
+   93b21:	f2 0f 11 53 58       	movsd  QWORD PTR [rbx+0x58],xmm2
+   93b26:	88 43 60             	mov    BYTE PTR [rbx+0x60],al
+   93b29:	48 89 0b             	mov    QWORD PTR [rbx],rcx
+   93b2c:	48 89 d8             	mov    rax,rbx
+   93b2f:	48 83 c4 70          	add    rsp,0x70
+   93b33:	5b                   	pop    rbx
+   93b34:	c3                   	ret    
+   93b35:	cc                   	int3   
+   93b36:	cc                   	int3   
+   93b37:	cc                   	int3   
+   93b38:	cc                   	int3   
+   93b39:	cc                   	int3   
+   93b3a:	cc                   	int3   
+   93b3b:	cc                   	int3   
+   93b3c:	cc                   	int3   
+   93b3d:	cc                   	int3   
+   93b3e:	cc                   	int3   
+   93b3f:	cc                   	int3   
+
+0000000000093a70 <future_backtest_sdk::context::StrategyContext::contract_rank>:
+   93a70:	48 8b 7f 30          	mov    rdi,QWORD PTR [rdi+0x30]
+   93a74:	ff 25 7e 09 05 00    	jmp    QWORD PTR [rip+0x5097e]        # e43f8 <fb_ctx_contract_rank@Base>
+   93a7a:	cc                   	int3   
+   93a7b:	cc                   	int3   
+   93a7c:	cc                   	int3   
+   93a7d:	cc                   	int3   
+   93a7e:	cc                   	int3   
+   93a7f:	cc                   	int3   
+
+0000000000095500 <future_backtest_sdk::context::StrategyContext::get_published>:
+   95500:	55                   	push   rbp
+   95501:	41 57                	push   r15
+   95503:	41 56                	push   r14
+   95505:	41 55                	push   r13
+   95507:	41 54                	push   r12
+   95509:	53                   	push   rbx
+   9550a:	48 83 ec 28          	sub    rsp,0x28
+   9550e:	4c 89 cd             	mov    rbp,r9
+   95511:	4c 89 c3             	mov    rbx,r8
+   95514:	49 89 ce             	mov    r14,rcx
+   95517:	49 89 fd             	mov    r13,rdi
+   9551a:	4c 8b 3d ef ee 04 00 	mov    r15,QWORD PTR [rip+0x4eeef]        # e4410 <_DYNAMIC+0x850>
+   95521:	48 89 f7             	mov    rdi,rsi
+   95524:	48 89 d6             	mov    rsi,rdx
+   95527:	41 ff d7             	call   r15
+   9552a:	48 89 44 24 08       	mov    QWORD PTR [rsp+0x8],rax
+   9552f:	48 89 54 24 10       	mov    QWORD PTR [rsp+0x10],rdx
+   95534:	4c 89 f7             	mov    rdi,r14
+   95537:	48 89 de             	mov    rsi,rbx
+   9553a:	41 ff d7             	call   r15
+   9553d:	49 89 c4             	mov    r12,rax
+   95540:	49 89 d7             	mov    r15,rdx
+   95543:	48 8b 74 24 60       	mov    rsi,QWORD PTR [rsp+0x60]
+   95548:	48 89 ef             	mov    rdi,rbp
+   9554b:	ff 15 bf ee 04 00    	call   QWORD PTR [rip+0x4eebf]        # e4410 <_DYNAMIC+0x850>
+   95551:	48 89 c3             	mov    rbx,rax
+   95554:	49 89 d6             	mov    r14,rdx
+   95557:	48 c7 44 24 18 00 00 	mov    QWORD PTR [rsp+0x18],0x0
+   9555e:	00 00 
+   95560:	49 8b 7d 30          	mov    rdi,QWORD PTR [r13+0x30]
+   95564:	4c 8d 44 24 18       	lea    r8,[rsp+0x18]
+   95569:	4c 8b 6c 24 08       	mov    r13,QWORD PTR [rsp+0x8]
+   9556e:	4c 89 ee             	mov    rsi,r13
+   95571:	4c 89 e2             	mov    rdx,r12
+   95574:	48 89 c1             	mov    rcx,rax
+   95577:	ff 15 63 ef 04 00    	call   QWORD PTR [rip+0x4ef63]        # e44e0 <fb_ctx_get_published@Base>
+   9557d:	89 c5                	mov    ebp,eax
+   9557f:	f2 0f 10 44 24 18    	movsd  xmm0,QWORD PTR [rsp+0x18]
+   95585:	f2 0f 11 44 24 20    	movsd  QWORD PTR [rsp+0x20],xmm0
+   9558b:	c6 03 00             	mov    BYTE PTR [rbx],0x0
+   9558e:	4d 85 f6             	test   r14,r14
+   95591:	74 11                	je     955a4 <future_backtest_sdk::context::StrategyContext::get_published+0xa4>
+   95593:	ba 01 00 00 00       	mov    edx,0x1
+   95598:	48 89 df             	mov    rdi,rbx
+   9559b:	4c 89 f6             	mov    rsi,r14
+   9559e:	ff 15 24 e8 04 00    	call   QWORD PTR [rip+0x4e824]        # e3dc8 <_DYNAMIC+0x208>
+   955a4:	41 c6 04 24 00       	mov    BYTE PTR [r12],0x0
+   955a9:	4d 85 ff             	test   r15,r15
+   955ac:	74 11                	je     955bf <future_backtest_sdk::context::StrategyContext::get_published+0xbf>
+   955ae:	ba 01 00 00 00       	mov    edx,0x1
+   955b3:	4c 89 e7             	mov    rdi,r12
+   955b6:	4c 89 fe             	mov    rsi,r15
+   955b9:	ff 15 09 e8 04 00    	call   QWORD PTR [rip+0x4e809]        # e3dc8 <_DYNAMIC+0x208>
+   955bf:	41 c6 45 00 00       	mov    BYTE PTR [r13+0x0],0x0
+   955c4:	48 8b 74 24 10       	mov    rsi,QWORD PTR [rsp+0x10]
+   955c9:	48 85 f6             	test   rsi,rsi
+   955cc:	74 0e                	je     955dc <future_backtest_sdk::context::StrategyContext::get_published+0xdc>
+   955ce:	ba 01 00 00 00       	mov    edx,0x1
+   955d3:	4c 89 ef             	mov    rdi,r13
+   955d6:	ff 15 ec e7 04 00    	call   QWORD PTR [rip+0x4e7ec]        # e3dc8 <_DYNAMIC+0x208>
+   955dc:	31 c0                	xor    eax,eax
+   955de:	83 fd 01             	cmp    ebp,0x1
+   955e1:	0f 94 c0             	sete   al
+   955e4:	f2 0f 10 44 24 20    	movsd  xmm0,QWORD PTR [rsp+0x20]
+   955ea:	48 83 c4 28          	add    rsp,0x28
+   955ee:	5b                   	pop    rbx
+   955ef:	41 5c                	pop    r12
+   955f1:	41 5d                	pop    r13
+   955f3:	41 5e                	pop    r14
+   955f5:	41 5f                	pop    r15
+   955f7:	5d                   	pop    rbp
+   955f8:	c3                   	ret    
+   955f9:	49 89 c5             	mov    r13,rax
+   955fc:	41 c6 04 24 00       	mov    BYTE PTR [r12],0x0
+   95601:	4d 85 ff             	test   r15,r15
+   95604:	74 16                	je     9561c <future_backtest_sdk::context::StrategyContext::get_published+0x11c>
+   95606:	ba 01 00 00 00       	mov    edx,0x1
+   9560b:	4c 89 e7             	mov    rdi,r12
+   9560e:	4c 89 fe             	mov    rsi,r15
+   95611:	ff 15 b1 e7 04 00    	call   QWORD PTR [rip+0x4e7b1]        # e3dc8 <_DYNAMIC+0x208>
+   95617:	eb 03                	jmp    9561c <future_backtest_sdk::context::StrategyContext::get_published+0x11c>
+   95619:	49 89 c5             	mov    r13,rax
+   9561c:	48 8b 44 24 08       	mov    rax,QWORD PTR [rsp+0x8]
+   95621:	c6 00 00             	mov    BYTE PTR [rax],0x0
+   95624:	48 83 7c 24 10 00    	cmp    QWORD PTR [rsp+0x10],0x0
+   9562a:	74 15                	je     95641 <future_backtest_sdk::context::StrategyContext::get_published+0x141>
+   9562c:	ba 01 00 00 00       	mov    edx,0x1
+   95631:	48 8b 7c 24 08       	mov    rdi,QWORD PTR [rsp+0x8]
+   95636:	48 8b 74 24 10       	mov    rsi,QWORD PTR [rsp+0x10]
+   9563b:	ff 15 87 e7 04 00    	call   QWORD PTR [rip+0x4e787]        # e3dc8 <_DYNAMIC+0x208>
+   95641:	4c 89 ef             	mov    rdi,r13
+   95644:	e8 47 73 04 00       	call   dc990 <_Unwind_Resume@plt>
+   95649:	cc                   	int3   
+   9564a:	cc                   	int3   
+   9564b:	cc                   	int3   
+   9564c:	cc                   	int3   
+   9564d:	cc                   	int3   
+   9564e:	cc                   	int3   
+   9564f:	cc                   	int3   
+
+0000000000094520 <future_backtest_sdk::context::StrategyContext::margin_filter>:
+   94520:	50                   	push   rax
+   94521:	31 c0                	xor    eax,eax
+   94523:	40 80 fe 04          	cmp    sil,0x4
+   94527:	0f 95 c0             	setne  al
+   9452a:	40 0f b6 ce          	movzx  ecx,sil
+   9452e:	ba ff ff ff ff       	mov    edx,0xffffffff
+   94533:	0f 45 d1             	cmovne edx,ecx
+   94536:	48 8b 7f 30          	mov    rdi,QWORD PTR [rdi+0x30]
+   9453a:	89 c6                	mov    esi,eax
+   9453c:	ff 15 46 ff 04 00    	call   QWORD PTR [rip+0x4ff46]        # e4488 <fb_ctx_margin_filter@Base>
+   94542:	83 f8 04             	cmp    eax,0x4
+   94545:	b9 04 00 00 00       	mov    ecx,0x4
+   9454a:	0f 43 c1             	cmovae eax,ecx
+   9454d:	59                   	pop    rcx
+   9454e:	c3                   	ret    
+   9454f:	cc                   	int3   
+
+00000000000947b0 <future_backtest_sdk::context::StrategyContext::place_order_iap>:
+   947b0:	55                   	push   rbp
+   947b1:	41 57                	push   r15
+   947b3:	41 56                	push   r14
+   947b5:	41 55                	push   r13
+   947b7:	41 54                	push   r12
+   947b9:	53                   	push   rbx
+   947ba:	48 81 ec 08 01 00 00 	sub    rsp,0x108
+   947c1:	49 89 f6             	mov    r14,rsi
+   947c4:	48 89 fb             	mov    rbx,rdi
+   947c7:	48 8b 7e 08          	mov    rdi,QWORD PTR [rsi+0x8]
+   947cb:	48 8b 76 10          	mov    rsi,QWORD PTR [rsi+0x10]
+   947cf:	48 89 3c 24          	mov    QWORD PTR [rsp],rdi
+   947d3:	ff 15 37 fc 04 00    	call   QWORD PTR [rip+0x4fc37]        # e4410 <_DYNAMIC+0x850>
+   947d9:	49 89 c4             	mov    r12,rax
+   947dc:	49 89 d7             	mov    r15,rdx
+   947df:	4c 8b 6b 30          	mov    r13,QWORD PTR [rbx+0x30]
+   947e3:	4c 89 ef             	mov    rdi,r13
+   947e6:	ff 15 a4 fc 04 00    	call   QWORD PTR [rip+0x4fca4]        # e4490 <fb_ctx_liquidity_consumption@Base>
+   947ec:	89 c5                	mov    ebp,eax
+   947ee:	f2 41 0f 10 46 48    	movsd  xmm0,QWORD PTR [r14+0x48]
+   947f4:	0f 29 44 24 30       	movaps XMMWORD PTR [rsp+0x30],xmm0
+   947f9:	41 0f 10 46 18       	movups xmm0,XMMWORD PTR [r14+0x18]
+   947fe:	0f 29 44 24 60       	movaps XMMWORD PTR [rsp+0x60],xmm0
+   94803:	41 0f 10 46 28       	movups xmm0,XMMWORD PTR [r14+0x28]
+   94808:	0f 29 44 24 50       	movaps XMMWORD PTR [rsp+0x50],xmm0
+   9480d:	f3 41 0f 6f 46 38    	movdqu xmm0,XMMWORD PTR [r14+0x38]
+   94813:	66 0f 7f 44 24 40    	movdqa XMMWORD PTR [rsp+0x40],xmm0
+   94819:	4c 89 ef             	mov    rdi,r13
+   9481c:	ff 15 c6 fb 04 00    	call   QWORD PTR [rip+0x4fbc6]        # e43e8 <fb_ctx_is_night@Base>
+   94822:	48 8b 4b 38          	mov    rcx,QWORD PTR [rbx+0x38]
+   94826:	48 85 c9             	test   rcx,rcx
+   94829:	74 06                	je     94831 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x81>
+   9482b:	0f b6 49 30          	movzx  ecx,BYTE PTR [rcx+0x30]
+   9482f:	eb 02                	jmp    94833 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x83>
+   94831:	31 c9                	xor    ecx,ecx
+   94833:	66 0f ef c0          	pxor   xmm0,xmm0
+   94837:	66 0f 6f 4c 24 30    	movdqa xmm1,XMMWORD PTR [rsp+0x30]
+   9483d:	66 0f 60 c8          	punpcklbw xmm1,xmm0
+   94841:	66 0f 61 c8          	punpcklwd xmm1,xmm0
+   94845:	66 0f d6 4c 24 78    	movq   QWORD PTR [rsp+0x78],xmm1
+   9484b:	0f 28 44 24 60       	movaps xmm0,XMMWORD PTR [rsp+0x60]
+   94850:	0f 11 84 24 80 00 00 	movups XMMWORD PTR [rsp+0x80],xmm0
+   94857:	00 
+   94858:	0f 28 44 24 50       	movaps xmm0,XMMWORD PTR [rsp+0x50]
+   9485d:	0f 11 84 24 90 00 00 	movups XMMWORD PTR [rsp+0x90],xmm0
+   94864:	00 
+   94865:	0f 28 44 24 40       	movaps xmm0,XMMWORD PTR [rsp+0x40]
+   9486a:	0f 11 84 24 a0 00 00 	movups XMMWORD PTR [rsp+0xa0],xmm0
+   94871:	00 
+   94872:	4c 89 a4 24 b0 00 00 	mov    QWORD PTR [rsp+0xb0],r12
+   94879:	00 
+   9487a:	40 88 ac 24 b8 00 00 	mov    BYTE PTR [rsp+0xb8],bpl
+   94881:	00 
+   94882:	88 84 24 b9 00 00 00 	mov    BYTE PTR [rsp+0xb9],al
+   94889:	88 8c 24 ba 00 00 00 	mov    BYTE PTR [rsp+0xba],cl
+   94890:	48 8d 74 24 78       	lea    rsi,[rsp+0x78]
+   94895:	4c 89 ef             	mov    rdi,r13
+   94898:	ff 15 02 fc 04 00    	call   QWORD PTR [rip+0x4fc02]        # e44a0 <fb_ctx_place_order_iap@Base>
+   9489e:	85 c0                	test   eax,eax
+   948a0:	78 4a                	js     948ec <future_backtest_sdk::context::StrategyContext::place_order_iap+0x13c>
+   948a2:	45 31 ed             	xor    r13d,r13d
+   948a5:	41 c6 04 24 00       	mov    BYTE PTR [r12],0x0
+   948aa:	4d 85 ff             	test   r15,r15
+   948ad:	74 11                	je     948c0 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x110>
+   948af:	ba 01 00 00 00       	mov    edx,0x1
+   948b4:	4c 89 e7             	mov    rdi,r12
+   948b7:	4c 89 fe             	mov    rsi,r15
+   948ba:	ff 15 08 f5 04 00    	call   QWORD PTR [rip+0x4f508]        # e3dc8 <_DYNAMIC+0x208>
+   948c0:	49 8b 36             	mov    rsi,QWORD PTR [r14]
+   948c3:	48 85 f6             	test   rsi,rsi
+   948c6:	74 0f                	je     948d7 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x127>
+   948c8:	ba 01 00 00 00       	mov    edx,0x1
+   948cd:	48 8b 3c 24          	mov    rdi,QWORD PTR [rsp]
+   948d1:	ff 15 f1 f4 04 00    	call   QWORD PTR [rip+0x4f4f1]        # e3dc8 <_DYNAMIC+0x208>
+   948d7:	4c 89 e8             	mov    rax,r13
+   948da:	48 81 c4 08 01 00 00 	add    rsp,0x108
+   948e1:	5b                   	pop    rbx
+   948e2:	41 5c                	pop    r12
+   948e4:	41 5d                	pop    r13
+   948e6:	41 5e                	pop    r14
+   948e8:	41 5f                	pop    r15
+   948ea:	5d                   	pop    rbp
+   948eb:	c3                   	ret    
+   948ec:	48 8d 5c 24 08       	lea    rbx,[rsp+0x8]
+   948f1:	48 89 df             	mov    rdi,rbx
+   948f4:	4c 89 ee             	mov    rsi,r13
+   948f7:	e8 54 0d 00 00       	call   95650 <future_backtest_sdk::context::StrategyContext::last_error>
+   948fc:	48 89 5c 24 20       	mov    QWORD PTR [rsp+0x20],rbx
+   94901:	48 8d 05 88 ed ff ff 	lea    rax,[rip+0xffffffffffffed88]        # 93690 <<alloc::string::String as core::fmt::Display>::fmt>
+   94908:	48 89 44 24 28       	mov    QWORD PTR [rsp+0x28],rax
+   9490d:	48 8d 05 8c bf 04 00 	lea    rax,[rip+0x4bf8c]        # e08a0 <anon.e69fa87c05f933b9fe1f9c21a2065ba3.7.llvm.603266175965479879+0x458>
+   94914:	48 89 84 24 c0 00 00 	mov    QWORD PTR [rsp+0xc0],rax
+   9491b:	00 
+   9491c:	48 c7 84 24 c8 00 00 	mov    QWORD PTR [rsp+0xc8],0x1
+   94923:	00 01 00 00 00 
+   94928:	48 c7 84 24 e0 00 00 	mov    QWORD PTR [rsp+0xe0],0x0
+   9492f:	00 00 00 00 00 
+   94934:	48 8d 44 24 20       	lea    rax,[rsp+0x20]
+   94939:	48 89 84 24 d0 00 00 	mov    QWORD PTR [rsp+0xd0],rax
+   94940:	00 
+   94941:	48 c7 84 24 d8 00 00 	mov    QWORD PTR [rsp+0xd8],0x1
+   94948:	00 01 00 00 00 
+   9494d:	48 8d bc 24 f0 00 00 	lea    rdi,[rsp+0xf0]
+   94954:	00 
+   94955:	48 8d b4 24 c0 00 00 	lea    rsi,[rsp+0xc0]
+   9495c:	00 
+   9495d:	ff 15 3d f5 04 00    	call   QWORD PTR [rip+0x4f53d]        # e3ea0 <_DYNAMIC+0x2e0>
+   94963:	48 8b 74 24 08       	mov    rsi,QWORD PTR [rsp+0x8]
+   94968:	48 85 f6             	test   rsi,rsi
+   9496b:	74 10                	je     9497d <future_backtest_sdk::context::StrategyContext::place_order_iap+0x1cd>
+   9496d:	48 8b 7c 24 10       	mov    rdi,QWORD PTR [rsp+0x10]
+   94972:	ba 01 00 00 00       	mov    edx,0x1
+   94977:	ff 15 4b f4 04 00    	call   QWORD PTR [rip+0x4f44b]        # e3dc8 <_DYNAMIC+0x208>
+   9497d:	48 8d bc 24 f0 00 00 	lea    rdi,[rsp+0xf0]
+   94984:	00 
+   94985:	e8 06 16 00 00       	call   95f90 <anyhow::error::<impl anyhow::Error>::msg>
+   9498a:	49 89 c5             	mov    r13,rax
+   9498d:	41 c6 04 24 00       	mov    BYTE PTR [r12],0x0
+   94992:	4d 85 ff             	test   r15,r15
+   94995:	0f 85 14 ff ff ff    	jne    948af <future_backtest_sdk::context::StrategyContext::place_order_iap+0xff>
+   9499b:	e9 20 ff ff ff       	jmp    948c0 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x110>
+   949a0:	49 89 c5             	mov    r13,rax
+   949a3:	48 8b 74 24 08       	mov    rsi,QWORD PTR [rsp+0x8]
+   949a8:	48 85 f6             	test   rsi,rsi
+   949ab:	74 15                	je     949c2 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x212>
+   949ad:	48 8b 7c 24 10       	mov    rdi,QWORD PTR [rsp+0x10]
+   949b2:	ba 01 00 00 00       	mov    edx,0x1
+   949b7:	ff 15 0b f4 04 00    	call   QWORD PTR [rip+0x4f40b]        # e3dc8 <_DYNAMIC+0x208>
+   949bd:	eb 03                	jmp    949c2 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x212>
+   949bf:	49 89 c5             	mov    r13,rax
+   949c2:	41 c6 04 24 00       	mov    BYTE PTR [r12],0x0
+   949c7:	4d 85 ff             	test   r15,r15
+   949ca:	74 16                	je     949e2 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x232>
+   949cc:	ba 01 00 00 00       	mov    edx,0x1
+   949d1:	4c 89 e7             	mov    rdi,r12
+   949d4:	4c 89 fe             	mov    rsi,r15
+   949d7:	ff 15 eb f3 04 00    	call   QWORD PTR [rip+0x4f3eb]        # e3dc8 <_DYNAMIC+0x208>
+   949dd:	eb 03                	jmp    949e2 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x232>
+   949df:	49 89 c5             	mov    r13,rax
+   949e2:	49 8b 36             	mov    rsi,QWORD PTR [r14]
+   949e5:	48 85 f6             	test   rsi,rsi
+   949e8:	74 0f                	je     949f9 <future_backtest_sdk::context::StrategyContext::place_order_iap+0x249>
+   949ea:	ba 01 00 00 00       	mov    edx,0x1
+   949ef:	48 8b 3c 24          	mov    rdi,QWORD PTR [rsp]
+   949f3:	ff 15 cf f3 04 00    	call   QWORD PTR [rip+0x4f3cf]        # e3dc8 <_DYNAMIC+0x208>
+   949f9:	4c 89 ef             	mov    rdi,r13
+   949fc:	e8 8f 7f 04 00       	call   dc990 <_Unwind_Resume@plt>
+   94a01:	cc                   	int3   
+   94a02:	cc                   	int3   
+   94a03:	cc                   	int3   
+   94a04:	cc                   	int3   
+   94a05:	cc                   	int3   
+   94a06:	cc                   	int3   
+   94a07:	cc                   	int3   
+   94a08:	cc                   	int3   
+   94a09:	cc                   	int3   
+   94a0a:	cc                   	int3   
+   94a0b:	cc                   	int3   
+   94a0c:	cc                   	int3   
+   94a0d:	cc                   	int3   
+   94a0e:	cc                   	int3   
+   94a0f:	cc                   	int3   

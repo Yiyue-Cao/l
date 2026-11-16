@@ -1,0 +1,46 @@
+000000000004f0e0	OK	strategy_comm4::next_phase
+000000000004ed50	OK	strategy_comm4::Comm4Params::signal_mode
+000000000004ed90	OK	strategy_comm4::Comm4Params::signal_trigger_mode
+000000000004eea0	OK	strategy_comm4::Comm4Params::effective
+0000000000071d90	OK	strategy_comm4::signal_trigger::SignalTrigger::update_score
+0000000000072c20	OK	strategy_comm4::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000072200	OK	strategy_comm4::signal_trigger::SignalTrigger::windows_std_trigger
+00000000000720f0	OK	strategy_comm4::signal_trigger::SignalTrigger::windows_mean_trigger
+00000000000729d0	OK	strategy_comm4::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000072060	OK	strategy_comm4::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+0000000000072310	OK	strategy_comm4::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000071fd0	OK	strategy_comm4::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+00000000000733c0	OK	strategy_comm4::signal_trigger::dynamic_threshold
+0000000000072e50	OK	_ZN14strategy_comm414signal_trigger17enum_rate_counter17h8905a6d63e128319E.llvm.12030102277605901293
+00000000000719a0	OK	strategy_comm4::signal_trigger::TsQuantileCalculator::update
+000000000004ff50	OK	strategy_comm4::high_taker_rate
+000000000006d120	OK	strategy_comm4::__fb_plugin_impl::destroy
+000000000006c920	OK	strategy_comm4::__fb_plugin_impl::on_begin
+000000000006cbb0	OK	strategy_comm4::__fb_plugin_impl::on_depth
+000000000006cde0	OK	strategy_comm4::__fb_plugin_impl::on_order
+000000000006ccf0	OK	strategy_comm4::__fb_plugin_impl::on_finish
+000000000006ca10	OK	strategy_comm4::__fb_plugin_impl::on_signal
+0000000000076a30	OK	strategy_comm4::vol_spread_ratio::VolSpreadRatio::update
+000000000004f9e0	OK	strategy_comm4::live_pending_counts
+000000000004f180	OK	strategy_comm4::cancel_order_use_range
+0000000000055080	OK	strategy_comm4::place
+0000000000048030	OK	<strategy_comm4::_::<impl serde_core::de::Deserialize for strategy_comm4::Comm4Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000005ec10	OK	_ZN171_$LT$strategy_comm4.._..$LT$impl$u20$serde_core..de..Deserialize$u20$for$u20$strategy_comm4..Comm4Params$GT$..deserialize..__Visitor$u20$as$u20$serde_core..de..Visitor$GT$9visit_map17hfb1b4098485a019eE.llvm.1759993155560618954
+000000000004cce0	OK	<strategy_comm4::_::<impl serde_core::de::Deserialize for strategy_comm4::PhaseParams>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+00000000000550a0	OK	<strategy_comm4::_::<impl serde_core::de::Deserialize for strategy_comm4::Comm4Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000055b10	OK	<strategy_comm4::_::<impl serde_core::de::Deserialize for strategy_comm4::PhaseParams>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000006b230	OK	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm4::signal_trigger::SignalTrigger>>
+000000000004e340	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm4::signal_trigger::SignalTrigger>>
+000000000004e440	OK	core::ptr::drop_in_place<strategy_comm4::Comm4Params>
+000000000006b320	OK	core::ptr::drop_in_place<strategy_comm4::StrategyComm4>
+0000000000057fa0	OK	_ZN4core3ptr69drop_in_place$LT$strategy_comm4..vol_spread_ratio..VolSpreadRatio$GT$17hfd262a1471f3eb53E.llvm.8634291397887141858
+00000000000751b0	OK	core::ptr::drop_in_place<strategy_comm4::signal_trigger::TsQuantileCalculator>
+0000000000058050	OK	_ZN4core3ptr73drop_in_place$LT$strategy_comm4..signal_trigger..TsQuantileCalculator$GT$17h20586fb47496c676E.llvm.8634291397887141858
+000000000006b760	OK	core::ptr::drop_in_place<core::option::Option<strategy_comm4::Comm4Params>>
+0000000000050090	OK	<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000054d80	OK	<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+0000000000054f60	OK	<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000050380	OK	<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000006d160	OK	create_strategy
+000000000006c8c0	OK	fb_strategy_sdk_abi_version
+000000000006c8d0	OK	fb_strategy_sdk_version_str

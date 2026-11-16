@@ -1,0 +1,84 @@
+openjdk version "21.0.2" 2024-01-16
+OpenJDK Runtime Environment (build 21.0.2+13-58)
+OpenJDK 64-Bit Server VM (build 21.0.2+13-58, mixed mode)
+INFO  Using log config file: jar:REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: REMOTE_HOME/.config/ghidra/ghidra_11.3.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1124 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (2369 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    REMOTE_WORKSPACE/tmp/1008/l
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: REMOTE_WORKSPACE/tmp/1008/l/通用程序_stockidx_20261114/analysis/libfill_prob_probe.so/project_targeted/targeted (HeadlessAnalyzer)  
+INFO  Creating project: REMOTE_WORKSPACE/tmp/1008/l/通用程序_stockidx_20261114/analysis/libfill_prob_probe.so/project_targeted/targeted (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: REMOTE_WORKSPACE/tmp/1008/l/通用程序_stockidx_20261114/analysis/libfill_prob_probe.so/project_targeted/targeted (HeadlessAnalyzer)  
+INFO  IMPORTING: REMOTE_WORKSPACE/tmp/1008/l/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F_stockidx_20261114/libfill_prob_probe.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (AutoImporter)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (AutoImporter)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (AutoImporter)  
+INFO  Additional info:
+Loading REMOTE_WORKSPACE/tmp/1008/l/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F_stockidx_20261114/libfill_prob_probe.so?MD5=824c912850181d79c48177d7f7adf664...
+Skipping section [.tm_clone_table] with invalid size 0x0
+Unsupported Thread-Local Symbol not loaded: _ZN3std9panicking11panic_count17LOCAL_PANIC_COUNT29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17h1c2854fe96ace521E
+Unsupported Thread-Local Symbol not loaded: _ZN3std2io5stdio14OUTPUT_CAPTURE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17hae3c4815d7389fe0E
+Unsupported Thread-Local Symbol not loaded: _ZN3std3sys12thread_local11destructors4list5DTORS17h883539349262e418E
+Unsupported Thread-Local Symbol not loaded: _ZN3std4hash6random11RandomState3new4KEYS29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17hdc43900478f1264bE
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current2id2ID17h0b5601915de1353eE
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current7CURRENT17he792ea6fe59fe742E
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001ca140 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001ca200 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001cab50 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+ELF Relocation Failure: R_X86_64_DTPMOD64 (16, 0x10) at 001cab70 (Symbol = <no name>) - Thread Local Symbol relocation not supported
+Setting block .tdata to read-only
+Setting block .fini_array to read-only
+Setting block .init_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+Failed to markup ELF Note at 001002a8: data conflict
+Installed 3 Rust cspec extensions
+------------------------------------------------
+
+Linking the External Programs of 'libfill_prob_probe.so' to imported libraries...
+  [libjvm.so] -> not found in project
+  [libfuture_backtest.so] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux-x86-64.so.2] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libfill_prob_probe.so] - 93 unresolved symbols, no external libraries configured - skipping
+ (AutoImporter)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  SCRIPT: REMOTE_WORKSPACE/tmp/1008/l/ExportBounded.java (HeadlessAnalyzer)  
+INFO  REPORT: Save succeeded for: /libfill_prob_probe.so (targeted:/libfill_prob_probe.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

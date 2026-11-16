@@ -1,0 +1,16 @@
+// ELF address 0x0000000000060b30; _ZN4core3ptr73drop_in_place$LT$strategy_comm5..signal_trigger..TsQuantileCalculator$GT$17hf7c0dd9828cd00a9E.llvm.2190550127363389366
+
+/* core::ptr::drop_in_place<strategy_comm5::signal_trigger::TsQuantileCalculator> */
+
+void __rustcall
+core::ptr::drop_in_place<strategy_comm5::signal_trigger::TsQuantileCalculator>(long *param_1)
+
+{
+  if (*param_1 != 0) {
+    (*(code *)PTR___rust_dealloc_00203c78)(param_1[1],*param_1 * 0x18,8);
+  }
+  _<alloc::collections::btree::map::BTreeMap<K,V,A>as_core::ops::drop::Drop>::drop(param_1 + 4);
+  return;
+}
+
+

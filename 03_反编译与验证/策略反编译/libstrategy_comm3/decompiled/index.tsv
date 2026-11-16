@@ -1,0 +1,41 @@
+0000000000038b60	OK	strategy_comm3::Comm3Params::signal_mode
+0000000000038cb0	OK	strategy_comm3::Comm3Params::low_action_enum
+0000000000038ba0	OK	strategy_comm3::Comm3Params::signal_trigger_mode
+0000000000059e70	OK	strategy_comm3::signal_trigger::SignalTrigger::update_score
+000000000005ac40	OK	strategy_comm3::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000005a280	OK	strategy_comm3::signal_trigger::SignalTrigger::windows_std_trigger
+000000000005a1d0	OK	strategy_comm3::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000005a9f0	OK	strategy_comm3::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000005a140	OK	strategy_comm3::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+000000000005a330	OK	strategy_comm3::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000005a0b0	OK	strategy_comm3::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000005b3e0	OK	strategy_comm3::signal_trigger::dynamic_threshold
+000000000005ae70	OK	_ZN14strategy_comm314signal_trigger17enum_rate_counter17h905b0f882511e003E.llvm.5776159170460620602
+0000000000059a80	OK	strategy_comm3::signal_trigger::TsQuantileCalculator::update
+0000000000062780	OK	strategy_comm3::__fb_plugin_impl::destroy
+0000000000061f80	OK	strategy_comm3::__fb_plugin_impl::on_begin
+0000000000062210	OK	strategy_comm3::__fb_plugin_impl::on_depth
+0000000000062440	OK	strategy_comm3::__fb_plugin_impl::on_order
+0000000000062350	OK	strategy_comm3::__fb_plugin_impl::on_finish
+0000000000062070	OK	strategy_comm3::__fb_plugin_impl::on_signal
+0000000000060dc0	OK	strategy_comm3::vol_spread_ratio::VolSpreadRatio::update
+0000000000039540	OK	strategy_comm3::live_pending_counts
+0000000000038ce0	OK	strategy_comm3::cancel_order_use_range
+000000000003d440	OK	strategy_comm3::place
+00000000000487a0	OK	<strategy_comm3::_::<impl serde_core::de::Deserialize for strategy_comm3::Comm3Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000003d460	OK	<strategy_comm3::_::<impl serde_core::de::Deserialize for strategy_comm3::Comm3Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+00000000000612a0	OK	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm3::signal_trigger::SignalTrigger>>
+0000000000038580	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm3::signal_trigger::SignalTrigger>>
+0000000000038680	OK	core::ptr::drop_in_place<strategy_comm3::Comm3Params>
+0000000000061390	OK	core::ptr::drop_in_place<strategy_comm3::StrategyComm3>
+000000000004b750	OK	_ZN4core3ptr69drop_in_place$LT$strategy_comm3..vol_spread_ratio..VolSpreadRatio$GT$17h6af2d77dfd596f75E.llvm.671452557542753696
+000000000005eda0	OK	core::ptr::drop_in_place<strategy_comm3::signal_trigger::TsQuantileCalculator>
+000000000004b800	OK	_ZN4core3ptr73drop_in_place$LT$strategy_comm3..signal_trigger..TsQuantileCalculator$GT$17h0d27bc3295de9bd0E.llvm.671452557542753696
+0000000000061740	OK	core::ptr::drop_in_place<core::option::Option<strategy_comm3::Comm3Params>>
+0000000000039ab0	OK	<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000003d140	OK	<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000003d320	OK	<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000039e00	OK	<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+00000000000627c0	OK	create_strategy
+0000000000061f20	OK	fb_strategy_sdk_abi_version
+0000000000061f30	OK	fb_strategy_sdk_version_str

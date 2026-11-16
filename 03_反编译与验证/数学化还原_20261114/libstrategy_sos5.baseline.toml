@@ -1,0 +1,5 @@
+watcher_strategy_name="probe"
+watcher_account_name="probe"
+section1 = {insts=["IF"],ranks=[1],signal_all="0",trade_mode="IAP"}
+section2 = {insts=["IF"],ranks=[1],signal_all="0",trade_mode="IAP"}
+section3 = {insts=["IF"],ranks=[1],signal_all="0",trade_mode="IAP"}

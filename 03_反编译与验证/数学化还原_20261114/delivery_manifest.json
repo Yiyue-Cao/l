@@ -1,0 +1,751 @@
+{
+  "scope": "new mathematics documents and evidence; originals additionally checked against math_docs_manifest",
+  "files": [
+    {
+      "path": "19个策略_数学化还原索引.md",
+      "bytes": 5015,
+      "sha256": "44852d3d99bef870439ee9525741c1d2ddead949fba866656e5a8ec7fd138c0e"
+    },
+    {
+      "path": "libstrategy_comm2.md",
+      "bytes": 24294,
+      "sha256": "f4f6a0d872f0a4627aaa3e4062601550de7cbff0b8007907ba226d99715c7529"
+    },
+    {
+      "path": "libstrategy_comm3.md",
+      "bytes": 24696,
+      "sha256": "6b70e74e8f35866302d2ae8c1d417e44970e806d16bf60c96218565e8f2a163e"
+    },
+    {
+      "path": "libstrategy_comm3_1.md",
+      "bytes": 25744,
+      "sha256": "20941075bc055b08961a7968ad394740897b658589fea220db841801668f75b5"
+    },
+    {
+      "path": "libstrategy_comm3_2.md",
+      "bytes": 25906,
+      "sha256": "bb5609b03f03d7416ec525a4b0e6d154d5595f6af6a7f050b53ece8ab0975fc7"
+    },
+    {
+      "path": "libstrategy_comm4.md",
+      "bytes": 31028,
+      "sha256": "2aa7da364e511f62cdb1d5f27633fed111bf63c0be96d8c4359389cde33e6f5b"
+    },
+    {
+      "path": "libstrategy_comm4_1.md",
+      "bytes": 31777,
+      "sha256": "20c5846b243714a23ad4f46a5b6a8b47179af9186c22a6501cc4723b03bb9b03"
+    },
+    {
+      "path": "libstrategy_comm5.md",
+      "bytes": 33979,
+      "sha256": "b44db997a661046c5d73a3787c64614bebe2b2c1771e5c1fa418fca3ced1fa62"
+    },
+    {
+      "path": "libstrategy_comm_maker1.md",
+      "bytes": 26411,
+      "sha256": "4e5e4a3017d720ea4015204c6d92ed14cebd4f496ca212f2584bc961de3b507f"
+    },
+    {
+      "path": "libstrategy_comm_mock.md",
+      "bytes": 26811,
+      "sha256": "858f67cedf1028dbf5b1d947416a7e3d8fee26f4480d8a9d1cfc9a8435c40f6c"
+    },
+    {
+      "path": "libstrategy_lf4.md",
+      "bytes": 13911,
+      "sha256": "03fea0e00ed5ea78db0a4c505623eea1e11ae75bb33363e739f86f85b1d80677"
+    },
+    {
+      "path": "libstrategy_sm1.md",
+      "bytes": 18948,
+      "sha256": "f6c7c659bcdfd1e09c4865bdb5d5f17f953f59e6da8c8e10b42c5c882d6ea774"
+    },
+    {
+      "path": "libstrategy_sm2.md",
+      "bytes": 13587,
+      "sha256": "243555a9f8fbf95e1c2b9e3006adda3c55795a3e20ba706c28c2d560239aa249"
+    },
+    {
+      "path": "libstrategy_sm3.md",
+      "bytes": 15848,
+      "sha256": "7e17da97db6a6263e2fe67679bc4507c9d68371fd3432aba2712ba26fcdbfde1"
+    },
+    {
+      "path": "libstrategy_sm3_1.md",
+      "bytes": 19636,
+      "sha256": "1ae18c90d85a92c686507916f95621d31a4316115685895bb13d5ff71fa9b28d"
+    },
+    {
+      "path": "libstrategy_sm4.md",
+      "bytes": 22195,
+      "sha256": "870e2bd1442de8f24e24a7639aa4c321dde0185550e9e23712fb2ec3170e39db"
+    },
+    {
+      "path": "libstrategy_sos5.md",
+      "bytes": 19868,
+      "sha256": "d1389d3caeafc96029be9536ab36027ef3f2221472d860ee1b480a60105c2aa8"
+    },
+    {
+      "path": "libstrategy_sos6.md",
+      "bytes": 18181,
+      "sha256": "59222119d1eab1353fb6a1e6f9ad6b1d820633b62c3b2bbb062587241679e6a0"
+    },
+    {
+      "path": "libstrategy_tm5.md",
+      "bytes": 14388,
+      "sha256": "e032d239d12d90044cb0f77ecd2c4c469169ba6388cd8c532d3310f520086493"
+    },
+    {
+      "path": "libstrategy_tm6.md",
+      "bytes": 17491,
+      "sha256": "0bcb29fc3e0f9f7583c6b1c0718cf066272e7a002c6e5a72a4d0d9103f65a242"
+    },
+    {
+      "path": "数学化还原_20261114/README.md",
+      "bytes": 2247,
+      "sha256": "c3d247e6513368bfb0d705112995fb5b9b0b3fcc2d5a6146a41960795134a16c"
+    },
+    {
+      "path": "数学化还原_20261114/build_math_docs.py",
+      "bytes": 65494,
+      "sha256": "e1da5541fb4cc5c93562d511d50f166677f54163313d08df0d58f098241ffc4e"
+    },
+    {
+      "path": "数学化还原_20261114/config_probe_meta.json",
+      "bytes": 24888,
+      "sha256": "1605df2324f7c30a8bf16cb416c9a8e040abe342eed28c7446d8a81ec495e0a2"
+    },
+    {
+      "path": "数学化还原_20261114/config_probe_receipt.json",
+      "bytes": 1218,
+      "sha256": "11f974a9a56cc09ed01695f40d0f1cb8f0d969c80774367f964a6e51ab0ec6d7"
+    },
+    {
+      "path": "数学化还原_20261114/extract_all_k1.py",
+      "bytes": 1566,
+      "sha256": "0a9f90112d61988923d01cedc87b98106a8804999b60242e9e9efd2cfbdc2025"
+    },
+    {
+      "path": "数学化还原_20261114/leaf_validation_receipt.json",
+      "bytes": 1218,
+      "sha256": "11f974a9a56cc09ed01695f40d0f1cb8f0d969c80774367f964a6e51ab0ec6d7"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.config_layout.json",
+      "bytes": 10831,
+      "sha256": "cf0f8c070a9b0594bff7f7b8d3f1635a83f0df86a41214f9cf9e914d652b32d1"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.leaf.log",
+      "bytes": 12,
+      "sha256": "1da6238d5deae5eed96c45c6b3b8a9c6974e2927c160af5cca4b0437fd8d35a2"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.leaf_validation.json",
+      "bytes": 1184,
+      "sha256": "8ab3b5d3b900cb64e7c005c6e91b174a4d6de6c27c9c4ef5f5b361d5f3f63817"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.probe.log",
+      "bytes": 16,
+      "sha256": "a2d82dd1a95c3a568544111ab299cb351d267542d38a9633a9d578269cfb5243"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm2.state_kernel_validation.json",
+      "bytes": 174,
+      "sha256": "adf352be157e5c026c222e3042bcb3c651359e04dba01ab65af5988e5b801da2"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.config_layout.json",
+      "bytes": 12440,
+      "sha256": "678afcb84d5b51798a0035b1fed4d71ae5ec909fcfb9c9cfa0e31ecd7687aaf0"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.leaf.log",
+      "bytes": 12,
+      "sha256": "1da6238d5deae5eed96c45c6b3b8a9c6974e2927c160af5cca4b0437fd8d35a2"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.leaf_validation.json",
+      "bytes": 1184,
+      "sha256": "d5d94e707b3e2554f6fff1fc18db3fa25d5e1dc492f9c98678c1b9c5798ca4a2"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.probe.log",
+      "bytes": 16,
+      "sha256": "536c8278581139c26e95cbe470c76962c99162b2095a0ce27ac288ba0cd82c46"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3.state_kernel_validation.json",
+      "bytes": 174,
+      "sha256": "9b7a856edf7f067302d292b80ad20b6a8e638fc800bd500ae02e5585b7dc7cf6"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.config_layout.json",
+      "bytes": 13299,
+      "sha256": "d72cc7b545ae5ea267290ca4dfd07e9b5e990737c3aecd2fc5139576882a2cbe"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.leaf_validation.json",
+      "bytes": 1423,
+      "sha256": "e6ef8a4366aaa578d5a0574a943cfa74baa10db8e1b5fee45d0196af36e4c439"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.probe.log",
+      "bytes": 16,
+      "sha256": "dea1d97d240a2a64ade07a2ae79a391aa01411f8a8044cd2106243bcaed20e72"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_1.state_kernel_validation.json",
+      "bytes": 176,
+      "sha256": "de7565571182493f63ebbd854f828c16ce76dcfbe2ccbe9d8cc91e5863c3b96e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.config_layout.json",
+      "bytes": 13613,
+      "sha256": "d14e5693c83ca196cf2d5a8cf677fc5c2971b24b95d48853a26d038339115a9e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.leaf_validation.json",
+      "bytes": 1423,
+      "sha256": "f4925588be6a60258818429f064a722f3ccb4d9bbaec85c0bd608b66cd0723e0"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.probe.log",
+      "bytes": 16,
+      "sha256": "b9e64286949ba873260ee28d483c40c9e484ea4222cce06898dfe94bc4cbaba9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm3_2.state_kernel_validation.json",
+      "bytes": 176,
+      "sha256": "31a812858c6d74c1c3da03b03eb5dedbcd500c0aeb171b6d59376b690d927358"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.config_layout.json",
+      "bytes": 16128,
+      "sha256": "5cd3824614fb0dbc86b29e94c617fa767f3b54637846ff3a1f4b3eb8d89c861f"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.leaf_validation.json",
+      "bytes": 1413,
+      "sha256": "9f01346d0ce7cb014e79155595538e9111aab89d44b4e69d223f0f78f873e398"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.nested_config.json",
+      "bytes": 5030,
+      "sha256": "f94eb04b0c65da6bf9fa6b6180ed12a63be77c41bd46dab5247dbf805448256c"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.probe.log",
+      "bytes": 16,
+      "sha256": "75b092d36b9c8c00ef92d38dc4b67bfd2aa241616595b062cf99c742845a71b4"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4.state_kernel_validation.json",
+      "bytes": 316,
+      "sha256": "cc56f50d37c24e0703b097d1110768a5a7dbe9f3e40e52c070272e8636d8494c"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.config_layout.json",
+      "bytes": 16441,
+      "sha256": "1f58a8facd4d2d310f00129a3d43fea129283c3eee1929fa1edb5fef9839c25b"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.leaf_validation.json",
+      "bytes": 1423,
+      "sha256": "d3f8f2a2038a08562fd52911c83c9ca3719117564e3627cd45941d45057a69cb"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.nested_config.json",
+      "bytes": 5030,
+      "sha256": "f94eb04b0c65da6bf9fa6b6180ed12a63be77c41bd46dab5247dbf805448256c"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.probe.log",
+      "bytes": 16,
+      "sha256": "cf8680aa4ffea752c8df4fc6ba4314283391aef6c3ff3fd71d331affb62e323e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm4_1.state_kernel_validation.json",
+      "bytes": 472,
+      "sha256": "f84b364e6b05596f7e273b456a91cf587b18dd3885feaf191b54e0b000718d26"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.config_layout.json",
+      "bytes": 20707,
+      "sha256": "9cc9234731fbab036fbdfa5bb5d370fa688c8588c9dccf7b77fa9738d0483644"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.leaf_validation.json",
+      "bytes": 1413,
+      "sha256": "714334ad228577fdcc5e2176d3b54a459a85e13d1c84d51887a238481eb9f75e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.nested_config.json",
+      "bytes": 5030,
+      "sha256": "f94eb04b0c65da6bf9fa6b6180ed12a63be77c41bd46dab5247dbf805448256c"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.probe.log",
+      "bytes": 16,
+      "sha256": "b300ef8217bd46a91e9054f02340830e486b23d74dd88b252de38d13857dc80b"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm5.state_kernel_validation.json",
+      "bytes": 466,
+      "sha256": "7ba1066a2015a4e4acc5a6826e0a923c7da5144ccee2ac19863a07a6cadf0d3d"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.config_layout.json",
+      "bytes": 12520,
+      "sha256": "8c4c8433ad88e49291f8f29635fb37f6018dc11358e78a637c1053d535bb4a65"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.leaf.log",
+      "bytes": 12,
+      "sha256": "1da6238d5deae5eed96c45c6b3b8a9c6974e2927c160af5cca4b0437fd8d35a2"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.leaf_validation.json",
+      "bytes": 1212,
+      "sha256": "0df8226b66fd24d606a36b2fb2ed8aa2408460f2e550b843f256da0398a7f9be"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.probe.log",
+      "bytes": 16,
+      "sha256": "536c8278581139c26e95cbe470c76962c99162b2095a0ce27ac288ba0cd82c46"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_maker1.state_kernel_validation.json",
+      "bytes": 180,
+      "sha256": "8377ab22d1c63d2d22825ecf3fa72152308e5a69f47802f7b2ffeec63283c2cd"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.config_layout.json",
+      "bytes": 13611,
+      "sha256": "9b8786a00dc38722590f098b475160f88c52b7a3be68b5f89eeffd5e8ff4829a"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.k1_maps.json",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.leaf.log",
+      "bytes": 12,
+      "sha256": "5d53c5eea41fe1590ff8f37b2837f9b957373dd505deb1ac89a1376978d44c4e"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.leaf_validation.json",
+      "bytes": 1433,
+      "sha256": "2d022f96ef9832748f25c97533f540ae6bec8b48c7cec5ab91c4960986ba6cd9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.probe.log",
+      "bytes": 16,
+      "sha256": "b9e64286949ba873260ee28d483c40c9e484ea4222cce06898dfe94bc4cbaba9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_comm_mock.state_kernel_validation.json",
+      "bytes": 178,
+      "sha256": "fdf4cf365220ca43ea464101054fae7efda424e0db7699290ae771882ffd8bb4"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_lf4.config_layout.json",
+      "bytes": 8782,
+      "sha256": "2900e5f830c3a70ba76465024d1c7442ff66549d2fe52be1dfc99f682876cec6"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_lf4.leaf.log",
+      "bytes": 12,
+      "sha256": "8ad9b86b87ec22724b416ec5d47341521d4acc358d7bb9b5c8e667e89f0112ea"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_lf4.leaf_validation.json",
+      "bytes": 634,
+      "sha256": "8455e90923b5d2e8920892d2f42f4755df593a8494c2f201384014c094dfbc00"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_lf4.probe.log",
+      "bytes": 16,
+      "sha256": "b69fb5fef97c5ee8def61d0d562cc9c11718f86069dc578de9a26d6a306cfef7"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.config_layout.json",
+      "bytes": 10804,
+      "sha256": "73b0b88b134f4a8618cb9c810a5da3c53f5c538ff304b82b800f38412578769b"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.leaf.log",
+      "bytes": 12,
+      "sha256": "1896bbe67b34611864f9df30527b559217d0f8196708918dcc75e1e4c5692547"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.leaf_validation.json",
+      "bytes": 901,
+      "sha256": "3a8e5eb5220513f1bcf3f5f8dc8d08fdbaf4afa90a3524e73edf1af1f58ac471"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.probe.log",
+      "bytes": 16,
+      "sha256": "a2d82dd1a95c3a568544111ab299cb351d267542d38a9633a9d578269cfb5243"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.quote_price_validation.json",
+      "bytes": 173,
+      "sha256": "e9e4cb5e94f5ae8bbb2da41c1229fd074880c8cafc444d36a01a0ef00e4cdb1d"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm1.quote_volume_matrix.json",
+      "bytes": 4030,
+      "sha256": "acfc132bc8e8402b382922b21476490f8623c24bc1064c475111252c8fafb434"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm2.config_layout.json",
+      "bytes": 9488,
+      "sha256": "7a5382e04fe4df66e146b289bf13df9d93e1b2e15dc833c92f725becebdcdd13"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm2.leaf.log",
+      "bytes": 10,
+      "sha256": "72a1e84fed7fa5856bbed6062948180f5387dddad48e298dda8545aa2c8dbdd8"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm2.leaf_validation.json",
+      "bytes": 570,
+      "sha256": "47af8c1b5685973eefd7f21cd52989479a753dfa256ec03227106153805c330d"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm2.optimizer_native_cases.json",
+      "bytes": 9853,
+      "sha256": "ba13bac5762e0077df07ae89924abf904372f78086a5f409a32031b8bafbc739"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm2.probe.log",
+      "bytes": 16,
+      "sha256": "08fe11621689be294e9459e128db657af796b6b2868562cc166ff9fa81edc52f"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.b_quote_matrix.json",
+      "bytes": 5802,
+      "sha256": "c1d6de83f05285b6339f41149b86ffea9ccf63c69dbae08374f91bf7e3c997c4"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.config_layout.json",
+      "bytes": 10355,
+      "sha256": "01fdba511eff9c4e40a568f6c51fc83d4be7b0ec03e3c5aba39e1c3738fc6f20"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.leaf.log",
+      "bytes": 12,
+      "sha256": "1896bbe67b34611864f9df30527b559217d0f8196708918dcc75e1e4c5692547"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.leaf_validation.json",
+      "bytes": 901,
+      "sha256": "1c6f53941b9584cdf92e4111357af2ce42966892aacee42bc34e75e048a6f34d"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.probe.log",
+      "bytes": 16,
+      "sha256": "b85eb9d8d5887232caf7f91058852fc8884017191ec7636a9218a69ab77deee9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.quote_price_validation.json",
+      "bytes": 153,
+      "sha256": "8b1aef8535e4d450b4301ede0b52af089f5a43b34025fccff2a4271418adbbb9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3.quote_volume_matrix.json",
+      "bytes": 4030,
+      "sha256": "acfc132bc8e8402b382922b21476490f8623c24bc1064c475111252c8fafb434"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.config_layout.json",
+      "bytes": 15670,
+      "sha256": "4f0fcbe3629e238327ec2efbdef39b6a4a563f80b4940d6d68724a36cfce9f3b"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.leaf.log",
+      "bytes": 12,
+      "sha256": "1896bbe67b34611864f9df30527b559217d0f8196708918dcc75e1e4c5692547"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.leaf_validation.json",
+      "bytes": 903,
+      "sha256": "9fd8345424cef1e0d06c67dfff6707cb9ec67bb690f793ec3c3ce92742cdb10b"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.passive_gate_validation.json",
+      "bytes": 53,
+      "sha256": "93e48b9bd91f5af59e19e15ee4d6d092728f630a88d86bd08ecab367ebae8d19"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.probe.log",
+      "bytes": 16,
+      "sha256": "5da1e1d7ffe8bb5cbb51612411333051505a4f3b32fb6b5a3b55074638e36b53"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm3_1.quote_volume_matrix.json",
+      "bytes": 4030,
+      "sha256": "acfc132bc8e8402b382922b21476490f8623c24bc1064c475111252c8fafb434"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.config_layout.json",
+      "bytes": 12616,
+      "sha256": "ee6b2b139fd9e41b10a4174d4714822cc95de7b5fed903906e1f28eb18842b64"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.leaf.log",
+      "bytes": 12,
+      "sha256": "1896bbe67b34611864f9df30527b559217d0f8196708918dcc75e1e4c5692547"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.leaf_validation.json",
+      "bytes": 901,
+      "sha256": "541e1a0eec9cfac6e802dbcce159da2e98ac6d210ba20c604620c814e22ee8aa"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.probe.log",
+      "bytes": 16,
+      "sha256": "aff152724e4e0d5eb6ed7eb38cdf8ceb9a4cbe832c5c215f4a8cb6e17f374b17"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.quote_price_validation.json",
+      "bytes": 173,
+      "sha256": "45222352b87f1165548f5336f744857eb0fd6dd1883fb2f30dbd9a898ab969d6"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sm4.quote_volume_matrix.json",
+      "bytes": 4030,
+      "sha256": "acfc132bc8e8402b382922b21476490f8623c24bc1064c475111252c8fafb434"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.baseline.toml",
+      "bytes": 263,
+      "sha256": "8f80de8e946dc7f3b3811870135cc6c2d5ee5cb4fa845e801473a257a0b551cd"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.config_layout.json",
+      "bytes": 12365,
+      "sha256": "3ac3cf43901e426098bc50fccac7900c778f63986baa6f7a939a6985d652cef9"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.leaf.log",
+      "bytes": 12,
+      "sha256": "1896bbe67b34611864f9df30527b559217d0f8196708918dcc75e1e4c5692547"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.leaf_validation.json",
+      "bytes": 873,
+      "sha256": "71cf36222591c8f9a76d0da40d29d76cb753c2f3481e306bf922a1950ff02304"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.nested_config.json",
+      "bytes": 3138,
+      "sha256": "5d09e848d8eddf3eba7462b419efdaea24ee9aeed3335aae843e76fa9f75a239"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos5.probe.log",
+      "bytes": 16,
+      "sha256": "e68230d9d9598f68655b897b678eb8c9cc5b566e47b7703d117ab56d705bde17"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.baseline.toml",
+      "bytes": 263,
+      "sha256": "8f80de8e946dc7f3b3811870135cc6c2d5ee5cb4fa845e801473a257a0b551cd"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.config_layout.json",
+      "bytes": 10496,
+      "sha256": "6645db88f36c97d65f07d163d1c3e3d9bb0eb0d27f6316c1df46fb64908b9833"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.delta_validation.json",
+      "bytes": 127,
+      "sha256": "5a9d338ff7cca9b62150d6ed8c10b31a9141522ba59cf895354be097c412e3cb"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.leaf.log",
+      "bytes": 12,
+      "sha256": "8ad9b86b87ec22724b416ec5d47341521d4acc358d7bb9b5c8e667e89f0112ea"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.leaf_validation.json",
+      "bytes": 636,
+      "sha256": "7d4debdcdf915ec8291a49fb90f138be76e2f75bd36f1495cf5dcbc6025483d6"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.nested_config.json",
+      "bytes": 3450,
+      "sha256": "acb5027a86ce2a8b1dfefc4f6b3fb1b644ee055decc5b76ed2e32b6912e9ae13"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_sos6.probe.log",
+      "bytes": 16,
+      "sha256": "fb22622ef60ae7b82846a438560883460899cb026d6bb3ee22f026272c7090bf"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm5.config_layout.json",
+      "bytes": 9536,
+      "sha256": "2847f5c5165b4a8dc32381080753e3a0ba6b2a95703e948aba607f87e16682a1"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm5.leaf.log",
+      "bytes": 12,
+      "sha256": "8ad9b86b87ec22724b416ec5d47341521d4acc358d7bb9b5c8e667e89f0112ea"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm5.leaf_validation.json",
+      "bytes": 634,
+      "sha256": "57b6a0830d39921c4fced51ea4d5572e91e603cd8fdcc94cbb9926a23892f3b3"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm5.probe.log",
+      "bytes": 16,
+      "sha256": "08fe11621689be294e9459e128db657af796b6b2868562cc166ff9fa81edc52f"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm6.config_layout.json",
+      "bytes": 11352,
+      "sha256": "83ed60482b3f9b49a2bdf9c4d0ada995486a9c0293cfb3cdd3b2cf029ceec86c"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm6.leaf.log",
+      "bytes": 12,
+      "sha256": "8ad9b86b87ec22724b416ec5d47341521d4acc358d7bb9b5c8e667e89f0112ea"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm6.leaf_validation.json",
+      "bytes": 634,
+      "sha256": "c1c4eb1028d5d281b6958c7e498f76f113e839623d9cb5921876d5f309225cb1"
+    },
+    {
+      "path": "数学化还原_20261114/libstrategy_tm6.probe.log",
+      "bytes": 16,
+      "sha256": "ab6271abac79416a1af091195f705dee76cd97fc5c6ec5d531be65a4e2ac5c84"
+    },
+    {
+      "path": "数学化还原_20261114/math_docs_manifest.json",
+      "bytes": 6609,
+      "sha256": "c858cfa36d1b8e90bf0f7d249b5178411d8242d4439013f26546f39917b56676"
+    },
+    {
+      "path": "数学化还原_20261114/probe_all_configs.py",
+      "bytes": 7671,
+      "sha256": "19f75ef53fd46077d19f4743c88b1f5c825b00b746bf3d46815f0cfa79967a02"
+    },
+    {
+      "path": "数学化还原_20261114/probe_nested.py",
+      "bytes": 1661,
+      "sha256": "013f43884cc798517bedbf06067f5d0abab787afb773afb520418ed3b3fa4f93"
+    },
+    {
+      "path": "数学化还原_20261114/reference_kernels.py",
+      "bytes": 12432,
+      "sha256": "11269901315198ab9048ee192c6e9d8aafbb409fb14dd5f215c582e92eb49b0d"
+    },
+    {
+      "path": "数学化还原_20261114/sdk_stubs.c",
+      "bytes": 4345,
+      "sha256": "3007d98a99d1cf8120db646cad909730c803180da0d64a81d075c8e633f2b5da"
+    },
+    {
+      "path": "数学化还原_20261114/sdk_stubs.so",
+      "bytes": 17584,
+      "sha256": "0c15f0ce2070bdc252b1b92c798ac8b0262db82f88f83e48912ea7691e218b08"
+    },
+    {
+      "path": "数学化还原_20261114/validate_leaves.py",
+      "bytes": 5225,
+      "sha256": "5068e50aab96b12aa31b7ff501d1bfcf8615ce0f8a1a94b0dca14ed801ca8508"
+    },
+    {
+      "path": "数学化还原_20261114/validate_quotes.py",
+      "bytes": 2662,
+      "sha256": "d17f9ea8ab060bfd732fb7b2c6db1aa9d22cdbc0c215417fb176470c1f816b10"
+    },
+    {
+      "path": "数学化还原_20261114/validate_sm3_formula.py",
+      "bytes": 1724,
+      "sha256": "94d6fd1355497457e0ab968f12ce4eec5077d9907e93701a324c26e8c258c9ff"
+    },
+    {
+      "path": "数学化还原_20261114/validate_special.py",
+      "bytes": 2787,
+      "sha256": "e09f5613b1c8d37d6a90caad1baa27d36e0924ca2d0d397e9f0efd52c0862549"
+    },
+    {
+      "path": "数学化还原_20261114/validate_state_kernels.py",
+      "bytes": 3291,
+      "sha256": "ad8e69b11853e0da71143feb9f354c43c3c509fd5e3ad3dd56b59be1b8afb59e"
+    }
+  ],
+  "issues": []
+}

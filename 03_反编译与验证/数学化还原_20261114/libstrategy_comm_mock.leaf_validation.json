@@ -1,0 +1,41 @@
+{
+  "library": "libstrategy_comm_mock",
+  "sha256": "31084cd688c5938de4b978ead4580bd3b82fe014d699850dead0036e7b1d8c15",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv4",
+      "elf": "000000000005e740",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=True; band=False; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "000000000005e6b0",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_comm_mock::signal_trigger::dynamic_threshold",
+      "elf": "000000000005faa0",
+      "cases": 288,
+      "passed": 288,
+      "failures": [],
+      "model": "time-based symmetric threshold narrowing"
+    },
+    {
+      "function": "strategy_comm_mock::high_taker_rate",
+      "elf": "000000000003a140",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "imbalance times capped tanh/coverage multiplier"
+    }
+  ],
+  "total": 3888,
+  "passed": 3888
+}

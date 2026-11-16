@@ -1,0 +1,40 @@
+{
+  "input": {},
+  "ret": 0,
+  "trace": [
+    "inst_start_time_sec",
+    "is_trade_start",
+    "is_trade_end",
+    "get_published:rolling_pnl",
+    "free_cash",
+    "meta_account",
+    "time_sec",
+    "depth",
+    "spread_bp",
+    "contract_mult",
+    "price_step",
+    "vol_step",
+    "position",
+    "first_open_time_sec",
+    "margin_filter",
+    "cancel_by_pending_ts",
+    "cancel_all",
+    "liquidity_consumption",
+    "is_night",
+    "place_order_iap"
+  ],
+  "changed_offsets": [
+    "0x380",
+    "0x381",
+    "0x382",
+    "0x383",
+    "0x384",
+    "0x385",
+    "0x388",
+    "0x390",
+    "0x398",
+    "0x419"
+  ],
+  "case": "bad_bid",
+  "no_order_request": false
+}

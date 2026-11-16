@@ -1,0 +1,42 @@
+0000000000038d80	strategy_comm3_2::Comm3Params::signal_mode
+0000000000038ed0	strategy_comm3_2::Comm3Params::low_action_enum
+0000000000038dc0	strategy_comm3_2::Comm3Params::signal_trigger_mode
+0000000000062d80	strategy_comm3_2::signal_trigger::SignalTrigger::update_score
+0000000000063b50	strategy_comm3_2::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000063190	strategy_comm3_2::signal_trigger::SignalTrigger::windows_std_trigger
+00000000000630e0	strategy_comm3_2::signal_trigger::SignalTrigger::windows_mean_trigger
+0000000000063900	strategy_comm3_2::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000063050	strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+0000000000063240	strategy_comm3_2::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000062fc0	strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+00000000000642f0	strategy_comm3_2::signal_trigger::dynamic_threshold
+0000000000063d80	_ZN16strategy_comm3_214signal_trigger17enum_rate_counter17h6c3412650fa35c6eE.llvm.17298346514359621430
+0000000000062990	strategy_comm3_2::signal_trigger::TsQuantileCalculator::update
+0000000000039cd0	strategy_comm3_2::high_taker_rate
+00000000000616d0	strategy_comm3_2::__fb_plugin_impl::destroy
+0000000000060ed0	strategy_comm3_2::__fb_plugin_impl::on_begin
+0000000000061160	strategy_comm3_2::__fb_plugin_impl::on_depth
+0000000000061390	strategy_comm3_2::__fb_plugin_impl::on_order
+00000000000612a0	strategy_comm3_2::__fb_plugin_impl::on_finish
+0000000000060fc0	strategy_comm3_2::__fb_plugin_impl::on_signal
+000000000005d4e0	strategy_comm3_2::vol_spread_ratio::VolSpreadRatio::update
+0000000000039760	strategy_comm3_2::live_pending_counts
+0000000000038f00	strategy_comm3_2::cancel_order_use_range
+000000000003d9f0	strategy_comm3_2::place
+00000000000492d0	<strategy_comm3_2::_::<impl serde_core::de::Deserialize for strategy_comm3_2::Comm3Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000003da10	<strategy_comm3_2::_::<impl serde_core::de::Deserialize for strategy_comm3_2::Comm3Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000005ff80	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm3_2::signal_trigger::SignalTrigger>>
+00000000000387a0	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm3_2::signal_trigger::SignalTrigger>>
+00000000000388a0	core::ptr::drop_in_place<strategy_comm3_2::Comm3Params>
+0000000000060070	core::ptr::drop_in_place<strategy_comm3_2::StrategyComm3>
+000000000004c6e0	_ZN4core3ptr71drop_in_place$LT$strategy_comm3_2..vol_spread_ratio..VolSpreadRatio$GT$17h862f7b0b5252b94aE.llvm.13809448683775648307
+0000000000061b60	core::ptr::drop_in_place<strategy_comm3_2::signal_trigger::TsQuantileCalculator>
+000000000004c790	_ZN4core3ptr75drop_in_place$LT$strategy_comm3_2..signal_trigger..TsQuantileCalculator$GT$17h85eb31b83146da12E.llvm.13809448683775648307
+0000000000060420	core::ptr::drop_in_place<core::option::Option<strategy_comm3_2::Comm3Params>>
+0000000000039e10	<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000003d6f0	<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000003d8d0	<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+000000000003a160	<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000061710	create_strategy
+0000000000060e70	fb_strategy_sdk_abi_version
+0000000000060e80	fb_strategy_sdk_version_str

@@ -1,0 +1,2 @@
+CASE margin_block
+{'input': {'s': 1000.0}, 'ret': 0, 'trace': ['inst_start_time_sec', 'is_trade_start', 'is_trade_end', 'depth', 'time_sec', 'time_sec', 'spread_bp', 'fee_bp', 'contract_mult', 'price_step', 'vol_step', 'position', 'position_holding_secs', 'is_should_lock', 'margin_filter', 'cancel_by_pending_ts', 'impact_block_check'], 'changed_offsets': ['0x1b0', '0x1b1', '0x1b2', '0x1b3', '0x1b4', '0x1b5', '0x1b8', '0x1c0', '0x1c8'], 'case': 'margin_block', 'no_order_request': True}

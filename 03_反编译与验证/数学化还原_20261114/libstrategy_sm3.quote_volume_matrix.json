@@ -1,0 +1,282 @@
+[
+  {
+    "quote": 0,
+    "cap_enabled": 0,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -8.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 0,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 0,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 0,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 0,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 8.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 1,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -8.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 1,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 1,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 1,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 0,
+    "cap_enabled": 1,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 8.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 0,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -8.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 0,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 0,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 0,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 0,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 8.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 1,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -3.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 1,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 1,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 1,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 1,
+    "cap_enabled": 1,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 3.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 0,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -8.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 0,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 0,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 0,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 0,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 8.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 1,
+    "requested": -8.0,
+    "tag": 1,
+    "value": -3.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 1,
+    "requested": -2.0,
+    "tag": 1,
+    "value": -2.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 1,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 1,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 2.0
+  },
+  {
+    "quote": 2,
+    "cap_enabled": 1,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 3.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 0,
+    "requested": -8.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 0,
+    "requested": -2.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 0,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 0,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 0,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 1,
+    "requested": -8.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 1,
+    "requested": -2.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 1,
+    "requested": 0.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 1,
+    "requested": 2.0,
+    "tag": 1,
+    "value": 0.0
+  },
+  {
+    "quote": 3,
+    "cap_enabled": 1,
+    "requested": 8.0,
+    "tag": 1,
+    "value": 0.0
+  }
+]

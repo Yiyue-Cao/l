@@ -1,0 +1,668 @@
+{
+  "archive_relative_to_1008": "l_历史归档/20261114_KaTeX修复前.zip",
+  "archive_sha256": "9b3432a014c772e2f726169c725a42e48d68c89579f9354a80a1360a8e777273",
+  "fix": "Escape literal underscores inside TeX text commands; formulas and parameter names unchanged",
+  "files": [
+    {
+      "path": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+      "sha256_before": "b1a1e055d2687b58a6dfac0b8b84d4a9a9eb6dd9716d73e73fb0bdc94ab7348b",
+      "sha256_after": "9ab5262c9c85d317e068d6ec23aa6528df9c3bd2848f0b7fe0f4f28e6a34a472"
+    },
+    {
+      "path": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "sha256_before": "f5901c9eab319ab9a61b0a97b6153fbf1f3b9d41e866754bfbaa4b7de35ca75c",
+      "sha256_after": "52f367e355dd594ba6781d7de2895c9bc59ed2368e31c6eb54a4b0227a3d0714"
+    },
+    {
+      "path": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+      "sha256_before": "ffd8570421e532d03d3b2b0642e1cc94bef53de25a56d81dec75b8c4e8ec2e90",
+      "sha256_after": "6fed7e6810be480f4fe528cab920c1aa1d5f1a795bf4bc1e984f406b170b9fb7"
+    },
+    {
+      "path": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "sha256_before": "c0622b7d2a2778a440cbaf18a6ef59bd022af2c5e2ead7eee623d29a4e7aa628",
+      "sha256_after": "2b868b3a69bfeab4fad16acca8670fa4c8c2080b47439d16b6ba15823f777118"
+    },
+    {
+      "path": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+      "sha256_before": "f660b2b8484d5d1c24e1fef6740b6d6f7bf97485406c9877217b928f19aa933f",
+      "sha256_after": "3dd1cd5e01f3b60be660c2d4e82f2ec8f749351b11bec332f843a6ab1a09d9e2"
+    },
+    {
+      "path": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+      "sha256_before": "0a2e1cb0718e6927fafaee91b2e92b2aabccd43136a535c6004c140104ef0096",
+      "sha256_after": "27fb2de2ee37c24e7ad70d598b5342bf11c9bbab0055de0963316223093b92da"
+    },
+    {
+      "path": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "sha256_before": "80f4022efdccebf798822db2a073250427f27a58f58d10c7ee7d9424937482ca",
+      "sha256_after": "e152214cb7822d75c0a51a39929903432359c1542c60e792a94b2d7a81ce06fd"
+    },
+    {
+      "path": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "sha256_before": "1ff2f46c0019e48aa91844d7c148304ae0c9543117ee7f94759300c503186048",
+      "sha256_after": "e1225c876bb9eb648363b5532733001e35caddc1f94fb6197650a04413ec43ba"
+    },
+    {
+      "path": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+      "sha256_before": "56767b66c2447ed57ce0f5cdde57f21666dd668990bc1e056c57ae0738118bcb",
+      "sha256_after": "501846f5fb292f46a61f24a7893b3ca677bbf7fb996c91eaceaeb0e00ba76fc6"
+    },
+    {
+      "path": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "sha256_before": "8d9f78831c9b4dae8c5a1a63bd50d081fc9dfca4f2a7026d6cc9f8e745add137",
+      "sha256_after": "30508f3f3ec1c0c914299a6511333e7a680ed494bd8353abaef33d06ac3d2fde"
+    },
+    {
+      "path": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+      "sha256_before": "2902fa46baa59bb79fe0ef0b73d6e352473abd9c58d5b8aa9f45601d5aea2960",
+      "sha256_after": "922d8acf8a6bd934159f37c4003a949e69bec5bc47eb575f31ebce92dcbd608b"
+    },
+    {
+      "path": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "sha256_before": "d47ed2c75a0b652027af6644dc6c539d7ffb777fba039793c33d5e7d57b08cdf",
+      "sha256_after": "f2108b87ffc0d94a14cdd89e658e54885baa32b2b56f264e536a1970c95f37c3"
+    },
+    {
+      "path": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "sha256_before": "ee2cd46cd1a8d369f7ad4e156992c7b4b33f3644722c18941e7a54dc8e850e66",
+      "sha256_after": "9507624a1b2a97df188f07ed7d2fc0904516d6a036d6b3a722a2a6e38db07054"
+    },
+    {
+      "path": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "sha256_before": "92c893878ae956a992d4d14ebc514bbf51f5185911515116174db94fcba9713f",
+      "sha256_after": "d4c324dfc06c36513f92618d6ca71add99fdbf67c127244b33d1d3270431be36"
+    },
+    {
+      "path": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "sha256_before": "aeaf011884e945614918bad0c44d7480be028747b618a03a1a0e37e90122793e",
+      "sha256_after": "0b979b1add22551cfcba6bc51307e1626edce44802130112d920ae7334c10284"
+    },
+    {
+      "path": "03_反编译与验证/数学化还原_20261114/build_math_docs.py",
+      "sha256_before": "e1da5541fb4cc5c93562d511d50f166677f54163313d08df0d58f098241ffc4e",
+      "sha256_after": "d50df326b21510b3bdb2857a6624f11aa51eb0d7f77941540911eea0ca6a6465"
+    }
+  ],
+  "before": {
+    "expressions": 1435,
+    "errors": [
+      {
+        "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+        "line": 106,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+        "line": 108,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 144,
+        "display": false,
+        "tex": "n_{obs}\\ge\\text{min_trades_for_upgrade}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 20: …bs}\\ge\\text{min_̲trades_for_upgr…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "line": 153,
+        "display": false,
+        "tex": "h=\\text{ew_half_life_days}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 11: h=\\text{ew_̲half_life_days}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+        "line": 100,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+        "line": 45,
+        "display": false,
+        "tex": "s_0\\cdot\\text{pv1_alpha}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 18: …0\\cdot\\text{pv1_̲alpha}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+        "line": 92,
+        "display": true,
+        "tex": "LOW=\\text{use_dynamic_volspread_ratio}\\land\\operatorname{Some}(V_t)\\land V_t\\le\\text{split_high_low_ratio_threshold}.",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: LOW=\\text{use_̲dynamic_volspre…"
+      },
+      {
+        "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+        "line": 116,
+        "display": false,
+        "tex": "n=\\text{maker_ticks_inside}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{maker_̲ticks_inside}"
+      },
+      {
+        "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+        "line": 118,
+        "display": false,
+        "tex": "R=\\text{maker_cancel_range_levels}\\cdot\\tau_p",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: R=\\text{maker_̲cancel_range_le…"
+      },
+      {
+        "file": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+        "line": 79,
+        "display": false,
+        "tex": "t_{end}=t_0+\\text{max_try_hiter_time_ms}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 22: …}=t_0+\\text{max_̲try_hiter_time_…"
+      },
+      {
+        "file": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+        "line": 79,
+        "display": false,
+        "tex": "1\\pm\\text{price_range_bp}\\times10^{-4}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 16: 1\\pm\\text{price_̲range_bp}\\times…"
+      },
+      {
+        "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+        "line": 106,
+        "display": false,
+        "tex": "n=\\text{gate_maker_deepen_ticks}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 13: n=\\text{gate_̲maker_deepen_ti…"
+      },
+      {
+        "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+        "line": 119,
+        "display": false,
+        "tex": "\\text{gate_taker_boost_bp}>0",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 11: \\text{gate_̲taker_boost_bp}…"
+      },
+      {
+        "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+        "line": 119,
+        "display": false,
+        "tex": "z>\\text{gate_taker_boost_th}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 13: z>\\text{gate_̲taker_boost_th}"
+      },
+      {
+        "file": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+        "line": 113,
+        "display": false,
+        "tex": "\\delta=\\text{score_thresholds_delta}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 19: …lta=\\text{score_̲thresholds_delt…"
+      },
+      {
+        "file": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+        "line": 113,
+        "display": false,
+        "tex": "n=\\text{score_thresholds_num}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{score_̲thresholds_num}"
+      },
+      {
+        "file": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+        "line": 99,
+        "display": false,
+        "tex": "b_p=\\text{phase_threshold_bp}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 16: b_p=\\text{phase_̲threshold_bp}"
+      },
+      {
+        "file": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+        "line": 99,
+        "display": false,
+        "tex": "h=\\text{phase_high_multiplier}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: h=\\text{phase_̲high_multiplier…"
+      },
+      {
+        "file": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+        "line": 65,
+        "display": false,
+        "tex": "W=\\text{rolling_window_ms}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 16: W=\\text{rolling_̲window_ms}"
+      },
+      {
+        "file": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+        "line": 63,
+        "display": false,
+        "tex": "\\delta=\\text{score_thresholds_delta}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 19: …lta=\\text{score_̲thresholds_delt…"
+      },
+      {
+        "file": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+        "line": 63,
+        "display": false,
+        "tex": "n=\\text{score_thresholds_num}",
+        "error": "ParseError: KaTeX parse error: Expected 'EOF', got '_' at position 14: n=\\text{score_̲thresholds_num}"
+      }
+    ]
+  },
+  "after": {
+    "engine": "VS Code bundled MarkdownIt and math plugin; KaTeX 0.16.21",
+    "documents": 42,
+    "formula_count": 1435,
+    "parse_errors": 0,
+    "rendered_error_elements": 0,
+    "per_document": [
+      {
+        "file": "01_策略库与详细解读/19个策略_数学化还原索引.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+        "formulaCount": 73,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+        "formulaCount": 65,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+        "formulaCount": 91,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+        "formulaCount": 90,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+        "formulaCount": 93,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+        "formulaCount": 104,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+        "formulaCount": 114,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+        "formulaCount": 84,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+        "formulaCount": 91,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+        "formulaCount": 55,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+        "formulaCount": 68,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+        "formulaCount": 52,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+        "formulaCount": 68,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+        "formulaCount": 58,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+        "formulaCount": 86,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+        "formulaCount": 69,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+        "formulaCount": 66,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+        "formulaCount": 46,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+        "formulaCount": 62,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/00_阅读入口.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/01_共同交易流程与术语.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/02_十九个策略的横向比较.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/03_通用程序如何连接整套策略.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/04_run_comm_maker1的完整作用.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/05_十六个run驱动的分工.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/06_SDK与框架对策略解释的补充.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/07_下载清单与反编译验收.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/08_SoS5阶段驱动如何组织对照实验.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "02_综合说明/自然语言详解_20261114/09_成交概率探针与交易策略的区别.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "03_反编译与验证/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "03_反编译与验证/数学化还原_20261114/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "03_反编译与验证/策略反编译/libstrategy_comm5/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "04_通用程序/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "04_通用程序/来源档案/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "05_工具脚本/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "06_来源档案/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "06_来源档案/comm5任务/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "07_清单与回执/README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "07_清单与回执/本次整理_20261114/整理说明.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      },
+      {
+        "file": "README.md",
+        "formulaCount": 0,
+        "issues": [],
+        "errorElements": 0
+      }
+    ]
+  }
+}

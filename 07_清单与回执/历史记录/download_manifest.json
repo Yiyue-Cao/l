@@ -1,0 +1,182 @@
+[
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/BUILD_PROVENANCE.txt",
+    "relative": "BUILD_PROVENANCE.txt",
+    "bytes": 1496,
+    "sha256": "2559a49f1d0b853ec081b2059c0d35ee916308dc3fdaa6ad8a5339790abf78c4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/README.md",
+    "relative": "README.md",
+    "bytes": 8442,
+    "sha256": "8156ecd88ecdd1653870f3033e1334a8cecc3dca312f819e814e988a9119ba16"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/RUN_MANIFEST.json",
+    "relative": "RUN_MANIFEST.json",
+    "bytes": 33568,
+    "sha256": "f8089412878cb87b441e0b2d2533034452b269b909c136322d9380e22220b6dd"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/RUN_SHA256SUMS",
+    "relative": "RUN_SHA256SUMS",
+    "bytes": 19067,
+    "sha256": "98fa2533cada3820bc26990b041c52fbd7c943a171eab743b2649f0dee474e34"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/SHA256SUMS",
+    "relative": "SHA256SUMS",
+    "bytes": 3375,
+    "sha256": "aefa4f9c553d9d98ff4ea206a4ff169de4e04c3454dda9f9e084ec9175a68f2f"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/SOURCE_DIFF.patch",
+    "relative": "SOURCE_DIFF.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/SOURCE_STATUS.txt",
+    "relative": "SOURCE_STATUS.txt",
+    "bytes": 50,
+    "sha256": "0b51876eebd673c381ef15b276423f14ade9ab95c02215fd6df70e84bd208ed0"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/TASK_INPUT_SHA256SUMS",
+    "relative": "TASK_INPUT_SHA256SUMS",
+    "bytes": 29380,
+    "sha256": "b322a2db418649b52499585e3bcaf070d76287254e6499dd58b7be2a47b0e0e4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/configenc",
+    "relative": "configenc",
+    "bytes": 72352,
+    "sha256": "a38e3b0a6d30fb28779d2de881617ac5f77b0ba8a077d73cb6cf13977b383e66"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm2.so",
+    "relative": "libstrategy_comm2.so",
+    "bytes": 1102432,
+    "sha256": "5b32da10cb657475a2e46d4bf146ac16cbdd5ed3254154ca43de57a213506b5f"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm3.so",
+    "relative": "libstrategy_comm3.so",
+    "bytes": 1135664,
+    "sha256": "a664823a3b46d413cf06dd8766e10c457c7a78f581f8259cf7d3a2ebb6c25ac2"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm3_1.so",
+    "relative": "libstrategy_comm3_1.so",
+    "bytes": 1141456,
+    "sha256": "a42e121da5e3710bfb3d6026a57c45db830a75fb292a5bbb14b5ba99a16de5f4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm3_2.so",
+    "relative": "libstrategy_comm3_2.so",
+    "bytes": 1141224,
+    "sha256": "f9bc9b095a9c37be884662abab55be5098ef6298ae69e3ff8cfa0222d6bab8c9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm4.so",
+    "relative": "libstrategy_comm4.so",
+    "bytes": 1226480,
+    "sha256": "81279cfe7eb2aa4eaf589d563e97bd795a969d77699af8a2cb6294a1f1103de1"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm4_1.so",
+    "relative": "libstrategy_comm4_1.so",
+    "bytes": 1230264,
+    "sha256": "83074a51131a480fa55d4816d377706b47c25ab64bad913afeafe04cc733c16c"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm5.so",
+    "relative": "libstrategy_comm5.so",
+    "bytes": 1311384,
+    "sha256": "a778c872369f31f436a1ba7b4c996934492b45bc6f2faa8860de6f42455accdb"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm_maker1.so",
+    "relative": "libstrategy_comm_maker1.so",
+    "bytes": 1139424,
+    "sha256": "465184d5fbf8af1a34568fe9b708305ac1ec0cc63480774c055b6b7e4ba8e4b9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_comm_mock.so",
+    "relative": "libstrategy_comm_mock.so",
+    "bytes": 1151176,
+    "sha256": "31084cd688c5938de4b978ead4580bd3b82fe014d699850dead0036e7b1d8c15"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_lf4.so",
+    "relative": "libstrategy_lf4.so",
+    "bytes": 1057992,
+    "sha256": "88e6969f6603fc9864009122b9f1036b732618416a5637847483096012095410"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sm1.so",
+    "relative": "libstrategy_sm1.so",
+    "bytes": 1124480,
+    "sha256": "064a30ed6083edddc2925050877c1806e954b56a126c8645f3cddd63dea95a82"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sm2.so",
+    "relative": "libstrategy_sm2.so",
+    "bytes": 1113184,
+    "sha256": "7d78c5e4ec850fc13bbf7c374eaeb24857de05276cb0c143c3e84a11cd9bf527"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sm3.so",
+    "relative": "libstrategy_sm3.so",
+    "bytes": 1138184,
+    "sha256": "fae00455457a8cbf18a8d048211a5a7192c1554fcb1c94d43754dabebc527cc5"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sm3_1.so",
+    "relative": "libstrategy_sm3_1.so",
+    "bytes": 1225248,
+    "sha256": "991bc6e8a02a6d91e28859ad1a09b904910f66a4e1c55c44542af1897e53af08"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sm4.so",
+    "relative": "libstrategy_sm4.so",
+    "bytes": 1193512,
+    "sha256": "4502ae763732f8da98f4e45b8585024b66c72a1aa1c5728b495583c7ceffbd44"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sos5.so",
+    "relative": "libstrategy_sos5.so",
+    "bytes": 1164592,
+    "sha256": "567ba8f4e88b5e260159311eb31f119455ef8e4215bdb07a5c08186198fb08ac"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_sos6.so",
+    "relative": "libstrategy_sos6.so",
+    "bytes": 1134224,
+    "sha256": "77c2bf03431db0f38d4bb05953c7dae5d44f97511a7bca37b0eb06c63d0d32e0"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_tm5.so",
+    "relative": "libstrategy_tm5.so",
+    "bytes": 1051448,
+    "sha256": "8ef98ebc94e89ad2274a13201ccb43618416a9df18a594dfe9debed63293aba6"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/libstrategy_tm6.so",
+    "relative": "libstrategy_tm6.so",
+    "bytes": 1118568,
+    "sha256": "49a117a7d89fb5a1be9dcd9be24493af02da2ea230d1a7c52d7e587f5558b1d4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/run.sbatch",
+    "relative": "run.sbatch",
+    "bytes": 34649,
+    "sha256": "5c8c4a16b5a9fc7131f8c662005646cfb310ac4ce9ddc1a1459569cb7a0d19c9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__comm5_daily_comm32__6080f1554aa6/status_latest.txt",
+    "relative": "status_latest.txt",
+    "bytes": 6575,
+    "sha256": "2e3bf45a6f15a914cd3c7461e9d8015646e01fffe9c9b2029ee7956bb05082ee"
+  }
+]

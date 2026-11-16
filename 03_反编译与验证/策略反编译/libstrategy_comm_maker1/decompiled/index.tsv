@@ -1,0 +1,46 @@
+00000000000475c0	OK	<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000049dc0	OK	<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000004a020	OK	<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000047910	OK	<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000042c30	OK	<strategy_comm_maker1::_::<impl serde_core::de::Deserialize for strategy_comm_maker1::CommMaker1Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000004a830	OK	<strategy_comm_maker1::_::<impl serde_core::de::Deserialize for strategy_comm_maker1::CommMaker1Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000046840	OK	strategy_comm_maker1::cancel_side
+000000000004a600	OK	strategy_comm_maker1::decide_quote
+0000000000060f80	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::update_score
+0000000000061e40	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000061420	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::windows_std_trigger
+0000000000061310	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::windows_mean_trigger
+0000000000061bf0	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000061530	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000061250	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::point_signal_trigger_pv4_band
+00000000000611c0	OK	strategy_comm_maker1::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+00000000000625e0	OK	strategy_comm_maker1::signal_trigger::dynamic_threshold
+0000000000062070	OK	_ZN20strategy_comm_maker114signal_trigger17enum_rate_counter17h7893d28320393014E.llvm.3918936404547024942
+0000000000060b90	OK	strategy_comm_maker1::signal_trigger::TsQuantileCalculator::update
+000000000005e990	OK	strategy_comm_maker1::get_quote_price::get_quote_price
+00000000000466c0	OK	strategy_comm_maker1::CommMaker1Params::signal_mode
+0000000000046810	OK	strategy_comm_maker1::CommMaker1Params::low_action_enum
+0000000000046700	OK	strategy_comm_maker1::CommMaker1Params::signal_trigger_mode
+00000000000591c0	OK	strategy_comm_maker1::__fb_plugin_impl::destroy
+00000000000589b0	OK	strategy_comm_maker1::__fb_plugin_impl::on_begin
+0000000000058c40	OK	strategy_comm_maker1::__fb_plugin_impl::on_depth
+0000000000058e70	OK	strategy_comm_maker1::__fb_plugin_impl::on_order
+0000000000058d80	OK	strategy_comm_maker1::__fb_plugin_impl::on_finish
+0000000000058aa0	OK	strategy_comm_maker1::__fb_plugin_impl::on_signal
+000000000005e6f0	OK	strategy_comm_maker1::vol_spread_ratio::VolSpreadRatio::update
+0000000000047050	OK	strategy_comm_maker1::live_pending_counts
+0000000000046be0	OK	strategy_comm_maker1::cancel_order_use_range
+000000000004a140	OK	strategy_comm_maker1::compute_target_vol_buy
+000000000004a390	OK	strategy_comm_maker1::compute_target_vol_sell
+000000000004a810	OK	strategy_comm_maker1::place
+00000000000578b0	OK	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm_maker1::signal_trigger::SignalTrigger>>
+00000000000460e0	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm_maker1::signal_trigger::SignalTrigger>>
+00000000000461e0	OK	core::ptr::drop_in_place<strategy_comm_maker1::CommMaker1Params>
+0000000000057970	OK	core::ptr::drop_in_place<strategy_comm_maker1::StrategyCommMaker1>
+000000000004b240	OK	_ZN4core3ptr75drop_in_place$LT$strategy_comm_maker1..vol_spread_ratio..VolSpreadRatio$GT$17h28d1c0b64bd8a58bE.llvm.13709799112244779361
+000000000005ca30	OK	core::ptr::drop_in_place<strategy_comm_maker1::signal_trigger::TsQuantileCalculator>
+000000000004b2f0	OK	_ZN4core3ptr79drop_in_place$LT$strategy_comm_maker1..signal_trigger..TsQuantileCalculator$GT$17h84ea3fc99c96de09E.llvm.13709799112244779361
+0000000000057be0	OK	core::ptr::drop_in_place<core::option::Option<strategy_comm_maker1::CommMaker1Params>>
+0000000000059200	OK	create_strategy
+0000000000058950	OK	fb_strategy_sdk_abi_version
+0000000000058960	OK	fb_strategy_sdk_version_str

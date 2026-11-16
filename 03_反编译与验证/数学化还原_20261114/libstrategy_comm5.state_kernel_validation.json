@@ -1,0 +1,23 @@
+[
+  {
+    "function": "strategy_comm5::next_phase",
+    "elf": "000000000003b520",
+    "cases": 360,
+    "passed": 360,
+    "failures": []
+  },
+  {
+    "function": "strategy_comm5::vol_spread_ratio::VolSpreadRatio::update",
+    "elf": "0000000000081770",
+    "cases": 500,
+    "passed": 500,
+    "failures": []
+  },
+  {
+    "function": "strategy_comm5::taker_fillable_cum",
+    "elf": "000000000003c500",
+    "cases": 600,
+    "passed": 600,
+    "failures": []
+  }
+]

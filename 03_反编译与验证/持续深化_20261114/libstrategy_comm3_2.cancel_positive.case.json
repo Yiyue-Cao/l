@@ -1,0 +1,49 @@
+{
+  "input": {
+    "s": 1000.0
+  },
+  "ret": 0,
+  "trace": [
+    "inst_start_time_sec",
+    "is_trade_start",
+    "is_trade_end",
+    "depth",
+    "time_sec",
+    "time_sec",
+    "spread_bp",
+    "fee_bp",
+    "contract_mult",
+    "price_step",
+    "vol_step",
+    "position",
+    "position_holding_secs",
+    "is_should_lock",
+    "margin_filter",
+    "cancel_by_pending_ts",
+    "impact_block_check",
+    "cancel_all",
+    "liquidity_consumption",
+    "is_night",
+    "place_order_iap_with_target"
+  ],
+  "changed_offsets": [
+    "0x1b1",
+    "0x1b2",
+    "0x1b3",
+    "0x1b4",
+    "0x1b5",
+    "0x1b8",
+    "0x1c0",
+    "0x1c8",
+    "0x1e1",
+    "0x1e2",
+    "0x1e3",
+    "0x1e4",
+    "0x1e5",
+    "0x1e8",
+    "0x1f0",
+    "0x1f8"
+  ],
+  "case": "cancel_positive",
+  "no_order_request": false
+}

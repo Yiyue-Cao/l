@@ -1,0 +1,776 @@
+{
+  "field_count": 71,
+  "fields": [
+    {
+      "field": "signal_mode",
+      "kind": "string",
+      "offsets": [
+        "0x310"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "pv1_alpha",
+      "kind": "f64",
+      "offsets": [
+        "0x3d0"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "cost_alpha",
+      "kind": "f64",
+      "offsets": [
+        "0x3d8"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "signal_trigger_mode",
+      "kind": "string",
+      "offsets": [
+        "0x328"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "vote_rate",
+      "kind": "f64",
+      "offsets": [
+        "0x3e0"
+      ],
+      "defaults": [
+        0.1
+      ]
+    },
+    {
+      "field": "quantile",
+      "kind": "f64",
+      "offsets": [
+        "0x3e8"
+      ],
+      "defaults": [
+        0.9
+      ]
+    },
+    {
+      "field": "signal_windows_s",
+      "kind": "vec_f64",
+      "offsets": [
+        "0x340"
+      ],
+      "defaults": [
+        []
+      ]
+    },
+    {
+      "field": "score_taker_rate_alpha",
+      "kind": "f64",
+      "offsets": [
+        "0x3f0"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "taker_rate_baseline",
+      "kind": "f64",
+      "offsets": [
+        "0x3f8"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "max_taker_rate",
+      "kind": "f64",
+      "offsets": [
+        "0x400"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "high_taker_half_spread",
+      "kind": "bool",
+      "offsets": [
+        "0x560"
+      ],
+      "defaults": [
+        false
+      ]
+    },
+    {
+      "field": "taker_mult_max",
+      "kind": "f64",
+      "offsets": [
+        "0x408"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "taker_cover_k",
+      "kind": "f64",
+      "offsets": [
+        "0x410"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "taker_skip_half_spread_bp",
+      "kind": "f64",
+      "offsets": [
+        "0x418"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "trade_slippery",
+      "kind": "f64",
+      "offsets": [
+        "0x420"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "close_position_block_ms",
+      "kind": "f64",
+      "offsets": [
+        "0x428"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "touch_gate",
+      "kind": "bool",
+      "offsets": [
+        "0x561"
+      ],
+      "defaults": [
+        true
+      ]
+    },
+    {
+      "field": "touch_gate_timeout_ms",
+      "kind": "f64",
+      "offsets": [
+        "0x430"
+      ],
+      "defaults": [
+        5000.0
+      ]
+    },
+    {
+      "field": "max_single_add_vol",
+      "kind": "f64",
+      "offsets": [
+        "0x438"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "max_single_add_amt",
+      "kind": "f64",
+      "offsets": [
+        "0x440"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "max_single_net_vol",
+      "kind": "f64",
+      "offsets": [
+        "0x448"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "max_single_net_amt",
+      "kind": "f64",
+      "offsets": [
+        "0x450"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "max_single_close_vol",
+      "kind": "f64",
+      "offsets": [
+        "0x458"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "max_single_close_amt",
+      "kind": "f64",
+      "offsets": [
+        "0x460"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "long_open_threshold",
+      "kind": "f64",
+      "offsets": [
+        "0x468"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "long_close_threshold",
+      "kind": "f64",
+      "offsets": [
+        "0x470"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "short_open_threshold",
+      "kind": "f64",
+      "offsets": [
+        "0x478"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "short_close_threshold",
+      "kind": "f64",
+      "offsets": [
+        "0x480"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "low_long_open_threshold",
+      "kind": "option_f64",
+      "offsets": [
+        "0x8"
+      ],
+      "defaults": [
+        null
+      ]
+    },
+    {
+      "field": "low_long_close_threshold",
+      "kind": "option_f64",
+      "offsets": [
+        "0x18"
+      ],
+      "defaults": [
+        null
+      ]
+    },
+    {
+      "field": "low_short_open_threshold",
+      "kind": "option_f64",
+      "offsets": [
+        "0x28"
+      ],
+      "defaults": [
+        null
+      ]
+    },
+    {
+      "field": "low_short_close_threshold",
+      "kind": "option_f64",
+      "offsets": [
+        "0x38"
+      ],
+      "defaults": [
+        null
+      ]
+    },
+    {
+      "field": "dyn_score_position_ts_threshold_s",
+      "kind": "f64",
+      "offsets": [
+        "0x488"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "dyn_score_max_position_ts_s",
+      "kind": "f64",
+      "offsets": [
+        "0x490"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "dyn_score_delta_score",
+      "kind": "f64",
+      "offsets": [
+        "0x498"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "use_dynamic_volspread_ratio",
+      "kind": "bool",
+      "offsets": [
+        "0x562"
+      ],
+      "defaults": [
+        false
+      ]
+    },
+    {
+      "field": "market_volatility_ms",
+      "kind": "f64",
+      "offsets": [
+        "0x4a0"
+      ],
+      "defaults": [
+        60000.0
+      ]
+    },
+    {
+      "field": "rolling_windows_ms",
+      "kind": "f64",
+      "offsets": [
+        "0x4a8"
+      ],
+      "defaults": [
+        1200000.0
+      ]
+    },
+    {
+      "field": "split_high_low_ratio_threshold",
+      "kind": "f64",
+      "offsets": [
+        "0x4b0"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "low_action",
+      "kind": "string",
+      "offsets": [
+        "0x358"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "maker_order_max_pending_time_ms",
+      "kind": "f64",
+      "offsets": [
+        "0x4b8"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "max_maker_pending_vol_on_depth",
+      "kind": "f64",
+      "offsets": [
+        "0x4c0"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "maker_ticks_inside",
+      "kind": "f64",
+      "offsets": [
+        "0x4c8"
+      ],
+      "defaults": [
+        1.0
+      ]
+    },
+    {
+      "field": "enable_phases",
+      "kind": "bool",
+      "offsets": [
+        "0x563"
+      ],
+      "defaults": [
+        false
+      ]
+    },
+    {
+      "field": "invert_phase",
+      "kind": "bool",
+      "offsets": [
+        "0x564"
+      ],
+      "defaults": [
+        false
+      ]
+    },
+    {
+      "field": "watcher_strategy_name",
+      "kind": "string",
+      "offsets": [
+        "0x370"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "watcher_account_name",
+      "kind": "string",
+      "offsets": [
+        "0x388"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "enter_phase2",
+      "kind": "f64",
+      "offsets": [
+        "0x4d8"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "exit_phase2",
+      "kind": "f64",
+      "offsets": [
+        "0x4e0"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "enter_phase3",
+      "kind": "f64",
+      "offsets": [
+        "0x4e8"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "exit_phase3",
+      "kind": "f64",
+      "offsets": [
+        "0x4f0"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "min_trades_for_upgrade",
+      "kind": "f64",
+      "offsets": [
+        "0x4f8"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "daily_pnl_path",
+      "kind": "string",
+      "offsets": [
+        "0x3a0"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "xs_date",
+      "kind": "string",
+      "offsets": [
+        "0x3b8"
+      ],
+      "defaults": [
+        ""
+      ]
+    },
+    {
+      "field": "ew_lags",
+      "kind": "f64",
+      "offsets": [
+        "0x500"
+      ],
+      "defaults": [
+        20.0
+      ]
+    },
+    {
+      "field": "ew_half_life_days",
+      "kind": "f64",
+      "offsets": [
+        "0x508"
+      ],
+      "defaults": [
+        3.0
+      ]
+    },
+    {
+      "field": "xs_q3",
+      "kind": "f64",
+      "offsets": [
+        "0x510"
+      ],
+      "defaults": [
+        0.1
+      ]
+    },
+    {
+      "field": "xs_q2",
+      "kind": "f64",
+      "offsets": [
+        "0x518"
+      ],
+      "defaults": [
+        0.25
+      ]
+    },
+    {
+      "field": "xs_qb",
+      "kind": "f64",
+      "offsets": [
+        "0x520"
+      ],
+      "defaults": [
+        0.35
+      ]
+    },
+    {
+      "field": "xs_mult3",
+      "kind": "f64",
+      "offsets": [
+        "0x528"
+      ],
+      "defaults": [
+        3.0
+      ]
+    },
+    {
+      "field": "xs_mult2",
+      "kind": "f64",
+      "offsets": [
+        "0x530"
+      ],
+      "defaults": [
+        2.0
+      ]
+    },
+    {
+      "field": "xs_mult_skip",
+      "kind": "f64",
+      "offsets": [
+        "0x538"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "xs_pnl_clip",
+      "kind": "f64",
+      "offsets": [
+        "0x540"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "xs_min_pool",
+      "kind": "f64",
+      "offsets": [
+        "0x548"
+      ],
+      "defaults": [
+        8.0
+      ]
+    },
+    {
+      "field": "phase2_size_mult",
+      "kind": "f64",
+      "offsets": [
+        "0x550"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "phase3_size_mult",
+      "kind": "f64",
+      "offsets": [
+        "0x558"
+      ],
+      "defaults": [
+        0.0
+      ]
+    },
+    {
+      "field": "enable_xs",
+      "kind": "bool",
+      "offsets": [
+        "0x565"
+      ],
+      "defaults": [
+        false
+      ]
+    },
+    {
+      "field": "maker_cancel_range_levels",
+      "kind": "usize",
+      "offsets": [
+        "0x4d0"
+      ],
+      "defaults": [
+        3
+      ]
+    },
+    {
+      "field": "phase1",
+      "kind": "phase_table",
+      "offsets": [
+        "0x40"
+      ],
+      "defaults": [
+        {
+          "long_open_threshold": null,
+          "long_close_threshold": null,
+          "short_open_threshold": null,
+          "short_close_threshold": null,
+          "max_single_net_vol": null,
+          "max_single_net_amt": null,
+          "max_single_add_vol": null,
+          "max_single_add_amt": null,
+          "taker_mult_max": null,
+          "taker_cover_k": null,
+          "taker_skip_half_spread_bp": null,
+          "taker_rate_baseline": null,
+          "max_taker_rate": null,
+          "low_action": null,
+          "high_taker_half_spread": null
+        }
+      ],
+      "probe": "all 15 nested fields confirmed"
+    },
+    {
+      "field": "phase2",
+      "kind": "phase_table",
+      "offsets": [
+        "0x130"
+      ],
+      "defaults": [
+        {
+          "long_open_threshold": null,
+          "long_close_threshold": null,
+          "short_open_threshold": null,
+          "short_close_threshold": null,
+          "max_single_net_vol": null,
+          "max_single_net_amt": null,
+          "max_single_add_vol": null,
+          "max_single_add_amt": null,
+          "taker_mult_max": null,
+          "taker_cover_k": null,
+          "taker_skip_half_spread_bp": null,
+          "taker_rate_baseline": null,
+          "max_taker_rate": null,
+          "low_action": null,
+          "high_taker_half_spread": null
+        }
+      ],
+      "probe": "all 15 nested fields confirmed"
+    },
+    {
+      "field": "phase3",
+      "kind": "phase_table",
+      "offsets": [
+        "0x220"
+      ],
+      "defaults": [
+        {
+          "long_open_threshold": null,
+          "long_close_threshold": null,
+          "short_open_threshold": null,
+          "short_close_threshold": null,
+          "max_single_net_vol": null,
+          "max_single_net_amt": null,
+          "max_single_add_vol": null,
+          "max_single_add_amt": null,
+          "taker_mult_max": null,
+          "taker_cover_k": null,
+          "taker_skip_half_spread_bp": null,
+          "taker_rate_baseline": null,
+          "max_taker_rate": null,
+          "low_action": null,
+          "high_taker_half_spread": null
+        }
+      ],
+      "probe": "all 15 nested fields confirmed"
+    }
+  ],
+  "scope": "actual parser probes; enable_xs forced false",
+  "phase_global_low_action_probe": [
+    null,
+    null,
+    null
+  ],
+  "signal_windows_s_probe": [
+    1.25,
+    2.75
+  ]
+}

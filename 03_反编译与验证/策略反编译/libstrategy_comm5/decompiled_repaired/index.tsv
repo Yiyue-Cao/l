@@ -1,0 +1,52 @@
+000000000003b520	OK	strategy_comm5::next_phase
+000000000003b390	OK	strategy_comm5::xs_inst_of
+000000000003b000	OK	strategy_comm5::Comm5Params::signal_mode
+000000000003b040	OK	strategy_comm5::Comm5Params::signal_trigger_mode
+000000000003b150	OK	strategy_comm5::Comm5Params::effective
+000000000003c600	OK	strategy_comm5::StrategyComm5::xs_mult
+0000000000082900	OK	strategy_comm5::signal_trigger::SignalTrigger::update_score
+0000000000083790	OK	strategy_comm5::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000082d70	OK	strategy_comm5::signal_trigger::SignalTrigger::windows_std_trigger
+0000000000082c60	OK	strategy_comm5::signal_trigger::SignalTrigger::windows_mean_trigger
+0000000000083550	OK	strategy_comm5::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000082bd0	OK	strategy_comm5::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+0000000000082e80	OK	strategy_comm5::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000082b40	OK	strategy_comm5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+00000000000827b0	OK	strategy_comm5::signal_trigger::SignalTrigger::new
+0000000000083f00	OK	strategy_comm5::signal_trigger::dynamic_threshold
+00000000000839a0	OK	_ZN14strategy_comm514signal_trigger17enum_rate_counter17hb51fcb9e7a9a6c40E.llvm.1301231569978033549
+00000000000823c0	OK	strategy_comm5::signal_trigger::TsQuantileCalculator::update
+000000000003c3c0	OK	strategy_comm5::high_taker_rate
+000000000007be90	OK	strategy_comm5::__fb_plugin_impl::destroy
+000000000007b680	OK	strategy_comm5::__fb_plugin_impl::on_begin
+000000000007b910	OK	strategy_comm5::__fb_plugin_impl::on_depth
+000000000007bb40	OK	strategy_comm5::__fb_plugin_impl::on_order
+000000000007ba50	OK	strategy_comm5::__fb_plugin_impl::on_finish
+000000000007b770	OK	strategy_comm5::__fb_plugin_impl::on_signal
+0000000000081770	OK	strategy_comm5::vol_spread_ratio::VolSpreadRatio::update
+000000000003c500	OK	strategy_comm5::taker_fillable_cum
+000000000003be50	OK	strategy_comm5::live_pending_counts
+000000000003b5f0	OK	strategy_comm5::cancel_order_use_range
+0000000000044b80	OK	strategy_comm5::place
+000000000003b4a0	OK	strategy_comm5::eff_amts
+000000000004eea0	OK	<strategy_comm5::_::<impl serde_core::de::Deserialize for strategy_comm5::Comm5Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+00000000000550d0	OK	<strategy_comm5::_::<impl serde_core::de::Deserialize for strategy_comm5::Comm5Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000069150	FAILED	_ZN171_$LT$strategy_comm5.._..$LT$impl$u20$serde_core..de..Deserialize$u20$for$u20$strategy_comm5..Comm5Params$GT$..deserialize..__Visitor$u20$as$u20$serde_core..de..Visitor$GT$9visit_map17hfbf4273ef3d8a03cE.llvm.11174277906950546343
+000000000005cb00	OK	<strategy_comm5::_::<impl serde_core::de::Deserialize for strategy_comm5::PhaseParams>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000044ba0	OK	<strategy_comm5::_::<impl serde_core::de::Deserialize for strategy_comm5::Comm5Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+00000000000458a0	OK	<strategy_comm5::_::<impl serde_core::de::Deserialize for strategy_comm5::PhaseParams>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000007a350	OK	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm5::signal_trigger::SignalTrigger>>
+000000000003a250	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm5::signal_trigger::SignalTrigger>>
+000000000003a400	OK	core::ptr::drop_in_place<strategy_comm5::Comm5Params>
+000000000007a440	OK	core::ptr::drop_in_place<strategy_comm5::StrategyComm5>
+0000000000060a80	OK	_ZN4core3ptr69drop_in_place$LT$strategy_comm5..vol_spread_ratio..VolSpreadRatio$GT$17h1ce622403930dcd4E.llvm.2190550127363389366
+0000000000071900	OK	core::ptr::drop_in_place<strategy_comm5::signal_trigger::TsQuantileCalculator>
+0000000000060b30	OK	_ZN4core3ptr73drop_in_place$LT$strategy_comm5..signal_trigger..TsQuantileCalculator$GT$17hf7c0dd9828cd00a9E.llvm.2190550127363389366
+000000000007a980	OK	core::ptr::drop_in_place<core::option::Option<strategy_comm5::Comm5Params>>
+000000000003c8a0	OK	<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000044880	OK	<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+0000000000044a60	OK	<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+000000000003f310	OK	<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000007bed0	OK	create_strategy
+000000000007b620	OK	fb_strategy_sdk_abi_version
+000000000007b630	OK	fb_strategy_sdk_version_str

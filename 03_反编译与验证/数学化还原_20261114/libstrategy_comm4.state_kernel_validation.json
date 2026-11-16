@@ -1,0 +1,16 @@
+[
+  {
+    "function": "strategy_comm4::next_phase",
+    "elf": "000000000004f0e0",
+    "cases": 360,
+    "passed": 360,
+    "failures": []
+  },
+  {
+    "function": "strategy_comm4::vol_spread_ratio::VolSpreadRatio::update",
+    "elf": "0000000000076a30",
+    "cases": 500,
+    "passed": 500,
+    "failures": []
+  }
+]

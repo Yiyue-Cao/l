@@ -1,0 +1,29 @@
+{
+  "files": [
+    "future_backtest_runner",
+    "future_backtest_meta_runner"
+  ],
+  "common_named_functions": 420,
+  "byte_identical_functions": 420,
+  "different_functions": [],
+  "main_bytes": [
+    "ff251afa2901",
+    "ff251afa2901"
+  ],
+  "main_entry_relocations": [
+    {
+      "file": "future_backtest_runner",
+      "main_elf": "0x65c220",
+      "got": "0x18fbc40",
+      "relocation_type": 8,
+      "target_elf": "0x91d270"
+    },
+    {
+      "file": "future_backtest_meta_runner",
+      "main_elf": "0x65c220",
+      "got": "0x18fbc40",
+      "relocation_type": 8,
+      "target_elf": "0x91d280"
+    }
+  ]
+}

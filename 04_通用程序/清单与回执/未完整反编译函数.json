@@ -1,0 +1,56 @@
+[
+  {
+    "file": "future_backtest",
+    "address": "00000000009cb2b0",
+    "name": "future_backtest::RunnerCore::run_multi",
+    "bytes": 42013,
+    "instruction_lines": 9675,
+    "decompiler_error": "// FAILED Exception while decompiling 00acb2b0: Decompiler process died",
+    "assembly": "analysis/future_backtest/failed_function_assembly/00000000009cb2b0.asm"
+  },
+  {
+    "file": "future_backtest",
+    "address": "00000000007305f0",
+    "name": "future_backtest::Customer::customer::Account::real_position_update",
+    "bytes": 4367,
+    "instruction_lines": 996,
+    "decompiler_error": "// FAILED \nLow-level Error: Overlapping input varnodes",
+    "assembly": "analysis/future_backtest/failed_function_assembly/00000000007305f0.asm"
+  },
+  {
+    "file": "future_backtest_meta_runner",
+    "address": "00000000009225d0",
+    "name": "future_backtest::RunnerCore::run_multi",
+    "bytes": 42013,
+    "instruction_lines": 9675,
+    "decompiler_error": "// FAILED Exception while decompiling 00a225d0: Decompiler process died",
+    "assembly": "analysis/future_backtest_meta_runner/failed_function_assembly/00000000009225d0.asm"
+  },
+  {
+    "file": "future_backtest_meta_runner",
+    "address": "0000000000687910",
+    "name": "future_backtest::Customer::customer::Account::real_position_update",
+    "bytes": 4367,
+    "instruction_lines": 996,
+    "decompiler_error": "// FAILED \nLow-level Error: Overlapping input varnodes",
+    "assembly": "analysis/future_backtest_meta_runner/failed_function_assembly/0000000000687910.asm"
+  },
+  {
+    "file": "future_backtest_runner",
+    "address": "00000000009225d0",
+    "name": "future_backtest::RunnerCore::run_multi",
+    "bytes": 42013,
+    "instruction_lines": 9675,
+    "decompiler_error": "// FAILED Exception while decompiling 00a225d0: Decompiler process died",
+    "assembly": "analysis/future_backtest_runner/failed_function_assembly/00000000009225d0.asm"
+  },
+  {
+    "file": "future_backtest_runner",
+    "address": "0000000000687910",
+    "name": "future_backtest::Customer::customer::Account::real_position_update",
+    "bytes": 4367,
+    "instruction_lines": 996,
+    "decompiler_error": "// FAILED \nLow-level Error: Overlapping input varnodes",
+    "assembly": "analysis/future_backtest_runner/failed_function_assembly/0000000000687910.asm"
+  }
+]

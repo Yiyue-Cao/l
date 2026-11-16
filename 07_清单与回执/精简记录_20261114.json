@@ -1,0 +1,281 @@
+{
+  "scope": "local only",
+  "archive_relative_to_1008": "l_历史归档/20261114_早期分析.zip",
+  "archive_sha256": "80537febe8261ab0193218e135941eb736e92ec7bafe87b29097fb025c221e87",
+  "removed_analysis_count": 39,
+  "removed_bytes": 232161,
+  "archived_files_count": 83,
+  "archived_note": "39 removed analyses plus pre-edit Markdown and restore helper for reversible navigation changes",
+  "removed": [
+    {
+      "path": "02_综合说明/早期技术说明/comm2.md",
+      "bytes": 6841,
+      "sha256": "f814a0b25612a3bfa2c507d57b5b96631f934640ce2d81e282d0c14c5f0fd202",
+      "replacement": "01_策略库与详细解读/comm2/libstrategy_comm2.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm3.md",
+      "bytes": 7680,
+      "sha256": "b704956f240b442368b5e6e2aa9340ba1fa29cb0db42451b2cd9d59fa6a7a841",
+      "replacement": "01_策略库与详细解读/comm3/libstrategy_comm3.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm3_1.md",
+      "bytes": 7909,
+      "sha256": "d5a9e4449225bb43292bca8d6f060000e4ed2a4f9aa2d9b8e76363685ad82e17",
+      "replacement": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm3_2.md",
+      "bytes": 7761,
+      "sha256": "e1b8d92211faca060e41ca4ab47f349efe3945996bc787ff06ba0f11ef725606",
+      "replacement": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm4.md",
+      "bytes": 8672,
+      "sha256": "5d71e9347cc827aab6e677f6cb0a2ec89697038f85f9958f668096444ff684ca",
+      "replacement": "01_策略库与详细解读/comm4/libstrategy_comm4.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm4_1.md",
+      "bytes": 8812,
+      "sha256": "501cdf1ecbca906d15a84990bb0b2ef0ea5eade791d29d6e0b849ae011db84ff",
+      "replacement": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm5.md",
+      "bytes": 9728,
+      "sha256": "419c371e7371e868c362a1b85dc464b7c191e3185a8cfd9ef685dc94baf41e20",
+      "replacement": "01_策略库与详细解读/comm5/libstrategy_comm5.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm_maker1.md",
+      "bytes": 8909,
+      "sha256": "1fcfad75de468fa023de54ada0372b5c8dd15e6582be8aee4a2445e8a12fc0cd",
+      "replacement": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/comm_mock.md",
+      "bytes": 8284,
+      "sha256": "e4edfb0c22e7c65bdaff15a09010f5e48459b7582be70fc394f3e89486058f41",
+      "replacement": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/lf4.md",
+      "bytes": 5801,
+      "sha256": "80a96d850601f94c288f088ff804f159a7de050bea0fa923c934b7461e962ece",
+      "replacement": "01_策略库与详细解读/lf4/libstrategy_lf4.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sm1.md",
+      "bytes": 7933,
+      "sha256": "bd570fa976992366582a875c04ec32261c1bfa08880907edabbb6523318a137a",
+      "replacement": "01_策略库与详细解读/sm1/libstrategy_sm1.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sm2.md",
+      "bytes": 6790,
+      "sha256": "dfa55d1662f2444d4ca2be8bbe33a430a5238f03b0eb315964058aa381ee773d",
+      "replacement": "01_策略库与详细解读/sm2/libstrategy_sm2.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sm3.md",
+      "bytes": 6464,
+      "sha256": "de57f24de5333187705bf27d6c68af521bd01b0a928339510e50339c7b83dbc1",
+      "replacement": "01_策略库与详细解读/sm3/libstrategy_sm3.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sm3_1.md",
+      "bytes": 8753,
+      "sha256": "4b6f1b27cecd150beb34c2bb7a7e427b4c3acb33d64291ce83cd7a238c829983",
+      "replacement": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sm4.md",
+      "bytes": 9480,
+      "sha256": "d3bef3a49f58ca39ae581c49e45c14c871647d4aee37bfeef86349d254b67490",
+      "replacement": "01_策略库与详细解读/sm4/libstrategy_sm4.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sos5.md",
+      "bytes": 7780,
+      "sha256": "8988d987d5a2630a2ff6a2ee6b6951f071851c5ff5550002f31bc34b36c50f26",
+      "replacement": "01_策略库与详细解读/sos5/libstrategy_sos5.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/sos6.md",
+      "bytes": 6567,
+      "sha256": "76909481a0563c6f13cf213843ea7afa59bf87d79440c7734548d54e746461e0",
+      "replacement": "01_策略库与详细解读/sos6/libstrategy_sos6.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/tm5.md",
+      "bytes": 5858,
+      "sha256": "364116b291be818d5714e471934a1e2e84b9b704a531519c25be16b009690945",
+      "replacement": "01_策略库与详细解读/tm5/libstrategy_tm5.md"
+    },
+    {
+      "path": "02_综合说明/早期技术说明/tm6.md",
+      "bytes": 7374,
+      "sha256": "bd697d9fac93838c249e44da4bcccb4623b2917adfc8d659c313d9db7ce8ce80",
+      "replacement": "01_策略库与详细解读/tm6/libstrategy_tm6.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/10_comm2.md",
+      "bytes": 4541,
+      "sha256": "a07481d16e3dae12f378280db1db6c26cf25a9c201d73792ac132b60ce3be9b5",
+      "replacement": "01_策略库与详细解读/comm2/libstrategy_comm2.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/11_comm3.md",
+      "bytes": 3974,
+      "sha256": "ed873e3d3adfaf625c7c514b6c55a4717083c2442ee11c3302a2247204d63f62",
+      "replacement": "01_策略库与详细解读/comm3/libstrategy_comm3.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/12_comm3_1.md",
+      "bytes": 3758,
+      "sha256": "bffd84c82105c4415aab65665bd0fe430121300dde7a7dde9f12c9a2764a5ca1",
+      "replacement": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/13_comm3_2.md",
+      "bytes": 3276,
+      "sha256": "94584b0d67f9e51739f65097423f84ba5ba900829f1298dbf6e05f73f4e028c9",
+      "replacement": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/14_comm4.md",
+      "bytes": 4440,
+      "sha256": "596a66d4717a80764d64d0fca6f1e49c73c638cc91d2ef9c89dcde8d7a0aefe8",
+      "replacement": "01_策略库与详细解读/comm4/libstrategy_comm4.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/15_comm4_1.md",
+      "bytes": 3884,
+      "sha256": "c4dd06424a4eab903ec40964b815fe1df237b2272260da7aca7d07c17e2332da",
+      "replacement": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/16_comm5.md",
+      "bytes": 5221,
+      "sha256": "eaff56a9c2f2d2e1f2028a834e112a09c221ff60fc8cbed010b39a694fa4ff08",
+      "replacement": "01_策略库与详细解读/comm5/libstrategy_comm5.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/17_comm_maker1.md",
+      "bytes": 4345,
+      "sha256": "f2c2a1cd6ca860101af777dad709304af04aafb4b720518dd7ffe78c69b88c71",
+      "replacement": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/18_comm_mock.md",
+      "bytes": 4362,
+      "sha256": "4a84862db24de4a35544cf06f7be81fd0b06ba959dc97745b5c5e4147b2579ba",
+      "replacement": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/19_lf4.md",
+      "bytes": 3511,
+      "sha256": "3a97d7782c629c845ede9ffbf853ca6c02a4b261ed24696dffb36c8ee68c54b8",
+      "replacement": "01_策略库与详细解读/lf4/libstrategy_lf4.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/20_sm1.md",
+      "bytes": 3466,
+      "sha256": "7ed346b5ecddf255871779ac9b304183867e573c572f970d4afe5940cdd5298b",
+      "replacement": "01_策略库与详细解读/sm1/libstrategy_sm1.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/21_sm2.md",
+      "bytes": 3932,
+      "sha256": "67c2190942baf7b693cead0f65a3b04866752ea6ed84731258c3ca0db3cb3b55",
+      "replacement": "01_策略库与详细解读/sm2/libstrategy_sm2.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/22_sm3.md",
+      "bytes": 3302,
+      "sha256": "f2fd5aed4fd36c7dc0a67df102cb3f99c569119028e9f1245c04505dce4db205",
+      "replacement": "01_策略库与详细解读/sm3/libstrategy_sm3.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/23_sm3_1.md",
+      "bytes": 4012,
+      "sha256": "729fd1e4fd395f21eb549b95e2dcb3b9a713f4725d8f5bdc2cfbc296c8aec449",
+      "replacement": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/24_sm4.md",
+      "bytes": 3645,
+      "sha256": "108f15397586fafae956798036e698aa88fe19b35baa884dbfc043dcd1d92949",
+      "replacement": "01_策略库与详细解读/sm4/libstrategy_sm4.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/25_sos5.md",
+      "bytes": 4121,
+      "sha256": "f596405bc3435247316a634587b062dec03012d0ac7b0aa87d9b7cf217af49a7",
+      "replacement": "01_策略库与详细解读/sos5/libstrategy_sos5.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/26_sos6.md",
+      "bytes": 3659,
+      "sha256": "3a1f1655d7fbffddf616e6ba34bf6f4d4bc5cf6fe3f3660901abb3625eb69a22",
+      "replacement": "01_策略库与详细解读/sos6/libstrategy_sos6.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/27_tm5.md",
+      "bytes": 4116,
+      "sha256": "17cee408dfc2a5f5b155f59664e0c00032d43b54be19e3a52724ec79d774413e",
+      "replacement": "01_策略库与详细解读/tm5/libstrategy_tm5.md"
+    },
+    {
+      "path": "02_综合说明/自然语言详解_20261114/28_tm6.md",
+      "bytes": 4384,
+      "sha256": "84f43fc23302c2f87414869020d20ab2059ec9a684526f9ea51fd95714d2141d",
+      "replacement": "01_策略库与详细解读/tm6/libstrategy_tm6.md"
+    },
+    {
+      "path": "02_综合说明/策略逻辑总览.md",
+      "bytes": 8816,
+      "sha256": "e510620e60ef29113b0d13038dc1ed70324464c38c225ecaeb32ab2bcb1c063a",
+      "replacement": "01_策略库与详细解读/19个策略_数学化还原索引.md"
+    }
+  ],
+  "modified_markdown": [
+    "README.md",
+    "01_策略库与详细解读/19个策略_数学化还原索引.md",
+    "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+    "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+    "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+    "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+    "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+    "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+    "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+    "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+    "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+    "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+    "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+    "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+    "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+    "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+    "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+    "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+    "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+    "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+    "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+    "05_工具脚本/README.md",
+    "07_清单与回执/README.md",
+    "02_综合说明/README.md",
+    "02_综合说明/自然语言详解_20261114/00_阅读入口.md",
+    "02_综合说明/自然语言详解_20261114/08_SoS5阶段驱动如何组织对照实验.md"
+  ],
+  "retained": "19 latest mathematical strategy docs, all binary files, unique decompilation and validation evidence, common workflow and driver docs",
+  "verification": {
+    "removed_analyses_verified": 39,
+    "remaining_strategy_pairs": 19,
+    "non_markdown_unchanged": 4178,
+    "checked_markdown_links": 748,
+    "broken_links": []
+  }
+}

@@ -1,0 +1,1083 @@
+{
+  "archive_relative_to_1008": "l_历史归档/20261114_comm5合并前.zip",
+  "archive_sha256": "e1c65cbe69382656ffd47442d886fff57f9050a887ec38a347f2d94030ebba72",
+  "scope": "local only; original evidence preserved byte-for-byte; no strategy logic changes",
+  "counts": {
+    "merged": 101,
+    "duplicate_archived": 47,
+    "historical_archived": 3
+  },
+  "files": [
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003a250.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003a250.asm",
+      "action": "merged",
+      "bytes": 1810,
+      "sha256": "1edadebfe212af3ea7a1048fc7e379f1a133701b3abc40c3e43578dcfab25358"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003a400.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003a400.asm",
+      "action": "merged",
+      "bytes": 5721,
+      "sha256": "b80fccb02d65541f8de744704b196c604dc0151ac1c1d8c4c1a5bd6222d67a45"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b000.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b000.asm",
+      "action": "merged",
+      "bytes": 1340,
+      "sha256": "34f957bcdc048791cfa30e67a1b3274e8cbd1054a2ccd6ee4bbb87d4405100ed"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b040.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b040.asm",
+      "action": "merged",
+      "bytes": 4631,
+      "sha256": "a962b5a165aa4aaf30caa01e81834fac30ca108659a1303e03b6e788e68d53af"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b150.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b150.asm",
+      "action": "merged",
+      "bytes": 6577,
+      "sha256": "2a42feacdaf0b93af15586c6a437d5e5a2c235beaf2ebe11db2563faf10fdb22"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b390.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b390.asm",
+      "action": "merged",
+      "bytes": 5186,
+      "sha256": "2d503eb10415004fe799c678006763b4326fa56a1c06bab679bbdd8a3e3d5a44"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b4a0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b4a0.asm",
+      "action": "merged",
+      "bytes": 2188,
+      "sha256": "1c06c5f852a599dcc74c75dbbaea5275d6b004b4551afe2548565132dc52faa8"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b520.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b520.asm",
+      "action": "merged",
+      "bytes": 3254,
+      "sha256": "2d097ec1a44d1371616db9be72281086b3ad3af1017012bf6a167d752fd18aa7"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003b5f0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003b5f0.asm",
+      "action": "merged",
+      "bytes": 30857,
+      "sha256": "6ab4ae0d0a5d73fc5fe4ff254469b6dfef67611311fce427cead614a538836c7"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003be50.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003be50.asm",
+      "action": "merged",
+      "bytes": 21081,
+      "sha256": "8f99eef2624a2beb0321cf080ec1c6561c5acfc27745328c1259bcd9e767ab1d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003c3c0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003c3c0.asm",
+      "action": "merged",
+      "bytes": 4344,
+      "sha256": "cf4a68fab4a36f5db5678a5f7e1ca470c7d52bd20ba9817a9d0954d34d944b3c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003c500.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003c500.asm",
+      "action": "merged",
+      "bytes": 4090,
+      "sha256": "8d5cd94086fab73431882ba1dd2cbb2ab58023618288f4744c6f984deb1d4be6"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003c600.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003c600.asm",
+      "action": "merged",
+      "bytes": 11038,
+      "sha256": "7a60b93d9eabeb82fc877a4a6c29565c6f9f9a7cdc714a2742dc6846b94b9426"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003c8a0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003c8a0.asm",
+      "action": "merged",
+      "bytes": 150371,
+      "sha256": "afb21261faa5b13a60a6828ac7b03b3521f6cee68cde476fe96698f6b1d9e408"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000003f310.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000003f310.asm",
+      "action": "merged",
+      "bytes": 258430,
+      "sha256": "ae25bbdc5e22eeeb116ede86cefc63f5bb91b51ef591f62c41621d59e5a9f621"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000044880.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000044880.asm",
+      "action": "merged",
+      "bytes": 7864,
+      "sha256": "1be14f8caa18ff49121735665b49d1e1d3ca431a806c6cebe9cd8be548921ef3"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000044a60.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000044a60.asm",
+      "action": "merged",
+      "bytes": 5170,
+      "sha256": "edd1e58ee1e5fe138e4682e8858342b190bd1358ef1716b2ad6a98b6fcc3c22a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000044b80.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000044b80.asm",
+      "action": "merged",
+      "bytes": 642,
+      "sha256": "b46392391e9340b01e0d5c12071f906a988f2b03bdf73282ff47a6ead8f04140"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000044ba0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000044ba0.asm",
+      "action": "merged",
+      "bytes": 73405,
+      "sha256": "f84707d9b9b929c2cca670dab4918e92650c6c2a779032f3174be04b9dd0a127"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/00000000000458a0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/00000000000458a0.asm",
+      "action": "merged",
+      "bytes": 15014,
+      "sha256": "cedb36bbfc9cd26b75d6b7ee9a961637cafb217db575239e7b54ea6f542665fd"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000004eea0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000004eea0.asm",
+      "action": "merged",
+      "bytes": 333680,
+      "sha256": "7d4246b28a100e2c2393ba5ec42639b612a1bda6021d40e9b4432676be25288a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/00000000000550d0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/00000000000550d0.asm",
+      "action": "merged",
+      "bytes": 452985,
+      "sha256": "f8b77e716f6763b5ed4cab0575d79621ba7c8dea78d2a84a217db4d7cafb770e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000005cb00.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000005cb00.asm",
+      "action": "merged",
+      "bytes": 60715,
+      "sha256": "661b1d608a98dfc9b99bc45fd482df82c450b74ea539d8afabd0fc30f83f30c8"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000071900.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000071900.asm",
+      "action": "merged",
+      "bytes": 1560,
+      "sha256": "d2b971041b528287c87cbfc4b72094670e3c6677db647739f72032852a6425ce"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007a350.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007a350.asm",
+      "action": "merged",
+      "bytes": 726,
+      "sha256": "7ef6d8c01280f190ac67f8a7cbd7f1cd51c5a5b18a7e45edb1023463a29ecb2b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007a440.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007a440.asm",
+      "action": "merged",
+      "bytes": 13659,
+      "sha256": "468fd01809145203b5d5ebb81a2db9928f68b6ec2601312350843a564ddb021a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007a980.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007a980.asm",
+      "action": "merged",
+      "bytes": 6511,
+      "sha256": "fe410f872dadc3f64e08db5828e9378f31405ae2d183e032c5a36236640a793d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007b680.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007b680.asm",
+      "action": "merged",
+      "bytes": 3655,
+      "sha256": "b174e9dbee2ef24999a4f122b000c9078b1c85e4a55e066f48619650cfaf11df"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007b770.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007b770.asm",
+      "action": "merged",
+      "bytes": 5826,
+      "sha256": "4b471c00bab6184b1f3b950e87d8392f2a1ba52b05d038788cb7a36e780c0caf"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007b910.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007b910.asm",
+      "action": "merged",
+      "bytes": 4314,
+      "sha256": "43aa486781ab53a1c67e0ca9652bba7e42d977ae5fcbe400a4cb342a8ca9e687"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007ba50.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007ba50.asm",
+      "action": "merged",
+      "bytes": 3660,
+      "sha256": "e828b4ac1b0345a5404414ce892dfc7825de6f7ed231cc36dabea547628ad626"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007bb40.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007bb40.asm",
+      "action": "merged",
+      "bytes": 13382,
+      "sha256": "63289959d3b545f784a285cd83786f2b2fe214271fde44247f43ba3929924bed"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/000000000007be90.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/000000000007be90.asm",
+      "action": "merged",
+      "bytes": 1261,
+      "sha256": "528ba5707c2312ff96ea7042fb978432055a16d7f92149ff62a86260d24e4d31"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000081770.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000081770.asm",
+      "action": "merged",
+      "bytes": 10418,
+      "sha256": "9b36c016720bf964c942b3a2f55e0d5de0d29dce7cb35891512b23fec6fd7145"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/00000000000823c0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/00000000000823c0.asm",
+      "action": "merged",
+      "bytes": 16272,
+      "sha256": "1dcaf7d66f8f28042925d8863b0dcb2a2374f6f62bfa5bf60e3b99da49a2d296"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/00000000000827b0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/00000000000827b0.asm",
+      "action": "merged",
+      "bytes": 5548,
+      "sha256": "9b6ed7447d0e811c51110a634cc1e6350a939ed276cf8db171ea1a153abf944e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082900.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082900.asm",
+      "action": "merged",
+      "bytes": 8748,
+      "sha256": "f764547e10c30ad4a28ec55b94e177fc26e3d189e89e5d968cb3d9c9b2132a5d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082b40.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082b40.asm",
+      "action": "merged",
+      "bytes": 2880,
+      "sha256": "d7d0bfa662b2110643c5f8ba8bf4325bd3c6ae5ea10882f958e1c3b227e846d5"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082bd0.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082bd0.asm",
+      "action": "merged",
+      "bytes": 2722,
+      "sha256": "62b47641c3fd90c90f0e128cedbfe02716fe65e60b0fd2d1c7a4644b36f8e5c1"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082c60.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082c60.asm",
+      "action": "merged",
+      "bytes": 4613,
+      "sha256": "d3a31f09c7b3da80f7a49cb816fcf0f6f497c3de273633905fff1e080c34a7df"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082d70.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082d70.asm",
+      "action": "merged",
+      "bytes": 4606,
+      "sha256": "9846139be4a8425c23291808a5e077df6357daeb6ed4ab50b5e17e38b66cf412"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000082e80.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000082e80.asm",
+      "action": "merged",
+      "bytes": 27171,
+      "sha256": "7b1e191d1df46057076bc3460f9be9bb2de2cecccd739b3eb203730bd1c68a1d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000083550.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000083550.asm",
+      "action": "merged",
+      "bytes": 9126,
+      "sha256": "9c8950f26bfc9a899405d5163d71443262396b462cb2f94887ff60fcdbb4713d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000083790.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000083790.asm",
+      "action": "merged",
+      "bytes": 8331,
+      "sha256": "f27609e089202ca0c23b3cecde93ae40a8b770ba744e330da5ab34f0a633385a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/assembly/0000000000083f00.asm",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/assembly_20261109/0000000000083f00.asm",
+      "action": "merged",
+      "bytes": 2776,
+      "sha256": "151dbdcaaafd71205ff7215ab3db11b9dfc2d71d34e8b08985e0b0b6ba38618e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/config_fields.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.20261109.config_fields.json",
+      "action": "merged",
+      "bytes": 13087,
+      "sha256": "f31add5ed2e171fd8b03199295dea47eebc8993564c0e8092b55d1ca5d075dfd"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003a250.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003a250.c",
+      "action": "duplicate_archived",
+      "bytes": 791,
+      "sha256": "6e9c8ceb25e92eca591665decb2a3c3fc80b46ce97a8c7ced2ad974ea518a525"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003a400.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003a400.c",
+      "action": "duplicate_archived",
+      "bytes": 2234,
+      "sha256": "1e6eb1f60028e774d86b2e3a8aa8a53c6ae94b49be245288ae0beee76323d464"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003a720.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000003a720.c",
+      "action": "merged",
+      "bytes": 941,
+      "sha256": "254b6a7ada4701db8ea6f477d0939fe652b737516ed60b2c96639e038a4a40ef"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b000.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b000.c",
+      "action": "duplicate_archived",
+      "bytes": 474,
+      "sha256": "357ae2ecac3de9b2000b38621af4140ec29bb43cc546c745f172311317966793"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b040.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b040.c",
+      "action": "duplicate_archived",
+      "bytes": 13092,
+      "sha256": "77933c201220ee97662a3a0b5269f1d3411373d198630164e343835b94685fca"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b150.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b150.c",
+      "action": "duplicate_archived",
+      "bytes": 3549,
+      "sha256": "6528881fafee6c1876dd750cef991af368d94b6073c8230c5ad4b14baa8b7cb1"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b390.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b390.c",
+      "action": "duplicate_archived",
+      "bytes": 1950,
+      "sha256": "202c60ec6283bd8f670a5f3e38c444eb8fd8266c7d2661ef3be726f495134eaa"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b4a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b4a0.c",
+      "action": "duplicate_archived",
+      "bytes": 659,
+      "sha256": "0d50f01bbba28b0460caef1ffacb3a8231108aaa2567b27ce4d8c474be212abb"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b520.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b520.c",
+      "action": "duplicate_archived",
+      "bytes": 1227,
+      "sha256": "f42242a54e29c8bff9be3b04f5f8ffbf47e5894146f3a942bbbc400322c78ddb"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003b5f0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003b5f0.c",
+      "action": "duplicate_archived",
+      "bytes": 9376,
+      "sha256": "2c104c5d0492570a23f89647666ea03d319fb39f41be5a54e3d0871330366360"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003be50.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003be50.c",
+      "action": "duplicate_archived",
+      "bytes": 6012,
+      "sha256": "5a404c649392dd3991d9ca623adecb1315bcc1d3f11098ae7b0ccdd706573160"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003c3c0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003c3c0.c",
+      "action": "duplicate_archived",
+      "bytes": 1531,
+      "sha256": "7fd6d1b36e2330659e0801b977b843651f458cf3e5dbb120ece2a67af4e5a23c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003c500.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003c500.c",
+      "action": "duplicate_archived",
+      "bytes": 1819,
+      "sha256": "d7ccf304de3f71ea64000a8be07647d35612a8a59d185a005f3a5e0ec8171330"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003c600.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003c600.c",
+      "action": "duplicate_archived",
+      "bytes": 7582,
+      "sha256": "fcf366fb5bdc038fdf287f21e75f8631e53e1af695e69e6f7435e3dd48d9d17f"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003c8a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000003c8a0.c",
+      "action": "duplicate_archived",
+      "bytes": 82668,
+      "sha256": "57a7b0a0b5e6b2f9a2e10b53f1fa05083266efc8d9c1e18b82cc6bf1abcf34d5"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000003f310.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_repaired/000000000003f310.c",
+      "action": "duplicate_archived",
+      "bytes": 124299,
+      "sha256": "925a1847e0a9df408b8bd80ae3864fbe4df4d4bb9c5f729caa637b6a94c5271e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000044880.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000044880.c",
+      "action": "duplicate_archived",
+      "bytes": 6581,
+      "sha256": "a241773f3102d994abe60dc1513da8c142a837ef578385be70b2d82cc048a5df"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000044a60.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000044a60.c",
+      "action": "duplicate_archived",
+      "bytes": 2142,
+      "sha256": "e78317761d5ec55f46721caf10515e885e038b9e7aa0e0da050ed0756cdcf536"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000044b80.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000044b80.c",
+      "action": "duplicate_archived",
+      "bytes": 356,
+      "sha256": "f34848df96844105a164995509ffad9c135e05d9d6f35d8d0100844ca9290815"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000044ba0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000044ba0.c",
+      "action": "duplicate_archived",
+      "bytes": 74066,
+      "sha256": "476623a9a08dbc62221371728376046de0678c4fdc5452d322f06375973e2635"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000458a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/00000000000458a0.c",
+      "action": "duplicate_archived",
+      "bytes": 38086,
+      "sha256": "589e71c1a5b06a10b00915f1bcf321999d8ab9a252adcdda6d208594c50fc62e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000004eea0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000004eea0.c",
+      "action": "duplicate_archived",
+      "bytes": 15409,
+      "sha256": "3c28dd4f65ce91e778cc7eb48bb1dfacbf69faa957dd56eba4ea42b6b0599513"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000550d0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/00000000000550d0.c",
+      "action": "duplicate_archived",
+      "bytes": 27282,
+      "sha256": "a83d13d57285aeb99225b0f4c68449db2393081451e5c7f112fc975383ce771c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000005cb00.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000005cb00.c",
+      "action": "duplicate_archived",
+      "bytes": 4813,
+      "sha256": "2ab3ddee1f430f9fc25f57cabdb936de7fe24837422ebbd89104970a512759ac"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000071900.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000071900.c",
+      "action": "duplicate_archived",
+      "bytes": 526,
+      "sha256": "814f44420c7a6043f437d7e30a6203abd9aacaba404d1595225199b7e8927a6e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000079fa0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/0000000000079fa0.c",
+      "action": "merged",
+      "bytes": 922,
+      "sha256": "50131814a3407f41bedd14743eb1668ed76616d3a355c41babcefacf5d71de55"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a040.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000007a040.c",
+      "action": "merged",
+      "bytes": 1584,
+      "sha256": "26736c6e50bf4301dc4a002ee3dec5534a11580d000e19f2443ba6c8b72c176b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a130.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000007a130.c",
+      "action": "merged",
+      "bytes": 926,
+      "sha256": "27fec5f23c41534d566310c1dd7d3d4f1a3fa509a510630b9bc02b2d73a17613"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a350.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007a350.c",
+      "action": "duplicate_archived",
+      "bytes": 4723,
+      "sha256": "4cc5bc0082313febc3726f6290f4b0655d320ba1b7a4de137c017127715e8597"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a440.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007a440.c",
+      "action": "duplicate_archived",
+      "bytes": 12034,
+      "sha256": "4be4af3b6945c66af99b4ce74a04b95ec62ae10cd643617f638620ff73c93a8f"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a7a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000007a7a0.c",
+      "action": "merged",
+      "bytes": 726,
+      "sha256": "b9531d481b937329db1d5a67d933ed7a5a412f1132ff28288d2cb75582432f70"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a810.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000007a810.c",
+      "action": "merged",
+      "bytes": 459,
+      "sha256": "e5da4db6b1fc1bc23b1057b4c14a5e6434a174f245e69fd2c9d20b5455995242"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a830.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/000000000007a830.c",
+      "action": "merged",
+      "bytes": 1676,
+      "sha256": "4f652f3fe88576d7c09bc4fcb6285f11936f12885907f633405992da44e918d5"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007a980.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007a980.c",
+      "action": "duplicate_archived",
+      "bytes": 2345,
+      "sha256": "3443e54b6a4595362ce94ce43010263975fcf73490ff88e94d4b4dba02140b28"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007b680.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007b680.c",
+      "action": "duplicate_archived",
+      "bytes": 1547,
+      "sha256": "abc98b6920817e14bf7da14956f4987cb0634a12802c9fe5903254e42583c00f"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007b770.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007b770.c",
+      "action": "duplicate_archived",
+      "bytes": 2282,
+      "sha256": "a6d43a36435cb0590b165b0e1bd8c6e8f526b50e7c5a5577917192089362e28d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007b910.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007b910.c",
+      "action": "duplicate_archived",
+      "bytes": 1911,
+      "sha256": "cdee30fb93e5b21575a9b70a855784d35edc35ea18ce653eef19b48643aded1d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007ba50.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007ba50.c",
+      "action": "duplicate_archived",
+      "bytes": 1551,
+      "sha256": "0cc6742d8a979730f614a49da2c0fdd84e89160a4a188db4aaf59061d59ac25a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007bb40.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007bb40.c",
+      "action": "duplicate_archived",
+      "bytes": 4466,
+      "sha256": "de5e5bef57368ba8cd2da0d004606726a1de09174a7a0be372669f9f781be24c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/000000000007be90.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/000000000007be90.c",
+      "action": "duplicate_archived",
+      "bytes": 492,
+      "sha256": "491d861ace5e63e9fbc1f7475608fbd1f0b84ba7e7998f91715bb40d67baaa1b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000081770.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000081770.c",
+      "action": "duplicate_archived",
+      "bytes": 3364,
+      "sha256": "0a55c04d8b5102dc2632dc8ebeec35b35e88fc3e73f0a1b2aef7a49d1d600919"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000823c0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/00000000000823c0.c",
+      "action": "duplicate_archived",
+      "bytes": 6755,
+      "sha256": "a6bdb154d311b8edc0328ef7f1674d53aa0d13dc55f9ca14a555699492dfbe6d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000827b0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/00000000000827b0.c",
+      "action": "duplicate_archived",
+      "bytes": 2931,
+      "sha256": "e72cef75b4507f5c9037cd7ef3498284eb9f35d1ba17309acf916e74524cd727"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082900.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082900.c",
+      "action": "duplicate_archived",
+      "bytes": 11605,
+      "sha256": "0819c28c931e4da6056b2a52b310996e5ab585cd8defe49508f7964daaf3b8ff"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082b40.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082b40.c",
+      "action": "duplicate_archived",
+      "bytes": 1349,
+      "sha256": "05dd7fa638592819c512d6bc2c4e8a8f49254a71e103523747e3e9b7cc572bb1"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082bd0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082bd0.c",
+      "action": "duplicate_archived",
+      "bytes": 1355,
+      "sha256": "98ca98dffc088c9b4b8d85263aa8eaecf34ff4965d627eb00a5b80d1e9b65485"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082c60.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082c60.c",
+      "action": "duplicate_archived",
+      "bytes": 2705,
+      "sha256": "8d5426bccf7c103914e35f315f035c4cc87bddf65ff9b2b7ee998ae76e60aba7"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082d70.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082d70.c",
+      "action": "duplicate_archived",
+      "bytes": 2702,
+      "sha256": "371fc6d7771d063315af3a911b4be36a3298abdd270e006ddf09188356ab696b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000082e80.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000082e80.c",
+      "action": "duplicate_archived",
+      "bytes": 15577,
+      "sha256": "f6e5f2b658c3b43e4c5e3e0669749302672dce5aee8f56adf075483a8101ddc1"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000083550.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000083550.c",
+      "action": "duplicate_archived",
+      "bytes": 5962,
+      "sha256": "7275491d84d2654e3aad0be999274232d0289e3977ad35b988faa235b565ca3c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000083790.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000083790.c",
+      "action": "duplicate_archived",
+      "bytes": 5534,
+      "sha256": "da9cf7846d2285caf37fcd4171df2eb67fc006cb348373df02ff19906d0785c9"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000839a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000839a0.c",
+      "action": "merged",
+      "bytes": 20308,
+      "sha256": "927fd7c3b52da991028d98762bdf1505e464bb9899bde5971fa217a2c2aefb98"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000083f00.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled/0000000000083f00.c",
+      "action": "duplicate_archived",
+      "bytes": 1387,
+      "sha256": "6e2c1760063fff8929ffa23e5fbcdd42dc4cbd4a67a25438337a06e327b8cb3c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000088350.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/0000000000088350.c",
+      "action": "merged",
+      "bytes": 1585,
+      "sha256": "e832fd2e5b8a18d02399b1de096d7dfd8fdecaf06ca052740335b5a8ff248af3"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/0000000000088450.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/0000000000088450.c",
+      "action": "merged",
+      "bytes": 6486,
+      "sha256": "16a305455eca98d1d820b7136f93a1bc9f833b3c81570a671daff83d857468f2"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000886e0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000886e0.c",
+      "action": "merged",
+      "bytes": 4593,
+      "sha256": "0c4b8d46803837d885d6c9e10dbf206c68911344b4b83d3d8eec19c15e25dbc2"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000889a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000889a0.c",
+      "action": "merged",
+      "bytes": 6486,
+      "sha256": "241487f5aadd4bc4234d0775338e7abc06c4021d47576e0149cca2ac9cc4d9ff"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000a6710.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000a6710.c",
+      "action": "merged",
+      "bytes": 5346,
+      "sha256": "bf2280b83cf974cb310155caebff5c51a31ae8efea5ae96fc245aeeb09930768"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000ae540.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000ae540.c",
+      "action": "merged",
+      "bytes": 1927,
+      "sha256": "93b4f0fef70b6e873ed0de56014bf6127efb89ee9482f8b427014f498e29b9f2"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b18f0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b18f0.c",
+      "action": "merged",
+      "bytes": 3366,
+      "sha256": "818d38d7295bfb8b7b50befe009b22b09d928dd2257d6810d04cccd3fe461bca"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b22f0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b22f0.c",
+      "action": "merged",
+      "bytes": 796,
+      "sha256": "536931d112e394c2409d5cc5480379a9f64a8ec593cb8ee981aef5bc6fef51ec"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2670.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2670.c",
+      "action": "merged",
+      "bytes": 334,
+      "sha256": "a696a745afaa877516a8635add3a261f416b46048d3ca588b4b4d5c840e2991b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2680.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2680.c",
+      "action": "merged",
+      "bytes": 334,
+      "sha256": "c1bc5b396dc852a7a8bd7cc06dc867464c6eab28e2a2bd3e2cdcab5d2b42a3ee"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2690.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2690.c",
+      "action": "merged",
+      "bytes": 1064,
+      "sha256": "f5ac304ed6f7c602756ee3ca6844cb52b7c519ba9b03b56ec03f5f11944b0aae"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2710.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2710.c",
+      "action": "merged",
+      "bytes": 756,
+      "sha256": "50629f8dd70ce3c1e80e5f897a3cc2df12bda384ca2c478b7b4ba9be88018a52"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2770.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2770.c",
+      "action": "merged",
+      "bytes": 729,
+      "sha256": "c3ed25131ff1853b8911d24165934952ec03f44ae906bfb9290574624fce4d91"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b27c0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b27c0.c",
+      "action": "merged",
+      "bytes": 2237,
+      "sha256": "db7487b9d66a12e387ef3bcbd7205b2ae96d19154db19e839c312d18e8c34145"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b28f0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b28f0.c",
+      "action": "merged",
+      "bytes": 687,
+      "sha256": "fbdb149034b9ccf4e3cb1f4f0004ecf8ead1ff760f9e287281c30803a6c217c9"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2950.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2950.c",
+      "action": "merged",
+      "bytes": 675,
+      "sha256": "7a29c7b82be0f02b934a51e28e061c2dd771651c284a3f669e111f177417560c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b29b0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b29b0.c",
+      "action": "merged",
+      "bytes": 703,
+      "sha256": "e5d5fad45c6b092125be63b9afcf5ed3df82824716e911c1ff36803e005ec609"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2a10.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2a10.c",
+      "action": "merged",
+      "bytes": 691,
+      "sha256": "9b8efb16cd033c04b5d42b8115e0caf04a228382c5d8d2b4782af5309991e379"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2a70.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2a70.c",
+      "action": "merged",
+      "bytes": 683,
+      "sha256": "9bf1375932baa7822fdf803cb02016e153d7b2c0682282494bb97c696e2a840e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2ad0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2ad0.c",
+      "action": "merged",
+      "bytes": 378,
+      "sha256": "d860d30f71bf02a3ac8f053679fb32c90dcd4cb2c3e8f8112dd3e4fd3de0ee9e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2ae0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2ae0.c",
+      "action": "merged",
+      "bytes": 358,
+      "sha256": "a812351ba8e91f71093f50dc37f6b5686f5730693e2ee6d187475396d4f8bb29"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2af0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2af0.c",
+      "action": "merged",
+      "bytes": 350,
+      "sha256": "ad2619d0c8261382e7e95e78ab315faca5f64998f7dc74ea765a8083d812251d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2b00.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2b00.c",
+      "action": "merged",
+      "bytes": 1423,
+      "sha256": "13b493ca4fd8c5500bf95e28040aee0eaccc919acadf195ff16467efd5c5e29f"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2bc0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2bc0.c",
+      "action": "merged",
+      "bytes": 2136,
+      "sha256": "d8d3bf9dbca0f4827f5c4a48ed0ee030e40c837e893ee7ddcc48f79436541c46"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b2ea0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b2ea0.c",
+      "action": "merged",
+      "bytes": 1472,
+      "sha256": "36dc875fccc23dff54abeadfa3a7444f3c041ff2b99fcd415b85418f5826350b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3030.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3030.c",
+      "action": "merged",
+      "bytes": 567,
+      "sha256": "f3814a1c09689d3a3e06ab8f964af74280d2c9d80ac4b3144e1f8c5d83d3ffe0"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3060.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3060.c",
+      "action": "merged",
+      "bytes": 587,
+      "sha256": "4fd9f6421e7a34715f43c2586671665749b906674086376cba15f22a6b2322f7"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3090.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3090.c",
+      "action": "merged",
+      "bytes": 5117,
+      "sha256": "19b550e7d5289b250e30000b8e2c73c2ef128ee479a62b3b1d6b53b2213423a4"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b32f0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b32f0.c",
+      "action": "merged",
+      "bytes": 5203,
+      "sha256": "6d54c56a331d69ec578be15ea1e09b8328fb738f4936ec311ed02b7fae02bf8b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3570.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3570.c",
+      "action": "merged",
+      "bytes": 702,
+      "sha256": "646d528e260f1093a1ed0712edef50ac0a24744b5e70a644f57da5b95b23a78b"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b35c0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b35c0.c",
+      "action": "merged",
+      "bytes": 863,
+      "sha256": "afb4443839971d1d0e06f16ca86626ffb8a2e8633e37a06b8af98ba339c29476"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3620.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3620.c",
+      "action": "merged",
+      "bytes": 4201,
+      "sha256": "5c28db0559c1618271877c0253eafa990729c071f8f18e5ef0a56c7d12f28eef"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3950.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3950.c",
+      "action": "merged",
+      "bytes": 686,
+      "sha256": "1426b090d1ab0c2eb32e394b7d3dc7ecaf24bb9473ccaba34c0977b3836e9d13"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b39a0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b39a0.c",
+      "action": "merged",
+      "bytes": 6197,
+      "sha256": "68557e1e9a089e87e0aa86969c900a33b343586ea7214aa53cba81b6c069dad9"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b3e80.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b3e80.c",
+      "action": "merged",
+      "bytes": 2129,
+      "sha256": "00dccc21c6993165079e76bc81218f216b2e16fbc5af80665087968df547a0ba"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b4000.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b4000.c",
+      "action": "merged",
+      "bytes": 1646,
+      "sha256": "092a6843a5e01278510dea9de7de1b8e9a3d383b53d82db055eae277c9b8b436"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b4150.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b4150.c",
+      "action": "merged",
+      "bytes": 2359,
+      "sha256": "717410eafa1fb348d33de552b3bc3e210a98723080ac1be15ccd97d4f7b81c20"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b42b0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b42b0.c",
+      "action": "merged",
+      "bytes": 2980,
+      "sha256": "abb4fd8e71bc90856045538623855c0ebbfb56a9bdf2cfeee59b87ba5036eacd"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b4ce0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b4ce0.c",
+      "action": "merged",
+      "bytes": 6320,
+      "sha256": "c50ec8bf510be55cb9f6a232e214feb897c2d3ceac2d967748181530f10f18bc"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b5160.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b5160.c",
+      "action": "merged",
+      "bytes": 3206,
+      "sha256": "ccee3ea21cc9a9a28b62d6c01abfb26ff7bf8d9037d8b56c01a5d6f14f9346b0"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b5330.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b5330.c",
+      "action": "merged",
+      "bytes": 3880,
+      "sha256": "f4bf73e4dc57fa8e341a36f4cb046f3ab7be0f1cd7907a645ea49975ca68cc0a"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b5bb0.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b5bb0.c",
+      "action": "merged",
+      "bytes": 664,
+      "sha256": "2e694368704cb1bd3b7ca807907df613776530ac4b23287065ed67f167238c53"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/00000000000b5f50.c",
+      "new_path": "03_反编译与验证/策略反编译/libstrategy_comm5/decompiled_20261109/00000000000b5f50.c",
+      "action": "merged",
+      "bytes": 2841,
+      "sha256": "e8d3300eeb0ad9d59d7d48a9963286aba7ad56e14d57468abe5e16f7a5a7cae2"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/decompiled_repaired/index.tsv",
+      "new_path": null,
+      "action": "historical_archived",
+      "bytes": 8313,
+      "sha256": "6c5fa5a14301b9ab1974c822d8b8b3e201ca9b1f634367014ef7a412d8855c2e"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/effective_validation.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.20261109.effective_validation.json",
+      "action": "merged",
+      "bytes": 147,
+      "sha256": "1eb9925d0b775b974be692834ede8bbbd93c06662e67bacb430c86f43a8a7269"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/k1_maps.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.k1_maps.json",
+      "action": "duplicate_archived",
+      "bytes": 6945,
+      "sha256": "a900246bd7668348eed010d70c162421fe68b6bcda61cd4f2bd2f5a6d2aab545"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/kernel_validation.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.20261109.kernel_validation.json",
+      "action": "merged",
+      "bytes": 972,
+      "sha256": "d1630c8f8096412a3e9d4aa8f544615682ab96359bcb4055074613dbe6fa71dd"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/recovered_kernels.py",
+      "new_path": "03_反编译与验证/数学化还原_20261114/reference_kernels.py",
+      "action": "duplicate_archived",
+      "bytes": 12432,
+      "sha256": "11269901315198ab9048ee192c6e9d8aafbb409fb14dd5f215c582e92eb49b0d"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/rolling_validation.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.20261109.rolling_validation.json",
+      "action": "merged",
+      "bytes": 1000,
+      "sha256": "732a91890500c3f2d1fa1c3379468da2bc246d2436fcb000df59dbc2af3e428c"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/volspread_validation.json",
+      "new_path": "03_反编译与验证/数学化还原_20261114/libstrategy_comm5.20261109.volspread_validation.json",
+      "action": "merged",
+      "bytes": 203,
+      "sha256": "dfe44ddc5666b723c910d7732fb2260b7e4ebeff5248e4defa9fe82064dd0030"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/参数与默认值.md",
+      "new_path": null,
+      "action": "historical_archived",
+      "bytes": 4876,
+      "sha256": "b4386b8f8529d9e2b8698b21278ecd00b4d1cb261f91a9fbcccc4f530b710532"
+    },
+    {
+      "old_path": "03_反编译与验证/comm5_verified_reference/策略逻辑还原说明.md",
+      "new_path": null,
+      "action": "historical_archived",
+      "bytes": 16399,
+      "sha256": "5cd562865e035debad37ed8b77ac7ca5b239dee87a8d1f3c145bd571d76f1144"
+    }
+  ],
+  "verification": {
+    "all_151_source_files_preserved": true,
+    "merged_and_duplicate_target_hashes_match": true,
+    "old_directory_absent": true,
+    "markdown_links_checked": 766,
+    "broken_links": [],
+    "live_markdown_old_directory_references": [],
+    "full_original_layout_export": {
+      "files_verified": 4252,
+      "original_bytes": 580421460,
+      "exported_to": "temporary verification copy; cleaned after verification",
+      "status": "passed"
+    }
+  }
+}

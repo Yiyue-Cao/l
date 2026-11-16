@@ -1,0 +1,2250 @@
+{
+  "libstrategy_comm2": [
+    {
+      "address": "0000000000046350",
+      "bytes": 61,
+      "name": "strategy_comm2::Comm2Params::signal_mode"
+    },
+    {
+      "address": "0000000000046390",
+      "bytes": 266,
+      "name": "strategy_comm2::Comm2Params::signal_trigger_mode"
+    },
+    {
+      "address": "0000000000050920",
+      "bytes": 572,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "00000000000517b0",
+      "bytes": 554,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000050d90",
+      "bytes": 264,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "0000000000050c80",
+      "bytes": 264,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000051560",
+      "bytes": 586,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000050bf0",
+      "bytes": 141,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "0000000000050ea0",
+      "bytes": 1717,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000050b60",
+      "bytes": 137,
+      "name": "strategy_comm2::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "0000000000051f50",
+      "bytes": 152,
+      "name": "strategy_comm2::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "00000000000519e0",
+      "bytes": 1378,
+      "name": "_ZN14strategy_comm214signal_trigger17enum_rate_counter17h75e99b178f4d0e51E.llvm.12268379600032372830"
+    },
+    {
+      "address": "0000000000050530",
+      "bytes": 1001,
+      "name": "strategy_comm2::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000055cc0",
+      "bytes": 658,
+      "name": "strategy_comm2::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "00000000000464a0",
+      "bytes": 824,
+      "name": "<strategy_comm2::StrategyComm2 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000048da0",
+      "bytes": 475,
+      "name": "<strategy_comm2::StrategyComm2 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000048f80",
+      "bytes": 280,
+      "name": "<strategy_comm2::StrategyComm2 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "00000000000467e0",
+      "bytes": 9656,
+      "name": "<strategy_comm2::StrategyComm2 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000055f60",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000055f70",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm3": [
+    {
+      "address": "0000000000038b60",
+      "bytes": 61,
+      "name": "strategy_comm3::Comm3Params::signal_mode"
+    },
+    {
+      "address": "0000000000038cb0",
+      "bytes": 47,
+      "name": "strategy_comm3::Comm3Params::low_action_enum"
+    },
+    {
+      "address": "0000000000038ba0",
+      "bytes": 266,
+      "name": "strategy_comm3::Comm3Params::signal_trigger_mode"
+    },
+    {
+      "address": "0000000000059e70",
+      "bytes": 572,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000005ac40",
+      "bytes": 554,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000005a280",
+      "bytes": 167,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000005a1d0",
+      "bytes": 167,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000005a9f0",
+      "bytes": 586,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000005a140",
+      "bytes": 141,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "000000000005a330",
+      "bytes": 1717,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000005a0b0",
+      "bytes": 137,
+      "name": "strategy_comm3::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000005b3e0",
+      "bytes": 152,
+      "name": "strategy_comm3::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "000000000005ae70",
+      "bytes": 1378,
+      "name": "_ZN14strategy_comm314signal_trigger17enum_rate_counter17h905b0f882511e003E.llvm.5776159170460620602"
+    },
+    {
+      "address": "0000000000059a80",
+      "bytes": 1001,
+      "name": "strategy_comm3::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000060dc0",
+      "bytes": 658,
+      "name": "strategy_comm3::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "0000000000039540",
+      "bytes": 1377,
+      "name": "strategy_comm3::live_pending_counts"
+    },
+    {
+      "address": "0000000000038ce0",
+      "bytes": 2134,
+      "name": "strategy_comm3::cancel_order_use_range"
+    },
+    {
+      "address": "000000000003d440",
+      "bytes": 27,
+      "name": "strategy_comm3::place"
+    },
+    {
+      "address": "0000000000039ab0",
+      "bytes": 840,
+      "name": "<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000003d140",
+      "bytes": 475,
+      "name": "<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000003d320",
+      "bytes": 280,
+      "name": "<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000039e00",
+      "bytes": 13113,
+      "name": "<strategy_comm3::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000061f20",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000061f30",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm3_1": [
+    {
+      "address": "0000000000038e50",
+      "bytes": 61,
+      "name": "strategy_comm3_1::Comm3Params::signal_mode"
+    },
+    {
+      "address": "0000000000038fa0",
+      "bytes": 47,
+      "name": "strategy_comm3_1::Comm3Params::low_action_enum"
+    },
+    {
+      "address": "0000000000038e90",
+      "bytes": 266,
+      "name": "strategy_comm3_1::Comm3Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000005bfc0",
+      "bytes": 572,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000005cd90",
+      "bytes": 554,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000005c3d0",
+      "bytes": 167,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000005c320",
+      "bytes": 167,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000005cb40",
+      "bytes": 586,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000005c290",
+      "bytes": 141,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "000000000005c480",
+      "bytes": 1717,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000005c200",
+      "bytes": 137,
+      "name": "strategy_comm3_1::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000005d530",
+      "bytes": 152,
+      "name": "strategy_comm3_1::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "000000000005cfc0",
+      "bytes": 1378,
+      "name": "_ZN16strategy_comm3_114signal_trigger17enum_rate_counter17hb2b1659f9016b723E.llvm.12839419423354967770"
+    },
+    {
+      "address": "000000000005bbd0",
+      "bytes": 1001,
+      "name": "strategy_comm3_1::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000039da0",
+      "bytes": 296,
+      "name": "strategy_comm3_1::high_taker_rate"
+    },
+    {
+      "address": "000000000005ec30",
+      "bytes": 658,
+      "name": "strategy_comm3_1::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "0000000000039830",
+      "bytes": 1377,
+      "name": "strategy_comm3_1::live_pending_counts"
+    },
+    {
+      "address": "0000000000038fd0",
+      "bytes": 2134,
+      "name": "strategy_comm3_1::cancel_order_use_range"
+    },
+    {
+      "address": "000000000003da20",
+      "bytes": 27,
+      "name": "strategy_comm3_1::place"
+    },
+    {
+      "address": "0000000000039ed0",
+      "bytes": 840,
+      "name": "<strategy_comm3_1::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000003d720",
+      "bytes": 475,
+      "name": "<strategy_comm3_1::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000003d900",
+      "bytes": 280,
+      "name": "<strategy_comm3_1::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "000000000003a220",
+      "bytes": 13560,
+      "name": "<strategy_comm3_1::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000062fc0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000062fd0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm3_2": [
+    {
+      "address": "0000000000038d80",
+      "bytes": 61,
+      "name": "strategy_comm3_2::Comm3Params::signal_mode"
+    },
+    {
+      "address": "0000000000038ed0",
+      "bytes": 47,
+      "name": "strategy_comm3_2::Comm3Params::low_action_enum"
+    },
+    {
+      "address": "0000000000038dc0",
+      "bytes": 266,
+      "name": "strategy_comm3_2::Comm3Params::signal_trigger_mode"
+    },
+    {
+      "address": "0000000000062d80",
+      "bytes": 572,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000063b50",
+      "bytes": 554,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000063190",
+      "bytes": 167,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "00000000000630e0",
+      "bytes": 167,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000063900",
+      "bytes": 586,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000063050",
+      "bytes": 141,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "0000000000063240",
+      "bytes": 1717,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000062fc0",
+      "bytes": 137,
+      "name": "strategy_comm3_2::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "00000000000642f0",
+      "bytes": 152,
+      "name": "strategy_comm3_2::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000063d80",
+      "bytes": 1378,
+      "name": "_ZN16strategy_comm3_214signal_trigger17enum_rate_counter17h6c3412650fa35c6eE.llvm.17298346514359621430"
+    },
+    {
+      "address": "0000000000062990",
+      "bytes": 1001,
+      "name": "strategy_comm3_2::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000039cd0",
+      "bytes": 315,
+      "name": "strategy_comm3_2::high_taker_rate"
+    },
+    {
+      "address": "000000000005d4e0",
+      "bytes": 658,
+      "name": "strategy_comm3_2::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "0000000000039760",
+      "bytes": 1377,
+      "name": "strategy_comm3_2::live_pending_counts"
+    },
+    {
+      "address": "0000000000038f00",
+      "bytes": 2134,
+      "name": "strategy_comm3_2::cancel_order_use_range"
+    },
+    {
+      "address": "000000000003d9f0",
+      "bytes": 27,
+      "name": "strategy_comm3_2::place"
+    },
+    {
+      "address": "0000000000039e10",
+      "bytes": 840,
+      "name": "<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000003d6f0",
+      "bytes": 475,
+      "name": "<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000003d8d0",
+      "bytes": 280,
+      "name": "<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "000000000003a160",
+      "bytes": 13700,
+      "name": "<strategy_comm3_2::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000060e70",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000060e80",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm4": [
+    {
+      "address": "000000000004f0e0",
+      "bytes": 151,
+      "name": "strategy_comm4::next_phase"
+    },
+    {
+      "address": "000000000004ed50",
+      "bytes": 61,
+      "name": "strategy_comm4::Comm4Params::signal_mode"
+    },
+    {
+      "address": "000000000004ed90",
+      "bytes": 266,
+      "name": "strategy_comm4::Comm4Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000004eea0",
+      "bytes": 573,
+      "name": "strategy_comm4::Comm4Params::effective"
+    },
+    {
+      "address": "0000000000071d90",
+      "bytes": 572,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000072c20",
+      "bytes": 554,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000072200",
+      "bytes": 264,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "00000000000720f0",
+      "bytes": 264,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "00000000000729d0",
+      "bytes": 586,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000072060",
+      "bytes": 141,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "0000000000072310",
+      "bytes": 1717,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000071fd0",
+      "bytes": 137,
+      "name": "strategy_comm4::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "00000000000733c0",
+      "bytes": 152,
+      "name": "strategy_comm4::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000072e50",
+      "bytes": 1378,
+      "name": "_ZN14strategy_comm414signal_trigger17enum_rate_counter17h8905a6d63e128319E.llvm.12030102277605901293"
+    },
+    {
+      "address": "00000000000719a0",
+      "bytes": 1001,
+      "name": "strategy_comm4::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "000000000004ff50",
+      "bytes": 315,
+      "name": "strategy_comm4::high_taker_rate"
+    },
+    {
+      "address": "0000000000076a30",
+      "bytes": 658,
+      "name": "strategy_comm4::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "000000000004f9e0",
+      "bytes": 1377,
+      "name": "strategy_comm4::live_pending_counts"
+    },
+    {
+      "address": "000000000004f180",
+      "bytes": 2134,
+      "name": "strategy_comm4::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000055080",
+      "bytes": 27,
+      "name": "strategy_comm4::place"
+    },
+    {
+      "address": "0000000000050090",
+      "bytes": 738,
+      "name": "<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000054d80",
+      "bytes": 475,
+      "name": "<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000054f60",
+      "bytes": 280,
+      "name": "<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000050380",
+      "bytes": 18938,
+      "name": "<strategy_comm4::StrategyComm4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "000000000006c8c0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "000000000006c8d0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm4_1": [
+    {
+      "address": "000000000004f4c0",
+      "bytes": 208,
+      "name": "strategy_comm4_1::next_phase"
+    },
+    {
+      "address": "000000000004f130",
+      "bytes": 61,
+      "name": "strategy_comm4_1::Comm4Params::signal_mode"
+    },
+    {
+      "address": "000000000004f170",
+      "bytes": 266,
+      "name": "strategy_comm4_1::Comm4Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000004f280",
+      "bytes": 573,
+      "name": "strategy_comm4_1::Comm4Params::effective"
+    },
+    {
+      "address": "0000000000072b60",
+      "bytes": 572,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "00000000000739f0",
+      "bytes": 554,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000072fd0",
+      "bytes": 264,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "0000000000072ec0",
+      "bytes": 264,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "00000000000737a0",
+      "bytes": 586,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000072e30",
+      "bytes": 141,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "00000000000730e0",
+      "bytes": 1717,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000072da0",
+      "bytes": 137,
+      "name": "strategy_comm4_1::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "0000000000074190",
+      "bytes": 152,
+      "name": "strategy_comm4_1::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000073c20",
+      "bytes": 1378,
+      "name": "_ZN16strategy_comm4_114signal_trigger17enum_rate_counter17h11fb9a90182a0820E.llvm.14061952965871823163"
+    },
+    {
+      "address": "0000000000072770",
+      "bytes": 1001,
+      "name": "strategy_comm4_1::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000050360",
+      "bytes": 315,
+      "name": "strategy_comm4_1::high_taker_rate"
+    },
+    {
+      "address": "0000000000077800",
+      "bytes": 658,
+      "name": "strategy_comm4_1::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "00000000000504a0",
+      "bytes": 250,
+      "name": "strategy_comm4_1::taker_fillable_cum"
+    },
+    {
+      "address": "000000000004fdf0",
+      "bytes": 1377,
+      "name": "strategy_comm4_1::live_pending_counts"
+    },
+    {
+      "address": "000000000004f590",
+      "bytes": 2134,
+      "name": "strategy_comm4_1::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000055c90",
+      "bytes": 27,
+      "name": "strategy_comm4_1::place"
+    },
+    {
+      "address": "00000000000505a0",
+      "bytes": 738,
+      "name": "<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000055990",
+      "bytes": 475,
+      "name": "<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000055b70",
+      "bytes": 280,
+      "name": "<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000050890",
+      "bytes": 20734,
+      "name": "<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "000000000006d690",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "000000000006d6a0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm5": [
+    {
+      "address": "000000000003b520",
+      "bytes": 208,
+      "name": "strategy_comm5::next_phase"
+    },
+    {
+      "address": "000000000003b390",
+      "bytes": 266,
+      "name": "strategy_comm5::xs_inst_of"
+    },
+    {
+      "address": "000000000003b000",
+      "bytes": 61,
+      "name": "strategy_comm5::Comm5Params::signal_mode"
+    },
+    {
+      "address": "000000000003b040",
+      "bytes": 266,
+      "name": "strategy_comm5::Comm5Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000003b150",
+      "bytes": 573,
+      "name": "strategy_comm5::Comm5Params::effective"
+    },
+    {
+      "address": "000000000003c600",
+      "bytes": 670,
+      "name": "strategy_comm5::StrategyComm5::xs_mult"
+    },
+    {
+      "address": "0000000000082900",
+      "bytes": 572,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000083790",
+      "bytes": 513,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000082d70",
+      "bytes": 264,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "0000000000082c60",
+      "bytes": 264,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000083550",
+      "bytes": 561,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000082bd0",
+      "bytes": 141,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "0000000000082e80",
+      "bytes": 1729,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000082b40",
+      "bytes": 137,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "00000000000827b0",
+      "bytes": 326,
+      "name": "strategy_comm5::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "0000000000083f00",
+      "bytes": 152,
+      "name": "strategy_comm5::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "00000000000839a0",
+      "bytes": 1364,
+      "name": "_ZN14strategy_comm514signal_trigger17enum_rate_counter17hb51fcb9e7a9a6c40E.llvm.1301231569978033549"
+    },
+    {
+      "address": "00000000000823c0",
+      "bytes": 1001,
+      "name": "strategy_comm5::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "000000000003c3c0",
+      "bytes": 315,
+      "name": "strategy_comm5::high_taker_rate"
+    },
+    {
+      "address": "0000000000081770",
+      "bytes": 658,
+      "name": "strategy_comm5::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "000000000003c500",
+      "bytes": 250,
+      "name": "strategy_comm5::taker_fillable_cum"
+    },
+    {
+      "address": "000000000003be50",
+      "bytes": 1377,
+      "name": "strategy_comm5::live_pending_counts"
+    },
+    {
+      "address": "000000000003b5f0",
+      "bytes": 2134,
+      "name": "strategy_comm5::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000044b80",
+      "bytes": 27,
+      "name": "strategy_comm5::place"
+    },
+    {
+      "address": "000000000003b4a0",
+      "bytes": 118,
+      "name": "strategy_comm5::eff_amts"
+    },
+    {
+      "address": "000000000003c8a0",
+      "bytes": 10858,
+      "name": "<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000044880",
+      "bytes": 475,
+      "name": "<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000044a60",
+      "bytes": 280,
+      "name": "<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "000000000003f310",
+      "bytes": 21860,
+      "name": "<strategy_comm5::StrategyComm5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "000000000007b620",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "000000000007b630",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm_maker1": [
+    {
+      "address": "00000000000475c0",
+      "bytes": 840,
+      "name": "<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000049dc0",
+      "bytes": 598,
+      "name": "<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000004a020",
+      "bytes": 280,
+      "name": "<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000047910",
+      "bytes": 9382,
+      "name": "<strategy_comm_maker1::StrategyCommMaker1 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000046840",
+      "bytes": 922,
+      "name": "strategy_comm_maker1::cancel_side"
+    },
+    {
+      "address": "000000000004a600",
+      "bytes": 524,
+      "name": "strategy_comm_maker1::decide_quote"
+    },
+    {
+      "address": "0000000000060f80",
+      "bytes": 572,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000061e40",
+      "bytes": 554,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000061420",
+      "bytes": 259,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "0000000000061310",
+      "bytes": 259,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000061bf0",
+      "bytes": 586,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000061530",
+      "bytes": 1717,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000061250",
+      "bytes": 182,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::point_signal_trigger_pv4_band"
+    },
+    {
+      "address": "00000000000611c0",
+      "bytes": 137,
+      "name": "strategy_comm_maker1::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "00000000000625e0",
+      "bytes": 152,
+      "name": "strategy_comm_maker1::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000062070",
+      "bytes": 1378,
+      "name": "_ZN20strategy_comm_maker114signal_trigger17enum_rate_counter17h7893d28320393014E.llvm.3918936404547024942"
+    },
+    {
+      "address": "0000000000060b90",
+      "bytes": 1001,
+      "name": "strategy_comm_maker1::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "000000000005e990",
+      "bytes": 1978,
+      "name": "strategy_comm_maker1::get_quote_price::get_quote_price"
+    },
+    {
+      "address": "00000000000466c0",
+      "bytes": 61,
+      "name": "strategy_comm_maker1::CommMaker1Params::signal_mode"
+    },
+    {
+      "address": "0000000000046810",
+      "bytes": 47,
+      "name": "strategy_comm_maker1::CommMaker1Params::low_action_enum"
+    },
+    {
+      "address": "0000000000046700",
+      "bytes": 266,
+      "name": "strategy_comm_maker1::CommMaker1Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000005e6f0",
+      "bytes": 658,
+      "name": "strategy_comm_maker1::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "0000000000047050",
+      "bytes": 1377,
+      "name": "strategy_comm_maker1::live_pending_counts"
+    },
+    {
+      "address": "0000000000046be0",
+      "bytes": 1121,
+      "name": "strategy_comm_maker1::cancel_order_use_range"
+    },
+    {
+      "address": "000000000004a140",
+      "bytes": 588,
+      "name": "strategy_comm_maker1::compute_target_vol_buy"
+    },
+    {
+      "address": "000000000004a390",
+      "bytes": 617,
+      "name": "strategy_comm_maker1::compute_target_vol_sell"
+    },
+    {
+      "address": "000000000004a810",
+      "bytes": 27,
+      "name": "strategy_comm_maker1::place"
+    },
+    {
+      "address": "0000000000058950",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000058960",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_comm_mock": [
+    {
+      "address": "00000000000391f0",
+      "bytes": 61,
+      "name": "strategy_comm_mock::Comm3Params::signal_mode"
+    },
+    {
+      "address": "0000000000039340",
+      "bytes": 47,
+      "name": "strategy_comm_mock::Comm3Params::low_action_enum"
+    },
+    {
+      "address": "0000000000039230",
+      "bytes": 266,
+      "name": "strategy_comm_mock::Comm3Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000005e470",
+      "bytes": 572,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000005f300",
+      "bytes": 554,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000005e8e0",
+      "bytes": 264,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000005e7d0",
+      "bytes": 264,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000005f0b0",
+      "bytes": 586,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000005e740",
+      "bytes": 141,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv4"
+    },
+    {
+      "address": "000000000005e9f0",
+      "bytes": 1717,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000005e6b0",
+      "bytes": 137,
+      "name": "strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000005faa0",
+      "bytes": 152,
+      "name": "strategy_comm_mock::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "000000000005f530",
+      "bytes": 1378,
+      "name": "_ZN18strategy_comm_mock14signal_trigger17enum_rate_counter17h8b1360ee3ad6c1afE.llvm.9348514807243868232"
+    },
+    {
+      "address": "000000000005e080",
+      "bytes": 1001,
+      "name": "strategy_comm_mock::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "000000000003a140",
+      "bytes": 315,
+      "name": "strategy_comm_mock::high_taker_rate"
+    },
+    {
+      "address": "000000000005b020",
+      "bytes": 658,
+      "name": "strategy_comm_mock::vol_spread_ratio::VolSpreadRatio::update"
+    },
+    {
+      "address": "0000000000039bd0",
+      "bytes": 1377,
+      "name": "strategy_comm_mock::live_pending_counts"
+    },
+    {
+      "address": "0000000000039370",
+      "bytes": 2134,
+      "name": "strategy_comm_mock::cancel_order_use_range"
+    },
+    {
+      "address": "000000000003f360",
+      "bytes": 37,
+      "name": "strategy_comm_mock::place"
+    },
+    {
+      "address": "000000000003a280",
+      "bytes": 840,
+      "name": "<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000003e120",
+      "bytes": 4375,
+      "name": "<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000003d8d0",
+      "bytes": 2114,
+      "name": "<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_order"
+    },
+    {
+      "address": "000000000003f240",
+      "bytes": 280,
+      "name": "<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "000000000003a5d0",
+      "bytes": 13053,
+      "name": "<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "000000000005c4b0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "000000000005c4c0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_lf4": [
+    {
+      "address": "000000000004b690",
+      "bytes": 1845,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000004c990",
+      "bytes": 554,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000004bf70",
+      "bytes": 264,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000004be60",
+      "bytes": 264,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000004c740",
+      "bytes": 586,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000004c080",
+      "bytes": 1717,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000004bdd0",
+      "bytes": 137,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000004b560",
+      "bytes": 290,
+      "name": "strategy_lf4::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "000000000004cbc0",
+      "bytes": 1378,
+      "name": "_ZN12strategy_lf414signal_trigger17enum_rate_counter17hae8899c0d26c9baeE.llvm.754907104417532979"
+    },
+    {
+      "address": "0000000000044c20",
+      "bytes": 307,
+      "name": "<strategy_lf4::TargetTaskStatus as core::fmt::Debug>::fmt"
+    },
+    {
+      "address": "0000000000041c80",
+      "bytes": 1371,
+      "name": "<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "00000000000421e0",
+      "bytes": 448,
+      "name": "<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000044b00",
+      "bytes": 280,
+      "name": "<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "00000000000423a0",
+      "bytes": 10073,
+      "name": "<strategy_lf4::StrategyLF4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "000000000004efd0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "000000000004efe0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sm1": [
+    {
+      "address": "00000000000458b0",
+      "bytes": 922,
+      "name": "strategy_sm1::cancel_side"
+    },
+    {
+      "address": "00000000000457e0",
+      "bytes": 87,
+      "name": "strategy_sm1::default_pv1"
+    },
+    {
+      "address": "0000000000046630",
+      "bytes": 720,
+      "name": "strategy_sm1::apply_book_vol_cap"
+    },
+    {
+      "address": "00000000000460c0",
+      "bytes": 1377,
+      "name": "strategy_sm1::live_pending_counts"
+    },
+    {
+      "address": "0000000000045840",
+      "bytes": 98,
+      "name": "strategy_sm1::default_point_trigger"
+    },
+    {
+      "address": "0000000000045c50",
+      "bytes": 1121,
+      "name": "strategy_sm1::cancel_order_use_range"
+    },
+    {
+      "address": "00000000000841d0",
+      "bytes": 588,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000085000",
+      "bytes": 555,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "00000000000845f0",
+      "bytes": 265,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "00000000000844e0",
+      "bytes": 265,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000084db0",
+      "bytes": 587,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000084700",
+      "bytes": 1702,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000084420",
+      "bytes": 178,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread"
+    },
+    {
+      "address": "0000000000084100",
+      "bytes": 199,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "00000000000857b0",
+      "bytes": 152,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000085230",
+      "bytes": 1394,
+      "name": "strategy_signal_maker_common::signal_trigger::enum_rate_counter"
+    },
+    {
+      "address": "0000000000083ea0",
+      "bytes": 598,
+      "name": "strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000085850",
+      "bytes": 63,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms"
+    },
+    {
+      "address": "0000000000082290",
+      "bytes": 135,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_vol"
+    },
+    {
+      "address": "0000000000082320",
+      "bytes": 1978,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_price"
+    },
+    {
+      "address": "0000000000046900",
+      "bytes": 848,
+      "name": "<strategy_sm1::StrategySM1 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000049620",
+      "bytes": 352,
+      "name": "<strategy_sm1::StrategySM1 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000046c50",
+      "bytes": 10692,
+      "name": "<strategy_sm1::StrategySM1 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "00000000000518a0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "00000000000518b0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sm2": [
+    {
+      "address": "0000000000045650",
+      "bytes": 87,
+      "name": "strategy_sm2::default_pv1"
+    },
+    {
+      "address": "0000000000048f50",
+      "bytes": 501,
+      "name": "strategy_sm2::format_utility_tag"
+    },
+    {
+      "address": "00000000000456b0",
+      "bytes": 723,
+      "name": "strategy_sm2::apply_book_vol_cap_sm2"
+    },
+    {
+      "address": "00000000000844f0",
+      "bytes": 588,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000084740",
+      "bytes": 175,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_utility"
+    },
+    {
+      "address": "0000000000084420",
+      "bytes": 199,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "00000000000847f0",
+      "bytes": 152,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "00000000000841c0",
+      "bytes": 598,
+      "name": "strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000084890",
+      "bytes": 63,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms"
+    },
+    {
+      "address": "00000000000828c0",
+      "bytes": 359,
+      "name": "strategy_signal_maker_common::get_quote_price::UtilityRange::get_utility"
+    },
+    {
+      "address": "00000000000870b0",
+      "bytes": 75,
+      "name": "strategy_signal_maker_common::hit_probability::HitProbability::hit_probability"
+    },
+    {
+      "address": "0000000000082dc0",
+      "bytes": 1423,
+      "name": "strategy_signal_maker_common::brentq_option_price::QuotePriceOptimizer::optimal_quote_buy"
+    },
+    {
+      "address": "0000000000083350",
+      "bytes": 1455,
+      "name": "strategy_signal_maker_common::brentq_option_price::QuotePriceOptimizer::optimal_quote_sell"
+    },
+    {
+      "address": "0000000000045990",
+      "bytes": 854,
+      "name": "<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000048df0",
+      "bytes": 352,
+      "name": "<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "0000000000045cf0",
+      "bytes": 12536,
+      "name": "<strategy_sm2::StrategySM2 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000054a70",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000054a80",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sm3": [
+    {
+      "address": "000000000003ba30",
+      "bytes": 922,
+      "name": "strategy_sm3::cancel_side"
+    },
+    {
+      "address": "000000000003b9d0",
+      "bytes": 87,
+      "name": "strategy_sm3::default_pv1"
+    },
+    {
+      "address": "000000000003c7b0",
+      "bytes": 720,
+      "name": "strategy_sm3::apply_book_vol_cap"
+    },
+    {
+      "address": "000000000003c240",
+      "bytes": 1377,
+      "name": "strategy_sm3::live_pending_counts"
+    },
+    {
+      "address": "000000000003bdd0",
+      "bytes": 1121,
+      "name": "strategy_sm3::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000087da0",
+      "bytes": 588,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000087ff0",
+      "bytes": 178,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread"
+    },
+    {
+      "address": "0000000000087cd0",
+      "bytes": 199,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "00000000000880b0",
+      "bytes": 152,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "0000000000087a70",
+      "bytes": 598,
+      "name": "strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000088150",
+      "bytes": 63,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms"
+    },
+    {
+      "address": "0000000000084d30",
+      "bytes": 135,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_vol"
+    },
+    {
+      "address": "0000000000084dc0",
+      "bytes": 8287,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_price_one_shot"
+    },
+    {
+      "address": "000000000003ca80",
+      "bytes": 825,
+      "name": "<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000040260",
+      "bytes": 352,
+      "name": "<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000003cdc0",
+      "bytes": 13460,
+      "name": "<strategy_sm3::StrategySM3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000057a90",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000057aa0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sm3_1": [
+    {
+      "address": "0000000000043120",
+      "bytes": 922,
+      "name": "strategy_sm3_1::cancel_side"
+    },
+    {
+      "address": "0000000000042e60",
+      "bytes": 87,
+      "name": "strategy_sm3_1::default_off"
+    },
+    {
+      "address": "0000000000042e00",
+      "bytes": 87,
+      "name": "strategy_sm3_1::default_pv1"
+    },
+    {
+      "address": "0000000000047930",
+      "bytes": 2074,
+      "name": "strategy_sm3_1::StrategySM31::record_quote_outcome"
+    },
+    {
+      "address": "0000000000048150",
+      "bytes": 9796,
+      "name": "strategy_sm3_1::StrategySM31::decide"
+    },
+    {
+      "address": "0000000000042ff0",
+      "bytes": 297,
+      "name": "strategy_sm3_1::DecisionTelemetry::inc"
+    },
+    {
+      "address": "0000000000042f90",
+      "bytes": 91,
+      "name": "strategy_sm3_1::default_wait_mode"
+    },
+    {
+      "address": "0000000000043ea0",
+      "bytes": 720,
+      "name": "strategy_sm3_1::apply_book_vol_cap"
+    },
+    {
+      "address": "0000000000042f20",
+      "bytes": 97,
+      "name": "strategy_sm3_1::default_maker_scope"
+    },
+    {
+      "address": "0000000000043930",
+      "bytes": 1377,
+      "name": "strategy_sm3_1::live_pending_counts"
+    },
+    {
+      "address": "00000000000434c0",
+      "bytes": 1121,
+      "name": "strategy_sm3_1::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000042ec0",
+      "bytes": 95,
+      "name": "strategy_sm3_1::default_taker_veto_scope"
+    },
+    {
+      "address": "000000000006a060",
+      "bytes": 953,
+      "name": "strategy_sm3_1::quote::apply_passive_gate"
+    },
+    {
+      "address": "000000000006a420",
+      "bytes": 2245,
+      "name": "strategy_sm3_1::quote::get_quote_price_one_shot_v31"
+    },
+    {
+      "address": "00000000000993d0",
+      "bytes": 588,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000099620",
+      "bytes": 178,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread"
+    },
+    {
+      "address": "0000000000099300",
+      "bytes": 199,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "00000000000996e0",
+      "bytes": 152,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "00000000000990a0",
+      "bytes": 598,
+      "name": "strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000099780",
+      "bytes": 63,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms"
+    },
+    {
+      "address": "00000000000983c0",
+      "bytes": 135,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_vol"
+    },
+    {
+      "address": "000000000004b230",
+      "bytes": 1535,
+      "name": "<strategy_sm3_1::SM31Params as core::clone::Clone>::clone"
+    },
+    {
+      "address": "0000000000044170",
+      "bytes": 3139,
+      "name": "<strategy_sm3_1::StrategySM31 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000046fc0",
+      "bytes": 1266,
+      "name": "<strategy_sm3_1::StrategySM31 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "00000000000474c0",
+      "bytes": 1127,
+      "name": "<strategy_sm3_1::StrategySM31 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000044dc0",
+      "bytes": 8693,
+      "name": "<strategy_sm3_1::StrategySM31 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "00000000000709e0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "00000000000709f0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sm4": [
+    {
+      "address": "000000000003ec90",
+      "bytes": 922,
+      "name": "strategy_sm4::cancel_side"
+    },
+    {
+      "address": "000000000003ebc0",
+      "bytes": 87,
+      "name": "strategy_sm4::default_pv1"
+    },
+    {
+      "address": "0000000000063b60",
+      "bytes": 404,
+      "name": "_ZN12strategy_sm417signal_pairs_tree15SignalPairStats28get_pairs_time_sec_ms_median17hd03f3837d95f7339E.llvm.4719369549894925764"
+    },
+    {
+      "address": "0000000000065300",
+      "bytes": 1553,
+      "name": "strategy_sm4::signal_pairs_tree::SignalPairsTree::debug_string"
+    },
+    {
+      "address": "00000000000650a0",
+      "bytes": 595,
+      "name": "strategy_sm4::signal_pairs_tree::SignalPairsTree::find_nearest_pair_median_threshold"
+    },
+    {
+      "address": "0000000000063d00",
+      "bytes": 1656,
+      "name": "strategy_sm4::signal_pairs_tree::SignalPairsTree::new"
+    },
+    {
+      "address": "0000000000064380",
+      "bytes": 3354,
+      "name": "strategy_sm4::signal_pairs_tree::SignalPairsTree::update"
+    },
+    {
+      "address": "00000000000639d0",
+      "bytes": 386,
+      "name": "strategy_sm4::signal_pairs_tree::RollingmsQueue<T>::update"
+    },
+    {
+      "address": "000000000003fa10",
+      "bytes": 720,
+      "name": "strategy_sm4::apply_book_vol_cap"
+    },
+    {
+      "address": "000000000003f4a0",
+      "bytes": 1377,
+      "name": "strategy_sm4::live_pending_counts"
+    },
+    {
+      "address": "000000000003ec20",
+      "bytes": 98,
+      "name": "strategy_sm4::default_point_trigger"
+    },
+    {
+      "address": "000000000003f030",
+      "bytes": 1121,
+      "name": "strategy_sm4::cancel_order_use_range"
+    },
+    {
+      "address": "0000000000091850",
+      "bytes": 588,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000092680",
+      "bytes": 555,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "0000000000091c70",
+      "bytes": 265,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "0000000000091b60",
+      "bytes": 265,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000092430",
+      "bytes": 587,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "0000000000091d80",
+      "bytes": 1702,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000091aa0",
+      "bytes": 178,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread"
+    },
+    {
+      "address": "0000000000091780",
+      "bytes": 199,
+      "name": "strategy_signal_maker_common::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "0000000000092e30",
+      "bytes": 152,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "00000000000928b0",
+      "bytes": 1394,
+      "name": "strategy_signal_maker_common::signal_trigger::enum_rate_counter"
+    },
+    {
+      "address": "0000000000091520",
+      "bytes": 598,
+      "name": "strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update"
+    },
+    {
+      "address": "0000000000092ed0",
+      "bytes": 63,
+      "name": "strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms"
+    },
+    {
+      "address": "000000000008f910",
+      "bytes": 135,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_vol"
+    },
+    {
+      "address": "000000000008f9a0",
+      "bytes": 1978,
+      "name": "strategy_signal_maker_common::get_quote_price::get_quote_price"
+    },
+    {
+      "address": "000000000003fce0",
+      "bytes": 2161,
+      "name": "<strategy_sm4::StrategySM4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000040560",
+      "bytes": 11554,
+      "name": "<strategy_sm4::StrategySM4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "00000000000686f0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000068700",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sos5": [
+    {
+      "address": "0000000000049050",
+      "bytes": 1830,
+      "name": "strategy_sos5::SoS5Params::phase_thresholds"
+    },
+    {
+      "address": "0000000000049780",
+      "bytes": 266,
+      "name": "strategy_sos5::SoS5Params::signal_trigger_mode"
+    },
+    {
+      "address": "000000000006a5e0",
+      "bytes": 1845,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000006b8e0",
+      "bytes": 554,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000006aec0",
+      "bytes": 264,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000006adb0",
+      "bytes": 264,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000006b690",
+      "bytes": 586,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000006afd0",
+      "bytes": 1717,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000006ad20",
+      "bytes": 137,
+      "name": "strategy_sos5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000006c080",
+      "bytes": 152,
+      "name": "strategy_sos5::signal_trigger::dynamic_threshold"
+    },
+    {
+      "address": "000000000006bb10",
+      "bytes": 1378,
+      "name": "_ZN13strategy_sos514signal_trigger17enum_rate_counter17h52e1c88565e9250aE.llvm.14864376446662127556"
+    },
+    {
+      "address": "0000000000048f80",
+      "bytes": 98,
+      "name": "strategy_sos5::default_watcher_key"
+    },
+    {
+      "address": "000000000004e940",
+      "bytes": 338,
+      "name": "strategy_sos5::place_order_by_mode"
+    },
+    {
+      "address": "000000000004e6a0",
+      "bytes": 662,
+      "name": "strategy_sos5::phase_basket_notional"
+    },
+    {
+      "address": "0000000000048ff0",
+      "bytes": 95,
+      "name": "strategy_sos5::default_phase_threshold_mode"
+    },
+    {
+      "address": "0000000000049890",
+      "bytes": 2396,
+      "name": "<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000004dba0",
+      "bytes": 2102,
+      "name": "<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000004e3e0",
+      "bytes": 697,
+      "name": "<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "000000000004a1f0",
+      "bytes": 14764,
+      "name": "<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000069a10",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000069a20",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_sos6": [
+    {
+      "address": "000000000004c0d0",
+      "bytes": 163,
+      "name": "strategy_sos6::StrategySoS6::apply_threshold_delta"
+    },
+    {
+      "address": "000000000005e2c0",
+      "bytes": 1845,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000005f5c0",
+      "bytes": 554,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000005eba0",
+      "bytes": 264,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000005ea90",
+      "bytes": 264,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000005f370",
+      "bytes": 586,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000005ecb0",
+      "bytes": 1717,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000005ea00",
+      "bytes": 137,
+      "name": "strategy_sos6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000005f7f0",
+      "bytes": 1378,
+      "name": "_ZN13strategy_sos614signal_trigger17enum_rate_counter17hd3ab24ddaa71514fE.llvm.5674171606368244516"
+    },
+    {
+      "address": "00000000000477d0",
+      "bytes": 98,
+      "name": "strategy_sos6::default_pnl_key"
+    },
+    {
+      "address": "000000000004c180",
+      "bytes": 338,
+      "name": "strategy_sos6::place_order_by_mode"
+    },
+    {
+      "address": "0000000000047840",
+      "bytes": 2083,
+      "name": "<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000004bfb0",
+      "bytes": 280,
+      "name": "<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000048070",
+      "bytes": 16187,
+      "name": "<strategy_sos6::StrategySoS6 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000065da0",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000065db0",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_tm5": [
+    {
+      "address": "000000000004bc30",
+      "bytes": 1845,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "000000000004cf30",
+      "bytes": 554,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "000000000004c510",
+      "bytes": 264,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "000000000004c400",
+      "bytes": 264,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "000000000004cce0",
+      "bytes": 586,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "000000000004c620",
+      "bytes": 1717,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "000000000004c370",
+      "bytes": 137,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "000000000004bb00",
+      "bytes": 290,
+      "name": "strategy_tm5::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "000000000004d160",
+      "bytes": 1378,
+      "name": "_ZN12strategy_tm514signal_trigger17enum_rate_counter17h181739a09271ffbbE.llvm.14383927985676670398"
+    },
+    {
+      "address": "00000000000415c0",
+      "bytes": 915,
+      "name": "<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "0000000000043d80",
+      "bytes": 817,
+      "name": "<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "00000000000439e0",
+      "bytes": 928,
+      "name": "<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_order"
+    },
+    {
+      "address": "00000000000440c0",
+      "bytes": 280,
+      "name": "<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "0000000000041960",
+      "bytes": 8309,
+      "name": "<strategy_tm5::StrategyTM5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000053e20",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000053e30",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ],
+  "libstrategy_tm6": [
+    {
+      "address": "0000000000054bf0",
+      "bytes": 1605,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::update_score"
+    },
+    {
+      "address": "0000000000055e00",
+      "bytes": 513,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::windows_rsi_trigger"
+    },
+    {
+      "address": "00000000000553e0",
+      "bytes": 264,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::windows_std_trigger"
+    },
+    {
+      "address": "00000000000552d0",
+      "bytes": 264,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::windows_mean_trigger"
+    },
+    {
+      "address": "0000000000055bc0",
+      "bytes": 561,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::windows_sharpe_trigger"
+    },
+    {
+      "address": "00000000000554f0",
+      "bytes": 1729,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::windows_quantile_trigger"
+    },
+    {
+      "address": "0000000000055240",
+      "bytes": 137,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread"
+    },
+    {
+      "address": "0000000000054aa0",
+      "bytes": 326,
+      "name": "strategy_tm6::signal_trigger::SignalTrigger::new"
+    },
+    {
+      "address": "0000000000056010",
+      "bytes": 1364,
+      "name": "_ZN12strategy_tm614signal_trigger17enum_rate_counter17h4700a1e9bbed136eE.llvm.9466522774482311751"
+    },
+    {
+      "address": "000000000005e030",
+      "bytes": 404,
+      "name": "_ZN12strategy_tm617signal_pairs_tree15SignalPairStats28get_pairs_time_sec_ms_median17h4a9fe67d7a117850E.llvm.17305594220767975752"
+    },
+    {
+      "address": "000000000005f7d0",
+      "bytes": 1553,
+      "name": "strategy_tm6::signal_pairs_tree::SignalPairsTree::debug_string"
+    },
+    {
+      "address": "000000000005f570",
+      "bytes": 595,
+      "name": "strategy_tm6::signal_pairs_tree::SignalPairsTree::find_nearest_pair_median_threshold"
+    },
+    {
+      "address": "000000000005e1d0",
+      "bytes": 1656,
+      "name": "strategy_tm6::signal_pairs_tree::SignalPairsTree::new"
+    },
+    {
+      "address": "000000000005e850",
+      "bytes": 3354,
+      "name": "strategy_tm6::signal_pairs_tree::SignalPairsTree::update"
+    },
+    {
+      "address": "000000000005dea0",
+      "bytes": 386,
+      "name": "strategy_tm6::signal_pairs_tree::RollingmsQueue<T>::update"
+    },
+    {
+      "address": "0000000000047d60",
+      "bytes": 2110,
+      "name": "<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin"
+    },
+    {
+      "address": "000000000004aa90",
+      "bytes": 708,
+      "name": "<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth"
+    },
+    {
+      "address": "000000000004ad60",
+      "bytes": 280,
+      "name": "<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish"
+    },
+    {
+      "address": "00000000000485a0",
+      "bytes": 9443,
+      "name": "<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal"
+    },
+    {
+      "address": "0000000000061820",
+      "bytes": 6,
+      "name": "fb_strategy_sdk_abi_version"
+    },
+    {
+      "address": "0000000000061830",
+      "bytes": 73,
+      "name": "fb_strategy_sdk_version_str"
+    }
+  ]
+}

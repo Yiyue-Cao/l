@@ -1,0 +1,53 @@
+000000000003ec90	strategy_sm4::cancel_side
+000000000003ebc0	strategy_sm4::default_pv1
+0000000000068e90	strategy_sm4::__fb_plugin_impl::destroy
+0000000000068750	strategy_sm4::__fb_plugin_impl::on_begin
+00000000000689e0	strategy_sm4::__fb_plugin_impl::on_depth
+0000000000068b40	strategy_sm4::__fb_plugin_impl::on_order
+0000000000068b00	strategy_sm4::__fb_plugin_impl::on_finish
+0000000000068840	strategy_sm4::__fb_plugin_impl::on_signal
+0000000000063b60	_ZN12strategy_sm417signal_pairs_tree15SignalPairStats28get_pairs_time_sec_ms_median17hd03f3837d95f7339E.llvm.4719369549894925764
+0000000000065300	strategy_sm4::signal_pairs_tree::SignalPairsTree::debug_string
+00000000000650a0	strategy_sm4::signal_pairs_tree::SignalPairsTree::find_nearest_pair_median_threshold
+0000000000063d00	strategy_sm4::signal_pairs_tree::SignalPairsTree::new
+0000000000064380	strategy_sm4::signal_pairs_tree::SignalPairsTree::update
+00000000000639d0	strategy_sm4::signal_pairs_tree::RollingmsQueue<T>::update
+000000000003fa10	strategy_sm4::apply_book_vol_cap
+000000000003f4a0	strategy_sm4::live_pending_counts
+000000000003ec20	strategy_sm4::default_point_trigger
+000000000003f030	strategy_sm4::cancel_order_use_range
+000000000004dfb0	<strategy_sm4::_::<impl serde_core::de::Deserialize for strategy_sm4::SM4Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000043290	<strategy_sm4::_::<impl serde_core::de::Deserialize for strategy_sm4::SM4Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000091850	strategy_signal_maker_common::signal_trigger::SignalTrigger::update_score
+0000000000092680	strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000091c70	strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_std_trigger
+0000000000091b60	strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_mean_trigger
+0000000000092430	strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000091d80	strategy_signal_maker_common::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000091aa0	strategy_signal_maker_common::signal_trigger::SignalTrigger::point_signal_trigger_pv3_spread
+0000000000091780	strategy_signal_maker_common::signal_trigger::SignalTrigger::new
+0000000000092e30	strategy_signal_maker_common::signal_trigger::dynamic_threshold
+00000000000928b0	strategy_signal_maker_common::signal_trigger::enum_rate_counter
+0000000000091520	strategy_signal_maker_common::signal_trigger::TsQuantileCalculator::update
+0000000000092ed0	strategy_signal_maker_common::signal_trigger::dynamic_pending_ts_ms
+000000000008f910	strategy_signal_maker_common::get_quote_price::get_quote_vol
+000000000008f9a0	strategy_signal_maker_common::get_quote_price::get_quote_price
+0000000000063270	core::ptr::drop_in_place<strategy_sm4::signal_pairs_tree::RollingmsQueue<strategy_sm4::signal_pairs_tree::SignalPair>>
+0000000000037cd0	core::ptr::drop_in_place<((alloc::string::String,alloc::string::String),strategy_signal_maker_common::signal_trigger::SignalTrigger)>
+000000000005a6b0	_ZN4core3ptr223drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$usize$C$strategy_sm4..signal_pairs_tree..SignalPairStats$C$alloc..alloc..Global$GT$$GT$17h04445ed37ab3e8f2E.llvm.3523171180303252455
+000000000005a830	_ZN4core3ptr282drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$$LP$alloc..string..String$C$alloc..string..String$RP$$C$strategy_signal_maker_common..signal_trigger..SignalTrigger$C$alloc..alloc..Global$GT$$GT$17h49a74cd3d16613cdE.llvm.3523171180303252455
+00000000000558a0	core::ptr::drop_in_place<hashbrown::scopeguard::ScopeGuard<(usize,&mut hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>),hashbrown::raw::RawTable<(i64,strategy_signal_maker_common::signal_trigger::TsQuantileCalculator)>::clone_from_impl::{{closure}}>>
+000000000003e750	core::ptr::drop_in_place<strategy_sm4::SM4Params>
+00000000000675e0	core::ptr::drop_in_place<strategy_sm4::StrategySM4>
+000000000005a900	core::ptr::drop_in_place<strategy_sm4::signal_pairs_tree::SignalPairStats>
+0000000000037d10	_ZN4core3ptr69drop_in_place$LT$strategy_sm4..signal_pairs_tree..SignalPairStats$GT$17hcf6ba13b97b71ee0E.llvm.9000053735115140344
+00000000000679e0	core::ptr::drop_in_place<core::option::Option<strategy_sm4::SM4Params>>
+0000000000037e70	core::ptr::drop_in_place<(usize,strategy_sm4::signal_pairs_tree::SignalPairStats)>
+00000000000902c0	core::ptr::drop_in_place<strategy_signal_maker_common::signal_trigger::TsQuantileCalculator>
+0000000000063430	core::ptr::drop_in_place<core::option::Option<strategy_sm4::signal_pairs_tree::SignalPair>>
+0000000000067a70	core::ptr::drop_in_place<core::option::Option<strategy_sm4::signal_pairs_tree::SignalPairsTree>>
+000000000003fce0	<strategy_sm4::StrategySM4 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000040560	<strategy_sm4::StrategySM4 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000068ed0	create_strategy
+00000000000686f0	fb_strategy_sdk_abi_version
+0000000000068700	fb_strategy_sdk_version_str

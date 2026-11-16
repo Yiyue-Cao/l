@@ -1,0 +1,25 @@
+{
+  "library": "libstrategy_sos5",
+  "sha256": "567ba8f4e88b5e260159311eb31f119455ef8e4215bdb07a5c08186198fb08ac",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_sos5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "000000000006ad20",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    },
+    {
+      "function": "strategy_sos5::signal_trigger::dynamic_threshold",
+      "elf": "000000000006c080",
+      "cases": 288,
+      "passed": 288,
+      "failures": [],
+      "model": "time-based symmetric threshold narrowing"
+    }
+  ],
+  "total": 1488,
+  "passed": 1488
+}

@@ -1,0 +1,403 @@
+{
+  "engine": "VS Code bundled markdown-it + markdown-math",
+  "katex": "0.16.21",
+  "files": [
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/19个策略_数学化还原索引.md",
+      "math": 0,
+      "html_bytes": 5311
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "math": 87,
+      "html_bytes": 231282
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "math": 88,
+      "html_bytes": 238550
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "math": 115,
+      "html_bytes": 269847
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "math": 114,
+      "html_bytes": 271251
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "math": 119,
+      "html_bytes": 286199
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "math": 130,
+      "html_bytes": 303207
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "math": 149,
+      "html_bytes": 368287
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "math": 95,
+      "html_bytes": 263658
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "math": 111,
+      "html_bytes": 269750
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/lf4/libstrategy_lf4.md",
+      "math": 56,
+      "html_bytes": 148514
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sm1/libstrategy_sm1.md",
+      "math": 86,
+      "html_bytes": 201632
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sm2/libstrategy_sm2.md",
+      "math": 66,
+      "html_bytes": 128343
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sm3/libstrategy_sm3.md",
+      "math": 85,
+      "html_bytes": 186643
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+      "math": 78,
+      "html_bytes": 167122
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sm4/libstrategy_sm4.md",
+      "math": 102,
+      "html_bytes": 233644
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sos5/libstrategy_sos5.md",
+      "math": 75,
+      "html_bytes": 175618
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/sos6/libstrategy_sos6.md",
+      "math": 73,
+      "html_bytes": 163537
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/tm5/libstrategy_tm5.md",
+      "math": 50,
+      "html_bytes": 109144
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/01_策略库与详细解读/tm6/libstrategy_tm6.md",
+      "math": 68,
+      "html_bytes": 142647
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/README.md",
+      "math": 0,
+      "html_bytes": 1424
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/00_阅读入口.md",
+      "math": 0,
+      "html_bytes": 1757
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/01_共同交易流程与术语.md",
+      "math": 15,
+      "html_bytes": 18183
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/02_十九个策略的横向比较.md",
+      "math": 0,
+      "html_bytes": 3279
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/03_通用程序如何连接整套策略.md",
+      "math": 0,
+      "html_bytes": 3993
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/04_run_comm_maker1的完整作用.md",
+      "math": 7,
+      "html_bytes": 13078
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/05_十六个run驱动的分工.md",
+      "math": 0,
+      "html_bytes": 3657
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/06_SDK与框架对策略解释的补充.md",
+      "math": 0,
+      "html_bytes": 3425
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/07_下载清单与反编译验收.md",
+      "math": 0,
+      "html_bytes": 10654
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/08_SoS5阶段驱动如何组织对照实验.md",
+      "math": 0,
+      "html_bytes": 2297
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/09_成交概率探针与交易策略的区别.md",
+      "math": 0,
+      "html_bytes": 2688
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/02_综合说明/自然语言详解_20261114/10_事件状态机与剩余缺口.md",
+      "math": 0,
+      "html_bytes": 5900
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/03_反编译与验证/README.md",
+      "math": 0,
+      "html_bytes": 820
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/03_反编译与验证/事件状态验证_20261114/README.md",
+      "math": 0,
+      "html_bytes": 3229
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/03_反编译与验证/持续深化_20261114/README.md",
+      "math": 0,
+      "html_bytes": 2143
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/03_反编译与验证/数学化还原_20261114/README.md",
+      "math": 0,
+      "html_bytes": 1976
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/03_反编译与验证/策略反编译/libstrategy_comm5/README.md",
+      "math": 0,
+      "html_bytes": 2523
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/04_通用程序/README.md",
+      "math": 0,
+      "html_bytes": 1663
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/04_通用程序/来源档案/README.md",
+      "math": 0,
+      "html_bytes": 8101
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/05_工具脚本/README.md",
+      "math": 0,
+      "html_bytes": 930
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/06_来源档案/README.md",
+      "math": 0,
+      "html_bytes": 613
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/06_来源档案/comm5任务/README.md",
+      "math": 0,
+      "html_bytes": 8101
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/07_清单与回执/README.md",
+      "math": 0,
+      "html_bytes": 1003
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/07_清单与回执/本次整理_20261114/整理说明.md",
+      "math": 0,
+      "html_bytes": 816
+    },
+    {
+      "file": "LOCAL_WORKSPACE/1008/l/README.md",
+      "math": 0,
+      "html_bytes": 3671
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/00_策略索引.md",
+      "math": 0,
+      "html_bytes": 4956
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm2.md",
+      "math": 87,
+      "html_bytes": 230179
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm3.md",
+      "math": 88,
+      "html_bytes": 237188
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm3_1.md",
+      "math": 115,
+      "html_bytes": 268324
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm3_2.md",
+      "math": 114,
+      "html_bytes": 269728
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm4.md",
+      "math": 119,
+      "html_bytes": 284671
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm4_1.md",
+      "math": 130,
+      "html_bytes": 301502
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm5.md",
+      "math": 149,
+      "html_bytes": 366429
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm_maker1.md",
+      "math": 95,
+      "html_bytes": 261957
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_comm_mock.md",
+      "math": 111,
+      "html_bytes": 268108
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_lf4.md",
+      "math": 56,
+      "html_bytes": 147723
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sm1.md",
+      "math": 86,
+      "html_bytes": 200381
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sm2.md",
+      "math": 66,
+      "html_bytes": 127391
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sm3.md",
+      "math": 85,
+      "html_bytes": 185608
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sm3_1.md",
+      "math": 78,
+      "html_bytes": 165619
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sm4.md",
+      "math": 102,
+      "html_bytes": 232236
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sos5.md",
+      "math": 75,
+      "html_bytes": 174567
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_sos6.md",
+      "math": 73,
+      "html_bytes": 162615
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_tm5.md",
+      "math": 50,
+      "html_bytes": 108353
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/01_策略详细解读/libstrategy_tm6.md",
+      "math": 68,
+      "html_bytes": 141657
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/01_共同交易流程与术语.md",
+      "math": 15,
+      "html_bytes": 18108
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/02_十九个策略的横向比较.md",
+      "math": 0,
+      "html_bytes": 3204
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/03_通用程序如何连接整套策略.md",
+      "math": 0,
+      "html_bytes": 4053
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/04_run_comm_maker1的完整作用.md",
+      "math": 7,
+      "html_bytes": 13054
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/05_十六个run驱动的分工.md",
+      "math": 0,
+      "html_bytes": 3698
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/06_SDK与框架对策略解释的补充.md",
+      "math": 0,
+      "html_bytes": 3364
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/07_下载清单与反编译验收.md",
+      "math": 0,
+      "html_bytes": 10241
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/08_SoS5阶段驱动如何组织对照实验.md",
+      "math": 0,
+      "html_bytes": 2256
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/09_成交概率探针与交易策略的区别.md",
+      "math": 0,
+      "html_bytes": 2643
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/02_综合说明/10_事件状态机与剩余缺口.md",
+      "math": 0,
+      "html_bytes": 5765
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/03_范围与证据/comm5补充验证说明.md",
+      "math": 0,
+      "html_bytes": 2422
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/03_范围与证据/外部证据定位.md",
+      "math": 0,
+      "html_bytes": 97252
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/03_范围与证据/完成范围与口径.md",
+      "math": 0,
+      "html_bytes": 1638
+    },
+    {
+      "file": "/var/folders/t5/hwm7lgsj1wx_654_v0rzdqbm0000gn/T/l_docs_package_a8jebl4h/l_策略解读_纯文档版/README.md",
+      "math": 0,
+      "html_bytes": 2497
+    }
+  ],
+  "math": 3538,
+  "errors": []
+}

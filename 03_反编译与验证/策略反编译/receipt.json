@@ -1,0 +1,97 @@
+[
+  {
+    "file": "libstrategy_comm2.so",
+    "exit_code": 0,
+    "target_count": 37
+  },
+  {
+    "file": "libstrategy_comm3.so",
+    "exit_code": 0,
+    "target_count": 41
+  },
+  {
+    "file": "libstrategy_comm3_1.so",
+    "exit_code": 0,
+    "target_count": 42
+  },
+  {
+    "file": "libstrategy_comm3_2.so",
+    "exit_code": 0,
+    "target_count": 42
+  },
+  {
+    "file": "libstrategy_comm4.so",
+    "exit_code": 0,
+    "target_count": 46
+  },
+  {
+    "file": "libstrategy_comm4_1.so",
+    "exit_code": 0,
+    "target_count": 47
+  },
+  {
+    "file": "libstrategy_comm5.so",
+    "exit_code": 0,
+    "target_count": 52
+  },
+  {
+    "file": "libstrategy_comm_maker1.so",
+    "exit_code": 0,
+    "target_count": 46
+  },
+  {
+    "file": "libstrategy_comm_mock.so",
+    "exit_code": 0,
+    "target_count": 43
+  },
+  {
+    "file": "libstrategy_lf4.so",
+    "exit_code": 0,
+    "target_count": 31
+  },
+  {
+    "file": "libstrategy_sm1.so",
+    "exit_code": 0,
+    "target_count": 41
+  },
+  {
+    "file": "libstrategy_sm2.so",
+    "exit_code": 0,
+    "target_count": 36
+  },
+  {
+    "file": "libstrategy_sm3.so",
+    "exit_code": 0,
+    "target_count": 36
+  },
+  {
+    "file": "libstrategy_sm3_1.so",
+    "exit_code": 0,
+    "target_count": 48
+  },
+  {
+    "file": "libstrategy_sm4.so",
+    "exit_code": 0,
+    "target_count": 53
+  },
+  {
+    "file": "libstrategy_sos5.so",
+    "exit_code": 0,
+    "target_count": 42
+  },
+  {
+    "file": "libstrategy_sos6.so",
+    "exit_code": 0,
+    "target_count": 36
+  },
+  {
+    "file": "libstrategy_tm5.so",
+    "exit_code": 0,
+    "target_count": 29
+  },
+  {
+    "file": "libstrategy_tm6.so",
+    "exit_code": 0,
+    "target_count": 42
+  }
+]

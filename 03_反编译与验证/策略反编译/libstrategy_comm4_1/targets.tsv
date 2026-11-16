@@ -1,0 +1,47 @@
+000000000004f4c0	strategy_comm4_1::next_phase
+000000000004f130	strategy_comm4_1::Comm4Params::signal_mode
+000000000004f170	strategy_comm4_1::Comm4Params::signal_trigger_mode
+000000000004f280	strategy_comm4_1::Comm4Params::effective
+0000000000072b60	strategy_comm4_1::signal_trigger::SignalTrigger::update_score
+00000000000739f0	strategy_comm4_1::signal_trigger::SignalTrigger::windows_rsi_trigger
+0000000000072fd0	strategy_comm4_1::signal_trigger::SignalTrigger::windows_std_trigger
+0000000000072ec0	strategy_comm4_1::signal_trigger::SignalTrigger::windows_mean_trigger
+00000000000737a0	strategy_comm4_1::signal_trigger::SignalTrigger::windows_sharpe_trigger
+0000000000072e30	strategy_comm4_1::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+00000000000730e0	strategy_comm4_1::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000072da0	strategy_comm4_1::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+0000000000074190	strategy_comm4_1::signal_trigger::dynamic_threshold
+0000000000073c20	_ZN16strategy_comm4_114signal_trigger17enum_rate_counter17h11fb9a90182a0820E.llvm.14061952965871823163
+0000000000072770	strategy_comm4_1::signal_trigger::TsQuantileCalculator::update
+0000000000050360	strategy_comm4_1::high_taker_rate
+000000000006def0	strategy_comm4_1::__fb_plugin_impl::destroy
+000000000006d6f0	strategy_comm4_1::__fb_plugin_impl::on_begin
+000000000006d980	strategy_comm4_1::__fb_plugin_impl::on_depth
+000000000006dbb0	strategy_comm4_1::__fb_plugin_impl::on_order
+000000000006dac0	strategy_comm4_1::__fb_plugin_impl::on_finish
+000000000006d7e0	strategy_comm4_1::__fb_plugin_impl::on_signal
+0000000000077800	strategy_comm4_1::vol_spread_ratio::VolSpreadRatio::update
+00000000000504a0	strategy_comm4_1::taker_fillable_cum
+000000000004fdf0	strategy_comm4_1::live_pending_counts
+000000000004f590	strategy_comm4_1::cancel_order_use_range
+0000000000055c90	strategy_comm4_1::place
+0000000000048310	<strategy_comm4_1::_::<impl serde_core::de::Deserialize for strategy_comm4_1::Comm4Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000005f840	_ZN175_$LT$strategy_comm4_1.._..$LT$impl$u20$serde_core..de..Deserialize$u20$for$u20$strategy_comm4_1..Comm4Params$GT$..deserialize..__Visitor$u20$as$u20$serde_core..de..Visitor$GT$9visit_map17hcd1fcc053f859855E.llvm.6305567282840905253
+000000000004d0c0	<strategy_comm4_1::_::<impl serde_core::de::Deserialize for strategy_comm4_1::PhaseParams>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+0000000000055cb0	<strategy_comm4_1::_::<impl serde_core::de::Deserialize for strategy_comm4_1::Comm4Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000056740	<strategy_comm4_1::_::<impl serde_core::de::Deserialize for strategy_comm4_1::PhaseParams>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000006c000	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm4_1::signal_trigger::SignalTrigger>>
+000000000004e720	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm4_1::signal_trigger::SignalTrigger>>
+000000000004e820	core::ptr::drop_in_place<strategy_comm4_1::Comm4Params>
+000000000006c0f0	core::ptr::drop_in_place<strategy_comm4_1::StrategyComm41>
+0000000000058bd0	_ZN4core3ptr71drop_in_place$LT$strategy_comm4_1..vol_spread_ratio..VolSpreadRatio$GT$17h3b2ad89f39ba57cbE.llvm.9672446651200127818
+0000000000075fc0	core::ptr::drop_in_place<strategy_comm4_1::signal_trigger::TsQuantileCalculator>
+0000000000058c80	_ZN4core3ptr75drop_in_place$LT$strategy_comm4_1..signal_trigger..TsQuantileCalculator$GT$17hbc5f75133623783eE.llvm.9672446651200127818
+000000000006c530	core::ptr::drop_in_place<core::option::Option<strategy_comm4_1::Comm4Params>>
+00000000000505a0	<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+0000000000055990	<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+0000000000055b70	<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+0000000000050890	<strategy_comm4_1::StrategyComm41 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000006df30	create_strategy
+000000000006d690	fb_strategy_sdk_abi_version
+000000000006d6a0	fb_strategy_sdk_version_str

@@ -1,0 +1,42 @@
+0000000000049050	OK	strategy_sos5::SoS5Params::phase_thresholds
+0000000000049780	OK	strategy_sos5::SoS5Params::signal_trigger_mode
+000000000006a5e0	OK	strategy_sos5::signal_trigger::SignalTrigger::update_score
+000000000006b8e0	OK	strategy_sos5::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000006aec0	OK	strategy_sos5::signal_trigger::SignalTrigger::windows_std_trigger
+000000000006adb0	OK	strategy_sos5::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000006b690	OK	strategy_sos5::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000006afd0	OK	strategy_sos5::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000006ad20	OK	strategy_sos5::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000006c080	OK	strategy_sos5::signal_trigger::dynamic_threshold
+000000000006bb10	OK	_ZN13strategy_sos514signal_trigger17enum_rate_counter17h52e1c88565e9250aE.llvm.14864376446662127556
+000000000006a270	OK	strategy_sos5::__fb_plugin_impl::destroy
+0000000000069a70	OK	strategy_sos5::__fb_plugin_impl::on_begin
+0000000000069d00	OK	strategy_sos5::__fb_plugin_impl::on_depth
+0000000000069f30	OK	strategy_sos5::__fb_plugin_impl::on_order
+0000000000069e40	OK	strategy_sos5::__fb_plugin_impl::on_finish
+0000000000069b60	OK	strategy_sos5::__fb_plugin_impl::on_signal
+0000000000048f80	OK	strategy_sos5::default_watcher_key
+000000000004e940	OK	strategy_sos5::place_order_by_mode
+000000000004e6a0	OK	strategy_sos5::phase_basket_notional
+0000000000048ff0	OK	strategy_sos5::default_phase_threshold_mode
+0000000000044360	OK	<strategy_sos5::_::<impl serde_core::de::Deserialize for strategy_sos5::SoS5Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000004ed40	OK	<strategy_sos5::_::<impl serde_core::de::Deserialize for strategy_sos5::SoS5Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000004eaa0	OK	<strategy_sos5::_::<impl serde_core::de::Deserialize for strategy_sos5::SectionParams>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+0000000000048770	OK	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_sos5::signal_trigger::SignalTrigger>>
+0000000000055330	OK	core::ptr::drop_in_place<strategy_sos5::TradeCode>
+0000000000048870	OK	core::ptr::drop_in_place<strategy_sos5::SoS5Params>
+0000000000068a10	OK	core::ptr::drop_in_place<strategy_sos5::StrategySoS5>
+0000000000037440	OK	core::ptr::drop_in_place<strategy_sos5::SectionParams>
+0000000000048960	OK	core::ptr::drop_in_place<strategy_sos5::SectionParams>
+00000000000553d0	OK	core::ptr::drop_in_place<strategy_sos5::SectionParams>
+000000000005ea20	OK	core::ptr::drop_in_place<strategy_sos5::SectionParams>
+0000000000068b80	OK	core::ptr::drop_in_place<strategy_sos5::SectionParams>
+0000000000065280	OK	core::ptr::drop_in_place<strategy_sos5::signal_trigger::TsQuantileCalculator>
+0000000000068e10	OK	core::ptr::drop_in_place<core::option::Option<strategy_sos5::SoS5Params>>
+0000000000049890	OK	<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000004dba0	OK	<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000004e3e0	OK	<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+000000000004a1f0	OK	<strategy_sos5::StrategySoS5 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000006a2b0	OK	create_strategy
+0000000000069a10	OK	fb_strategy_sdk_abi_version
+0000000000069a20	OK	fb_strategy_sdk_version_str

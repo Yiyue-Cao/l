@@ -1,0 +1,17 @@
+{
+  "library": "libstrategy_lf4",
+  "sha256": "88e6969f6603fc9864009122b9f1036b732618416a5637847483096012095410",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_lf4::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "000000000004bdd0",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    }
+  ],
+  "total": 1200,
+  "passed": 1200
+}

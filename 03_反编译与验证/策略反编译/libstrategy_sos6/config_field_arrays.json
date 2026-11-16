@@ -1,0 +1,60 @@
+[
+  {
+    "file_offset": "0xd52e8",
+    "fields": [
+      "watcher_strategy_name",
+      "watcher_account_name",
+      "watcher_pnl_key",
+      "section1_to_2_pnl",
+      "section1_to_3_pnl",
+      "section2_to_1_pnl",
+      "section2_to_3_pnl",
+      "section3_to_1_pnl",
+      "order_book_1_2_gap",
+      "sos_taker_rate",
+      "sos_add_vol",
+      "section1",
+      "section2",
+      "section3",
+      "signal_mode",
+      "pv1_alpha",
+      "cost_alpha",
+      "signal_trigger_mode",
+      "vote_rate",
+      "quantile",
+      "signal_windows_s",
+      "score_taker_rate_alpha",
+      "taker_rate_baseline",
+      "max_taker_rate",
+      "trade_slippery",
+      "close_position_block_ms",
+      "max_single_close_vol",
+      "max_single_close_amt",
+      "dyn_score_position_ts_threshold_s",
+      "dyn_score_max_position_ts_s",
+      "dyn_score_delta_score",
+      "dyn_pending_position_ts_threshold_s",
+      "dyn_pending_max_position_ts_s",
+      "dyn_pending_order_max_pending_time_ms",
+      "dyn_pending_delta_max_pending_ts_ms"
+    ]
+  },
+  {
+    "file_offset": "0xd5788",
+    "fields": [
+      "insts",
+      "ranks",
+      "signal_all",
+      "trade_mode",
+      "long_open_threshold",
+      "long_close_threshold",
+      "short_open_threshold",
+      "short_close_threshold",
+      "max_single_add_vol",
+      "max_single_net_vol",
+      "max_single_add_amt",
+      "max_single_net_amt",
+      "trade_code"
+    ]
+  }
+]

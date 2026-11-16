@@ -1,0 +1,528 @@
+{
+  "library": "libstrategy_comm2",
+  "state_bytes": 464,
+  "begin_elf": "0x464a0",
+  "scope": "actual TOML parsing; f64 verified with two distinct markers; Option None payload excluded; non-log SDK calls abort",
+  "baseline_toml": "",
+  "fields": [
+    {
+      "field": "signal_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x0"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "pv1_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x48"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "cost_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x50"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "signal_trigger_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x18"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "vote_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x58"
+      ],
+      "defaults": [
+        {
+          "value": 0.1,
+          "raw_hex": "9a9999999999b93f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "quantile",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x60"
+      ],
+      "defaults": [
+        {
+          "value": 0.9,
+          "raw_hex": "cdccccccccccec3f",
+          "preceding_word": "9a9999999999b93f"
+        }
+      ]
+    },
+    {
+      "field": "signal_windows_s",
+      "status": "mapped",
+      "kind": "vec_f64",
+      "state_offsets": [
+        "0x30"
+      ],
+      "defaults": [
+        {
+          "value": []
+        }
+      ]
+    },
+    {
+      "field": "score_taker_rate_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x68"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "cdccccccccccec3f"
+        }
+      ]
+    },
+    {
+      "field": "taker_rate_baseline",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x70"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_taker_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x78"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "trade_slippery",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x80"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "close_position_block_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x88"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "touch_gate",
+      "status": "mapped",
+      "kind": "bool",
+      "state_offsets": [
+        "0x138"
+      ],
+      "defaults": [
+        {
+          "value": true,
+          "raw_hex": "01"
+        }
+      ]
+    },
+    {
+      "field": "touch_gate_timeout_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x90"
+      ],
+      "defaults": [
+        {
+          "value": 5000.0,
+          "raw_hex": "000000000088b340",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_add_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x98"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "000000000088b340"
+        }
+      ]
+    },
+    {
+      "field": "max_single_add_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xa0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "max_single_net_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xa8"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_net_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xb0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xb8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xc0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "long_open_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xc8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "long_close_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xd0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "short_open_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xd8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "short_close_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xe0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xe8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xf0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_delta_score",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xf8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x100"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x108"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_order_max_pending_time_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x110"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_delta_max_pending_ts_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x118"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "use_dynamic_volspread_ratio",
+      "status": "mapped",
+      "kind": "bool",
+      "state_offsets": [
+        "0x139"
+      ],
+      "defaults": [
+        {
+          "value": false,
+          "raw_hex": "00"
+        }
+      ]
+    },
+    {
+      "field": "market_volatility_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x120"
+      ],
+      "defaults": [
+        {
+          "value": 60000.0,
+          "raw_hex": "00000000004ced40",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "rolling_windows_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x128"
+      ],
+      "defaults": [
+        {
+          "value": 1200000.0,
+          "raw_hex": "00000000804f3241",
+          "preceding_word": "00000000004ced40"
+        }
+      ]
+    },
+    {
+      "field": "split_high_low_ratio_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x130"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "00000000804f3241"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "input": {
+    "s": 1000.0
+  },
+  "ret": 0,
+  "trace": [
+    "inst_start_time_sec",
+    "is_trade_start",
+    "is_trade_end",
+    "ts_ms",
+    "time_sec",
+    "depth",
+    "price_step",
+    "vol_step",
+    "position",
+    "first_open_time_sec",
+    "is_should_lock",
+    "margin_filter",
+    "cancel_by_pending_ts",
+    "impact_block_check",
+    "pending_count"
+  ],
+  "changed_offsets": [
+    "0x111",
+    "0x112",
+    "0x113",
+    "0x114",
+    "0x115",
+    "0x118",
+    "0x120",
+    "0x128"
+  ],
+  "case": "margin_block",
+  "no_order_request": true
+}

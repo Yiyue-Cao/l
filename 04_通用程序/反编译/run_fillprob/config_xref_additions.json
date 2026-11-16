@@ -1,0 +1,7 @@
+[
+  {
+    "address": "0x649b0",
+    "name": "core::ops::function::impls::<impl core::ops::function::FnMut<A> for &F>::call_mut",
+    "string_address": "1a4f8"
+  }
+]

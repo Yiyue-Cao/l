@@ -1,0 +1,834 @@
+[
+  {
+    "t": 1000.0,
+    "s": 1000.0,
+    "order_rc": 0,
+    "result": {
+      "input": {
+        "t": 1000.0,
+        "s": 1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "ts_ms",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "impact_block_check",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "cancel_pending_ids",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap_with_target"
+      ],
+      "changed_offsets": [
+        "0x1c0",
+        "0x1c1",
+        "0x1c2",
+        "0x1c3",
+        "0x1c5",
+        "0x1c8",
+        "0x1cc",
+        "0x1d0"
+      ]
+    },
+    "tree": {
+      "selected": [
+        0,
+        1,
+        2.0,
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "stats": [
+        {
+          "key": 0,
+          "thresholds": [
+            2.0,
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "window": 1000.0,
+          "pairs": []
+        },
+        {
+          "key": 1,
+          "thresholds": [
+            2.2,
+            -0.2,
+            -2.2,
+            0.2
+          ],
+          "window": 1000.0,
+          "pairs": []
+        },
+        {
+          "key": 2,
+          "thresholds": [
+            1.8,
+            0.2,
+            -1.8,
+            -0.2
+          ],
+          "window": 1000.0,
+          "pairs": []
+        },
+        {
+          "key": 3,
+          "thresholds": [
+            2.4,
+            -0.4,
+            -2.4,
+            0.4
+          ],
+          "window": 1000.0,
+          "pairs": []
+        },
+        {
+          "key": 4,
+          "thresholds": [
+            1.6,
+            0.4,
+            -1.6,
+            -0.4
+          ],
+          "window": 1000.0,
+          "pairs": []
+        }
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "t": 1000.1,
+    "s": -1000.0,
+    "order_rc": -1,
+    "result": {
+      "input": {
+        "t": 1000.1,
+        "s": -1000.0
+      },
+      "ret": 94560192325056,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "ts_ms",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "impact_block_check",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "cancel_pending_ids",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap_with_target",
+        "last_error"
+      ],
+      "changed_offsets": []
+    },
+    "tree": {
+      "selected": [
+        0,
+        1,
+        2.0,
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "stats": [
+        {
+          "key": 0,
+          "thresholds": [
+            2.0,
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 1,
+          "thresholds": [
+            2.2,
+            -0.2,
+            -2.2,
+            0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "thresholds": [
+            1.8,
+            0.2,
+            -1.8,
+            -0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 3,
+          "thresholds": [
+            2.4,
+            -0.4,
+            -2.4,
+            0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 4,
+          "thresholds": [
+            1.6,
+            0.4,
+            -1.6,
+            -0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        }
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 2,
+        "type": 8,
+        "price": 99.0,
+        "vol": -1.0,
+        "ref_price": 99.0,
+        "signal": -1000.0,
+        "u0": -2.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "t": 1000.2,
+    "s": 1000.0,
+    "order_rc": -1,
+    "result": {
+      "input": {
+        "t": 1000.2,
+        "s": 1000.0
+      },
+      "ret": 94560192325808,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "ts_ms",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "impact_block_check",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "cancel_pending_ids",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap_with_target",
+        "last_error"
+      ],
+      "changed_offsets": []
+    },
+    "tree": {
+      "selected": [
+        0,
+        1,
+        2.0,
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "stats": [
+        {
+          "key": 0,
+          "thresholds": [
+            2.0,
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 1,
+          "thresholds": [
+            2.2,
+            -0.2,
+            -2.2,
+            0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "thresholds": [
+            1.8,
+            0.2,
+            -1.8,
+            -0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 3,
+          "thresholds": [
+            2.4,
+            -0.4,
+            -2.4,
+            0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 4,
+          "thresholds": [
+            1.6,
+            0.4,
+            -1.6,
+            -0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            }
+          ]
+        }
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 2,
+        "type": 8,
+        "price": 99.0,
+        "vol": -1.0,
+        "ref_price": 99.0,
+        "signal": -1000.0,
+        "u0": -2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  },
+  {
+    "t": 1000.3,
+    "s": -1000.0,
+    "order_rc": 0,
+    "result": {
+      "input": {
+        "t": 1000.3,
+        "s": -1000.0
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "ts_ms",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts",
+        "impact_block_check",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "pending_orders",
+        "cancel_pending_ids",
+        "liquidity_consumption",
+        "is_night",
+        "place_order_iap_with_target"
+      ],
+      "changed_offsets": []
+    },
+    "tree": {
+      "selected": [
+        0,
+        1,
+        2.0,
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "stats": [
+        {
+          "key": 0,
+          "thresholds": [
+            2.0,
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            },
+            {
+              "stamp": 1000300.0,
+              "open_t": 1000200.0,
+              "close_t": 1000300.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 1,
+          "thresholds": [
+            2.2,
+            -0.2,
+            -2.2,
+            0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            },
+            {
+              "stamp": 1000300.0,
+              "open_t": 1000200.0,
+              "close_t": 1000300.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "thresholds": [
+            1.8,
+            0.2,
+            -1.8,
+            -0.2
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            },
+            {
+              "stamp": 1000300.0,
+              "open_t": 1000200.0,
+              "close_t": 1000300.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 3,
+          "thresholds": [
+            2.4,
+            -0.4,
+            -2.4,
+            0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            },
+            {
+              "stamp": 1000300.0,
+              "open_t": 1000200.0,
+              "close_t": 1000300.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        },
+        {
+          "key": 4,
+          "thresholds": [
+            1.6,
+            0.4,
+            -1.6,
+            -0.4
+          ],
+          "window": 1000.0,
+          "pairs": [
+            {
+              "stamp": 1000100.0,
+              "open_t": 1000000.0,
+              "close_t": 1000100.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            },
+            {
+              "stamp": 1000200.0,
+              "open_t": 1000100.0,
+              "close_t": 1000200.0,
+              "open_s": -1000.0,
+              "close_s": 1000.0,
+              "side": 1,
+              "closed": 1
+            },
+            {
+              "stamp": 1000300.0,
+              "open_t": 1000200.0,
+              "close_t": 1000300.0,
+              "open_s": 1000.0,
+              "close_s": -1000.0,
+              "side": 0,
+              "closed": 1
+            }
+          ]
+        }
+      ]
+    },
+    "requests": [
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 2,
+        "type": 8,
+        "price": 99.0,
+        "vol": -1.0,
+        "ref_price": 99.0,
+        "signal": -1000.0,
+        "u0": -2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 0,
+        "type": 7,
+        "price": 101.0,
+        "vol": 1.0,
+        "ref_price": 101.0,
+        "signal": 1000.0,
+        "u0": 2.0,
+        "u1": 0.0
+      },
+      {
+        "action": 2,
+        "type": 8,
+        "price": 99.0,
+        "vol": -1.0,
+        "ref_price": 99.0,
+        "signal": -1000.0,
+        "u0": -2.0,
+        "u1": 0.0
+      }
+    ],
+    "cancel_attempts": []
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "library": "libstrategy_sm2",
+  "sha256": "7d78c5e4ec850fc13bbf7c374eaeb24857de05276cb0c143c3e84a11cd9bf527",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_signal_maker_common::signal_trigger::dynamic_threshold",
+      "elf": "00000000000847f0",
+      "cases": 288,
+      "passed": 288,
+      "failures": [],
+      "model": "time-based symmetric threshold narrowing"
+    }
+  ],
+  "total": 288,
+  "passed": 288
+}

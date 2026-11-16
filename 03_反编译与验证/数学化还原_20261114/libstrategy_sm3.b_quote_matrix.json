@@ -1,0 +1,422 @@
+[
+  {
+    "action": 0,
+    "bstate": -1,
+    "edge": -5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": -1,
+    "edge": 0.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": -1,
+    "edge": 2.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": -1,
+    "edge": 5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": -1,
+    "edge": 10.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": 0,
+    "edge": -5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": 0,
+    "edge": 0.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 0,
+    "bstate": 0,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 0,
+    "bstate": 0,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 0,
+    "bstate": 0,
+    "edge": 10.0,
+    "price": 100.10002499999999,
+    "type": 0
+  },
+  {
+    "action": 0,
+    "bstate": 1,
+    "edge": -5.0,
+    "price": 99.97,
+    "type": 3
+  },
+  {
+    "action": 0,
+    "bstate": 1,
+    "edge": 0.0,
+    "price": 100.0,
+    "type": 3
+  },
+  {
+    "action": 0,
+    "bstate": 1,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 0,
+    "bstate": 1,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 0,
+    "bstate": 1,
+    "edge": 10.0,
+    "price": 100.10002499999999,
+    "type": 0
+  },
+  {
+    "action": 1,
+    "bstate": -1,
+    "edge": -5.0,
+    "price": 100.03,
+    "type": 3
+  },
+  {
+    "action": 1,
+    "bstate": -1,
+    "edge": 0.0,
+    "price": 100.0,
+    "type": 3
+  },
+  {
+    "action": 1,
+    "bstate": -1,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 1,
+    "bstate": -1,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 1,
+    "bstate": -1,
+    "edge": 10.0,
+    "price": 99.90002500000001,
+    "type": 0
+  },
+  {
+    "action": 1,
+    "bstate": 0,
+    "edge": -5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 0,
+    "edge": 0.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 0,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 1,
+    "bstate": 0,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 1,
+    "bstate": 0,
+    "edge": 10.0,
+    "price": 99.90002500000001,
+    "type": 0
+  },
+  {
+    "action": 1,
+    "bstate": 1,
+    "edge": -5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 1,
+    "edge": 0.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 1,
+    "edge": 2.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 1,
+    "edge": 5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 1,
+    "bstate": 1,
+    "edge": 10.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": -1,
+    "edge": -5.0,
+    "price": 100.03,
+    "type": 3
+  },
+  {
+    "action": 2,
+    "bstate": -1,
+    "edge": 0.0,
+    "price": 100.0,
+    "type": 3
+  },
+  {
+    "action": 2,
+    "bstate": -1,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 2,
+    "bstate": -1,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 2,
+    "bstate": -1,
+    "edge": 10.0,
+    "price": 99.90002500000001,
+    "type": 0
+  },
+  {
+    "action": 2,
+    "bstate": 0,
+    "edge": -5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 0,
+    "edge": 0.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 0,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 2,
+    "bstate": 0,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 2,
+    "bstate": 0,
+    "edge": 10.0,
+    "price": 99.90002500000001,
+    "type": 0
+  },
+  {
+    "action": 2,
+    "bstate": 1,
+    "edge": -5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 1,
+    "edge": 0.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 1,
+    "edge": 2.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 1,
+    "edge": 5.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 2,
+    "bstate": 1,
+    "edge": 10.0,
+    "price": 100.15,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": -1,
+    "edge": -5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": -1,
+    "edge": 0.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": -1,
+    "edge": 2.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": -1,
+    "edge": 5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": -1,
+    "edge": 10.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": 0,
+    "edge": -5.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": 0,
+    "edge": 0.0,
+    "price": 99.85,
+    "type": 1
+  },
+  {
+    "action": 3,
+    "bstate": 0,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 3,
+    "bstate": 0,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 3,
+    "bstate": 0,
+    "edge": 10.0,
+    "price": 100.10002499999999,
+    "type": 0
+  },
+  {
+    "action": 3,
+    "bstate": 1,
+    "edge": -5.0,
+    "price": 99.97,
+    "type": 3
+  },
+  {
+    "action": 3,
+    "bstate": 1,
+    "edge": 0.0,
+    "price": 100.0,
+    "type": 3
+  },
+  {
+    "action": 3,
+    "bstate": 1,
+    "edge": 2.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 3,
+    "bstate": 1,
+    "edge": 5.0,
+    "price": 100.0,
+    "type": 2
+  },
+  {
+    "action": 3,
+    "bstate": 1,
+    "edge": 10.0,
+    "price": 100.10002499999999,
+    "type": 0
+  }
+]

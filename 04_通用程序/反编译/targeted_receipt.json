@@ -1,0 +1,20 @@
+[
+  {
+    "file": "future_backtest_meta_runner",
+    "exit_code": 0,
+    "targets": 134,
+    "method": "symbol-bounded, no whole-program autoanalysis"
+  },
+  {
+    "file": "future_backtest_runner",
+    "exit_code": 0,
+    "targets": 134,
+    "method": "symbol-bounded, no whole-program autoanalysis"
+  },
+  {
+    "file": "libfill_prob_probe.so",
+    "exit_code": 0,
+    "targets": 17,
+    "method": "symbol-bounded, no whole-program autoanalysis"
+  }
+]

@@ -1,0 +1,2678 @@
+[
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 1,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 2,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 2,
+    "expected": 2,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 4.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 1,
+    "expected": 1,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "cancel_pending_ids",
+        "pending_orders",
+        "set_not_lock",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x3d0",
+        "0x419"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 5.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 9.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 10.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 20.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": -1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": 0.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "free_cash",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  },
+  {
+    "initial": 3,
+    "z": 21.0,
+    "c": 1.0,
+    "source": "meta_override",
+    "actual": 3,
+    "expected": 3,
+    "result": {
+      "input": {},
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "get_published:rolling_pnl",
+        "free_cash",
+        "meta_account",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": []
+    },
+    "passed": true
+  }
+]

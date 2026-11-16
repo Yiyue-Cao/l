@@ -1,0 +1,61 @@
+{
+  "reason": "Remaining large framework whole-program analysis replaced with symbol-bounded targeted decompilation; completed driver outputs preserved.",
+  "terminated_processes": [
+    {
+      "pid": 3569507,
+      "command": "python3 REMOTE_WORKSPACE/tmp/1008/l/analyze_generic.py"
+    },
+    {
+      "pid": 3580439,
+      "command": "python3 REMOTE_WORKSPACE/tmp/1008/l/repair_generic.py"
+    },
+    {
+      "pid": 3725402,
+      "command": "bash REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/analyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3725405,
+      "command": "bash REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/launch.sh fg jdk Ghidra-Headless 2G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -Djava.awt.headless=true  ghidra.app.util.headless.AnalyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3725526,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/jdk-21.0.2/bin/java -Djava.system.class.loader=ghidra.GhidraClassLoader -Dfile.encoding=UTF8 -Duser.country=US -Duser.language=en -Duser.variant= -Dsun.java2d.opengl=false -Djdk.tls.client.protocols=TLSv1.2,TLSv1.3 -Dcpu.core.limit= -Dcpu.core.override= -Dfont.size.override= -Dpython.console.encoding=UTF-8 -Xshare:off -Dsun.java2d.pmoffscreen=false -Dsun.java2d.xrender=true -Dsun.java2d.uiScale=1 -Dawt.useSystemAAFontSettings=on -Xmx2G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -Djava.awt.headless=true -showversion -cp REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/../Ghidra/Framework/Utility/lib/Utility.jar ghidra.Ghidra ghidra.app.util.headless.AnalyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3734706,
+      "command": "bash REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/analyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest_meta_runner -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3734709,
+      "command": "bash REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/launch.sh fg jdk Ghidra-Headless 2G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -Djava.awt.headless=true  ghidra.app.util.headless.AnalyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest_meta_runner -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3734792,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/jdk-21.0.2/bin/java -Djava.system.class.loader=ghidra.GhidraClassLoader -Dfile.encoding=UTF8 -Duser.country=US -Duser.language=en -Duser.variant= -Dsun.java2d.opengl=false -Djdk.tls.client.protocols=TLSv1.2,TLSv1.3 -Dcpu.core.limit= -Dcpu.core.override= -Dfont.size.override= -Dpython.console.encoding=UTF-8 -Xshare:off -Dsun.java2d.pmoffscreen=false -Dsun.java2d.xrender=true -Dsun.java2d.uiScale=1 -Dawt.useSystemAAFontSettings=on -Xmx2G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -Djava.awt.headless=true -showversion -cp REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/support/../Ghidra/Framework/Utility/lib/Utility.jar ghidra.Ghidra ghidra.app.util.headless.AnalyzeHeadless REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/project generic -import REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/future_backtest_meta_runner -scriptPath REMOTE_WORKSPACE/tmp/1008/l -postScript ExportStrategies.java REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/decompiled REMOTE_WORKSPACE/tmp/1008/l/\u901a\u7528\u7a0b\u5e8f_stockidx_20261114/analysis/future_backtest_meta_runner/targets.tsv -analysisTimeoutPerFile 180 -max-cpu 2"
+    },
+    {
+      "pid": 3776513,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    },
+    {
+      "pid": 3777973,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    },
+    {
+      "pid": 3778158,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    },
+    {
+      "pid": 3778596,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    },
+    {
+      "pid": 3780693,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    },
+    {
+      "pid": 3781661,
+      "command": "REMOTE_WORKSPACE/intraday/analysis_lwl_interface_recovery_20261109/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile"
+    }
+  ]
+}

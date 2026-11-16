@@ -1,0 +1,461 @@
+{
+  "library": "libstrategy_tm5",
+  "state_bytes": 376,
+  "begin_elf": "0x415c0",
+  "scope": "actual TOML parsing; f64 verified with two distinct markers; Option None payload excluded; non-log SDK calls abort",
+  "baseline_toml": "",
+  "fields": [
+    {
+      "field": "signal_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x28"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "pv1_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x70"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "cost_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x78"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "signal_trigger_mode",
+      "status": "mapped",
+      "kind": "string",
+      "state_offsets": [
+        "0x40"
+      ],
+      "defaults": [
+        {
+          "value": "",
+          "raw_hex": "000000000000000001000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "vote_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x80"
+      ],
+      "defaults": [
+        {
+          "value": 0.1,
+          "raw_hex": "9a9999999999b93f",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "quantile",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x88"
+      ],
+      "defaults": [
+        {
+          "value": 0.9,
+          "raw_hex": "cdccccccccccec3f",
+          "preceding_word": "9a9999999999b93f"
+        }
+      ]
+    },
+    {
+      "field": "signal_windows_s",
+      "status": "mapped",
+      "kind": "vec_f64",
+      "state_offsets": [
+        "0x58"
+      ],
+      "defaults": [
+        {
+          "value": []
+        }
+      ]
+    },
+    {
+      "field": "score_taker_rate_alpha",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x90"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "cdccccccccccec3f"
+        }
+      ]
+    },
+    {
+      "field": "taker_rate_baseline",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x98"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_taker_rate",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xa0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "trade_slippery",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xa8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "close_position_block_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xb0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_add_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xb8"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_add_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xc0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "max_single_net_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xc8"
+      ],
+      "defaults": [
+        {
+          "value": 1.0,
+          "raw_hex": "000000000000f03f",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_net_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xd0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "000000000000f03f"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_vol",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xd8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "max_single_close_amt",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xe0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "long_open_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xe8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "long_close_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xf0"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "short_open_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0xf8"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "short_close_threshold",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x100"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x108"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x110"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_score_delta_score",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x118"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_position_ts_threshold_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x120"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_max_position_ts_s",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x128"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_order_max_pending_time_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x130"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "dyn_pending_delta_max_pending_ts_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x138"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "field": "rolling_window_ms",
+      "status": "mapped",
+      "kind": "f64",
+      "state_offsets": [
+        "0x20",
+        "0x140"
+      ],
+      "defaults": [
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        },
+        {
+          "value": 0.0,
+          "raw_hex": "0000000000000000",
+          "preceding_word": "0000000000000000"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+000000000004ab70	<strategy_comm_mock::_::<impl serde_core::de::Deserialize for strategy_comm_mock::Comm3Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000003f390	<strategy_comm_mock::_::<impl serde_core::de::Deserialize for strategy_comm_mock::Comm3Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+00000000000391f0	strategy_comm_mock::Comm3Params::signal_mode
+0000000000039340	strategy_comm_mock::Comm3Params::low_action_enum
+0000000000039230	strategy_comm_mock::Comm3Params::signal_trigger_mode
+000000000005e470	strategy_comm_mock::signal_trigger::SignalTrigger::update_score
+000000000005f300	strategy_comm_mock::signal_trigger::SignalTrigger::windows_rsi_trigger
+000000000005e8e0	strategy_comm_mock::signal_trigger::SignalTrigger::windows_std_trigger
+000000000005e7d0	strategy_comm_mock::signal_trigger::SignalTrigger::windows_mean_trigger
+000000000005f0b0	strategy_comm_mock::signal_trigger::SignalTrigger::windows_sharpe_trigger
+000000000005e740	strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv4
+000000000005e9f0	strategy_comm_mock::signal_trigger::SignalTrigger::windows_quantile_trigger
+000000000005e6b0	strategy_comm_mock::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+000000000005faa0	strategy_comm_mock::signal_trigger::dynamic_threshold
+000000000005f530	_ZN18strategy_comm_mock14signal_trigger17enum_rate_counter17h8b1360ee3ad6c1afE.llvm.9348514807243868232
+000000000005e080	strategy_comm_mock::signal_trigger::TsQuantileCalculator::update
+000000000003a140	strategy_comm_mock::high_taker_rate
+000000000005cf60	strategy_comm_mock::__fb_plugin_impl::destroy
+000000000005c510	strategy_comm_mock::__fb_plugin_impl::on_begin
+000000000005c7a0	strategy_comm_mock::__fb_plugin_impl::on_depth
+000000000005c9d0	strategy_comm_mock::__fb_plugin_impl::on_order
+000000000005c8e0	strategy_comm_mock::__fb_plugin_impl::on_finish
+000000000005c600	strategy_comm_mock::__fb_plugin_impl::on_signal
+000000000005b020	strategy_comm_mock::vol_spread_ratio::VolSpreadRatio::update
+0000000000039bd0	strategy_comm_mock::live_pending_counts
+0000000000039370	strategy_comm_mock::cancel_order_use_range
+000000000003f360	strategy_comm_mock::place
+000000000005b500	core::ptr::drop_in_place<std::collections::hash::map::HashMap<(alloc::string::String,alloc::string::String),strategy_comm_mock::signal_trigger::SignalTrigger>>
+0000000000038d60	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_comm_mock::signal_trigger::SignalTrigger>>
+0000000000038e60	core::ptr::drop_in_place<strategy_comm_mock::Comm3Params>
+000000000005b640	core::ptr::drop_in_place<strategy_comm_mock::StrategyComm3>
+000000000004df90	_ZN4core3ptr73drop_in_place$LT$strategy_comm_mock..vol_spread_ratio..VolSpreadRatio$GT$17h279119c340450847E.llvm.2993965461073850794
+000000000005fe80	core::ptr::drop_in_place<strategy_comm_mock::signal_trigger::TsQuantileCalculator>
+000000000004e040	_ZN4core3ptr77drop_in_place$LT$strategy_comm_mock..signal_trigger..TsQuantileCalculator$GT$17hbe4fdac8784c1362E.llvm.2993965461073850794
+000000000005b940	core::ptr::drop_in_place<core::option::Option<strategy_comm_mock::Comm3Params>>
+000000000003a280	<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000003e120	<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000003d8d0	<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_order
+000000000003f240	<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+000000000003a5d0	<strategy_comm_mock::StrategyComm3 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+000000000005cfa0	create_strategy
+000000000005c4b0	fb_strategy_sdk_abi_version
+000000000005c4c0	fb_strategy_sdk_version_str

@@ -1,0 +1,17 @@
+{
+  "library": "libstrategy_sos6",
+  "sha256": "77c2bf03431db0f38d4bb05953c7dae5d44f97511a7bca37b0eb06c63d0d32e0",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_sos6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "000000000005ea00",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    }
+  ],
+  "total": 1200,
+  "passed": 1200
+}

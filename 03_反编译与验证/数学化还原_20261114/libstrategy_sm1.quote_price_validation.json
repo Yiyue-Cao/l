@@ -1,0 +1,7 @@
+{
+  "cases": 1200,
+  "passed": 1200,
+  "failures": [],
+  "elf": "0000000000082320",
+  "scope": "6 floating arguments, native price and quote kind, finite synthetic inputs"
+}

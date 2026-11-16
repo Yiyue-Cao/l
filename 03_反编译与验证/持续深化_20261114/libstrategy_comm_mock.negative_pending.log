@@ -1,0 +1,31 @@
+CALL pending_orders with C return=-1
+
+thread '<unnamed>' panicked at /home/lyt/.rustup/toolchains/nightly-2025-07-30-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs:2027:9:
+capacity overflow
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+pending_orders
+REMOTE_WORKSPACE/tmp/1008/l/持续深化_20261114/sdk_event_stubs.so(+0x2354)[0x7fc803eb0354]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fc804e72520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7fc804ec69fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7fc804e72476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7fc804e587f3]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb722a)[0x7fc803e8222a]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb4529)[0x7fc803e7f529]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb66cf)[0x7fc803e816cf]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb657d)[0x7fc803e8157d]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb62e6)[0x7fc803e812e6]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb5299)[0x7fc803e80299]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xb5fad)[0x7fc803e80fad]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xd24c0)[0x7fc803e9d4c0]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xcd7e7)[0x7fc803e987e7]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0xcd923)[0x7fc803e98923]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0x933cd)[0x7fc803e5e3cd]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_comm_mock.so(+0x91240)[0x7fc803e5c240]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x7e2e)[0x7fc804734e2e]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x4493)[0x7fc804731493]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0xa5d7)[0x7fc8047505d7]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0x132e2)[0x7fc8047592e2]
+/usr/bin/python3(_PyObject_MakeTpCall+0x25b)[0x5620ed63089b]
+/usr/bin/python3(_PyEval_EvalFrameDefault+0x5a87)[0x5620ed629f97]
+/usr/bin/python3(_PyFunction_Vectorcall+0x7c)[0x5620ed63a68c]

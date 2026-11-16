@@ -1,0 +1,296 @@
+[
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/BUILD_PROVENANCE.txt",
+    "relative": "BUILD_PROVENANCE.txt",
+    "bytes": 1496,
+    "sha256": "2559a49f1d0b853ec081b2059c0d35ee916308dc3fdaa6ad8a5339790abf78c4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/README.md",
+    "relative": "README.md",
+    "bytes": 8442,
+    "sha256": "8156ecd88ecdd1653870f3033e1334a8cecc3dca312f819e814e988a9119ba16"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/RUN_MANIFEST.json",
+    "relative": "RUN_MANIFEST.json",
+    "bytes": 37358,
+    "sha256": "a351d4681440548534bd3c0834e12e79797a9a8c343ff121cd41c57000fbcbec"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/RUN_SHA256SUMS",
+    "relative": "RUN_SHA256SUMS",
+    "bytes": 21231,
+    "sha256": "c2fbf1b9ba78932caa83f8b7bfde540c7c5a19d8cc4c21a7b16657b729c53b62"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/SHA256SUMS",
+    "relative": "SHA256SUMS",
+    "bytes": 3375,
+    "sha256": "aefa4f9c553d9d98ff4ea206a4ff169de4e04c3454dda9f9e084ec9175a68f2f"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/SOURCE_DIFF.patch",
+    "relative": "SOURCE_DIFF.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/SOURCE_STATUS.txt",
+    "relative": "SOURCE_STATUS.txt",
+    "bytes": 50,
+    "sha256": "0b51876eebd673c381ef15b276423f14ade9ab95c02215fd6df70e84bd208ed0"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/TASK_INPUT_SHA256SUMS",
+    "relative": "TASK_INPUT_SHA256SUMS",
+    "bytes": 29380,
+    "sha256": "2200b37e7d1f24f224a3771e1c65b11c6bb66fc0e19bf81dd28682528931513e"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/future_backtest",
+    "relative": "future_backtest",
+    "bytes": 32682016,
+    "sha256": "a7dd81769d8f5037037ba79100a48b8b94ea4abbedba42d9eaf6f8028bd9854c"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/future_backtest_meta_runner",
+    "relative": "future_backtest_meta_runner",
+    "bytes": 31844312,
+    "sha256": "84f0535a20ab6d105b6da8fa586d21d087d2a9de5c9710d39d322a6436d10647"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/future_backtest_runner",
+    "relative": "future_backtest_runner",
+    "bytes": 31844304,
+    "sha256": "72cf7b70fa8114e2394d83e266286a6ecc486c7bb4ad5f5a74675d2d3cc7b860"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libfill_prob_probe.so",
+    "relative": "libfill_prob_probe.so",
+    "bytes": 1063680,
+    "sha256": "414cadb311cb1d21ce6d60c98ac1bef6f9c56f698adfb1321680dc6e056698d8"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libfuture_backtest.so",
+    "relative": "libfuture_backtest.so",
+    "bytes": 3936440,
+    "sha256": "d17287d0c57db3a0236efe3b00a6cac6ba92be8a1a8659b7a91a7f7b7744bc98"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm2.so",
+    "relative": "libstrategy_comm2.so",
+    "bytes": 1102432,
+    "sha256": "5b32da10cb657475a2e46d4bf146ac16cbdd5ed3254154ca43de57a213506b5f"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm3.so",
+    "relative": "libstrategy_comm3.so",
+    "bytes": 1135664,
+    "sha256": "a664823a3b46d413cf06dd8766e10c457c7a78f581f8259cf7d3a2ebb6c25ac2"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm3_1.so",
+    "relative": "libstrategy_comm3_1.so",
+    "bytes": 1141456,
+    "sha256": "a42e121da5e3710bfb3d6026a57c45db830a75fb292a5bbb14b5ba99a16de5f4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm3_2.so",
+    "relative": "libstrategy_comm3_2.so",
+    "bytes": 1141224,
+    "sha256": "f9bc9b095a9c37be884662abab55be5098ef6298ae69e3ff8cfa0222d6bab8c9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm4.so",
+    "relative": "libstrategy_comm4.so",
+    "bytes": 1226480,
+    "sha256": "81279cfe7eb2aa4eaf589d563e97bd795a969d77699af8a2cb6294a1f1103de1"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm4_1.so",
+    "relative": "libstrategy_comm4_1.so",
+    "bytes": 1230264,
+    "sha256": "83074a51131a480fa55d4816d377706b47c25ab64bad913afeafe04cc733c16c"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm5.so",
+    "relative": "libstrategy_comm5.so",
+    "bytes": 1311384,
+    "sha256": "a778c872369f31f436a1ba7b4c996934492b45bc6f2faa8860de6f42455accdb"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm_maker1.so",
+    "relative": "libstrategy_comm_maker1.so",
+    "bytes": 1139424,
+    "sha256": "465184d5fbf8af1a34568fe9b708305ac1ec0cc63480774c055b6b7e4ba8e4b9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_comm_mock.so",
+    "relative": "libstrategy_comm_mock.so",
+    "bytes": 1151176,
+    "sha256": "31084cd688c5938de4b978ead4580bd3b82fe014d699850dead0036e7b1d8c15"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_lf4.so",
+    "relative": "libstrategy_lf4.so",
+    "bytes": 1057992,
+    "sha256": "88e6969f6603fc9864009122b9f1036b732618416a5637847483096012095410"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sm1.so",
+    "relative": "libstrategy_sm1.so",
+    "bytes": 1124480,
+    "sha256": "064a30ed6083edddc2925050877c1806e954b56a126c8645f3cddd63dea95a82"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sm2.so",
+    "relative": "libstrategy_sm2.so",
+    "bytes": 1113184,
+    "sha256": "7d78c5e4ec850fc13bbf7c374eaeb24857de05276cb0c143c3e84a11cd9bf527"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sm3.so",
+    "relative": "libstrategy_sm3.so",
+    "bytes": 1138184,
+    "sha256": "fae00455457a8cbf18a8d048211a5a7192c1554fcb1c94d43754dabebc527cc5"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sm3_1.so",
+    "relative": "libstrategy_sm3_1.so",
+    "bytes": 1225248,
+    "sha256": "991bc6e8a02a6d91e28859ad1a09b904910f66a4e1c55c44542af1897e53af08"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sm4.so",
+    "relative": "libstrategy_sm4.so",
+    "bytes": 1193512,
+    "sha256": "4502ae763732f8da98f4e45b8585024b66c72a1aa1c5728b495583c7ceffbd44"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sos5.so",
+    "relative": "libstrategy_sos5.so",
+    "bytes": 1164592,
+    "sha256": "567ba8f4e88b5e260159311eb31f119455ef8e4215bdb07a5c08186198fb08ac"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_sos6.so",
+    "relative": "libstrategy_sos6.so",
+    "bytes": 1134224,
+    "sha256": "77c2bf03431db0f38d4bb05953c7dae5d44f97511a7bca37b0eb06c63d0d32e0"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_tm5.so",
+    "relative": "libstrategy_tm5.so",
+    "bytes": 1051448,
+    "sha256": "8ef98ebc94e89ad2274a13201ccb43618416a9df18a594dfe9debed63293aba6"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/libstrategy_tm6.so",
+    "relative": "libstrategy_tm6.so",
+    "bytes": 1118568,
+    "sha256": "49a117a7d89fb5a1be9dcd9be24493af02da2ea230d1a7c52d7e587f5558b1d4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run.sbatch",
+    "relative": "run.sbatch",
+    "bytes": 34649,
+    "sha256": "5c8c4a16b5a9fc7131f8c662005646cfb310ac4ce9ddc1a1459569cb7a0d19c9"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm",
+    "relative": "run_comm",
+    "bytes": 2163640,
+    "sha256": "629a7e1af7631a0645d3e5c86c662047c9cd3a9bcfbf62e347cce452f1b88453"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm3",
+    "relative": "run_comm3",
+    "bytes": 2161536,
+    "sha256": "3a47e3e2b5d82b7892930d231544a975dd056ac6c6549c0b5d828358381c1ad2"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm4",
+    "relative": "run_comm4",
+    "bytes": 2179152,
+    "sha256": "e03444c3652f5ffdfeecd9a145c3f99360ef1b8206d014f6545c5b11dd5866ab"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm5",
+    "relative": "run_comm5",
+    "bytes": 2236344,
+    "sha256": "fc3b9b3539aacdfe970cf2a98c05f47da1b14bd1425a41cafc781ee4f92f6060"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm_maker1",
+    "relative": "run_comm_maker1",
+    "bytes": 2149560,
+    "sha256": "3a32d6ce300fd7e42197406f428b95d92bfaa13a2ae0485b4fc1ce516fc67b17"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_comm_mock",
+    "relative": "run_comm_mock",
+    "bytes": 2161448,
+    "sha256": "0f4b8767f920e472a91fdc682c5fd865675a8a1e497d70126622f9a2261e4be3"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_config_matrix",
+    "relative": "run_config_matrix",
+    "bytes": 2698696,
+    "sha256": "cea180a6eee3679d556637c8b18417bab83a1a742176c6b30501c431cbb08508"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_fillprob",
+    "relative": "run_fillprob",
+    "bytes": 2131488,
+    "sha256": "b0aa5cb733860db02272eeeb87a0256a2e288ae4aebf6d9eebfe941825cd9049"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_lowfrequency",
+    "relative": "run_lowfrequency",
+    "bytes": 2152704,
+    "sha256": "c2a63dc25fd211eb206be1c6715107aea2fe7512615d70cb24acecaf8bc544c4"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_meta_portfolio_matrix",
+    "relative": "run_meta_portfolio_matrix",
+    "bytes": 6224856,
+    "sha256": "3d512e75147f1eb0ceaaaf583e7e2eb75188eb99ef73612396ce4129a30bda44"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_multistrategy",
+    "relative": "run_multistrategy",
+    "bytes": 2241296,
+    "sha256": "9050311176e5295446d3a389dce0bdc38227fe11ae8ae9db2dc2d74c50b98cf1"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_signalmaker",
+    "relative": "run_signalmaker",
+    "bytes": 2250768,
+    "sha256": "1d291c34bc73f0a620d9a4162229358f5ab1897ed66b10c6a4ec28c264ff764a"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_sm3_1",
+    "relative": "run_sm3_1",
+    "bytes": 2290552,
+    "sha256": "83dedf9a371b5047e1dba79215720058eb7fb86bc6f800499fe9b48d31674565"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_sos",
+    "relative": "run_sos",
+    "bytes": 2247624,
+    "sha256": "245c3dde5448644f1c3a18b2ac34b22c1469d11da0b83da045214729700a7c38"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_sos5_phase",
+    "relative": "run_sos5_phase",
+    "bytes": 2277296,
+    "sha256": "78153029e7d9fa907a60912d2f43f3cc9f30a4856689dd55e052ec92e39a3191"
+  },
+  {
+    "source": "/user/zli/hpc_user_liyueting/1/lyt_d/slurm/slurm_task/future_backtest_sweep__stockidx_a9_threshold_20260914_sos5__ead5ea4639b2/run_takermaker",
+    "relative": "run_takermaker",
+    "bytes": 2222824,
+    "sha256": "bfe339a7542dac974df27aca0a6e980a13a4166941bfc43147491c5061f65158"
+  }
+]

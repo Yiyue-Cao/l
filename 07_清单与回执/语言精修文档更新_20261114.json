@@ -1,0 +1,196 @@
+{
+  "archive_relative_to_1008": "l_历史归档/20261114_语言精修前文档.zip",
+  "archive_sha256": "b2f8075d15a5e6ad00ba85860a569b51640d1090e0b88985f30bc4dc73b9f66c",
+  "files": [
+    {
+      "old_path": "README.md",
+      "sha256": "eb0e68a884c3cf82129d61e17a12ea3861e21d69b7dcf93e0f030c1a0522cf21"
+    },
+    {
+      "old_path": "04_通用程序/README.md",
+      "sha256": "74304c6d0080e18ba0259c4fe1a5639aebb5716e4cac94c2d6438ddda7356046"
+    },
+    {
+      "old_path": "04_通用程序/来源档案/README.md",
+      "sha256": "8156ecd88ecdd1653870f3033e1334a8cecc3dca312f819e814e988a9119ba16"
+    },
+    {
+      "old_path": "01_策略库与详细解读/19个策略_数学化还原索引.md",
+      "sha256": "7e5e583d77c90738206012f7ee11d2830c8ea8b9f24e7e05a041563fbae0aa89"
+    },
+    {
+      "old_path": "01_策略库与详细解读/lf4/libstrategy_lf4.md",
+      "sha256": "5eb36dfea71988155217a1c27d4ed4bb2aedbbc0461120f2c81029cc563a258b"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sm1/libstrategy_sm1.md",
+      "sha256": "ff4b09f1ed37d86231aa48654d0829861e4cb25e6593be5fe1773ec37cc35546"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm3_2/libstrategy_comm3_2.md",
+      "sha256": "8685900c5801d5de1b8eb7058987282f4838c9403b7dc21ce2d02a30273e4af1"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sos5/libstrategy_sos5.md",
+      "sha256": "9fe56cad653a69a7a495c4a2b1ae97d844313407c12c917db383525c7872fcf7"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm_maker1/libstrategy_comm_maker1.md",
+      "sha256": "b82ca1af8c42ad2e5934b146158e7af417b1108b879c23d475b4a2a064d28290"
+    },
+    {
+      "old_path": "01_策略库与详细解读/tm6/libstrategy_tm6.md",
+      "sha256": "690c1e216b71f2466fdbaefd1f6aa34830ed4ac22b62411adcb80025363f626e"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sm3_1/libstrategy_sm3_1.md",
+      "sha256": "5822343365ca4dbdacc4f4b32be8ab15448e5fb7d9f3d5c5e3ae63ea35acd011"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm4_1/libstrategy_comm4_1.md",
+      "sha256": "cbb4103a292facbe738d68045f1a1ee06c65efd2537b0e2548c0cc0fcdf6d10e"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm_mock/libstrategy_comm_mock.md",
+      "sha256": "d7b4ea093ff2ae5204a6ed8757ccc881202e201a0bafa14acbd4280f72575b93"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sm3/libstrategy_sm3.md",
+      "sha256": "70b4b89bb861a21bac85a7d627e9ac242ad9bd635fcf02990b8a09752a9d78f0"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sm4/libstrategy_sm4.md",
+      "sha256": "58d354f4a4d54f987654779ee3c365c3fa0f1383cadaffe7027d1354f6e126fc"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sm2/libstrategy_sm2.md",
+      "sha256": "02e258ba5a1c1cab9d1d4816a95feda0360f657ff322f3886cf020abdf071138"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm3_1/libstrategy_comm3_1.md",
+      "sha256": "d62c9dfd6a0b7e03735b9d80b33ca8948b1d997caa876089e82823352a2c6233"
+    },
+    {
+      "old_path": "01_策略库与详细解读/sos6/libstrategy_sos6.md",
+      "sha256": "f8316022ca4faa383a6738af5977ae61e69451c7ccd8f52d895563026f29b80a"
+    },
+    {
+      "old_path": "01_策略库与详细解读/tm5/libstrategy_tm5.md",
+      "sha256": "6a5b345d88c8bd896e31e1b538934d42c27e668dbfb7d93466f274a287ea0597"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm5/libstrategy_comm5.md",
+      "sha256": "189d29cddc83017801fb84db2219b5bae5073911be93624614a0abce715b6ca1"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm2/libstrategy_comm2.md",
+      "sha256": "29a80950189bc8c352ddf9eb74490a74915b2189e9989481d923503dde5435cc"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm3/libstrategy_comm3.md",
+      "sha256": "d728c6ebb7e55427702bd2ddbc3aa6f4d3607ecdbb6eadad3cf5a6338d823c67"
+    },
+    {
+      "old_path": "01_策略库与详细解读/comm4/libstrategy_comm4.md",
+      "sha256": "13dc0e9a202a9efdb2044753b38402621acd10ecaa2f10375076355be36edf54"
+    },
+    {
+      "old_path": "05_工具脚本/README.md",
+      "sha256": "fc645642933b742a082754940ae2fb2b9a8ad177f88542b416684e677581ec41"
+    },
+    {
+      "old_path": "03_反编译与验证/README.md",
+      "sha256": "8e92d4b69f8368a56a67ddf86d320559ef2f643add5a0b5a358bf27d4e2b4acc"
+    },
+    {
+      "old_path": "03_反编译与验证/数学化还原_20261114/README.md",
+      "sha256": "4028c03cf111981cd6adc09a9028dd91cd5a28bf02a67b3cbff6d6a16ae16196"
+    },
+    {
+      "old_path": "03_反编译与验证/策略反编译/libstrategy_comm5/README.md",
+      "sha256": "c44f333cf7fe03d2153f113df8c2cfdfc4a2945fc6930e05a08791738f3832c1"
+    },
+    {
+      "old_path": "03_反编译与验证/事件状态验证_20261114/README.md",
+      "sha256": "3c199abf935aaec3fd143dc35b3b0824ea2e9047efa2b75876845ab0fab2b96f"
+    },
+    {
+      "old_path": "03_反编译与验证/持续深化_20261114/README.md",
+      "sha256": "86129c70099afc1131a38853063f038e50251b5d7dd020c2282127b5bfa02bc0"
+    },
+    {
+      "old_path": "07_清单与回执/README.md",
+      "sha256": "cf46ae5be4ea7f304c4d1d0c94cc76dbd4674d4b97d500b22c7cb7ddd8bc8584"
+    },
+    {
+      "old_path": "07_清单与回执/本次整理_20261114/整理说明.md",
+      "sha256": "e572fcceda1878d861baa2551904c1bffb9461ae9153cef82c0ba9b9c9344b55"
+    },
+    {
+      "old_path": "06_来源档案/README.md",
+      "sha256": "78b9ea8259d95d8e5d8d1584667be6099faf768d77d4016babc6224f7529d700"
+    },
+    {
+      "old_path": "06_来源档案/comm5任务/README.md",
+      "sha256": "8156ecd88ecdd1653870f3033e1334a8cecc3dca312f819e814e988a9119ba16"
+    },
+    {
+      "old_path": "02_综合说明/README.md",
+      "sha256": "b50a61d7a74f5322eb3f8f2319a2bc3c84722c7a4c4727f486262b320b085507"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/00_阅读入口.md",
+      "sha256": "2b0c15548f77edd95ac873405ff859c9b31fea7bcf0cc11855e3a67132da55b5"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/08_SoS5阶段驱动如何组织对照实验.md",
+      "sha256": "0da046dfdca65d71382382f286971fcfc2b146a6f7c7d4f6a2d0c313c375a0fb"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/04_run_comm_maker1的完整作用.md",
+      "sha256": "f9885b205dec04580dfb0ce9ea792351796ab3c04fc5c79b57532ca3f6a7b168"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/02_十九个策略的横向比较.md",
+      "sha256": "230c2f503609a18bf24e954e1f0665155c3cf5ddbe9b9e110157c918c083ca0d"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/01_共同交易流程与术语.md",
+      "sha256": "2e1f23ac2ddf4e3604c5e68138fe41ff4f4884813ed5d1c657e41ee74b179e36"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/09_成交概率探针与交易策略的区别.md",
+      "sha256": "b554c13cccf4baac3d637d77388a6fd7af2acaac28f3afc883bb5ac17e6d0866"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/07_下载清单与反编译验收.md",
+      "sha256": "f239866e950231eeae778891a10ebf032f5823cc6353a71f6936a0401f18d705"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/06_SDK与框架对策略解释的补充.md",
+      "sha256": "ba94c2c28a9cf0a2124e5ecad94985265c90889e18c94dfe53337f7840240b0b"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/03_通用程序如何连接整套策略.md",
+      "sha256": "a868e26bb8dfdcd27daac9671275db6d9ce8cf07abf463004a5ae50fa85cd7cc"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/05_十六个run驱动的分工.md",
+      "sha256": "4f0f8df3dec59551e16ce37a98d82b03767c813883438bec591212339e500441"
+    },
+    {
+      "old_path": "02_综合说明/自然语言详解_20261114/10_事件状态机与剩余缺口.md",
+      "sha256": "b395be465cfc5315426b6a77a5daf0add31de7fa32022226131fca79e1dd6cd0"
+    },
+    {
+      "old_path": "05_工具脚本/恢复整理前副本.py",
+      "sha256": "52d7befceb14aaea8acf1af36d2aa59c64792775eaaad0a505c6cc8a96ee65fa"
+    },
+    {
+      "old_path": "../l_19sos.zip",
+      "archive_path": "交付包/l_19sos.zip",
+      "sha256": "ff611a727fbb9062850200444a91eb9126bc78f1e9620d3c4a33163e2cfcb0dd"
+    }
+  ],
+  "scope": "仅文档语言和结构精修；不新增反编译或机器码验收结论"
+}

@@ -1,0 +1,17 @@
+{
+  "library": "libstrategy_tm6",
+  "sha256": "49a117a7d89fb5a1be9dcd9be24493af02da2ea230d1a7c52d7e587f5558b1d4",
+  "scope": "synthetic leaf calls; no historical inputs; no order/event replay; finite numeric cases; float tolerance 2e-14 relative or 1e-13 absolute",
+  "kernels": [
+    {
+      "function": "strategy_tm6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread",
+      "elf": "0000000000055240",
+      "cases": 1200,
+      "passed": 1200,
+      "failures": [],
+      "model": "band bounds at state+0x80/+0x88; fee=False; band=False; sequential threshold classifier"
+    }
+  ],
+  "total": 1200,
+  "passed": 1200
+}

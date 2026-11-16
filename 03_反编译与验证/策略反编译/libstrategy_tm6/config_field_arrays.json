@@ -1,0 +1,41 @@
+[
+  {
+    "file_offset": "0xd13f0",
+    "fields": [
+      "signal_mode",
+      "pv1_alpha",
+      "cost_alpha",
+      "signal_trigger_mode",
+      "vote_rate",
+      "quantile",
+      "signal_windows_s",
+      "score_taker_rate_alpha",
+      "taker_rate_baseline",
+      "max_taker_rate",
+      "trade_slippery",
+      "close_position_block_ms",
+      "max_single_add_vol",
+      "max_single_add_amt",
+      "max_single_net_vol",
+      "max_single_net_amt",
+      "max_single_close_vol",
+      "max_single_close_amt",
+      "long_open_threshold",
+      "long_close_threshold",
+      "short_open_threshold",
+      "short_close_threshold",
+      "dyn_score_position_ts_threshold_s",
+      "dyn_score_max_position_ts_s",
+      "dyn_score_delta_score",
+      "dyn_pending_position_ts_threshold_s",
+      "dyn_pending_max_position_ts_s",
+      "dyn_pending_order_max_pending_time_ms",
+      "dyn_pending_delta_max_pending_ts_ms",
+      "pair_rolling_window_ms",
+      "pair_target_holding_period_ms",
+      "score_thresholds_delta",
+      "score_thresholds_num",
+      "rolling_window_ms"
+    ]
+  }
+]

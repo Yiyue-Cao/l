@@ -1,0 +1,46 @@
+CASE active_sell
+
+thread '<unnamed>' panicked at strategies/index_strategy/strategy_sm2/src/lib.rs:412:44:
+utility op without price
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+inst_start_time_sec
+is_trade_start
+is_trade_end
+time_sec
+depth
+spread_bp
+price_step
+vol_step
+contract_mult
+position
+position_holding_secs
+is_should_lock
+margin_filter
+cancel_by_pending_ts
+impact_block_check
+cancel_all
+REMOTE_WORKSPACE/tmp/1008/l/持续深化_20261114/sdk_event_stubs.so(+0x2354)[0x7f41c35fc354]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f41c45be520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f41c46129fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f41c45be476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f41c45a47f3]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xae91a)[0x7f41c35ce91a]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xabc19)[0x7f41c35cbc19]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xaddbf)[0x7f41c35cddbf]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xadc6d)[0x7f41c35cdc6d]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xada0a)[0x7f41c35cda0a]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xac989)[0x7f41c35cc989]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xad69d)[0x7f41c35cd69d]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xc9bb0)[0x7f41c35e9bb0]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0xc9b8b)[0x7f41c35e9b8b]
+REMOTE_WORKSPACE/tmp/1008/l/libstrategy_sm2.so(+0x48bd1)[0x7f41c3568bd1]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x7e2e)[0x7f41c3e80e2e]
+/lib/x86_64-linux-gnu/libffi.so.8(+0x4493)[0x7f41c3e7d493]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0xa5d7)[0x7f41c3e9c5d7]
+/usr/lib/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so(+0x132e2)[0x7f41c3ea52e2]
+/usr/bin/python3(_PyObject_MakeTpCall+0x25b)[0x56246b43089b]
+/usr/bin/python3(_PyEval_EvalFrameDefault+0x5a87)[0x56246b429f97]
+/usr/bin/python3(_PyFunction_Vectorcall+0x7c)[0x56246b43a68c]
+/usr/bin/python3(PyObject_Call+0x122)[0x56246b448392]
+/usr/bin/python3(_PyEval_EvalFrameDefault+0x286b)[0x56246b426d7b]

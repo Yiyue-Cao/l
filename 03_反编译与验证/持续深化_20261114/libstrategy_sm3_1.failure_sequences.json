@@ -1,0 +1,201 @@
+[
+  {
+    "release": "B",
+    "first": {
+      "input": {
+        "name": "A"
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x248",
+        "0x249",
+        "0x24a",
+        "0x24b",
+        "0x24c",
+        "0x24d",
+        "0x250",
+        "0x251",
+        "0x252",
+        "0x253",
+        "0x254",
+        "0x255",
+        "0x258",
+        "0x290",
+        "0x291",
+        "0x292",
+        "0x293",
+        "0x294",
+        "0x295",
+        "0x298",
+        "0x29c",
+        "0x2a0",
+        "0x2a8",
+        "0x2a9",
+        "0x2aa",
+        "0x2ab",
+        "0x2ac",
+        "0x2ad",
+        "0x2b0",
+        "0x2b1",
+        "0x2b2",
+        "0x2b3",
+        "0x2b4",
+        "0x2b5",
+        "0x2b8"
+      ]
+    },
+    "released": {
+      "input": {
+        "name": "utility",
+        "t": 1000.02
+      },
+      "ret": 94544622943008,
+      "trace": [
+        "is_night",
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts"
+      ],
+      "changed_offsets": [
+        "0x260",
+        "0x261",
+        "0x262",
+        "0x263",
+        "0x264",
+        "0x265",
+        "0x268",
+        "0x269",
+        "0x26a",
+        "0x26b",
+        "0x26c",
+        "0x26d",
+        "0x26f",
+        "0x270",
+        "0x2a0",
+        "0x2b8",
+        "0x2c0",
+        "0x2c1",
+        "0x2c2",
+        "0x2c3",
+        "0x2c4",
+        "0x2c5",
+        "0x2c8",
+        "0x2cc",
+        "0x2d0"
+      ]
+    },
+    "after": {
+      "triggers": 1,
+      "b_cache": 1,
+      "touch": 0,
+      "parked": 0,
+      "telemetry": 5
+    },
+    "next": {
+      "ret": 0,
+      "trace": []
+    }
+  },
+  {
+    "release": "D",
+    "first": {
+      "input": {
+        "name": "A"
+      },
+      "ret": 0,
+      "trace": [
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "depth"
+      ],
+      "changed_offsets": [
+        "0x248",
+        "0x249",
+        "0x24a",
+        "0x24b",
+        "0x24c",
+        "0x24d",
+        "0x250",
+        "0x251",
+        "0x252",
+        "0x253",
+        "0x254",
+        "0x255",
+        "0x258",
+        "0x290",
+        "0x291",
+        "0x292",
+        "0x293",
+        "0x294",
+        "0x295",
+        "0x298",
+        "0x29c",
+        "0x2a0",
+        "0x2a8",
+        "0x2a9",
+        "0x2aa",
+        "0x2ab",
+        "0x2ac",
+        "0x2ad",
+        "0x2b0",
+        "0x2b1",
+        "0x2b2",
+        "0x2b3",
+        "0x2b4",
+        "0x2b5",
+        "0x2b8"
+      ]
+    },
+    "released": {
+      "ret": 94544622400752,
+      "trace": [
+        "is_night",
+        "inst_start_time_sec",
+        "is_trade_start",
+        "is_trade_end",
+        "time_sec",
+        "depth",
+        "spread_bp",
+        "price_step",
+        "vol_step",
+        "contract_mult",
+        "position",
+        "position_holding_secs",
+        "is_should_lock",
+        "margin_filter",
+        "cancel_by_pending_ts"
+      ]
+    },
+    "after": {
+      "triggers": 1,
+      "b_cache": 0,
+      "touch": 0,
+      "parked": 0,
+      "telemetry": 4
+    },
+    "next": {
+      "ret": 0,
+      "trace": []
+    }
+  }
+]

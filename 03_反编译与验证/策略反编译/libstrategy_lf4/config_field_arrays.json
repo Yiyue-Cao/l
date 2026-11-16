@@ -1,0 +1,35 @@
+[
+  {
+    "file_offset": "0xc4f10",
+    "fields": [
+      "signal_mode",
+      "pv1_alpha",
+      "cost_alpha",
+      "signal_trigger_mode",
+      "vote_rate",
+      "quantile",
+      "signal_windows_s",
+      "taker_rate_baseline",
+      "max_taker_rate",
+      "trade_slippery",
+      "close_position_block_ms",
+      "max_single_add_vol",
+      "max_single_net_vol",
+      "max_single_close_vol",
+      "long_open_threshold",
+      "long_close_threshold",
+      "short_open_threshold",
+      "short_close_threshold",
+      "dyn_score_position_ts_threshold_s",
+      "dyn_score_max_position_ts_s",
+      "dyn_score_delta_score",
+      "dyn_pending_position_ts_threshold_s",
+      "dyn_pending_max_position_ts_s",
+      "dyn_pending_order_max_pending_time_ms",
+      "dyn_pending_delta_max_pending_ts_ms",
+      "max_try_hiter_times",
+      "max_try_hiter_time_ms",
+      "price_range_bp"
+    ]
+  }
+]

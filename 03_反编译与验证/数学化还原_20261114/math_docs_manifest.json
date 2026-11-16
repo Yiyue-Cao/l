@@ -1,0 +1,192 @@
+[
+  {
+    "library": "libstrategy_comm2",
+    "markdown": "libstrategy_comm2.md",
+    "characters": 16830,
+    "bytes": 24294,
+    "binary_sha256": "5b32da10cb657475a2e46d4bf146ac16cbdd5ed3254154ca43de57a213506b5f",
+    "markdown_sha256": "f4f6a0d872f0a4627aaa3e4062601550de7cbff0b8007907ba226d99715c7529",
+    "cases": 3188,
+    "passed": 3188
+  },
+  {
+    "library": "libstrategy_comm3",
+    "markdown": "libstrategy_comm3.md",
+    "characters": 17344,
+    "bytes": 24696,
+    "binary_sha256": "a664823a3b46d413cf06dd8766e10c457c7a78f581f8259cf7d3a2ebb6c25ac2",
+    "markdown_sha256": "6b70e74e8f35866302d2ae8c1d417e44970e806d16bf60c96218565e8f2a163e",
+    "cases": 3188,
+    "passed": 3188
+  },
+  {
+    "library": "libstrategy_comm3_1",
+    "markdown": "libstrategy_comm3_1.md",
+    "characters": 18230,
+    "bytes": 25744,
+    "binary_sha256": "a42e121da5e3710bfb3d6026a57c45db830a75fb292a5bbb14b5ba99a16de5f4",
+    "markdown_sha256": "20941075bc055b08961a7968ad394740897b658589fea220db841801668f75b5",
+    "cases": 4388,
+    "passed": 4388
+  },
+  {
+    "library": "libstrategy_comm3_2",
+    "markdown": "libstrategy_comm3_2.md",
+    "characters": 18296,
+    "bytes": 25906,
+    "binary_sha256": "f9bc9b095a9c37be884662abab55be5098ef6298ae69e3ff8cfa0222d6bab8c9",
+    "markdown_sha256": "bb5609b03f03d7416ec525a4b0e6d154d5595f6af6a7f050b53ece8ab0975fc7",
+    "cases": 4388,
+    "passed": 4388
+  },
+  {
+    "library": "libstrategy_comm4",
+    "markdown": "libstrategy_comm4.md",
+    "characters": 21914,
+    "bytes": 31028,
+    "binary_sha256": "81279cfe7eb2aa4eaf589d563e97bd795a969d77699af8a2cb6294a1f1103de1",
+    "markdown_sha256": "2aa7da364e511f62cdb1d5f27633fed111bf63c0be96d8c4359389cde33e6f5b",
+    "cases": 4748,
+    "passed": 4748
+  },
+  {
+    "library": "libstrategy_comm4_1",
+    "markdown": "libstrategy_comm4_1.md",
+    "characters": 22477,
+    "bytes": 31777,
+    "binary_sha256": "83074a51131a480fa55d4816d377706b47c25ab64bad913afeafe04cc733c16c",
+    "markdown_sha256": "20c5846b243714a23ad4f46a5b6a8b47179af9186c22a6501cc4723b03bb9b03",
+    "cases": 5348,
+    "passed": 5348
+  },
+  {
+    "library": "libstrategy_comm5",
+    "markdown": "libstrategy_comm5.md",
+    "characters": 24069,
+    "bytes": 33979,
+    "binary_sha256": "a778c872369f31f436a1ba7b4c996934492b45bc6f2faa8860de6f42455accdb",
+    "markdown_sha256": "b44db997a661046c5d73a3787c64614bebe2b2c1771e5c1fa418fca3ced1fa62",
+    "cases": 5348,
+    "passed": 5348
+  },
+  {
+    "library": "libstrategy_comm_maker1",
+    "markdown": "libstrategy_comm_maker1.md",
+    "characters": 19089,
+    "bytes": 26411,
+    "binary_sha256": "465184d5fbf8af1a34568fe9b708305ac1ec0cc63480774c055b6b7e4ba8e4b9",
+    "markdown_sha256": "4e5e4a3017d720ea4015204c6d92ed14cebd4f496ca212f2584bc961de3b507f",
+    "cases": 3188,
+    "passed": 3188
+  },
+  {
+    "library": "libstrategy_comm_mock",
+    "markdown": "libstrategy_comm_mock.md",
+    "characters": 18917,
+    "bytes": 26811,
+    "binary_sha256": "31084cd688c5938de4b978ead4580bd3b82fe014d699850dead0036e7b1d8c15",
+    "markdown_sha256": "858f67cedf1028dbf5b1d947416a7e3d8fee26f4480d8a9d1cfc9a8435c40f6c",
+    "cases": 4388,
+    "passed": 4388
+  },
+  {
+    "library": "libstrategy_lf4",
+    "markdown": "libstrategy_lf4.md",
+    "characters": 8895,
+    "bytes": 13911,
+    "binary_sha256": "88e6969f6603fc9864009122b9f1036b732618416a5637847483096012095410",
+    "markdown_sha256": "03fea0e00ed5ea78db0a4c505623eea1e11ae75bb33363e739f86f85b1d80677",
+    "cases": 1200,
+    "passed": 1200
+  },
+  {
+    "library": "libstrategy_sm1",
+    "markdown": "libstrategy_sm1.md",
+    "characters": 12364,
+    "bytes": 18948,
+    "binary_sha256": "064a30ed6083edddc2925050877c1806e954b56a126c8645f3cddd63dea95a82",
+    "markdown_sha256": "f6c7c659bcdfd1e09c4865bdb5d5f17f953f59e6da8c8e10b42c5c882d6ea774",
+    "cases": 2688,
+    "passed": 2688
+  },
+  {
+    "library": "libstrategy_sm2",
+    "markdown": "libstrategy_sm2.md",
+    "characters": 8801,
+    "bytes": 13587,
+    "binary_sha256": "7d78c5e4ec850fc13bbf7c374eaeb24857de05276cb0c143c3e84a11cd9bf527",
+    "markdown_sha256": "243555a9f8fbf95e1c2b9e3006adda3c55795a3e20ba706c28c2d560239aa249",
+    "cases": 288,
+    "passed": 288
+  },
+  {
+    "library": "libstrategy_sm3",
+    "markdown": "libstrategy_sm3.md",
+    "characters": 10322,
+    "bytes": 15848,
+    "binary_sha256": "fae00455457a8cbf18a8d048211a5a7192c1554fcb1c94d43754dabebc527cc5",
+    "markdown_sha256": "7e17da97db6a6263e2fe67679bc4507c9d68371fd3432aba2712ba26fcdbfde1",
+    "cases": 3888,
+    "passed": 3888
+  },
+  {
+    "library": "libstrategy_sm3_1",
+    "markdown": "libstrategy_sm3_1.md",
+    "characters": 13350,
+    "bytes": 19636,
+    "binary_sha256": "991bc6e8a02a6d91e28859ad1a09b904910f66a4e1c55c44542af1897e53af08",
+    "markdown_sha256": "1ae18c90d85a92c686507916f95621d31a4316115685895bb13d5ff71fa9b28d",
+    "cases": 1728,
+    "passed": 1728
+  },
+  {
+    "library": "libstrategy_sm4",
+    "markdown": "libstrategy_sm4.md",
+    "characters": 14479,
+    "bytes": 22195,
+    "binary_sha256": "4502ae763732f8da98f4e45b8585024b66c72a1aa1c5728b495583c7ceffbd44",
+    "markdown_sha256": "870e2bd1442de8f24e24a7639aa4c321dde0185550e9e23712fb2ec3170e39db",
+    "cases": 2688,
+    "passed": 2688
+  },
+  {
+    "library": "libstrategy_sos5",
+    "markdown": "libstrategy_sos5.md",
+    "characters": 13154,
+    "bytes": 19868,
+    "binary_sha256": "567ba8f4e88b5e260159311eb31f119455ef8e4215bdb07a5c08186198fb08ac",
+    "markdown_sha256": "d1389d3caeafc96029be9536ab36027ef3f2221472d860ee1b480a60105c2aa8",
+    "cases": 1488,
+    "passed": 1488
+  },
+  {
+    "library": "libstrategy_sos6",
+    "markdown": "libstrategy_sos6.md",
+    "characters": 11847,
+    "bytes": 18181,
+    "binary_sha256": "77c2bf03431db0f38d4bb05953c7dae5d44f97511a7bca37b0eb06c63d0d32e0",
+    "markdown_sha256": "59222119d1eab1353fb6a1e6f9ad6b1d820633b62c3b2bbb062587241679e6a0",
+    "cases": 2200,
+    "passed": 2200
+  },
+  {
+    "library": "libstrategy_tm5",
+    "markdown": "libstrategy_tm5.md",
+    "characters": 8916,
+    "bytes": 14388,
+    "binary_sha256": "8ef98ebc94e89ad2274a13201ccb43618416a9df18a594dfe9debed63293aba6",
+    "markdown_sha256": "e032d239d12d90044cb0f77ecd2c4c469169ba6388cd8c532d3310f520086493",
+    "cases": 1200,
+    "passed": 1200
+  },
+  {
+    "library": "libstrategy_tm6",
+    "markdown": "libstrategy_tm6.md",
+    "characters": 10941,
+    "bytes": 17491,
+    "binary_sha256": "49a117a7d89fb5a1be9dcd9be24493af02da2ea230d1a7c52d7e587f5558b1d4",
+    "markdown_sha256": "0bcb29fc3e0f9f7583c6b1c0718cf066272e7a002c6e5a72a4d0d9103f65a242",
+    "cases": 1200,
+    "passed": 1200
+  }
+]

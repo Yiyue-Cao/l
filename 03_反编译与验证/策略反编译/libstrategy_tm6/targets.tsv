@@ -1,0 +1,42 @@
+0000000000054bf0	strategy_tm6::signal_trigger::SignalTrigger::update_score
+0000000000055e00	strategy_tm6::signal_trigger::SignalTrigger::windows_rsi_trigger
+00000000000553e0	strategy_tm6::signal_trigger::SignalTrigger::windows_std_trigger
+00000000000552d0	strategy_tm6::signal_trigger::SignalTrigger::windows_mean_trigger
+0000000000055bc0	strategy_tm6::signal_trigger::SignalTrigger::windows_sharpe_trigger
+00000000000554f0	strategy_tm6::signal_trigger::SignalTrigger::windows_quantile_trigger
+0000000000055240	strategy_tm6::signal_trigger::SignalTrigger::point_signal_trigger_pv1_spread
+0000000000054aa0	strategy_tm6::signal_trigger::SignalTrigger::new
+0000000000056010	_ZN12strategy_tm614signal_trigger17enum_rate_counter17h4700a1e9bbed136eE.llvm.9466522774482311751
+0000000000062320	strategy_tm6::__fb_plugin_impl::destroy
+0000000000061880	strategy_tm6::__fb_plugin_impl::on_begin
+0000000000061b10	strategy_tm6::__fb_plugin_impl::on_depth
+0000000000061d40	strategy_tm6::__fb_plugin_impl::on_order
+0000000000061c50	strategy_tm6::__fb_plugin_impl::on_finish
+0000000000061970	strategy_tm6::__fb_plugin_impl::on_signal
+000000000005e030	_ZN12strategy_tm617signal_pairs_tree15SignalPairStats28get_pairs_time_sec_ms_median17h4a9fe67d7a117850E.llvm.17305594220767975752
+000000000005f7d0	strategy_tm6::signal_pairs_tree::SignalPairsTree::debug_string
+000000000005f570	strategy_tm6::signal_pairs_tree::SignalPairsTree::find_nearest_pair_median_threshold
+000000000005e1d0	strategy_tm6::signal_pairs_tree::SignalPairsTree::new
+000000000005e850	strategy_tm6::signal_pairs_tree::SignalPairsTree::update
+000000000005dea0	strategy_tm6::signal_pairs_tree::RollingmsQueue<T>::update
+0000000000042fe0	<strategy_tm6::_::<impl serde_core::de::Deserialize for strategy_tm6::TM6Params>::deserialize::__Visitor as serde_core::de::Visitor>::visit_map
+000000000004ae80	<strategy_tm6::_::<impl serde_core::de::Deserialize for strategy_tm6::TM6Params>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str
+000000000005d720	core::ptr::drop_in_place<strategy_tm6::signal_pairs_tree::RollingmsQueue<strategy_tm6::signal_pairs_tree::SignalPair>>
+0000000000047a20	core::ptr::drop_in_place<std::collections::hash::map::VacantEntry<(alloc::string::String,alloc::string::String),strategy_tm6::signal_trigger::SignalTrigger>>
+000000000004dff0	_ZN4core3ptr223drop_in_place$LT$$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$..drop..DropGuard$LT$usize$C$strategy_tm6..signal_pairs_tree..SignalPairStats$C$alloc..alloc..Global$GT$$GT$17ha245028ce9a08179E.llvm.5116921112213075453
+0000000000047b20	core::ptr::drop_in_place<strategy_tm6::TM6Params>
+0000000000060960	core::ptr::drop_in_place<strategy_tm6::StrategyTM6>
+000000000004e170	core::ptr::drop_in_place<strategy_tm6::signal_pairs_tree::SignalPairStats>
+00000000000353a0	_ZN4core3ptr69drop_in_place$LT$strategy_tm6..signal_pairs_tree..SignalPairStats$GT$17h307c7b69e09d5fbcE.llvm.2651914475104588711
+0000000000060060	core::ptr::drop_in_place<strategy_tm6::signal_trigger::TsQuantileCalculator>
+0000000000060cb0	core::ptr::drop_in_place<core::option::Option<strategy_tm6::TM6Params>>
+00000000000354c0	core::ptr::drop_in_place<(usize,strategy_tm6::signal_pairs_tree::SignalPairStats)>
+00000000000600e0	core::ptr::drop_in_place<core::option::Option<strategy_tm6::signal_pairs_tree::SignalPair>>
+0000000000060d10	core::ptr::drop_in_place<core::option::Option<strategy_tm6::signal_pairs_tree::SignalPairsTree>>
+0000000000047d60	<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_begin
+000000000004aa90	<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_depth
+000000000004ad60	<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_finish
+00000000000485a0	<strategy_tm6::StrategyTM6 as future_backtest_sdk::plugin::StrategyPlugin>::on_signal
+0000000000062360	create_strategy
+0000000000061820	fb_strategy_sdk_abi_version
+0000000000061830	fb_strategy_sdk_version_str

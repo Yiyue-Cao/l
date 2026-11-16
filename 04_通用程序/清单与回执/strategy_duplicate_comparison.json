@@ -1,0 +1,97 @@
+[
+  {
+    "file": "libstrategy_comm2.so",
+    "same_as_first": true,
+    "sha256": "5b32da10cb657475a2e46d4bf146ac16cbdd5ed3254154ca43de57a213506b5f"
+  },
+  {
+    "file": "libstrategy_comm3.so",
+    "same_as_first": true,
+    "sha256": "a664823a3b46d413cf06dd8766e10c457c7a78f581f8259cf7d3a2ebb6c25ac2"
+  },
+  {
+    "file": "libstrategy_comm3_1.so",
+    "same_as_first": true,
+    "sha256": "a42e121da5e3710bfb3d6026a57c45db830a75fb292a5bbb14b5ba99a16de5f4"
+  },
+  {
+    "file": "libstrategy_comm3_2.so",
+    "same_as_first": true,
+    "sha256": "f9bc9b095a9c37be884662abab55be5098ef6298ae69e3ff8cfa0222d6bab8c9"
+  },
+  {
+    "file": "libstrategy_comm4.so",
+    "same_as_first": true,
+    "sha256": "81279cfe7eb2aa4eaf589d563e97bd795a969d77699af8a2cb6294a1f1103de1"
+  },
+  {
+    "file": "libstrategy_comm4_1.so",
+    "same_as_first": true,
+    "sha256": "83074a51131a480fa55d4816d377706b47c25ab64bad913afeafe04cc733c16c"
+  },
+  {
+    "file": "libstrategy_comm5.so",
+    "same_as_first": true,
+    "sha256": "a778c872369f31f436a1ba7b4c996934492b45bc6f2faa8860de6f42455accdb"
+  },
+  {
+    "file": "libstrategy_comm_maker1.so",
+    "same_as_first": true,
+    "sha256": "465184d5fbf8af1a34568fe9b708305ac1ec0cc63480774c055b6b7e4ba8e4b9"
+  },
+  {
+    "file": "libstrategy_comm_mock.so",
+    "same_as_first": true,
+    "sha256": "31084cd688c5938de4b978ead4580bd3b82fe014d699850dead0036e7b1d8c15"
+  },
+  {
+    "file": "libstrategy_lf4.so",
+    "same_as_first": true,
+    "sha256": "88e6969f6603fc9864009122b9f1036b732618416a5637847483096012095410"
+  },
+  {
+    "file": "libstrategy_sm1.so",
+    "same_as_first": true,
+    "sha256": "064a30ed6083edddc2925050877c1806e954b56a126c8645f3cddd63dea95a82"
+  },
+  {
+    "file": "libstrategy_sm2.so",
+    "same_as_first": true,
+    "sha256": "7d78c5e4ec850fc13bbf7c374eaeb24857de05276cb0c143c3e84a11cd9bf527"
+  },
+  {
+    "file": "libstrategy_sm3.so",
+    "same_as_first": true,
+    "sha256": "fae00455457a8cbf18a8d048211a5a7192c1554fcb1c94d43754dabebc527cc5"
+  },
+  {
+    "file": "libstrategy_sm3_1.so",
+    "same_as_first": true,
+    "sha256": "991bc6e8a02a6d91e28859ad1a09b904910f66a4e1c55c44542af1897e53af08"
+  },
+  {
+    "file": "libstrategy_sm4.so",
+    "same_as_first": true,
+    "sha256": "4502ae763732f8da98f4e45b8585024b66c72a1aa1c5728b495583c7ceffbd44"
+  },
+  {
+    "file": "libstrategy_sos5.so",
+    "same_as_first": true,
+    "sha256": "567ba8f4e88b5e260159311eb31f119455ef8e4215bdb07a5c08186198fb08ac"
+  },
+  {
+    "file": "libstrategy_sos6.so",
+    "same_as_first": true,
+    "sha256": "77c2bf03431db0f38d4bb05953c7dae5d44f97511a7bca37b0eb06c63d0d32e0"
+  },
+  {
+    "file": "libstrategy_tm5.so",
+    "same_as_first": true,
+    "sha256": "8ef98ebc94e89ad2274a13201ccb43618416a9df18a594dfe9debed63293aba6"
+  },
+  {
+    "file": "libstrategy_tm6.so",
+    "same_as_first": true,
+    "sha256": "49a117a7d89fb5a1be9dcd9be24493af02da2ea230d1a7c52d7e587f5558b1d4"
+  }
+]

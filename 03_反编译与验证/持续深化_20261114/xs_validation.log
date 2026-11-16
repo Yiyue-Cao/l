@@ -1,0 +1,229 @@
+XS 121 11 PASS
+[
+  {
+    "name": "ties",
+    "result": {
+      "mult": {
+        "AA": 3.0,
+        "BB": 2.0,
+        "CC": 2.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 0.0,
+        "HH": 0.0,
+        "II": 0.0,
+        "JJ": 0.0
+      },
+      "suffixes": {
+        "AA": 3.0,
+        "AA2609": 3.0,
+        "AA__2609": 3.0,
+        "AA_2609": 3.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "last_duplicate",
+    "result": {
+      "mult": {
+        "AA": 3.0,
+        "BB": 0.0,
+        "CC": 0.0,
+        "DD": 0.0,
+        "EE": 0.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 2.0,
+        "JJ": 2.0
+      },
+      "suffixes": {
+        "AA": 3.0,
+        "AA2609": 3.0,
+        "AA__2609": 3.0,
+        "AA_2609": 3.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "invalid_rows",
+    "result": {
+      "mult": {
+        "AA": 0.0,
+        "BB": 0.0,
+        "CC": 0.0,
+        "DD": 0.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 2.0,
+        "II": 2.0,
+        "JJ": 3.0
+      },
+      "suffixes": {
+        "AA": 0.0,
+        "AA2609": 0.0,
+        "AA__2609": 0.0,
+        "AA_2609": 0.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "empty",
+    "result": {
+      "mult": {
+        "AA": 1.0,
+        "BB": 1.0,
+        "CC": 1.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 1.0,
+        "JJ": 1.0
+      },
+      "suffixes": {
+        "AA": 1.0,
+        "AA2609": 1.0,
+        "AA__2609": 1.0,
+        "AA_2609": 1.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "missing",
+    "result": {
+      "mult": {
+        "AA": 1.0,
+        "BB": 1.0,
+        "CC": 1.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 1.0,
+        "JJ": 1.0
+      },
+      "suffixes": {
+        "AA": 1.0,
+        "AA2609": 1.0,
+        "AA__2609": 1.0,
+        "AA_2609": 1.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "no_path",
+    "result": {
+      "mult": {
+        "AA": 1.0,
+        "BB": 1.0,
+        "CC": 1.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 1.0,
+        "JJ": 1.0
+      },
+      "suffixes": {
+        "AA": 1.0,
+        "AA2609": 1.0,
+        "AA__2609": 1.0,
+        "AA_2609": 1.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "same_day",
+    "result": {
+      "mult": {
+        "AA": 1.0,
+        "BB": 1.0,
+        "CC": 1.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 1.0,
+        "JJ": 1.0
+      },
+      "suffixes": {
+        "AA": 1.0,
+        "AA2609": 1.0,
+        "AA__2609": 1.0,
+        "AA_2609": 1.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "raw_code_key",
+    "result": {
+      "mult": {
+        "AA": 1.0,
+        "BB": 1.0,
+        "CC": 1.0,
+        "DD": 1.0,
+        "EE": 1.0,
+        "FF": 1.0,
+        "GG": 1.0,
+        "HH": 1.0,
+        "II": 1.0,
+        "JJ": 1.0
+      },
+      "suffixes": {
+        "AA": 1.0,
+        "AA2609": 1.0,
+        "AA__2609": 1.0,
+        "AA_2609": 1.0,
+        "AA2609_": 1.0,
+        "aa2609": 1.0,
+        "UNKNOWN": 1.0
+      }
+    }
+  },
+  {
+    "name": "bad_lags",
+    "result": {
+      "error": "['[comm5][XS] ew_lags must be a positive integer, got 0', '[comm5][XS] ew_lags must be a positive integer, got 0']"
+    }
+  },
+  {
+    "name": "fraction_lags",
+    "result": {
+      "error": "['[comm5][XS] ew_lags must be a positive integer, got 2.5', '[comm5][XS] ew_lags must be a positive integer, got 2.5']"
+    }
+  },
+  {
+    "name": "bad_half_life",
+    "result": {
+      "error": "['[comm5][XS] ew_half_life_days must be finite and > 0, got 0', '[comm5][XS] ew_half_life_days must be finite and > 0, got 0']"
+    }
+  }
+]

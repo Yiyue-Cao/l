@@ -1,0 +1,5 @@
+{
+  "cases": 120,
+  "passed": 120,
+  "scope": "actual parser plus effective phase overrides; all 15 fields; global low_action fallback confirmed"
+}
